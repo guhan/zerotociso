@@ -1,5 +1,5 @@
 
-## Types
+## Vendors
 Github
 - Tokens - let you setup fine grained permissions on a per repo basis
 - Actions - let you setup CI checks 
@@ -7,6 +7,15 @@ Github
   
 Bitbucket \
 Singularity - mono repository
+
+## Processes
+GitOps 
+- process where OPS approves pull requests and ENG controls environment
+- GitOps is a way of managing declarative infrastructure using Git as the single source of truth. With GitOps, infrastructure changes are a core component of the software integration and delivery process, and you can integrate them into the same CI/CD pipeline. 
+
+
+GitFlow 
+- process for how to handle code commits, merges, branches
 
 
 
