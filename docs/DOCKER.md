@@ -1,3 +1,6 @@
+# Docker Compose
+Helps you manage Docker images
+
 ## Build the image
 
 `$ docker-compose build`
