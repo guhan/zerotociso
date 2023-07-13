@@ -16,10 +16,12 @@ Singularity - mono repository
 
 ### GitFlow 
 - Build release branches and deploy from them
+  
 ![GitFlow](/images/gitflow.png)
 
 ### GitHub Flow
 - Merge directly into master
+  
 ![GitHub Flow](/images/githubflow.png)
 
 ## Semantic Versioning (semver)
