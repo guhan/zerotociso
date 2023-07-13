@@ -93,3 +93,17 @@ Merging a commit: If you merge a commit directly, such as with the command git m
 
 
 
+## GitHub Security
+
+- Codeowners - list of people who can edit a repo
+- RBAC - permissions for users/groups
+- Dependabot - vulnerability management
+- Actions
+  - Configure linting CI 
+  - SAST
+  - third-party static analysis tool that can produce results as Static Analysis Results Interchange Format (SARIF) 2.1.0 data and upload to Github
+  - CodeQL is the code analysis engine developed by GitHub to automate security checks. You can analyze your code using CodeQL and display the results as code scanning alerts.
+
+
+
+
