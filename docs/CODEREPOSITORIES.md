@@ -76,3 +76,20 @@ git push -u origin master`
 The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time. \
 
 `$ git fetch <remote>`
+
+## Detached HEAD
+Checking out a specific commit: If you run the command git checkout <commit-hash>, you will be in a detached HEAD state. This happens because you are not on a named branch, but rather on a specific commit.
+
+Checking out a tag: If you run the command git checkout <tag-name>, you will also be in a detached HEAD state, because tags are also associated with specific commits.
+
+Merging a commit: If you merge a commit directly, such as with the command git merge <commit-hash>, and the merge cannot be resolved automatically, you will be placed in a detached HEAD state until you resolve the conflict.
+
+
+## Cheatsheet
+
+![1](/images/gitcheatsheet1.png)
+
+![2](/images/gitcheatsheet2.png)
+
+
+
