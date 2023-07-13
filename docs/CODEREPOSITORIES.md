@@ -16,11 +16,11 @@ Singularity - mono repository
 
 ### GitFlow 
 - Build release branches and deploy from them
-![GitFlow](images/gitflow.png)
+![GitFlow](/images/gitflow.png)
 
 ### GitHub Flow
 - Merge directly into master
-![GitHub Flow](images/githubflow.png)
+![GitHub Flow](/images/githubflow.png)
 
 ## Semantic Versioning (semver)
 Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not affecting the API increment the patch version, backwards compatible API additions/changes increment the minor version, and backwards incompatible API changes increment the major version.
