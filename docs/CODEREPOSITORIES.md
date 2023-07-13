@@ -84,15 +84,6 @@ Checking out a tag: If you run the command git checkout <tag-name>, you will als
 
 Merging a commit: If you merge a commit directly, such as with the command git merge <commit-hash>, and the merge cannot be resolved automatically, you will be placed in a detached HEAD state until you resolve the conflict.
 
-
-## Cheatsheet
-
-![1](/images/gitcheatsheet1.png)
-
-![2](/images/gitcheatsheet2.png)
-
-
-
 ## GitHub Security
 
 - Codeowners - list of people who can edit a repo
