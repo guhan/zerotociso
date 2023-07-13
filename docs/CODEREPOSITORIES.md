@@ -18,6 +18,11 @@ GitFlow
 - process for how to handle code commits, merges, branches
 
 
+## Semantic Versioning (semver)
+Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not affecting the API increment the patch version, backwards compatible API additions/changes increment the minor version, and backwards incompatible API changes increment the major version.
+
+
+
 
 # Git
 
