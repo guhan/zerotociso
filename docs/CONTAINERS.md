@@ -48,4 +48,4 @@ seven distinct namespaces implemented:
 short for "control group," is a Linux kernel feature that allows the management of system resources and sets limits for groups of processes. It provides a way to group processes and manage their resource usage, such as CPU, memory, and I/O bandwidth, among others.
 
 ## Open Container Initiative 
-An open format for containers and an alternative to Docker. You can read more about the format [here](https://ravichaganti.com/blog/2022-10-28-understanding-container-images-oci-image-specification/}
+An open format for containers and an alternative to Docker. You can read more about the format here: https://ravichaganti.com/blog/2022-10-28-understanding-container-images-oci-image-specification/
