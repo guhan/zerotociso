@@ -1,4 +1,4 @@
 # Culture
 
 ## Westrum Categorization
-![](images/westrum.png)
+![](/images/westrum.png)
