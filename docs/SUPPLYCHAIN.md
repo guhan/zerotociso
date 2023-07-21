@@ -1,6 +1,16 @@
 # Supply Chain Compliance
 
 
+## Software Bill of Materials (SBOM)
+A software bill of materials is a document that contains all the items required to build a particular piece of software. 
+
+
+### CycloneDX
+Produces a format for an SBOM
+
+### Vulnerability Expolitable Exchange (VEX)
+VEX contains information about how exploitable a particular vulnerability in the SBOM is. 
+
 
 ## SLSA
 SLSA (Supply Chain Levels for Software Artifacts) is a framework and set of best practices developed by Google to enhance the security and integrity of software supply chains.
