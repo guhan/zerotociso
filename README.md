@@ -10,3 +10,7 @@ Reference material for those interested in cybersecurity
 
 ## Compliance
 [Cloud Security](docs/CLOUDSECURITY.md)
+
+
+## Process and Management
+[DevOps][docs/DEVOPS.md]
