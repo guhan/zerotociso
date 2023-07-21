@@ -13,4 +13,4 @@ Reference material for those interested in cybersecurity
 
 
 ## Process and Management
-[DevOps][docs/DEVOPS.md]
+[DevOps](docs/DEVOPS.md)
