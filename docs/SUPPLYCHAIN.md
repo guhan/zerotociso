@@ -23,3 +23,7 @@ Level 2 adds verification of the software artifacts through reproducible builds.
 At Level 3, full end-to-end reproducibility is achieved, including the entire software build process and its dependencies. This level ensures that any user can verify and reproduce the build with the same results as the original provider.
 - SLSA Level 4 (Strict):
 Level 4 further increases security measures by ensuring that all artifacts are stored offline and cryptographically signed by multiple parties. The goal is to protect against advanced supply chain attacks and compromise of signing keys.
+
+## NIST Secure Software Development Framework (SSDF)
+The Secure Software Development Framework is a guide for how organization can securely manage their software development. https://csrc.nist.gov/Projects/ssdf
+
