@@ -13,3 +13,6 @@ CSA has introduced some new star levels to identify the compliance posture of a 
   Level 3 builds upon the Level 2 certification by adding continuous monitoring of the cloud service provider's security controls. This involves ongoing assessments and evaluations to ensure that the security controls remain effective over time. The continuous monitoring helps ensure that the provider maintains a high level of security and responds promptly to any changes or threats.
 
 
+## CSA CAIQ
+CSA also provides a document called the Consensus Assessments Initiative Questionnaire (CAIQ). It is a standardized cloud security posture document that can be provided to parties who want to assess your cloud security posture. It is especially useful for early stage companies who don't have any other compliance standards in place. 
+
