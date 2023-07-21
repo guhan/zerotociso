@@ -31,11 +31,11 @@ Developed in 2014 it is a voluntary framework that provides a set of guidelines,
 
 The key areas are: 
 - Core Functions: The NIST CSF defines five core cybersecurity functions, which represent the high-level goals and activities that organizations should consider to achieve effective cybersecurity risk management. These functions are:
-- - a. Identify: Understand and manage cybersecurity risks to systems, assets, data, and capabilities.
-- - b. Protect: Implement safeguards to ensure the delivery of critical services and protection of assets.
-- - c. Detect: Develop and implement activities to identify the occurrence of a cybersecurity event.
-- - d. Respond: Develop and implement activities to take action regarding a detected cybersecurity incident.
-- - e. Recover: Develop and implement activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.
+  - a. Identify: Understand and manage cybersecurity risks to systems, assets, data, and capabilities.
+  - b. Protect: Implement safeguards to ensure the delivery of critical services and protection of assets.
+  - c. Detect: Develop and implement activities to identify the occurrence of a cybersecurity event.
+  - d. Respond: Develop and implement activities to take action regarding a detected cybersecurity incident.
+  - e. Recover: Develop and implement activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.
 - Categories and Subcategories: Under each core function, the NIST CSF provides categories and subcategories that define specific outcomes and activities related to cybersecurity risk management. These categories and subcategories help organizations understand the areas they need to focus on to achieve their cybersecurity objectives.
 - Informative References: The NIST CSF includes a list of informative references to other relevant standards, guidelines, and best practices that can complement and support the implementation of the framework.
 
