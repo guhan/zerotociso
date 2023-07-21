@@ -2,11 +2,11 @@
 Reference material for those interested in cybersecurity
 
 
-## Technical Topics
+## Technical
 [Code Repositories](docs/CODEREPOSITORIES.md) \
 [Containers](docs/CONTAINERS.md) \
 [Docker](docs/DOCKER.md)\
 [SBOM](docs/SBOM.md)
 
-## Compliance Topics
+## Compliance
 [Cloud Security](docs/CLOUDSECURITY.md)
