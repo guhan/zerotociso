@@ -22,3 +22,5 @@ What percentage of the changes pushed cause further issues?
 This metric is broken down into:
 - uptime: percentage of time over a given period that the services are available
 - error rate: percentage of requests that result in an error (caught or uncaught) 
+- latency: the time difference between the request and the response
+- scalability: can the system gracefully handle (dramatic) changes in usage 
