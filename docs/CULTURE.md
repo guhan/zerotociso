@@ -1,4 +1,9 @@
 # Culture
 
-## Westrum Categorization
+## Frameworks
+
+### Westrum
 ![](/images/westrum.png)
+
+### Tribal Leadership
+![](/images/triballeadership.png)
