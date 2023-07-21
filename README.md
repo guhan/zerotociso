@@ -9,7 +9,7 @@ Reference material for those interested in cybersecurity
 [SBOM](docs/SBOM.md)
 
 ## Compliance
-[Cloud Security](docs/CLOUDSECURITY.md)
+[Cloud Security](docs/CLOUDSECURITY.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md)
 
 
