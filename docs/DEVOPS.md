@@ -17,3 +17,8 @@ How often is the production environment updated?
 
 ### Change failure Rate
 What percentage of the changes pushed cause further issues? 
+
+### Reliability 
+This metric is broken down into:
+- uptime: percentage of time over a given period that the services are available
+- error rate: percentage of requests that result in an error (caught or uncaught) 
