@@ -1,6 +1,6 @@
 # Culture
 
-## Frameworks
+## Frameworks for different states of culture
 
 ### Westrum
 ![](/images/westrum.png)
