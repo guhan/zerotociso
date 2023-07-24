@@ -41,6 +41,10 @@ The Secure Software Development Framework is a guide for how organization can se
 - Monitor security reports:We have ongoing efforts to monitor information coming from public sources regarding possible vulnerabilities in the software we use and its third-party components
 - Have necessary tools: I have access to the necessary tooling to execute security tests
 
+### in-toto
+https://github.com/in-toto/docs/blob/v0.9/in-toto-spec.pdf
+
+
 
 
 
