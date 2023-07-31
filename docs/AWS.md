@@ -73,9 +73,23 @@ IAM policies can be attached at different levels:
 - Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
 - Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
 
-## Define Amazon GuardDuty?
-Cloud based threat detection service
 
+## Route53
+Hosted Zones
+
+- Simple routing
+- Weighted
+- Geolocation
+- Failover
+- Multivale (Round Robin)
+
+Health Checks: 
+- time
+- endpoing
+- ip
+- name/path
+
+Will check for string in response
 
 ## What is AWS Directory Service?	
 AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also known as AWS Managed Microsoft AD, this service provides a fully managed Microsoft Active Directory in the AWS cloud. It is compatible with Microsoft Active Directory, allowing you to migrate or extend your on-premises Active Directory to the AWS cloud. It supports common Active Directory features, such as Group Policies, trusts, and domain join.
@@ -89,6 +103,9 @@ AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also 
 
 - AWS Directory Service for OpenLDAP: This service allows you to run your own OpenLDAP (Lightweight Directory Access Protocol) directory in the AWS cloud. It provides compatibility with applications that use LDAP for authentication and authorization.
 
+## What is Amazon GuardDuty?
+Cloud based threat detection service
+
 ## What is AWS Firewall Manager?
 Firewall Manager enables you to centrally manage AWS WAF (Web Application Firewall) rules across multiple AWS accounts and resources. It allows you to create and apply security rules to protect your web applications from common web-based attacks.
 
@@ -96,9 +113,20 @@ Firewall Manager enables you to centrally manage AWS WAF (Web Application Firewa
 ## What is AWS Shield?
 AWS Shield: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service. It provides automatic protection against volumetric, state-exhaustion, and application layer DDoS attacks to help keep your applications and data available.
 
+- Global threat dashboard that whows all AWS related attacks
+- DDOS Response Team (DRT) can access your rules
+
+
 ## What is AWS Inspector?
 Amazon Inspector: Inspector is an automated security assessment service that helps you identify security vulnerabilities and deviations from best practices in your EC2 instances and applications. It provides detailed findings and recommendations for remediation.
 Looks for software vulnerabilities and unintended network access. Keeps an internal database and lets you assign a risk score. 
+
+- CVE
+- CIS Controls
+
+Works on: 
+- Network
+- Host (requires agent)
 
 ## What is AWS KMS?
 AWS Key Management Service (KMS): KMS is a managed service that allows you to create and control the encryption keys used to encrypt your data. It provides a secure and scalable solution for managing encryption keys for various AWS services and your own applications.
