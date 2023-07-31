@@ -21,6 +21,7 @@ Reference material for those interested in cybersecurity
 [General](docs/GENERALSECURITY.md) \
 [Web](docs/WEBSECURITY.md) \
 [Cryptography](docs/CRYPTOGRAPHY.md) \
+[SAML](docs/SAML.md) \
 [Threat Modeling](docs/THREATMODELING.md)
 
 
