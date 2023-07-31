@@ -61,7 +61,11 @@ Responsible for data representation, encryption, and compression.
 ### Layer 7 - Application 
 deals directly with applications and their interaction with the network
 ​​
-HTTP, FTP, SMTP, SSH, and DNS operate at this layer.
+- HTTP
+- FTP
+- SMTP
+- SSH
+- DNS 
 
 
 
