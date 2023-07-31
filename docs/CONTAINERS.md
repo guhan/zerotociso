@@ -1,5 +1,5 @@
 ## Overview
-Containers are only isolated groups of processes running on a single host, which fulfill a set of “common” features. A container is built using layers, each layer represents some additional functionality. 
+Containers are isolated groups of processes running on a single host, which fulfill a set of “common” features. A container is built using layers, each layer represents some additional functionality. 
 
 
 ## Skopeo
