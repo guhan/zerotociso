@@ -7,10 +7,12 @@ Acronym: P DNT SPA
 
 ### Layer 1 - Physical 
 Transmission of raw bitstream data over the physical medium, such as copper wires, fiber optic cables, or wireless signals.This includes specifications for the types of cables, connectors, pinouts, and signaling methods used to transmit the data. 
+
 - Ethernet defines the physical and electrical characteristics of the communication medium. 
 
 ### Layer 2 - Data Link
 Provides error-free transmission of data frames between directly connected network nodes. It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections. This layer also handles flow control, error detection, and media access control (MAC) addressing.
+
 - ARP:  ARP is responsible for resolving or mapping an IP address to a physical (MAC) address on a local network
 - Ethernet: Ethernet is a widely used data link protocol in local area networks (LANs). It defines the physical and logical aspects of communication over Ethernet cables, including frame structure, addressing (MAC addresses), and media access control (MAC) methods such as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) or Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA).
 - Point-to-Point Protocol (PPP): PPP is a data link protocol used for establishing and maintaining a direct connection between two nodes, typically over serial links. It supports various network layer protocols, such as IP, and provides features like authentication, error detection, and link quality monitoring.
@@ -22,8 +24,9 @@ Synchronous Data Link Control (SDLC): SDLC is a synchronous data link protocol d
 
 
 ### Layer 3 - Network 
-logical addressing and routing of data packets across different networks. It defines protocols that determine the best path for data to travel
-Internet Protocol (IP): IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
+Logical addressing and routing of data packets across different networks. It defines protocols that determine the best path for data to travel
+
+- Internet Protocol (IP): IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
 - IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6) are the two prevalent versions of IP.
 - Internet Control Message Protocol (ICMP): ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
 - Internet Group Management Protocol (IGMP): IGMP is used for managing multicast group memberships on IP networks. It enables devices to join or leave multicast groups and facilitates the delivery of multicast traffic.
@@ -70,19 +73,19 @@ deals directly with applications and their interaction with the network
 
 
 ## What is IPSEC?
-Authentication Header (AH): AH provides integrity and authentication of IP packets. It verifies that the content of the packet has not been tampered with during transit and confirms the identity of the sender. AH uses cryptographic hash functions to generate a hash-based message authentication code (HMAC) for packet verification.
+**Authentication Header (AH)**: AH provides integrity and authentication of IP packets. It verifies that the content of the packet has not been tampered with during transit and confirms the identity of the sender. AH uses cryptographic hash functions to generate a hash-based message authentication code (HMAC) for packet verification.
 
 
-Encapsulating Security Payload (ESP): ESP provides confidentiality, integrity, and authentication of IP packets. It encrypts the payload of the IP packets to protect the data from eavesdropping. Additionally, ESP can provide integrity checks to ensure data integrity and authentication of the sender.
+**Encapsulating Security Payload (ESP)**: ESP provides confidentiality, integrity, and authentication of IP packets. It encrypts the payload of the IP packets to protect the data from eavesdropping. Additionally, ESP can provide integrity checks to ensure data integrity and authentication of the sender.
 
 
-Security Associations (SA): SAs are established between IPsec peers to define the security parameters and establish a secure communication channel. The parameters include encryption and authentication algorithms, key exchange methods, and security protocols. SAs are identified by Security Parameter Index (SPI) and can be unidirectional or bidirectional.
+**Security Associations (SA)**: SAs are established between IPsec peers to define the security parameters and establish a secure communication channel. The parameters include encryption and authentication algorithms, key exchange methods, and security protocols. SAs are identified by Security Parameter Index (SPI) and can be unidirectional or bidirectional.
 
 
-Key Management: IPsec requires the management of cryptographic keys used for encryption, integrity, and authentication. Key management protocols and mechanisms, such as Internet Key Exchange (IKE), are employed to securely negotiate and exchange keys between IPsec peers.
+**Key Management**: IPsec requires the management of cryptographic keys used for encryption, integrity, and authentication. Key management protocols and mechanisms, such as Internet Key Exchange (IKE), are employed to securely negotiate and exchange keys between IPsec peers.
 
 
-Tunnel Mode and Transport Mode: IPsec can be used in two modes: tunnel mode and transport mode. In tunnel mode, the entire IP packet is encapsulated within a new IP packet, adding an additional layer of security. In transport mode, only the payload of the original IP packet is encrypted and authenticated, while the IP header remains intact.
+**Tunnel Mode and Transport Mode**: IPsec can be used in two modes: tunnel mode and transport mode. In tunnel mode, the entire IP packet is encapsulated within a new IP packet, adding an additional layer of security. In transport mode, only the payload of the original IP packet is encrypted and authenticated, while the IP header remains intact.
 
 
 Compatibility and Interoperability: IPsec is supported by a wide range of network devices, including routers, firewalls, and VPN gateways. It ensures compatibility and interoperability between different vendors' equipment, enabling secure communication across heterogeneous networks.
