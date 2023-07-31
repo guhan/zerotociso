@@ -12,7 +12,7 @@ Reference material for those interested in cybersecurity
 [AWS](docs/AWS.md) 
 
 
-# Security
+## Security
 [General](docs/GENERALSECURITY.md) \
 [Web](docs/WEBSECURITY.md) \
 [Cryptography](docs/CRYPTOGRAPHY.md)
