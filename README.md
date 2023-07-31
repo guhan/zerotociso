@@ -31,7 +31,8 @@ Reference material for those interested in cybersecurity
 [Cloud](docs/CLOUDSECURITY.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
-[Supply Chain](docs/SUPPLYCHAIN.md)
+[Supply Chain](docs/SUPPLYCHAIN.md) \
+[COBIT](docs/COBIT.md)
 
 
 ## Process and Management
