@@ -15,7 +15,7 @@ Reference material for those interested in cybersecurity
 [Infrastructure as Code](docs/IAC.md) \
 [AWS](docs/AWS.md) \
 [OAuth](docs/OAUTH.md) \
-[High Performance Computing](HPC.md)
+[High Performance Computing](docs/HPC.md)
 
 
 ## Security
@@ -34,7 +34,7 @@ Reference material for those interested in cybersecurity
 [GDPR](docs/GDPR.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
-[SOC2](SOC2.md) \
+[SOC2](docs/SOC2.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
 [US GOV](docs/USGOV.md) \
 [COBIT](docs/COBIT.md)
