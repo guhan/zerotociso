@@ -115,7 +115,7 @@ Cloud Watch lets you visualize and alert on various AWS Events It collects and t
 With CloudWatch Alarms, you can set thresholds on metrics and define actions to be triggered when those thresholds are breached. For example, you can configure an alarm to send a notification or invoke an AWS Lambda function when CPU utilization exceeds a certain threshold for a specified period.
 
 ```
-# Terraform: 
+# Terraform
 provider "aws" {
   region = "us-west-2"  # Replace with your desired region
 }
