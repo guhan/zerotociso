@@ -50,17 +50,18 @@ Acronym: SEARC
 
 
 
-## Policy Level: IAM policies can be attached at different levels:
-  a. Identity-Based Policies: Attached to individual IAM users, groups, or roles.
-  b. Resource-Based Policies: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
-  c. Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
-  d. Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
+## Policy Level
+IAM policies can be attached at different levels:
+- Identity-Based Policies: Attached to individual IAM users, groups, or roles.
+- Resource-Based Policies: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
+- Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
+- Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
 
 ## Define Amazon GuardDuty?
 Cloud based threat detection service
 
 
-##What is AWS Directory Service?	
+## What is AWS Directory Service?	
 AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also known as AWS Managed Microsoft AD, this service provides a fully managed Microsoft Active Directory in the AWS cloud. It is compatible with Microsoft Active Directory, allowing you to migrate or extend your on-premises Active Directory to the AWS cloud. It supports common Active Directory features, such as Group Policies, trusts, and domain join.
 
 
@@ -94,6 +95,56 @@ CSPM - send findings from Inspector, GuardDuty and Macie to it and you can use a
 
 ## What is AWS Certificate Manager?
 AWS Certificate Manager (ACM): ACM makes it easy to provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services. It simplifies the process of obtaining and renewing SSL/TLS certificates for your applications.
+
+## What is AWS Trusted Advisor?
+AWS Trusted Advisor is a service provided by Amazon Web Services (AWS) that helps customers optimize their AWS infrastructure, improve performance, enhance security, and reduce costs. It provides real-time guidance by analyzing the customer's AWS account and making recommendations based on best practices and AWS architectural principles.
+
+## What is AWS Cloud Trail?
+AWS Cloud Trail are audit logs for everything that happens in a AWS account
+
+## What are VPC Flow Logs?
+VPC Flow logs contain the traffic flows between various resources in an AWS Account
+
+## What is AWS Cloud Watch?
+Cloud Watch lets you visualize and alert on various AWS Events It collects and tracks metrics, logs, and events from various AWS resources
+
+- Metric - cpu utilization
+- Logs - Incorrect SQL query
+- Event - state changed on EC2 instance
+
+With CloudWatch Alarms, you can set thresholds on metrics and define actions to be triggered when those thresholds are breached. For example, you can configure an alarm to send a notification or invoke an AWS Lambda function when CPU utilization exceeds a certain threshold for a specified period.
+
+```
+# Terraform: 
+provider "aws" {
+  region = "us-west-2"  # Replace with your desired region
+}
+
+resource "aws_instance" "example_instance" {
+  ami           = "ami-0c94855ba95c71c99"  # Replace with your desired AMI ID
+  instance_type = "t2.micro"  # Replace with your desired instance type
+
+  # Other instance configuration...
+}
+
+resource "aws_cloudwatch_metric_alarm" "example_alarm" {
+  alarm_name          = "example-alarm"
+  comparison_operator = "GreaterThanOrEqualToThreshold"
+  evaluation_periods  = "1"
+  metric_name         = "CPUUtilization"
+  namespace           = "AWS/EC2"
+  period              = "60"
+  statistic           = "Average"
+  threshold           = "100"
+  alarm_description   = "This metric alarm triggers when CPU utilization reaches 100%"
+  alarm_actions       = []  # Specify any actions to be triggered when the alarm state changes
+
+  dimensions = {
+    InstanceId = aws_instance.example_instance.id
+  }
+}
+```
+
 
 ## Route 53 Security Controls
 
