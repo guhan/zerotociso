@@ -42,7 +42,8 @@ Reference material for those interested in cybersecurity
 [Culture](docs/CULTURE.md) \
 [Recruiting](docs/RECRUITING.md) \
 [Agile](docs/AGILE.md) \
-[DevOps](docs/DEVOPS.md)
+[DevOps](docs/DEVOPS.md) \
+[Risk Management](RISKMGMT.md) 
 
 
 
