@@ -3,6 +3,7 @@ Reference material for those interested in cybersecurity
 
 
 ## Technical
+[Architecture](docs/ARCHITECTURE.md) \
 [Languages](docs/LANGUAGES.md) \
 [Documentation](docs/DOCUMENTATION.md) \
 [Code Repositories](docs/CODEREPOSITORIES.md) \
