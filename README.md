@@ -14,7 +14,8 @@ Reference material for those interested in cybersecurity
 [Kubernetes](K8S.md) \
 [Infrastructure as Code](docs/IAC.md) \
 [AWS](docs/AWS.md) \
-[OAuth](docs/OAUTH.md)
+[OAuth](docs/OAUTH.md) \
+[High Performance Computing](HPC.md)
 
 
 ## Security
