@@ -10,7 +10,12 @@
     - IAM audits
   - Recurring Pen Tests
   - Incident Response plan
-    - Runbooks
+    - Identify and prioritize critical assets and data.
+    - Establish an incident response team with defined roles and responsibilities.
+    - Outline procedures and protocols
+      - Runbooks
+    - Define communication channels and escalation procedures.
+    - Conduct regular training and exercises to ensure the team is well-prepared.
       
 - Incident is triggered
   - automated notification
