@@ -70,8 +70,24 @@ The key areas are:
 - Categories and Subcategories: Under each core function, the NIST CSF provides categories and subcategories that define specific outcomes and activities related to cybersecurity risk management. These categories and subcategories help organizations understand the areas they need to focus on to achieve their cybersecurity objectives.
 - Informative References: The NIST CSF includes a list of informative references to other relevant standards, guidelines, and best practices that can complement and support the implementation of the framework.
 
+## NIST 800-63b
+The National Institute of Standards and Technology (NIST) Special Publication 800-63B Digital Identity Guidelines provide best practices related to authentication and password lifecycle management. In this publication, NIST outlines several best practices to bolster their password security. 
+
+Let’s take a look at the following NIST recommendations related to end-users changing their passwords:
+- Check passwords against breached password lists
+- Block passwords contained in password dictionaries
+- Prevent the use of repetitive or incremental passwords
+- Disallow context-specific words as passwords
+- Increase the length of passwords
+
+## NIST SP 800-171
+NIST SP 800-171 has gained popularity due to requirements set by the U.S. Department of Defense regarding contractor compliance with security frameworks. 
+
+
 ## NIST 800-190
 A special guide to address [application container security](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf).
 
+## NIST SP 1800 Series
+The NIST SP 1800 Series is a set of guides that complement the NIST SP 800 Series of standards and frameworks. The SP 1800 Series of publications offers information on how to implement and apply standards-based cybersecurity technologies in real-world applications.
 
 
