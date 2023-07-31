@@ -1,0 +1,120 @@
+# AWS 
+
+## What are the important cloud security aspects in AWS?
+
+- Identity and Access Management (IAM): Implement robust IAM practices to control and manage user access to AWS resources. This involves using strong authentication mechanisms, defining granular permissions, and regularly reviewing and auditing access privileges.
+- Data Protection: Ensure the confidentiality, integrity, and availability of your data. Implement encryption mechanisms for data at rest and in transit using services like AWS Key Management Service (KMS) and SSL/TLS certificates. Use secure storage services like Amazon S3 with access control mechanisms.
+
+- Network Security: Utilize Virtual Private Cloud (VPC) to create isolated network environments and control inbound and outbound traffic with security groups and network ACLs. Use AWS Firewall Manager, AWS WAF (Web Application Firewall), and AWS Shield to protect against network-based attacks.
+
+
+- Secure Configuration: Follow AWS security best practices and ensure that your AWS services and resources are configured securely. Implement multi-factor authentication (MFA), enforce strong password policies, regularly patch and update software, and apply security configurations to prevent vulnerabilities.
+
+
+- Monitoring and Logging: Enable AWS CloudTrail to monitor and log all API activity in your AWS account. Utilize AWS Config to assess and audit resource configurations for compliance. Implement centralized logging using services like AWS CloudWatch Logs and AWS CloudTrail to gain visibility into security events and potential threats.
+
+
+- Incident Response: Develop an incident response plan to quickly respond to and mitigate security incidents. Define roles and responsibilities, establish communication channels, and conduct periodic security incident simulations to test and improve your incident response capabilities.
+Compliance and Governance: Understand and adhere to relevant compliance standards and regulations, such as GDPR, HIPAA, PCI DSS, etc. Leverage AWS services and features that help meet compliance requirements, such as AWS Artifact, AWS Config Rules, and AWS CloudTrail.
+
+
+- Disaster Recovery and Business Continuity: Implement backup and recovery strategies to ensure the resilience and availability of your AWS infrastructure. Utilize services like AWS Backup and Amazon S3 versioning to protect against data loss. Use AWS services like AWS Elastic Beanstalk, AWS Auto Scaling, and AWS Route 53 to achieve high availability and fault tolerance.
+
+
+- Third-Party Integration: If using third-party services or applications in conjunction with AWS, ensure they are properly vetted for security and adhere to your organization's security standards. Maintain oversight and control over access and data sharing with external parties.
+
+## How to setup an AWS account? 
+
+- Use organizations to segment various accounts. 
+- SCP stands for Service Control Policies. SCPs are a feature of AWS Organizations that allow you to define fine-grained permissions and access controls for AWS accounts within your organization.
+You can define fine-grained permissions by allowing or denying access to specific AWS services, APIs, actions, or resources.
+  - Enforcement: SCPs are enforced at the AWS Organizations level and are independent of any individual account's IAM (Identity and Access Management) policies. This means that even if an IAM policy allows certain actions, an SCP can override and deny those actions at the organizational level.
+
+
+
+
+## What are the different parts of an IAM policy?
+
+Acronym: SEARC
+
+- Policy Version
+
+- Statement: Contains one or more individual statements that define the permissions and restrictions within the policy. Each statement consists of the following components:
+  a. Effect: Specifies whether the statement allows or denies access. It can have two values: "Allow" or "Deny."
+
+  b. Action: Specifies the AWS service actions or API operations that the policy allows or denies. For example, "s3:GetObject" or "ec2:DescribeInstances."
+
+  c. Resource: Specifies the AWS resources to which the policy applies. It can be an Amazon Resource Name (ARN) or a wildcard (*) to indicate all resources.
+
+  d. Condition: Optionally includes conditions that must be met for the statement to be evaluated. Conditions allow for additional fine-grained control based on attributes like IP address, time, or resource tags.
+
+
+
+## Policy Level: IAM policies can be attached at different levels:
+a. Identity-Based Policies: Attached to individual IAM users, groups, or roles.
+b. Resource-Based Policies: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
+c. Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
+d. Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
+
+## Define Amazon GuardDuty?
+Cloud based threat detection service
+
+
+##What is AWS Directory Service?	
+AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also known as AWS Managed Microsoft AD, this service provides a fully managed Microsoft Active Directory in the AWS cloud. It is compatible with Microsoft Active Directory, allowing you to migrate or extend your on-premises Active Directory to the AWS cloud. It supports common Active Directory features, such as Group Policies, trusts, and domain join.
+
+
+- AD Connector: AD Connector enables you to connect your existing on-premises Microsoft Active Directory to AWS services without the need for directory synchronization or replication. It acts as a proxy, allowing your AWS resources to authenticate against your on-premises Active Directory.
+
+
+- Simple AD: Simple AD is a directory service compatible with Microsoft Active Directory. It offers a subset of the features provided by AWS Managed Microsoft AD, making it a cost-effective option for applications that don't require advanced Active Directory functionality.
+
+
+- AWS Directory Service for OpenLDAP: This service allows you to run your own OpenLDAP (Lightweight Directory Access Protocol) directory in the AWS cloud. It provides compatibility with applications that use LDAP for authentication and authorization.
+
+## What is AWS Firewall Manager?
+Firewall Manager enables you to centrally manage AWS WAF (Web Application Firewall) rules across multiple AWS accounts and resources. It allows you to create and apply security rules to protect your web applications from common web-based attacks.
+
+
+## What is AWS Shield?
+AWS Shield: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service. It provides automatic protection against volumetric, state-exhaustion, and application layer DDoS attacks to help keep your applications and data available.
+
+## What is AWS Inspector?
+Amazon Inspector: Inspector is an automated security assessment service that helps you identify security vulnerabilities and deviations from best practices in your EC2 instances and applications. It provides detailed findings and recommendations for remediation.
+Looks for software vulnerabilities and unintended network access. Keeps an internal database and lets you assign a risk score. 
+
+## What is AWS KMS?
+AWS Key Management Service (KMS): KMS is a managed service that allows you to create and control the encryption keys used to encrypt your data. It provides a secure and scalable solution for managing encryption keys for various AWS services and your own applications.
+
+## What is AWS Secrets Manager?
+AWS Secrets Manager: Secrets Manager enables you to securely store and manage secrets, such as database credentials, API keys, and other sensitive information. It provides central management, automatic rotation, and integration with other AWS services.
+
+## What is AWS Security Hub? 
+CSPM - send findings from Inspector, GuardDuty and Macie to it and you can use a benchmark like CIS or PCI to see what the current posture is
+
+## What is AWS Certificate Manager?
+AWS Certificate Manager (ACM): ACM makes it easy to provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services. It simplifies the process of obtaining and renewing SSL/TLS certificates for your applications.
+
+## Route 53 Security Controls
+
+- DNSSEC (Domain Name System Security Extensions): DNSSEC is a security feature that helps ensure the integrity and authenticity of DNS data. Route 53 supports DNSSEC, allowing you to sign your domain's DNS records and verify their authenticity through digital signatures.
+- DNS Firewall: DNS Firewall in Route 53 allows you to set up rules to block DNS queries to known malicious domains or IP addresses. This helps in preventing access to malicious content and mitigating potential DNS-based attacks.
+- Health Checks: Route 53 offers health checks to monitor the health and availability of your resources. You can configure health checks for your endpoints and define the criteria for determining their availability. This helps in detecting and responding to any issues or outages affecting your resources.
+- Traffic Flow: Traffic Flow in Route 53 allows you to configure advanced traffic routing policies for your domain. It includes features such as geolocation routing, latency-based routing, and weighted round-robin routing. These features help distribute traffic efficiently and provide resilience against DDoS (Distributed Denial of Service) attacks.
+- VPC Association: Route 53 supports associating your DNS records with Virtual Private Cloud (VPC) resources. By associating records with VPCs, you can control access to your resources within your private network and enhance the security of your DNS infrastructure.
+
+
+## How to encrypt an EBS volume at Rest?
+Modify volume 
+- "AWS Managed CMK" (Customer Master Key): This option allows you to use AWS-managed keys for encryption. You can select the AWS managed key or let AWS create a new one for you.
+- "Customer Managed CMK": If you want to use a key that you manage in AWS Key Management Service (KMS), select this option and choose the appropriate CMK.
+- "No Encryption": Select this option if you want to remove encryption from the volume.
+```
+# Terraform
+resource "aws_ebs_volume" "example_volume" {
+  availability_zone = "us-west-2a"
+  size              = 50
+  encrypted         = true
+}
+```
+
