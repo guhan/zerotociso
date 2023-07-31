@@ -3,12 +3,14 @@ Reference material for those interested in cybersecurity
 
 
 ## Technical
+[Languages](docs/LANGUAGES.md) \
 [Code Repositories](docs/CODEREPOSITORIES.md) \
 [Networking](docs/NETWORKING.md) \
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
 [Docker](docs/DOCKER.md)\
-[Languages](docs/LANGUAGES.md)
+[AWS](docs/AWS.md) 
+
 
 # Security
 [General](docs/GENERALSECURITY.md) \
