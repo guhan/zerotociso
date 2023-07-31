@@ -22,26 +22,26 @@ As an organization’s maturity level increases, so do the required controls’ 
 Defense-related articles and services on the United States Munitions List (USML)[2] are covered by the regulations.
 The United States Munitions List (USML) is a list of articles, services, and related technology designated as defense and space-related by the United States federal government. This designation is pursuant to sections 38 and 47(7) of the Arms Export Control Act (22 U.S.C. 2778 and 2794(7)). 
 
-I:   Firearms, Close Assault Weapons and Combat Shotguns
-II:   Materials, Chemicals, Microorganisms, and Toxins
-III:   Ammunition/Ordnance
-IV:   Launch Vehicles, Guided Missiles, Ballistic Missiles, Rockets, Torpedoes, Bombs and Mines
-V:   Explosives and Energetic Materials, Propellants, Incendiary Agents and Their Constituents
-VI:   Vessels of War and Special Naval Equipment
-VII:   Tanks and Military Vehicles
-VIII:   Aircraft and Associated Equipment
-IX:   Military Training Equipment
-X:   Protective Personnel Equipment
-XI:   Military Electronics
-XII:   Fire Control, Range Finder, Optical and Guidance and Control Equipment
-XIII:   Auxiliary Military Equipment
-XIV:   Toxicological Agents, Including Chemical Agents, Biological Agents, and Associated Equipment
-XV:   Spacecraft Systems and Associated Equipment
-XVI:   Nuclear Weapons, Design and Testing Related Items
-XVII:  Classified Articles, Technical Data and Defense Services Not Otherwise Enumerated
-XVIII: Directed Energy Weapons
-XX:   Submersible Vessels, Oceanographic and Associated Equipment
-XXI:   Articles, Technical Data, and Defense Services Not Otherwise Enumerated
+1. Firearms, Close Assault Weapons and Combat Shotguns
+2. Materials, Chemicals, Microorganisms, and Toxins
+3. Ammunition/Ordnance
+4. Launch Vehicles, Guided Missiles, Ballistic Missiles, Rockets, Torpedoes, Bombs and Mines
+5. Explosives and Energetic Materials, Propellants, Incendiary Agents and Their Constituents
+6. Vessels of War and Special Naval Equipment
+7. Tanks and Military Vehicles
+8. Aircraft and Associated Equipment
+9. Military Training Equipment
+10. Protective Personnel Equipment
+11. Military Electronics
+12. Fire Control, Range Finder, Optical and Guidance and Control Equipment
+13. Auxiliary Military Equipment
+14. Toxicological Agents, Including Chemical Agents, Biological Agents, and Associated Equipment
+15. Spacecraft Systems and Associated Equipment
+16. Nuclear Weapons, Design and Testing Related Items
+17. Classified Articles, Technical Data and Defense Services Not Otherwise Enumerated
+18. Directed Energy Weapons
+19. Submersible Vessels, Oceanographic and Associated Equipment
+20. Articles, Technical Data, and Defense Services Not Otherwise Enumerated
 
 
 
