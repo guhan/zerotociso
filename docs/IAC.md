@@ -89,7 +89,7 @@ provider "aws" {
 }
 ```
 
-###Setup VPC
+### Setup VPC
 ```
 # vpc.tf | VPC Configuration
 
