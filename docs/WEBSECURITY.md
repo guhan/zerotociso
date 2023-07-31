@@ -1,5 +1,37 @@
 # Web Security
 
+## What are the HTTP response codes?
+
+- Informational Responses (1xx):
+  - 100 - Continue
+  - 101 - Switching Protocols
+  - 102 - Processing
+- Successful Responses (2xx):
+  - 200 - OK
+  - 201 - Created
+  - 204 - No Content
+  - 206 - Partial Content
+- Redirection Messages (3xx):
+  - 301 - Moved Permanently
+  - 302 - Found
+  - 304 - Not Modified
+  - 307 - Temporary Redirect
+  - 308 - Permanent Redirect
+- Client Error Responses (4xx):
+  - 400 - Bad Request
+  - 401 - Unauthorized
+  - 403 - Forbidden
+  - 404 - Not Found
+  - 409 - Conflict
+  - 429 - Too Many Requests
+- Server Error Responses (5xx):
+  - 500 - Internal Server Error
+  - 501 - Not Implemented
+  - 503 - Service Unavailable
+  - 504 - Gateway Timeout
+
+
+
 ## What Is SSL encryption?
 SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transport Layer Security) encryption, is a cryptographic protocol used to secure communication over a network
 
@@ -16,6 +48,13 @@ SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transpo
 
 
 - **Mutual Authentication** (Optional): SSL/TLS can also support mutual authentication, where both the client and server authenticate each other. In this scenario, the client presents its own digital certificate to the server, allowing the server to verify the client's identity.
+
+## What is the difference between ssl and tls?
+
+- TLS is the recommended protocol for securing internet communication. TLS provides stronger encryption algorithms, improved key exchange mechanisms, and enhanced security features compared to SSL. 
+
+- TLS 1.0 was introduced as the successor to SSL 3.0, followed by TLS 1.1, TLS 1.2, and TLS 1.3, each providing improved security features and performance enhancements.
+
 
 
 ## How does a client check a servers SSL certificate?
@@ -49,4 +88,27 @@ SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transpo
 7. Pre-Master Secret Derivation: Both the client and server independently compute the pre-master secret using the exchanged keys. This pre-master secret is used to generate the session keys required for encryption and decryption.
 8. Session Key Generation: Using the pre-master secret, the client and server independently generate the session keys used for symmetric encryption and decryption during the secure communication.
 9. Handshake Completion: Finally, both the client and server send a Finished message, which includes a hash of all the exchanged messages during the handshake. This allows both parties to verify the integrity of the handshake and ensure that the communication parameters match.
+
+
+## What is the same-origin policy and CORS?
+
+An origin is a combination of the protocol, domain, and port number of a web page's URL
+
+The Same origin policy (SOP) aims to prevent malicious scripts from accessing or manipulating data from different origins, thereby protecting user privacy and security.
+According to the Same Origin Policy:
+- Origin Restriction: Web content, such as JavaScript, HTML, and XMLHTTPRequests, can only interact with resources (e.g., scripts, cookies, or data) from the same origin. The origin includes the same protocol (e.g., HTTP or HTTPS), domain (e.g., example.com), and port number (e.g., 80 for HTTP, 443 for HTTPS).
+
+**important to note that the SOP is enforced by web browsers and can be bypassed through various vulnerabilities or misconfigurations**
+
+- Use Relative URLs
+Set header Access-Control-Allow-Origin: <origin>
+
+- Cross-Origin Resource Sharing (CORS): CORS is a mechanism that allows servers to specify which origins are permitted to access their resources. It includes HTTP headers that the server sends in its response to inform the browser about cross-origin permissions.
+
+  - Access-Control-Allow-Origin: https://example.com, https://anotherdomain.com
+  - Access-Control-Allow-Methods: Specifies the HTTP methods (e.g., GET, POST, PUT, DELETE) that are allowed for cross-origin requests.
+  - Access-Control-Allow-Headers: Specifies the additional HTTP headers (e.g., Authorization, Content-Type) that are allowed for cross-origin requests.
+  - Access-Control-Allow-Credentials: Indicates whether the server allows credentials (such as cookies or HTTP authentication) to be included in cross-origin requests. This header is set to true or false.
+  - Access-Control-Max-Age: Specifies the maximum duration (in seconds) for which the preflight response (OPTIONS request) can be cached.
+
 
