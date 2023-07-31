@@ -110,7 +110,76 @@ Set header Access-Control-Allow-Origin: <origin>
   - Access-Control-Allow-Headers: Specifies the additional HTTP headers (e.g., Authorization, Content-Type) that are allowed for cross-origin requests.
   - Access-Control-Allow-Credentials: Indicates whether the server allows credentials (such as cookies or HTTP authentication) to be included in cross-origin requests. This header is set to true or false.
   - Access-Control-Max-Age: Specifies the maximum duration (in seconds) for which the preflight response (OPTIONS request) can be cached.
- 
-  Some text
 
 
+## What is Server Side Request Forgery (SSRF)?
+
+An attacker can make a server perform unintended requests to other internal or external resources
+
+Examples: 
+```
+POST /product/stock HTTP/1.0
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 118
+
+stockApi=http://192.168.0.68/admin
+```
+(where 192.168.0.68 is a different server on the local network of the server the POST request is being sent to)
+
+- Accessing Internal APIs: An attacker could provide a URL that targets an internal API endpoint, such as http://internal-server/api/employee/1, which retrieves sensitive employee data. By exploiting the SSRF vulnerability, the attacker can access and retrieve the employee data that is meant to be restricted to internal use only.
+
+- Port Scanning: The attacker could supply a URL with an IP address and a specific port, such as http://internal-server:22. If the vulnerable server is configured to perform outgoing network connections, the attacker can use SSRF to scan internal systems and identify open ports, potentially leading to further exploitation.
+- Local Network Access: If the vulnerable server is deployed in a local network, an attacker could provide a URL that targets local resources, such as http://192.168.0.1, which represents the local router's administration interface. Exploiting the SSRF vulnerability, the attacker can access and manipulate the router's settings, potentially gaining control over the network.
+- Cloud Metadata Service: In cloud environments, instances often have access to a metadata service that provides information about the instance, such as instance details, credentials, or access keys. An attacker could craft a URL targeting the metadata service, such as http://169.254.169.254/latest/meta-data/credentials, and exploit the SSRF vulnerability to retrieve sensitive information from the instance metadata.
+- Exploiting Internal Services: An attacker could leverage SSRF to target internal services running on the same network as the vulnerable server. For example, they could provide a URL like http://internal-service:8080/admin-panel and exploit the SSRF vulnerability to gain unauthorized access to the administrative panel of the internal service.
+
+
+
+### Preventing SSRF
+- Input Validation: Implement proper input validation and sanitization techniques to prevent attackers from manipulating URLs or injecting malicious input.
+
+
+- Whitelisting: Use whitelisting techniques to allow only specific URLs or domains that are trusted and necessary for the application's functionality.
+
+
+- Restrict Network Access: Configure firewalls or security groups to restrict network access and prevent the server from reaching unauthorized internal resources.
+
+
+- URL Parsing and Validation: Implement strict URL parsing and validation routines to ensure that only valid and intended URLs are processed by the server.
+
+
+- Least Privilege Principle: Ensure that the server making requests has the least privilege necessary and only has access to the resources it actually requires.
+
+
+
+## What is XXE?
+
+XML External Entity - similar to SSRF where a server returns sensitive or private information because of a malformed XML request for External Entity
+
+- XML Parsing: XML is a widely used data format for exchanging structured information. When an application processes XML input, it typically uses a parser to interpret and extract data from the XML.
+
+
+- External Entity: XML allows for the declaration and referencing of external entities. An external entity is a resource, such as a file or URL, that can be included or referenced within the XML document.
+
+
+- Exploitation: In the case of an XXE vulnerability, an attacker can craft a malicious XML input that includes an external entity reference pointing to a sensitive file or a remote server they control. When the vulnerable application processes the XML, it resolves the external entity, potentially leading to unintended consequences.
+
+### Steps to mitigate: 
+
+- Input Validation: Validate and sanitize all user-supplied XML input. Reject or filter out any unexpected or potentially malicious content.
+Disable External Entities: Configure the XML parser to disable the processing of external entities or limit their usage to trusted sources only.
+- Use Safe APIs: Use secure XML parsing libraries or APIs that have built-in protection against XXE vulnerabilities, such as disabling external entity resolution by default.
+- Content-Type Checking: Validate the Content-Type of incoming XML requests to ensure they match the expected XML format.
+- Least Privilege: Run the server processes with the least privileges required to mitigate the potential impact of XXE attacks.
+
+## What is HSTS?
+
+HTTP Strict Transport Security. It is a security mechanism implemented in web browsers and web servers to enforce the use of secure connections over HTTPS (HTTP over SSL/TLS) 
+
+Basically force HTTPS
+
+- Initial Connection: When a client (web browser) makes the initial connection to a website that supports HSTS, the server responds with a special HTTP header called the Strict-Transport-Security header.
+- HSTS Header: The Strict-Transport-Security header includes a policy directive with a specified duration. For example:
+Strict-Transport-Security: max-age=31536000
+
+- HSTS Preloading: Websites can also opt to be included in the HSTS preload list maintained by web browsers. This list is hardcoded into the browser, and websites included in the list are always accessed via HTTPS, even for the first visit
