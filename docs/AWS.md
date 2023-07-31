@@ -51,10 +51,10 @@ Acronym: SEARC
 
 
 ## Policy Level: IAM policies can be attached at different levels:
-a. Identity-Based Policies: Attached to individual IAM users, groups, or roles.
-b. Resource-Based Policies: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
-c. Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
-d. Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
+  a. Identity-Based Policies: Attached to individual IAM users, groups, or roles.
+  b. Resource-Based Policies: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
+  c. Organizational Policies: Attached to an AWS Organizations entity and applied to all accounts within the organization.
+  d. Permission Boundaries: Used to set the maximum permissions that an IAM entity can have.
 
 ## Define Amazon GuardDuty?
 Cloud based threat detection service
