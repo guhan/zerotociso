@@ -34,6 +34,7 @@ Reference material for those interested in cybersecurity
 [GDPR](docs/GDPR.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
+[SOC2](SOC2.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
 [US GOV](docs/USGOV.md) \
 [COBIT](docs/COBIT.md)
