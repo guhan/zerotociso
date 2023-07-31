@@ -32,7 +32,7 @@
 
 ## What are the HTTP headers?
 
-In the above example, the **request** headers include:
+The **request** headers include:
 ```
 Request Method: GET
 Request URL: /example-page
@@ -42,7 +42,7 @@ User-Agent: The user agent string that identifies the client making the request 
 Accept: The types of content that the client can accept (text/html, application/xhtml+xml, etc.)
 Accept-Language: The preferred language for the response content (en-US, en;q=0.9)
 ```
-In the above example, the **response** headers include:
+The **response** headers include:
 ```
 HTTP Version: HTTP/1.1
 Status Code: 200 OK
