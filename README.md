@@ -7,6 +7,7 @@ Reference material for those interested in cybersecurity
 [Languages](docs/LANGUAGES.md) \
 [Documentation](docs/DOCUMENTATION.md) \
 [Code Repositories](docs/CODEREPOSITORIES.md) \
+[Linux](docs/LINUX.md) \
 [Networking](docs/NETWORKING.md) \
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
