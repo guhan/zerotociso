@@ -30,7 +30,27 @@
   - 503 - Service Unavailable
   - 504 - Gateway Timeout
 
+## What are the HTTP headers?
 
+In the above example, the **request** headers include:
+```
+Request Method: GET
+Request URL: /example-page
+HTTP Version: HTTP/1.1
+Host: The domain name of the server being accessed (www.example.com)
+User-Agent: The user agent string that identifies the client making the request (in this case, a Chrome browser on Windows)
+Accept: The types of content that the client can accept (text/html, application/xhtml+xml, etc.)
+Accept-Language: The preferred language for the response content (en-US, en;q=0.9)
+```
+In the above example, the **response** headers include:
+```
+HTTP Version: HTTP/1.1
+Status Code: 200 OK
+Content-Type: The type of content being returned (text/html; charset=utf-8)
+Content-Length: The length of the response content in bytes
+Date: The date and time the response was generated
+Server: The server software that generated the response (Apache/2.4.41 in this case)
+```
 
 ## What Is SSL encryption?
 SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transport Layer Security) encryption, is a cryptographic protocol used to secure communication over a network
