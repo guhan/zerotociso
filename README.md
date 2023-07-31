@@ -9,7 +9,7 @@ Reference material for those interested in cybersecurity
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
 [Docker](docs/DOCKER.md)\
-[Kubernetes/k8s](K8S.md) \
+[Kubernetes](K8S.md) \
 [AWS](docs/AWS.md) \
 [OAUTH](docs/OAUTH.md)
 
