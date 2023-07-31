@@ -27,8 +27,9 @@ Reference material for those interested in cybersecurity
 
 
 ## Compliance
-[ISO](docs/ISO.md) \
+[ISO 27xxx](docs/ISO.md) \
 [Cloud](docs/CLOUDSECURITY.md) \
+[Electric](docs/ELECTRIC.md) \
 [GDPR](docs/GDPR.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
