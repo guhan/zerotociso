@@ -17,8 +17,9 @@
   - manual notification
 
 - Identify the following
-  - Incident responder: Does technical work to resolve incident
+  - Incident responders: Does technical work to resolve incident
   - Incident manager: reports on progress, documents incident, shields incident responders
+  - Define other roles if needed
  
 - Assess situation
   - Blast Radius
