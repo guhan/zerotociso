@@ -70,6 +70,28 @@ deals directly with applications and their interaction with the network
 - SSH
 - DNS 
 
+## What is a three-way handshake?
+- A: SYN, initial sequence number
+- B: SYN-ACK, initial sequence number 
+- A: ACK, increments B’s ISN
+
+
+
+## What is Multicast? 
+One packet is sent and the network equipment replicates it to the multiple subscribers
+
+## What is Unicast?
+One packet is sent to one recipient
+
+## How does a CDN use multicast?
+CDNs use multicast in the following ways:
+- **Content Ingestion**: CDNs often employ multicast for efficient content ingestion from the origin server to the edge nodes. Multicast allows the content to be replicated and distributed across the CDN infrastructure without the need for individual unicast streams from the origin server to each edge node.
+
+
+- **Internal Communication**: Multicast is used for internal communication and synchronization between different CDN nodes. It helps in efficiently disseminating control and synchronization messages, enabling the CDN infrastructure to operate in a coordinated and synchronized manner.
+
+
+- **Origin-Edge Communication**: CDNs may use multicast for communication between the origin server and the edge nodes. This allows for efficient distribution of updates or changes in content from the origin server to the edge nodes, minimizing the load on the origin server and optimizing the content replication process.
 
 
 ## What is IPSEC?
@@ -88,5 +110,24 @@ deals directly with applications and their interaction with the network
 **Tunnel Mode and Transport Mode**: IPsec can be used in two modes: tunnel mode and transport mode. In tunnel mode, the entire IP packet is encapsulated within a new IP packet, adding an additional layer of security. In transport mode, only the payload of the original IP packet is encrypted and authenticated, while the IP header remains intact.
 
 
-Compatibility and Interoperability: IPsec is supported by a wide range of network devices, including routers, firewalls, and VPN gateways. It ensures compatibility and interoperability between different vendors' equipment, enabling secure communication across heterogeneous networks.
+**Compatibility and Interoperability**: IPsec is supported by a wide range of network devices, including routers, firewalls, and VPN gateways. It ensures compatibility and interoperability between different vendors' equipment, enabling secure communication across heterogeneous networks.
 
+## What is RADIUS?
+Here's how RADIUS works:
+
+- Client Authentication Request: When a user attempts to connect to a network resource, such as accessing the internet through a Wi-Fi network, the network access server (NAS) acting as a RADIUS client sends an authentication request to the RADIUS server.
+
+
+- RADIUS Server Authentication: The RADIUS server receives the authentication request and verifies the user's credentials. The server can use various methods to authenticate the user, such as username and password, digital certificates, token-based authentication, or other authentication mechanisms.
+
+
+- Authentication Response: After validating the user's credentials, the RADIUS server sends an authentication response to the RADIUS client. The response can be "Access Accept" if the authentication is successful or "Access Reject" if the authentication fails.
+
+
+- Authorization and Accounting: If the authentication is successful, the RADIUS server can also provide authorization information to the RADIUS client, specifying the user's access privileges and restrictions. Additionally, RADIUS supports accounting functionality, allowing the server to log and track network resource usage, such as session duration, data transferred, and other relevant information.
+
+Key features and benefits of RADIUS include:
+- Centralized Authentication: RADIUS enables centralized user authentication and eliminates the need for separate authentication systems in different network access points. This simplifies the management of user credentials and improves security.
+- Scalability: RADIUS is scalable and can handle a large number of users and network access points. It allows organizations to efficiently manage authentication and authorization for a large user base and multiple network devices.
+- Standardization: RADIUS is an industry-standard protocol, ensuring interoperability and compatibility between different networking vendors and devices. This facilitates the deployment and integration of RADIUS in various network environments.
+- Accounting and Auditing: RADIUS provides accounting functionality, allowing organizations to monitor and track network resource usage. This data can be used for auditing, billing, or troubleshooting purposes.
