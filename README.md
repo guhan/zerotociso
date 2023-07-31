@@ -26,7 +26,7 @@ Reference material for those interested in cybersecurity
 
 
 ## Compliance
-[Cloud Security](docs/CLOUDSECURITY.md) \
+[Cloud](docs/CLOUDSECURITY.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md)
