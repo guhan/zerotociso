@@ -29,6 +29,7 @@ Reference material for those interested in cybersecurity
 
 ## Process and Management
 [Culture](docs/CULTURE.md) \
+[Recruiting](docs/RECRUITING.md) \
 [DevOps](docs/DEVOPS.md)
 
 
