@@ -110,5 +110,7 @@ Set header Access-Control-Allow-Origin: <origin>
   - Access-Control-Allow-Headers: Specifies the additional HTTP headers (e.g., Authorization, Content-Type) that are allowed for cross-origin requests.
   - Access-Control-Allow-Credentials: Indicates whether the server allows credentials (such as cookies or HTTP authentication) to be included in cross-origin requests. This header is set to true or false.
   - Access-Control-Max-Age: Specifies the maximum duration (in seconds) for which the preflight response (OPTIONS request) can be cached.
+ 
+  Some text
 
 
