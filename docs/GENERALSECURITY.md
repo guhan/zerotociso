@@ -29,3 +29,40 @@ Availability measures include redundancy, fault tolerance, backup systems, disas
 - Setup a guest network (network segmentation) and frequently change the password
 - Backup all systems (time machine/hard drives) or iCloud
 - Disable unnecessary services
+
+## What techniques can be used to prevent a brute-force login attack?
+- Limit failed login attempts by blocking IP or locking account
+- Use a captcha
+- Don’t disclose valid accounts 
+- IP whitelisting/blacklists
+- WAF
+- Monitoring and alerting
+- Strong password policy
+
+## How do you ensure a server is secure?
+- Install only needed software
+- Use service accounts and not root
+- Setup automatic patches
+- Turn off unneeded services
+- Install a firewall (iptables)
+- Setup user accounts 
+- Setup a lock screen
+- Lock the BIOS with a password
+- Setup hard disk encryption
+- Setup monitoring and logging
+- Setup Backups
+- Use principle of least privilege
+
+
+## What is the difference between HIDS and NIDS?
+- HIDS is a host based intrusion detection system. It scans a hosts files and looks at authentication attempts and logs to the local system. 
+
+- NIDS is a network based intrusion detection system. It scans network traffic from select points on the network
+
+## What is the difference between IDS and IPS?
+IDS is an intrusion detection system and IPS is an intrusion protection system, the IPS will detect and actively protect against attacks
+
+
+
+
+
