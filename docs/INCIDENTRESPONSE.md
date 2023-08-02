@@ -1,7 +1,8 @@
 # Incident Response
 
 ## Procedure
-- Before an incident get the following in place:
+### Preplanning 
+Before an incident get the following in place:
   - Monitoring
   - secure SDLC
   - Encryption for data at rest
@@ -17,11 +18,12 @@
     - Define communication channels and escalation procedures.
     - Conduct regular training and exercises to ensure the team is well-prepared.
       
+### Triage
 - Incident is triggered
   - automated notification
   - manual notification
 
-- Identify the following
+- Confirm assignment of roles
   - Incident responders: Does technical work to resolve incident
   - Incident manager: reports on progress, documents incident, shields incident responders
   - Define other roles if needed
@@ -29,11 +31,13 @@
 - Assess situation
   - Blast Radius
   - What happened
+  - Timeline
 
 - Start Documenation
   - RCA
   - Postmortem Doc
     
+### Resolution
 - Loop in stakeholders
   - put up maintenance notifaction
   - stakeholder escalation list
@@ -42,10 +46,11 @@
 - Use Runbook
   - Preserve logs
   - Take systems offline
-  - Fix issue
- 
-- Resolution
+  - Find fix for issue
+
+- Deployment
   - Test resolution
+  - Deploy fix
   - Update maintenance notifcation
  
 - Compliance notifications
@@ -55,8 +60,11 @@
     - Industry (Threat Intel, -ISAC)
   - Notify customer, if contract clause impacted
  
+### Post Incident
 - Post Mortem
   - Additional controls
   - Additional Telemetry
   - Additional processes
+
+- Add incident to table top exercise
 
