@@ -47,7 +47,8 @@ Reference material for those interested in cybersecurity
 [Agile](docs/AGILE.md) \
 [DevOps](docs/DEVOPS.md) \
 [Incident Response](docs/INCIDENTRESPONSE.md) \
-[Risk Management](RISKMGMT.md) 
+[Risk Management](docs/RISKMGMT.md) \
+[Security Engineering](docs/SECURITYENGINEERING.md)
 
 
 
