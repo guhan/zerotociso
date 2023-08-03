@@ -39,7 +39,7 @@ Reference material for those interested in cybersecurity
 [COBIT](docs/COBIT.md) \
 [GDPR](docs/GDPR.md) \
 [ISO 27xxx](docs/ISO.md) \
-[SOC2](docs/SOC2.md) \
+[SOC2](docs/SOC2.md) 
 
 
 ## Process and Management
