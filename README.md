@@ -35,7 +35,7 @@ Reference material for those interested in cybersecurity
 [Cloud](docs/CLOUDSECURITY.md) \
 [NERC](docs/NERC.md) \
 [Health Care](docs/HEALTHCARE.md) \
-[Payments](docs/PAYMENTS.md) \
+[PCI-DSS](docs/PCIDSS.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
 [US Government](docs/USGOV.md) \
 [COBIT](docs/COBIT.md) \
