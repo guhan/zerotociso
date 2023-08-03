@@ -15,7 +15,7 @@ The structured and systematic approach to planning, implementing, and **managing
   - Why does it need to be changed?
   - What will be impacted? 
 - Document the steps to perform the change
-- Test the change out in an environment **that will not impact live users**
+- Test the change out **in an environment that will not impact live users**
 - Document the steps need for a rollback
   - What is required?
   - How long will it take?
