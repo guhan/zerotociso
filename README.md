@@ -31,9 +31,9 @@ Reference material for those interested in cybersecurity
 
 
 ## Compliance
-[Banking](docs/BANKING.md) \
+[BSA](docs/BSA.md) \
 [Cloud](docs/CLOUDSECURITY.md) \
-[Electric](docs/ELECTRIC.md) \
+[NERC](docs/NERC.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
