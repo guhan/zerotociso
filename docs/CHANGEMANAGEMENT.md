@@ -38,7 +38,7 @@ The structured and systematic approach to planning, implementing, and **managing
 - **Test the change**
 - If the change is not working, then rollback the change
 
-## Post change wrap up
+### Post change wrap up
 - Update any status notifications that need updating
 - Notify leadership of the status of the change
 - Hand off any anomalies to on-call teams
