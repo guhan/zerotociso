@@ -1,5 +1,3 @@
-# Banking
-
 # BSA
 A U.S. federal law enacted in 1970 to combat money laundering and other financial crimes, including terrorist financing. The primary objective of the BSA is to prevent criminals from using financial institutions to conceal and transfer illicit funds.
 
