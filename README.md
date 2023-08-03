@@ -29,17 +29,17 @@ Reference material for those interested in cybersecurity
 
 
 ## Compliance
-[ISO 27xxx](docs/ISO.md) \
 [Banking](docs/BANKING.md) \
 [Cloud](docs/CLOUDSECURITY.md) \
 [Electric](docs/ELECTRIC.md) \
-[GDPR](docs/GDPR.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [Payments](docs/PAYMENTS.md) \
-[SOC2](docs/SOC2.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
-[US GOV](docs/USGOV.md) \
-[COBIT](docs/COBIT.md)
+[US Government](docs/USGOV.md) \
+[COBIT](docs/COBIT.md) \
+[GDPR](docs/GDPR.md) \
+[ISO 27xxx](docs/ISO.md) \
+[SOC2](docs/SOC2.md) \
 
 
 ## Process and Management
