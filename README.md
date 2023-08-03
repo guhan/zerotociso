@@ -21,6 +21,7 @@ Reference material for those interested in cybersecurity
 
 ## Security
 [General](docs/GENERALSECURITY.md) \
+[Data Classification](docs/DATACLASSIFICATION.md) \
 [Web](docs/WEBSECURITY.md) \
 [Cryptography](docs/CRYPTOGRAPHY.md) \
 [SAML](docs/SAML.md) \
