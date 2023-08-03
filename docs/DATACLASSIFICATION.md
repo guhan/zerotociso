@@ -20,9 +20,9 @@ Inefficitent to treat all data the same way
 
 ## Goverment Levels
 High to low
-- Top Secret
-- Secret
-- Confidential
+- Top Secret (classified)
+- Secret (classifed)
+- Confidential (classified)
 - Sensitive but unclassified
 - Unclassified
 
@@ -31,6 +31,6 @@ Acronym (for low to high): U S Can Stop Terrorism
 ## Commercial Levels
 High to low
 - Confidential/Proprietary:  extrememly sensitive and for internal use only
-- Private: If disclosed would have significant negative impact on company
+- Private: If disclosed would have significant negative impact on company, used to protect information about individuals
 - Sensitive: Negative impact could occur if disclosed
 - Public - No serious impact to organization
