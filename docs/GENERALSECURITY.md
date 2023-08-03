@@ -1,15 +1,87 @@
 # General Security Information
 
+## Key Concepts
+### Layering
+Defense in depth, using multiple controls so if one fails the others will still work
+
+### Abstraction 
+Classify objects for efficiency
+
+### Data Hiding
+Hide data from access
+
+### Security through obscurity
+Intentionally hide something and hope it doesn't get found
+
+### Encryption
+Intentionally hiding the meaning of something from intended recipients
+
 ## What is the CIA Triad?
 
 ### C - confidentiality 
-Confidentiality is often achieved through encryption, access controls, strong authentication mechanisms, and secure communication channels.
+Measures used to protect the secrecy of data.
+- Need confidentiality in storage, in process, and in transit
+- achieved through
+  - encryption
+  - access controls
+  - strong authentication mechanisms
+  - secure communication channels.
+
+Related concepts: 
+- sensivity: could exposure of this information cause harm
+- discretion: operator can control disclosure to minimize harm
+- criticality: how mission critical is this information
+- concealment: hiding or preventing disclosure
+- secrecy: act of keeping something secret
+- privacy: keeping personally identifiable information confidential/secret
+- seclusion: store something in an out the way location
+- isolation: keep things separate 
+
 
 ### I - Integrity 
-Techniques such as hashing, digital signatures, checksums, and access controls help protect against data tampering or unauthorized changes.
+Protecting the reliability and correctness of data
+
+Techniques that help protect against data tampering or unauthorized changes are:
+- hashing
+- digital signatures
+- checksums
+- access controls
+
+Related concepts: 
+- accuracy: being correct and precise
+- truthfulness: being a true reflection of reality
+- authenticity: being genuine
+- validity: being factually or logically sound
+- **nonrepudiation**: not being able to deny performing an action
+- accountability: being responsible for the results
+- responsibility: being in charge or in control over someone/something
+- completeness: has all necessary parts
+- comprehensiveness: complete in scope
+
 
 ### A - Availability 
-Availability measures include redundancy, fault tolerance, backup systems, disaster recovery planning, and robust network and system design.
+Authorized users are granted timely and uninterrupted access
+
+Availability measures include:
+- redundancy
+- fault tolerance
+- backup systems
+- disaster recovery planning
+- robust network and system design.
+
+Related concepts: 
+- usability: easy to use
+- accessibility: widest range of subjects can interact with a resource
+- timeliness: being on time
+
+## AAA Services
+Five elements are
+- Identification: subject must provide an id, which can be public
+- Authentication: provide additional information to validate identity
+  - authentication factors are usually private
+- Authorization: granting the subject the desired access
+- Auditing: subjects actions are tracked (or logged)
+- Accounting/Accountability: subjects are accountable for their actions, you can accurately map identity to the subject
 
 ## How do you secure your home network?
 - Educate family on phishing, wifi networks and secure passwords
