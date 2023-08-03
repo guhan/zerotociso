@@ -45,6 +45,7 @@ Reference material for those interested in cybersecurity
 ## Process and Management
 [Culture](docs/CULTURE.md) \
 [Recruiting](docs/RECRUITING.md) \
+[Planning](docs/PLANNING.md) \
 [Agile](docs/AGILE.md) \
 [DevOps](docs/DEVOPS.md) \
 [SRE](docs/SRE.md) \
