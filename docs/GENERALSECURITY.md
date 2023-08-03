@@ -9,6 +9,9 @@ _Security can be expensive, but is most often less costly than the absence of se
 - Security through obscurity: Intentionally hide something and hope it doesn't get found
 - Encryption: Intentionally hiding the meaning of something from intended recipients
 - Security Governance: implementation of a security solution and management method are tightly interconnected
+- Business case: argument or position that defines a need to make a decision or take some sort of action
+- CISO: Chief Information Security Officer
+- CSO: Chief Security Officer (interchangeable with CISO)
 
 
 ## What is the CIA Triad?
