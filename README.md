@@ -38,6 +38,7 @@ Reference material for those interested in cybersecurity
 [Supply Chain](docs/SUPPLYCHAIN.md) \
 [US Government](docs/USGOV.md) \
 [COBIT](docs/COBIT.md) \
+[FOIA](docs/FOIA.md) \
 [GDPR](docs/GDPR.md) \
 [ISO 27xxx](docs/ISO.md) \
 [SOC2](docs/SOC2.md) 
