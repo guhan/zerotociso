@@ -33,18 +33,23 @@ Reference material for those interested in cybersecurity
 ## Compliance
 [BSA](docs/BSA.md) \
 [CIS](docs/CIS.md) \
-[CSA](docs/CSA.md) \
-[NERC](docs/NERC.md) \
-[NIST](docs/NIST.md) \
-[Health Care](docs/HEALTHCARE.md) \
-[PCI-DSS](docs/PCIDSS.md) \
-[Supply Chain](docs/SUPPLYCHAIN.md) \
-[US Government](docs/USGOV.md) \
 [COBIT](docs/COBIT.md) \
+[CSA](docs/CSA.md) \
 [FOIA](docs/FOIA.md) \
 [GDPR](docs/GDPR.md) \
+[HIPAA](docs/HIPAA.md) \
 [ISO 27xxx](docs/ISO.md) \
-[SOC2](docs/SOC2.md) 
+[NERC](docs/NERC.md) \
+[NIST](docs/NIST.md) \
+[PCI-DSS](docs/PCIDSS.md) \
+[SOC2](docs/SOC2.md) \
+[Supply Chain](docs/SUPPLYCHAIN.md) \
+[US Government](docs/USGOV.md) \
+
+
+
+
+
 
 
 ## Process and Management
