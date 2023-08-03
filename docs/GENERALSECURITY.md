@@ -1,20 +1,15 @@
 # General Security Information
 
+_Security can be expensive, but is most often less costly than the absence of security._
+
 ## Key Concepts
-### Layering
-Defense in depth, using multiple controls so if one fails the others will still work
+- Layering: Defense in depth, using multiple controls so if one fails the others will still work
+- Abstraction: Classify objects for efficiency
+- Data Hiding: Hide data from access
+- Security through obscurity: Intentionally hide something and hope it doesn't get found
+- Encryption: Intentionally hiding the meaning of something from intended recipients
+- Security Governance: implementation of a security solution and management method are tightly interconnected
 
-### Abstraction 
-Classify objects for efficiency
-
-### Data Hiding
-Hide data from access
-
-### Security through obscurity
-Intentionally hide something and hope it doesn't get found
-
-### Encryption
-Intentionally hiding the meaning of something from intended recipients
 
 ## What is the CIA Triad?
 
