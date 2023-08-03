@@ -46,6 +46,7 @@ Reference material for those interested in cybersecurity
 [Recruiting](docs/RECRUITING.md) \
 [Agile](docs/AGILE.md) \
 [DevOps](docs/DEVOPS.md) \
+[SRE](docs/SRE.md) \
 [Incident Response](docs/INCIDENTRESPONSE.md) \
 [Risk Management](docs/RISKMGMT.md) \
 [Security Engineering](docs/SECURITYENGINEERING.md)
