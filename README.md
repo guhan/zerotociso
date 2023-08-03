@@ -32,8 +32,10 @@ Reference material for those interested in cybersecurity
 
 ## Compliance
 [BSA](docs/BSA.md) \
-[Cloud](docs/CLOUDSECURITY.md) \
+[CIS](docs/CIS.md) \
+[CSA](docs/CSA.md) \
 [NERC](docs/NERC.md) \
+[NIST](docs/NIST.md) \
 [Health Care](docs/HEALTHCARE.md) \
 [PCI-DSS](docs/PCIDSS.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) \
