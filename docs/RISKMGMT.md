@@ -37,3 +37,24 @@ The original COSO report, titled "Internal Control - Integrated Framework," was 
 - Continuous Improvement: Internal control is an ongoing process. Continuously review and improve the implementation of the COSO framework based on changes in the organization, its objectives, and the business environment.
 - Training and Awareness: Provide training and awareness programs to employees and stakeholders to educate them about the importance of internal controls, risk management, and the COSO framework.
 - External Audit and Compliance: Engage external auditors and compliance experts to review the organization's internal controls and assess the compliance with the COSO framework. **External validation can provide valuable insights and assurance**.
+
+## Three Lines of Defense
+A risk management model used by organizations to establish clear responsibilities and accountabilities for managing risks effectively.
+
+### First Line of Defense (Operational Management):
+- The first line of defense consists of the operational management and frontline staff directly involved in executing business processes and activities.
+- This includes individuals responsible for day-to-day operations, process owners, and business unit managers.
+- The primary role of the first line of defense is to **identify, assess, and manage risks** related to their specific activities.
+- They implement control measures and ensure compliance with policies and procedures to prevent and mitigate risks.
+
+## Second Line of Defense (Risk Management and Compliance):
+- The second line of defense oversees and supports the first line by providing risk management, compliance, and control expertise.
+- This group includes risk management professionals, compliance officers, and internal control teams.
+- The second line of defense **sets risk management policies, standards, and procedures that the first line follows**.
+- They conduct risk assessments, monitor risk exposures, and validate the effectiveness of control measures implemented by the first line.
+
+## Third Line of Defense (Internal Audit):
+- The third line of defense provides independent assurance and evaluation of the organization's risk management practices.
+- This group consists of the internal audit function, which operates independently from both the first and second lines of defense.
+- Internal auditors **assess the effectiveness of the first and second lines' risk management and control activities**.
+- They conduct periodic audits and evaluations to provide senior management and the board of directors with objective insights on the organization's risk management practices and the overall control environment.
