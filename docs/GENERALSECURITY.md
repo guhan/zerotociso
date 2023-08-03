@@ -14,7 +14,7 @@ _Security can be expensive, but is most often less costly than the absence of se
 - CSO: Chief Security Officer (interchangeable with CISO)
 - Due Care: reasonable care is taken to protect the interests of the organization
 - Due Diligence: practicing the activities that maintain due care
-- Security Policies: Used to assign resopnsibilities, define roles, specify audit requirements, outline enforcement processes, indicate compliance requirements, and define acceptable risks. 
+- [Security Policies](/docs/SECURITYPOLICIES.md): Used to assign resopnsibilities, define roles, specify audit requirements, outline enforcement processes, indicate compliance requirements, and define acceptable risks. 
 
 
 ## What is the CIA Triad?
