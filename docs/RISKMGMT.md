@@ -74,6 +74,18 @@ The Delphi technique typically involves the following steps:
 TAME also (Transfer Accept Mitigate Exclude) 
 
 
+## NIST Risk Management Framework 800-37 
+"Risk Management Framework for Information Systems and Organizations," is a publication by the National Institute of Standards and Technology (NIST) in the United States. It provides guidelines and best practices for managing risk and securing information systems and organizations.
+
+### Key components of the NIST 800-37 Risk Management Framework include:
+
+- Categorization: Identifying and categorizing information systems and their data based on the impact levels if their confidentiality, integrity, or availability is compromised.
+- Select: Selecting appropriate security controls based on the categorization and specific security requirements of the organization.
+- Implement: Implementing the selected security controls in the information system.
+- Assess: Assessing the effectiveness of the implemented security controls through various evaluation methods, such as testing, inspections, and reviews.
+- Authorize: Reviewing the risk assessment results and making an authorization decision to operate the system based on the identified risks.
+- Monitor: Ongoing monitoring of the security controls to ensure they continue to be effective and meet the organization's security needs.
+
 ## Factor Analysis of Information Risk (FAIR) Cyber Risk Framework
 The FAIR Institute is a nonprofit organization whose mission is to establish and promote risk management best practices so that risk professionals can collaborate better with their business partners.
 The FAIR cyber risk framework takes an explicit approach to cyber risk management so that organizations can quantify risk regardless of the cybersecurity framework they use. According to FAIR, an implicit risk management approach starts with a compliance requirement and aligns controls to it, creating a reactive risk posture. Meanwhile, FAIR’s explicit approach creates a cycle of continuous improvement integrating risk targets, controls, and a proactive risk posture.
@@ -82,6 +94,32 @@ FAIR creates a risk management system focused on:
 - Defining costs: the three elements of which are achievement, maintenance, and acceptable loss exposures
 - Building a foundation: the five elements of which are cost-effective risk management, well-informed decisions, effective comparisons, meaningful measurements, and accurate models
 - Implementing the program: the three elements of which are the risk that drives loss exposure, risk management decisions, and feedback loop for improvement
+
+
+## OCTAVE
+OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation) risk management framework is a methodology used for assessing and managing information security risks within organizations. It was developed by CERT (Computer Emergency Response Team) Coordination Center at the Software Engineering Institute (SEI), a federally funded research and development center operated by Carnegie Mellon University.
+
+OCTAVE is designed to be a practical and flexible approach to risk management, especially for small and medium-sized enterprises (SMEs) or organizations that may not have extensive resources for complex risk assessments. 
+
+### The OCTAVE risk management framework generally involves three phases:
+
+- OCTAVE Allegro: In this initial phase, organizations identify and prioritize their critical information assets and business processes. The focus is on understanding the organization's mission, objectives, and key assets.
+- OCTAVE Light: In this phase, the organization assesses threats and vulnerabilities related to the critical assets identified in the Allegro phase. The assessment helps in understanding potential risks and weaknesses in the organization's information security posture.
+- OCTAVE-S: The third phase involves the development of specific risk management strategies and plans to address the identified risks. Organizations create action plans and make decisions about risk mitigation, risk transfer, and risk acceptance based on their resources and risk tolerance.
+
+## TARA
+TARA" stands for "Threat and Risk Assessment." It is a process used to evaluate potential threats and associated risks to a system, organization, or project. 
+
+### The TARA process involves the following steps:
+
+- Identification of Assets: Identify and enumerate the critical assets, systems, data, and processes that need protection.
+- Threat Identification: Identify and assess potential threats that could exploit vulnerabilities and harm the identified assets. Threats may include external actors like hackers, malicious software, or internal threats like employee errors.
+- Vulnerability Assessment: Evaluate the vulnerabilities present in the systems, processes, or organization that could be exploited by the identified threats.
+- Risk Analysis: Analyze the impact and likelihood of each threat exploiting specific vulnerabilities to determine the level of risk associated with each combination.
+- Risk Evaluation: Evaluate the level of risk against the organization's risk tolerance and priorities.
+- Risk Mitigation: Develop and implement risk mitigation strategies and controls to reduce the identified risks to an acceptable level.
+- Ongoing Monitoring: Continuously monitor the environment to identify new threats and vulnerabilities and reassess the risk landscape periodically.
+
 
 ## COSO
 COSO stands for the "Committee of Sponsoring Organizations of the Treadway Commission." It is a joint initiative of five private sector organizations in the United States, established in 1985 to address the increasing concerns about fraudulent financial reporting and corporate misconduct. COSO's primary objective is to provide guidance and frameworks for effective internal controls, risk management, and corporate governance.
