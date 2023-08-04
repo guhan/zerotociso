@@ -86,6 +86,39 @@ Five elements are
 - Auditing: subjects actions are tracked (or logged)
 - Accounting/Accountability: subjects are accountable for their actions, you can accurately map identity to the subject
 
+
+
+## Types of Security Controls
+### Administrative Controls:
+- Policies and Procedures: Rules and guidelines that govern how security is implemented and enforced within an organization.
+- Security Awareness Training: Educating employees about security best practices and potential risks to promote a security-conscious culture.
+- Risk Management: Identifying, assessing, and mitigating risks to reduce potential security threats.
+### Physical Controls:
+- Perimeter Security: Physical barriers, fences, gates, and security guards to control access to buildings or facilities.
+- Surveillance: Use of security cameras and monitoring systems to deter and detect unauthorized activities.
+- Environmental Controls: Fire suppression systems, temperature control, and humidity control to safeguard hardware and equipment.
+### Technical Controls:
+- Access Control: Restricting access to resources and data based on user authentication and authorization.
+- Encryption: Protecting data by encoding it so that only authorized parties can decrypt and read it.
+- Firewalls: Network security devices that filter and control incoming and outgoing traffic based on defined rules.
+- Intrusion Detection/Prevention Systems (IDS/IPS): Monitoring and responding to suspicious activities on networks.
+- Antivirus/Antimalware Software: Scanning and removing malicious software and files to prevent infections.
+### Detective Controls:
+- Log Monitoring and Analysis: Reviewing system logs and event data to identify potential security incidents.
+- Security Audits: Conducting periodic assessments to identify vulnerabilities and security weaknesses.
+### Corrective Controls:
+Put in place after an incident has occured
+
+- Incident Response: A planned approach to addressing and managing security incidents when they occur.
+- Patch Management: Regularly updating software and systems to fix known vulnerabilities.
+### Compensating Controls:
+- Alternate measures put in place when primary controls cannot be implemented to the fullest extent.
+### Deterrent Controls:
+- Measures designed to discourage potential attackers, such as warning signs, security cameras, or visible security personnel.
+### Recovery Controls:
+- Strategies and plans to restore systems and operations after a security incident or disaster.
+
+
 ## How do you secure your home network?
 - Educate family on phishing, wifi networks and secure passwords
 - Patch network equipment regularly
