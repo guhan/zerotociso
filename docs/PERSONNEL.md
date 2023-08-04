@@ -27,6 +27,23 @@ Sensitive work is divided among several adminitrators so no one person can under
 - Add IP protection
 - Non-Complete Agreements (NCAs) are not very enforcible
 
+## Security Training and Education
+People have varied exposure to Cybersecurity so they need to be trained at a regular cadence about the current threat landscape. 
+
+Focus on the threats where the employee is the weak link and prioritize them by the frequency of occurence across all businesses. 
+
+Areas to cover: 
+- Strong passwords, password managers, MFA
+- Phishing
+- Endpoint protection, malware
+- Web based attacks
+- Data Classification, PII, using NDAs
+
+Additional training should happen for the following: 
+- How to onboard a new piece of software or SaaS service
+- How to onboard a new contractor
+- What can be shared outside of the organization
+
 
 ## Onboarding and Offboarding
 - Clear process for both
