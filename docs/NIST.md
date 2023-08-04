@@ -1,9 +1,11 @@
 # NIST
 
 ## NIST 800-30
+[View Here](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf)
+
 - Provide guidance for conducting risk assessments of federal information systems and organizations
 - Reference ratings for risks, used in qualitative risk analysis. 
-[View Here](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf)
+
 
 
 ## NIST 800-53
