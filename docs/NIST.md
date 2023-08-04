@@ -1,5 +1,10 @@
 # NIST
 
+## NIST 800-30
+- Provide guidance for conducting risk assessments of federal information systems and organizations
+- Reference ratings for risks, used in qualitative risk analysis. 
+[View Here](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf)
+
 
 ## NIST 800-53
 Provides a comprehensive set of security controls and guidelines for securing information systems and organizations
