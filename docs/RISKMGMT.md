@@ -61,6 +61,19 @@ The Delphi technique typically involves the following steps:
 - **Iterative process**: The process of feedback, analysis, and reiteration continues for multiple rounds until a consensus or convergence of opinions is reached among the experts.
 - **Termination criterion**: The Delphi process usually ends when a predefined termination criterion is met. This could be a certain level of consensus among the experts, a specific number of iterations, or a predefined level of agreement on the responses.
 
+
+
+## Responses to Risk
+- Mitigation: address and fix
+- Assignment: assign it to someone else
+- Accept:
+- Deterrance: put deterrents in place
+- Avoidance: choose another option
+- Rejection: just reject it exists and ignore it
+
+TAME also (Transfer Accept Mitigate Exclude) 
+
+
 ## Factor Analysis of Information Risk (FAIR) Cyber Risk Framework
 The FAIR Institute is a nonprofit organization whose mission is to establish and promote risk management best practices so that risk professionals can collaborate better with their business partners.
 The FAIR cyber risk framework takes an explicit approach to cyber risk management so that organizations can quantify risk regardless of the cybersecurity framework they use. According to FAIR, an implicit risk management approach starts with a compliance requirement and aligns controls to it, creating a reactive risk posture. Meanwhile, FAIR’s explicit approach creates a cycle of continuous improvement integrating risk targets, controls, and a proactive risk posture.
