@@ -1,5 +1,63 @@
 # Risk Management
+_The primary goal of risk management is to reduce risk to an acceptable level._
 
+## Terminology
+- Asset: anything that needs to be protected
+- Asset Valuation: dollar value assigned to the asset
+- Threats: any occurence that may cause an undesirable or unwanted outcome for the organization
+- Vulnerability: weakness in an asset or safeguard
+- Exposure: being succeptible to asset loss because of a threat
+- Risk: possibility that that threat will exploit a vulnerability to harm an asset
+  ```
+  risk = threat * vulnerability
+  ```
+- Safeguard: a control or countermeasure that removes or reduces a vulnerability
+- Attack: exploitation of the vulnerabilty
+- Breach: A security mechanism has been bypassed or thwarted
+- Quantitative Risk Analysis - assigns real dollar value to losses of assets
+- Qualitative Risk Analysis - assigns subjective and intangible value to loss of assetss
+
+
+## Quantitative Risk Analysis
+1. Assign Asset Value (AV)
+2. Calculate Exposure Factor (EF) - percentage of loss thatn and org would experience if a specific asset was lost/breached
+3. Calculate Single Loss Expectancy (SLE) - Cost associated with a single realized risk against a specific asset, expressed in dollars
+   ```
+   SLE = Asset Value (AV) * Exposure Factor (EF)
+   ```
+4. Assess the annualialized rate of occurence (ARO) - expected frequency that a risk will occur
+     
+5. Derive the annualized loss expectancy (ALE) - possible yearly cost of all instances
+   ```
+   ALE = Single Loss Expectancy(SLE) * Annualized Rate of Occurrence(ARO)
+   ```
+6. Perform cost/benefit analysis of countermeasures: Can be found by:
+   ```
+   ALE before safeguard - ALE after safeguard - annual cost of safeguard
+   ```
+
+
+## Qualitative Risk Analysis
+- Brainstorming
+- Storyboarding
+- Focus Groups
+- Surveys
+- Questionaires
+- Checklists
+- One-on-one meetings
+- Interviews
+
+### Delphi technique
+A structured method used to gather and synthesize expert opinions on a specific topic or problem. 
+
+The Delphi technique typically involves the following steps:
+
+- **Selection of experts**: A panel of experts is carefully chosen based on their expertise and knowledge of the subject matter.
+- **Anonymity**: The experts participate anonymously, which means they don't know the identity of other participants. This is done to avoid potential biases and to promote open and honest responses.
+- **Questionnaires**: The process begins with a series of questionnaires or surveys that are sent to the experts. These questionnaires may include open-ended questions, multiple-choice questions, or Likert scale ratings.
+- **Feedback and iteration**: The responses from the initial round of questionnaires are compiled, analyzed, and summarized. The results are then shared with the experts in the subsequent round of questionnaires. Participants are encouraged to reconsider their original responses based on the group's feedback.
+- **Iterative process**: The process of feedback, analysis, and reiteration continues for multiple rounds until a consensus or convergence of opinions is reached among the experts.
+- **Termination criterion**: The Delphi process usually ends when a predefined termination criterion is met. This could be a certain level of consensus among the experts, a specific number of iterations, or a predefined level of agreement on the responses.
 
 ## Factor Analysis of Information Risk (FAIR) Cyber Risk Framework
 The FAIR Institute is a nonprofit organization whose mission is to establish and promote risk management best practices so that risk professionals can collaborate better with their business partners.
