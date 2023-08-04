@@ -5,6 +5,7 @@ _The primary goal of risk management is to reduce risk to an acceptable level._
 - Asset: anything that needs to be protected
 - Asset Valuation: dollar value assigned to the asset
 - Threats: any occurence that may cause an undesirable or unwanted outcome for the organization
+- Threat shifting:  is the response of adversaries to perceived safeguards and/or countermeasures (i.e., security controls), in which adversaries change some characteristic of their intent/targeting in order to avoid and/or overcome those safeguards/countermeasures
 - Vulnerability: weakness in an asset or safeguard
 - Exposure: being succeptible to asset loss because of a threat
 - Risk: possibility that that threat will exploit a vulnerability to harm an asset
