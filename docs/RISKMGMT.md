@@ -38,6 +38,7 @@ _The primary goal of risk management is to reduce risk to an acceptable level._
 
 
 ## Qualitative Risk Analysis
+More scenario based than mathematicsl. Refer to NIST 800-30 for reference ratings and levels.
 - Brainstorming
 - Storyboarding
 - Focus Groups
