@@ -31,7 +31,7 @@ _Seat of the pants_ attitude is one of the most common arguments against committ
 Need resources for the following: 
 - BCP Development
 - BCP Testing, Training and Maintenance
-- BCP Implmentation
+- BCP Implementation
   
 ## Business Impact Assessment
 Identifies the sources critical to the organziations viability
