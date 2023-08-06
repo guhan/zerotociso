@@ -65,7 +65,8 @@ Reference material for those interested in cybersecurity
 [SRE](docs/SRE.md) \
 [Incident Response](docs/INCIDENTRESPONSE.md) \
 [Risk Management](docs/RISKMGMT.md) \
-[Security Engineering](docs/SECURITYENGINEERING.md)
+[Security Engineering](docs/SECURITYENGINEERING.md) \
+[BCP/DR](docs/BCPDR.md)
 
 ## Business
 [Basic Finance](docs/BASICFINANCE.md)
