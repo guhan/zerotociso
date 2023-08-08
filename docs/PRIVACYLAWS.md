@@ -242,8 +242,8 @@ Key provisions of the CCPA include:
 - 45 days to process requests
 - Applies to:
   - &gt;25 million in revenue
-  - \>50k users
-  - \>50% of revenue from sale of user data
+  - &gt;50k users
+  - &gt;50% of revenue from sale of user data
 - Fine is $750 per user
 - Consumer Rights: The CCPA grants California residents several rights regarding their personal information, including the right to know what personal information is being collected, the right to request deletion of personal information, and the right to opt out of the sale of their personal information.
 - Disclosure and Transparency: Businesses subject to the CCPA must provide clear and transparent information about their data collection and sharing practices. This includes informing consumers about the types of personal information collected, the purposes for which it will be used, and the categories of third parties with whom it will be shared.
