@@ -9,7 +9,7 @@
 - Trademarks: words, slogans, and logos used to identify a company's good or services
 - Patents:
   - protect the intellectual property of the inventor.
-  - Good for 20 years.
+  - Good for 20 years from application date
   - Must be useful
   - must not be obvious
   - must be new
