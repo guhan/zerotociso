@@ -29,5 +29,17 @@
   - Other Identifying Information
 - **Proprietary Data**: Any data that helps and organziation get a competitive edge
 
+## Data States
+- Data at rest: stored on media like hard drives, USB, Storage Area Networks, and backup tapes
+- Data in Transit: data sent over a network using wired or wireless communication
+- Data in Use: dta in memory or temporary storage buffers (cache) as application is processing it
+
+## Handling Data
+- Marking data: adding a label that clearly identifies the classification level
+  - Header/Footer on documents
+  - Physical Label
+- Storing data: encrypt or lock it
+- Destroying Data: 
+
 
  
