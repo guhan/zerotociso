@@ -11,7 +11,9 @@ _Security can be expensive, but is most often less costly than the absence of se
 - Data Hiding: Hide data from access
 - Due Care: reasonable care is taken to protect the interests of the organization
 - Due Diligence: practicing the activities that maintain due care
+- Endpoint detection and response (EDR): These technologies aim to secure network-connected endpoint systems (PCs, laptops, IoT, servers, etc.) against cyberthreats that have circumvented traditional security measures (basic antivirus).
 - Encryption: Intentionally hiding the meaning of something from intended recipients
+- Extended detection and response (XDR): XDR comprises detection and response capabilities for endpoints, cloud services (single platform), and networks.
 - Layering: Defense in depth, using multiple controls so if one fails the others will still work
 - Managed Detection and Response (MDR): MDR refers to a cybersecurity service that provides continuous monitoring, threat detection, incident response, and remediation for organizations. MDR providers use advanced tools, technologies, and expertise to detect and respond to security threats and breaches in real-time.
 - [Security Policies](/docs/SECURITYPOLICIES.md): Used to assign resopnsibilities, define roles, specify audit requirements, outline enforcement processes, indicate compliance requirements, and define acceptable risks.
