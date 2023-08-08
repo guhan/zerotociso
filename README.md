@@ -32,6 +32,7 @@ Reference material for those interested in cybersecurity
 
 
 ## Compliance
+[Cybersecurity Laws](docs/LAWS.md) \
 [BSA](docs/BSA.md) \
 [CIS](docs/CIS.md) \
 [CMMC](docs/CMMC.md) \
@@ -45,7 +46,6 @@ Reference material for those interested in cybersecurity
 [NERC](docs/NERC.md) \
 [NIST](docs/NIST.md) \
 [PCI-DSS](docs/PCIDSS.md) \
-[Privacy Laws](docs/PRIVACYLAWS.md) \
 [SOC2](docs/SOC2.md) \
 [Supply Chain](docs/SUPPLYCHAIN.md) 
 
