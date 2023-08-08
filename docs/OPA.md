@@ -52,7 +52,7 @@ Here's how Rego works:
 - Dynamic and Real-Time: Rego policies can be dynamically loaded and updated without requiring changes to the core application
   code. This enables real-time policy enforcement and adaptation to changing requirements.
 
-  ### Example
+### Example
 Let's say we have the following input data:
 
 ```
