@@ -7,6 +7,7 @@ Reference material for those interested in cybersecurity
 [Languages](docs/LANGUAGES.md) 
 - [OPA/Rego](docs/OPA.md)
 - [OVAL](docs/OVAL.md)
+- [Sigma](docs/SIGMA.md)
 - [YARA](docs/YARA.md)
   
 [Documentation](docs/DOCUMENTATION.md) \
