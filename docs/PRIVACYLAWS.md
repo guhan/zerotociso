@@ -241,7 +241,7 @@ Key provisions of the CCPA include:
 
 - 45 days to process requests
 - Applies to:
-  - \>25 million in revenue
+  - &gt;25 million in revenue
   - \>50k users
   - \>50% of revenue from sale of user data
 - Fine is $750 per user
