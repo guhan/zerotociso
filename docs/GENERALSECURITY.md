@@ -17,6 +17,7 @@ _Security can be expensive, but is most often less costly than the absence of se
 - [Security Policies](/docs/SECURITYPOLICIES.md): Used to assign resopnsibilities, define roles, specify audit requirements, outline enforcement processes, indicate compliance requirements, and define acceptable risks.
 - Security Governance: collection of practices related to supporting, defining, and directing the security efforts of an organization
 - Authorization to Operate (ATO): meeting all regulation so business/entity can operate
+- Software Composition Analysis (SCA): SCA refers to the process of analyzing software components, libraries, and dependencies used in a software application. It helps identify and manage third-party components, assess their security vulnerabilities, and ensure compliance with licensing requirements.
 
 
 ## What is the CIA Triad?
