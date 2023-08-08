@@ -5,7 +5,7 @@ Reference material for those interested in cybersecurity
 ## Technical
 [Architecture](docs/ARCHITECTURE.md) \
 [Languages](docs/LANGUAGES.md) 
-- [OPA/Rego](docs/OVA.md)
+- [OPA/Rego](docs/OPA.md)
 - [OVAL](docs/docs/OVAL.md)
   
 [Documentation](docs/DOCUMENTATION.md) \
