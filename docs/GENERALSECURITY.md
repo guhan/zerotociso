@@ -3,20 +3,21 @@
 _Security can be expensive, but is most often less costly than the absence of security._
 
 ## Key Concepts
-- Layering: Defense in depth, using multiple controls so if one fails the others will still work
 - Abstraction: Classify objects for efficiency
-- Data Hiding: Hide data from access
-- Security through obscurity: Intentionally hide something and hope it doesn't get found
-- Encryption: Intentionally hiding the meaning of something from intended recipients
-- Security Governance: implementation of a security solution and management method are tightly interconnected
+- Authorization to Operate (ATO): meeting all regulation so business/entity can operate
 - Business case: argument or position that defines a need to make a decision or take some sort of action
 - CISO: Chief Information Security Officer
 - CSO: Chief Security Officer (interchangeable with CISO)
+- Data Hiding: Hide data from access
 - Due Care: reasonable care is taken to protect the interests of the organization
 - Due Diligence: practicing the activities that maintain due care
+- Encryption: Intentionally hiding the meaning of something from intended recipients
+- Layering: Defense in depth, using multiple controls so if one fails the others will still work
+- Managed Detection and Response (MDR): MDR refers to a cybersecurity service that provides continuous monitoring, threat detection, incident response, and remediation for organizations. MDR providers use advanced tools, technologies, and expertise to detect and respond to security threats and breaches in real-time.
 - [Security Policies](/docs/SECURITYPOLICIES.md): Used to assign resopnsibilities, define roles, specify audit requirements, outline enforcement processes, indicate compliance requirements, and define acceptable risks.
 - Security Governance: collection of practices related to supporting, defining, and directing the security efforts of an organization
-- Authorization to Operate (ATO): meeting all regulation so business/entity can operate
+- Security Governance: implementation of a security solution and management method are tightly interconnected
+- Security through obscurity: Intentionally hide something and hope it doesn't get found
 - Software Composition Analysis (SCA): SCA refers to the process of analyzing software components, libraries, and dependencies used in a software application. It helps identify and manage third-party components, assess their security vulnerabilities, and ensure compliance with licensing requirements.
 
 
