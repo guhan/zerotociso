@@ -229,10 +229,12 @@ In July 2020, the Court of Justice of the European Union (CJEU) issued a ruling 
 
 ## General Data Protection Regulation (GDPR)
 2016
-- inform authorities of breaches in 24 hours
+- Fine is 4% of revenue or 20 million Euro
+- Report breach in 72 hours
 - individuals need access to their own data
 - data portability
 - "right to be forgotten": data is deleted upon request
+- Need to have a DPO
 
 ## California Consumer Privacy Act (CCPA)
 Enhance the privacy rights and protections for consumers in California by regulating how businesses collect, use, and share their personal information.
