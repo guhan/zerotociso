@@ -237,14 +237,15 @@ In July 2020, the Court of Justice of the European Union (CJEU) issued a ruling 
 ## California Consumer Privacy Act (CCPA)
 Enhance the privacy rights and protections for consumers in California by regulating how businesses collect, use, and share their personal information.
 
-Key provisions of the CCPA include:
-
+Highlights: 
 - 45 days to process requests
 - Applies to:
   - &gt;25 million in revenue
   - &gt;50k users
   - &gt;50% of revenue from sale of user data
 - Fine is $750 per user
+
+Key provisions of the CCPA include:
 - Consumer Rights: The CCPA grants California residents several rights regarding their personal information, including the right to know what personal information is being collected, the right to request deletion of personal information, and the right to opt out of the sale of their personal information.
 - Disclosure and Transparency: Businesses subject to the CCPA must provide clear and transparent information about their data collection and sharing practices. This includes informing consumers about the types of personal information collected, the purposes for which it will be used, and the categories of third parties with whom it will be shared.
 - Opt-Out of Sale: Consumers have the right to opt out of the sale of their personal information to third parties. Businesses must provide a conspicuous "Do Not Sell My Personal Information" link on their websites.
