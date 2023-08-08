@@ -227,7 +227,7 @@ Key features of the Privacy Shield included:
 
 In July 2020, the Court of Justice of the European Union (CJEU) issued a ruling known as "Schrems II," which invalidated the Privacy Shield framework. 
 
-## General Data Protection Regulation (GDPR)
+## [General Data Protection Regulation (GDPR)](docs/GDPR.md)
 2016
 - Fine is 4% of revenue or 20 million Euro
 - Report breach in 72 hours
