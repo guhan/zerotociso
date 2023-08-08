@@ -41,6 +41,10 @@ Let’s take a look at the following NIST recommendations related to end-users c
 - Disallow context-specific words as passwords
 - Increase the length of passwords
 
+## NIST 800-88r1
+Provides guidelines and recommendations for effectively sanitizing or securely disposing of information stored on various types of media and devices.
+The document covers a wide range of media types, including hard drives, solid-state drives, magnetic tapes, optical media, USB drives, and more. It outlines different methods and techniques for sanitization, including clearing, purging, and destroying the media.
+
 ## NIST SP 800-171
 NIST SP 800-171 has gained popularity due to requirements set by the U.S. Department of Defense regarding contractor compliance with security frameworks. 
 
