@@ -238,7 +238,7 @@ stockApi=http://192.168.0.68/admin
 
 
 
-## What is XXE?
+## What is XML External Entity (XXE)?
 
 XML External Entity - similar to SSRF where a server returns sensitive or private information because of a malformed XML request for External Entity
 
