@@ -45,6 +45,7 @@ Reference material for those interested in cybersecurity
 [COBIT](docs/COBIT.md) \
 [CSA](docs/CSA.md) \
 [FOIA](docs/FOIA.md) \
+[FIPS 140-2](docs/FIPS.md) \
 [GDPR](docs/GDPR.md) \
 [HIPAA](docs/HIPAA.md) \
 [ISO 27xxx](docs/ISO.md) \
