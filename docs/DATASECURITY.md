@@ -39,7 +39,30 @@
   - Header/Footer on documents
   - Physical Label
 - Storing data: encrypt or lock it
-- Destroying Data: 
+- Destroying Data:
+  - Avoid _Data Remanence_ ie data left on media after it was supposedly erased, with a degausser which generates a large magnetic field
+  - For SSD's use destruction
+  - Erasing Data: Only removes the link to the data on the disk
+  - Clearing Data: overwriting the data, ie with zeros
+  - Purging Data: repeat the clearing process multiple times
+  - Degaussing: use a strong magnetic field, wont work on CDs,DVDs, or SSDs
+  - Destruction: vaporize it
+- Asset Retention: Ensure that data is retained for as long as it is needed
+
+## Data Protection
+- Symmetric encryption: Same key is used to encrypt and decrypt data
+  - Advanced Encryption Standard (AES): supports keys of 128, 192 and 256 bits
+  - Triple DES (3DES): uses 112 or 168 bit keys. Used by credit cards and made more secure with a PIN
+  - Blowfish: keysize from 32 to 448 bits. bcrypt uses Blowfish, and is used to encrypt Linux passwords
+- Pseudonymization: using pseudonyms (artificial identifiers) to represent the data
+- Anonymization: remove relevant data that could identify the person
+
+## Data Ownership
+Refer to NIST SP 800-18
+- Data owner: person who is ultimately responsible for the data
+- Asset owner: System owner who owns a system or process
+- Business owner: or mission owner is a program manager
+- Data processor: natural or legal person which processes data on behalf of the data controller
 
 
  
