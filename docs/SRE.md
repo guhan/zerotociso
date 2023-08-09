@@ -11,7 +11,8 @@ MTTD measures the time taken to detect incidents or anomalies in the system. A l
 MTTR measures the average time taken to resolve incidents or restore service after an issue has been detected. A low MTTR indicates that the team is efficient in addressing and mitigating problems.
 
 ### Mean Time Between Failures (MTBF)
-MTBF tracks how reliable your development processes are. 
+MTBF measures the average time between failures in a system. It helps understand the system's reliability and identify areas for improvement.
+
 
 ### Error Rate
 This metric tracks the percentage of requests or transactions that result in errors. A high error rate may indicate issues with the application, infrastructure, or external dependencies.
@@ -31,8 +32,6 @@ SRE teams often track resource usage trends to plan for future capacity requirem
 ### Change Failure Rate
 Measures the percentage of changes (deployments, configurations, etc.) that result in incidents or service degradation. A high change failure rate may indicate the need for better testing and deployment practices.
 
-### Mean Time Between Failures (MTBF)
-MTBF measures the average time between failures in a system. It helps understand the system's reliability and identify areas for improvement.
 
 ### SLO (Service Level Objective) Compliance
 SLOs define the target performance and reliability levels of a service. Tracking SLO compliance helps ensure that the service meets its agreed-upon objectives.
