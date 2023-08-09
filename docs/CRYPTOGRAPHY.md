@@ -1,5 +1,22 @@
 # Cryptography
 
+## Goals of Cryptography
+- Confidentiality
+- Integrity: enforced through encrypted message digests (or _digital signatures_)
+- Authentication
+- Nonrepudiation: only works with assymetric encryption
+
+## Kerchoffs Principle
+A cryptographic system should be secure even if everything but the keys are public knowledge.
+
+## Caesar Cipher
+ROT(3)
+
+Most common letters in English are ETANORISH
+
+
+
+
 ## What is the difference between a stream and block cipher? 
 
 ### Stream Cipher
