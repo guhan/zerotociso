@@ -64,5 +64,11 @@ Refer to NIST SP 800-18
 - Business owner: or mission owner is a program manager
 - Data processor: natural or legal person which processes data on behalf of the data controller
 
+## Roles
+- Owners: classify the data
+- Adminstrators: grant permissions to the data
+- Custodians: day to day tasks to protect data including backups
+- Users: access the data
+
 
  
