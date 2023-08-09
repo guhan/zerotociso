@@ -10,6 +10,9 @@ MTTD measures the time taken to detect incidents or anomalies in the system. A l
 ### Mean Time to Repair (MTTR)
 MTTR measures the average time taken to resolve incidents or restore service after an issue has been detected. A low MTTR indicates that the team is efficient in addressing and mitigating problems.
 
+### Mean Time Between Failures (MTBF)
+MTBF tracks how reliable your development processes are. 
+
 ### Error Rate
 This metric tracks the percentage of requests or transactions that result in errors. A high error rate may indicate issues with the application, infrastructure, or external dependencies.
 
