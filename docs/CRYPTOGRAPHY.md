@@ -11,6 +11,14 @@
   and try to figure out the key
 - Diffusion: A change in the plaintext results in multiple changes across the ciphertext
 
+### Initialization Vector (IV): 
+A fixed-size random or pseudo-random value used in cryptography to initialize certain encryption algorithms and ensure that each message encrypted with the same key produces a different ciphertext. The IV adds an extra layer of security and randomness to encryption processes, especially in situations where the same key is used to encrypt multiple messages.
+
+The primary purposes of an initialization vector are:
+
+- Uniqueness: By using a different IV for each encryption operation, even when using the same key, you can ensure that identical plaintexts will have different ciphertexts. This helps prevent patterns from emerging in the ciphertext that could potentially be exploited by attackers.
+- Randomness: The IV introduces an element of randomness, making it more difficult for an attacker to predict the ciphertext produced by a given plaintext.
+
 ## Kerchoffs Principle
 A cryptographic system should be secure even if everything but the keys are public knowledge.
 
@@ -96,23 +104,22 @@ Encryption key is as long as message and is often chosen from a common book
 - Block ciphers are generally considered more secure and are commonly used in cryptographic protocols, disk encryption, and secure communication channels.
 - They are slower in real-time applications and require additional modes of operation (such as ECB, CBC, CTR) to handle data that is larger than the block size or to provide security features like encryption chaining and initialization vectors.
 
-## Algorithms
 
-### Symmetric Key
-Same secret key is shared
 
-Problems: 
+## Symmetric Key Encryption
+Same secret key is used to encrypt and decrypt the data
+
+#### Problems: 
 - Key distribution is a problem
 - does not allow for nonrepudiation
 - algorihgm is not scalable to large groups (each pair of people needs one)
 - key must be regenerated often
 
-Best practices:
+#### Best practices:
 - Offline distibution
 - **Never store the encryption key on the same system that the data resides**
 
-### Assymetric Key Algorithms
-Public and Private Key
+
 
 
 ### Data Encryption Standard (DES)
@@ -121,20 +128,23 @@ Published by US Government in 1977 and is no longer considered secure
 - 56 bit key
 - 64 bit block cipher (56 bit key + 8 bits for a parity check
 
-#### Electronic Code Book Mode
-Simply encrypts the block using the chosen secret key
-- Possible to build a code book as same message generates same ciphertext
-#### Cipher Block Chaining Mode
-unencrypted text is XORed with the block of ciphertext immediate preceding it before encrypted with the cipher
-- Errors propagate
-#### Cipher Feedback Mode
-Streaming version of Cipher Block Chaining mode, uses memory buffers of the same block size
+- **Electronic Code Book Mode (ECB)**
+  Simply encrypts the block using the chosen secret key
+  Possible to build a code book as same message generates same ciphertext
 
-#### Output Feedback Mode
-Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
-- No chaining, transmission errors do not propagate
-#### Counter Mode
-Stream cipher, uses a simple counter instead of a seed value
+- **Cipher Block Chaining Mode (CBC)**
+  Unencrypted text is XORed with the block of ciphertext _immediate preceding it_ before encrypted with the cipher
+  Errors propagate
+
+- **Cipher Feedback Mode (CFM)**
+  Streaming version of Cipher Block Chaining (CBC) mode, uses memory buffers of the same block size
+
+- **Output Feedback Mode (OFM)**
+  Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
+  No chaining, transmission errors do not propagate
+
+- Counter Mode
+  Stream cipher, uses a simple counter instead of a seed value
 
 ### Triple DES
 Run DES multiple times
@@ -171,6 +181,9 @@ block size is 128
 key size is 256 bits 
 - Prewhitening: XORing the plaintext with a separate subkey before first round
 - Postwhitening: similar operation after 16th round
+
+## Assymetric Key Encryption
+Public and Private Key
 
 ## Diffie Hellman
 When parties have no way to exchange a secret key and no PKI
