@@ -119,6 +119,8 @@ Same secret key is used to encrypt and decrypt the data
 - Offline distibution
 - **Never store the encryption key on the same system that the data resides**
 
+#### Algos, block and keysize  
+
 |Algo|Block Size|Key Size|
 |----|----------|--------|
 |AES| 128|128,192,256|
