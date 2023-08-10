@@ -146,7 +146,7 @@ Published by US Government in 1977 and is no longer considered secure
 - **Counter Mode**
   Stream cipher, uses a simple counter instead of a seed value
 
-### Triple DES
+### Triple DES (3DES)
 Run DES multiple times
 
 Has a few different variants and all are as secure: 
@@ -179,8 +179,24 @@ block size is 128
 ### Twofish
 block size is 128
 key size is 256 bits 
-- Prewhitening: XORing the plaintext with a separate subkey before first round
-- Postwhitening: similar operation after 16th round
+- **Prewhitening**: XORing the plaintext with a separate subkey before first round
+- **Postwhitening**: similar operation after 16th round
+
+
+## Symmetric Algo Table
+|Algo|Block Size|Key Size|
+|----|----------|--------|
+|AES| 128|128,192,256|
+|Rijndael|Variable|128,192,256|
+|Blowfish|64|32-448|
+|DES|64|56|
+|IDEA|64|128|
+|Rivest Cipher 2|64|128|
+|Rivest Cipher 5|32,64,128|0-2040|
+|Skipjack|64|80|
+|3DES|64|112 or 168|
+|Twofish|128|1-256|
+
 
 ## Assymetric Key Encryption
 Public and Private Key
