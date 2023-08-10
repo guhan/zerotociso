@@ -56,7 +56,19 @@ Transpose plaintext to make ciphertext (apple --> elppa)
 ### Substitution Cipher
 Substitute one character for another 
 
-- Polyalphabetic substition: use multiple alphabets in the same message to hinder decryption efforts
+### Polyalphabetic substition
+Polyalphabetic substitution is a cryptographic technique used to encrypt plaintext by _substituting letters with multiple sets of cipher letters_, based on a keyword or keyphrase. This method provides a higher level of security compared to simple monoalphabetic substitution ciphers, where each letter is replaced with a single fixed cipher letter.
+
+In a polyalphabetic substitution cipher:
+
+- Keyword or Keyphrase: A keyword or keyphrase is chosen, and its letters determine the number of alphabets used in the substitution. For example, if the keyword is "KEY," there would be three different alphabets: one shifted by "K," one shifted by "E," and one shifted by "Y."
+- Multiple Alphabets: Each alphabet is a shifted version of the standard alphabet. The first alphabet is not shifted (shift value 0), the second alphabet is shifted by the numerical position of the first letter of the keyword in the alphabet, the third alphabet is shifted by the second letter's position, and so on.
+- Encryption: To encrypt a message, each letter of the plaintext is substituted with the corresponding letter from the appropriate alphabet based on the keyword. Non-alphabetic characters (such as punctuation and spaces) are usually left unchanged.
+- Decryption: Decryption involves reversing the process. Each letter of the ciphertext is replaced with the corresponding letter from the appropriate alphabet, based on the keyword.
+- Polyalphabetic substitution ciphers are more secure than monoalphabetic substitution ciphers because they introduce variability and complexity into the encryption process. They make frequency analysis (a common method of breaking monoalphabetic ciphers) more difficult, as the same plaintext letter can be encrypted differently based on its position in the message and the keyword.
+
+One well-known example of a polyalphabetic substitution cipher is the **Vigenère cipher**, where the keyword determines the shift for each letter in the plaintext.
+use multiple alphabets in the same message to hinder decryption efforts
 
 ### One time pads (Vernam Cipher)
 Use a different substitution alphabet for each letter of the plaintext
