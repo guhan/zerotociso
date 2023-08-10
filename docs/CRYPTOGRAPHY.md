@@ -74,8 +74,8 @@ use multiple alphabets in the same message to hinder decryption efforts
 Use a different substitution alphabet for each letter of the plaintext
 - One time pad must be random
 - Must be protected against disclosure
-- each one time pad must be used only once
-- key must be at least as long as the original message
+- Each one time pad must be used only once
+- Key must be at least as long as the original message
 
 
 ### Running Key (Book Cipher)
