@@ -24,9 +24,9 @@ Most common letters in English are ETANORISH
   - AND all must be true
   - OR only one must be true
   - NOT
-  - XOR
+  - XOR exclusive or, meaning only one must be true
 - **One way function**: makes impossible to retrieve the inputs for the function
-- Nonce: a single use random number
+- **Nonce:** a single use random number
 
 ## Zero Knowledge Proofs
 Allows one party (the prover) to prove to another party (the verifier) that a certain statement is true without revealing any specific information about the statement itself
