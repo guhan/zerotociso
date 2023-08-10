@@ -19,6 +19,9 @@ Here are some of the key principles and practices identified by DORA:
 - Continuous Improvement: Committing to ongoing learning, experimentation, and refinement of processes. Encouraging teams to learn from failures and successes to drive continuous improvement.
 
 
+They publish a [State of DevOps report](https://dora.dev/publications/) which is useful to understand trends in DevOps
+
+
 ## SPACE Framework
 The SPACE framework was introduced by Nicole Forsgren, Jez Humble, and Gene Kim in their book "Accelerate: The Science of Lean Software and DevOps." The framework outlines five key dimensions that organizations should focus on to achieve high-performing DevOps practices and outcomes.
 
