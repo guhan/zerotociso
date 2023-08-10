@@ -7,7 +7,7 @@
 - Nonrepudiation: only works with assymetric encryption
 
 ## Key Concepts
-- Confusion: the relation ship between the plaintext and the key is so compliated the attacker can't alter the plaintext
+- Confusion: the relationship between the plaintext and the key is so complicated the attacker can't alter the plaintext
   and try to figure out the key
 - Diffusion: A change in the plaintext results in multiple changes across the ciphertext
 
