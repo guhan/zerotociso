@@ -143,7 +143,7 @@ Published by US Government in 1977 and is no longer considered secure
   Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
   No chaining, transmission errors do not propagate
 
-- Counter Mode
+- **Counter Mode**
   Stream cipher, uses a simple counter instead of a seed value
 
 ### Triple DES
@@ -156,7 +156,7 @@ Has a few different variants and all are as secure:
 - Encrypt with only 2 keys
 - Encrypt with only 2 keys and use a decryption in the middle
 
-### Internation Data Encryption Algorithm (IDEA)
+### International Data Encryption Algorithm (IDEA)
 Starts with a 128 bit key, split into 52 16bit sub keys
 
 ### Blowfish
