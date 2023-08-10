@@ -10,6 +10,7 @@
 - Confusion: the relationship between the plaintext and the key is so complicated the attacker can't alter the plaintext
   and try to figure out the key
 - Diffusion: A change in the plaintext results in multiple changes across the ciphertext
+- Moores Law: Computer power doubles every two years
 
 ### Initialization Vector (IV): 
 A fixed-size random or pseudo-random value used in cryptography to initialize certain encryption algorithms and ensure that each message encrypted with the same key produces a different ciphertext. The IV adds an extra layer of security and randomness to encryption processes, especially in situations where the same key is used to encrypt multiple messages.
@@ -195,11 +196,6 @@ key size is 256 bits
 - **Prewhitening**: XORing the plaintext with a separate subkey before first round
 - **Postwhitening**: similar operation after 16th round
 
-
-
-## Assymetric Key Encryption
-Public and Private Key
-
 ## Diffie Hellman
 When parties have no way to exchange a secret key and no PKI
 1. Richard and Sue agree on two large numbers, p (prime) and g (int) 1 < g < p
@@ -217,3 +213,68 @@ When parties have no way to exchange a secret key and no PKI
 ## Key Escrow
 - Fair Cryptosystems: secret keys are divided and given to an independent third party
 - Escrowed Encryption Standard: Gives the government a way to decrypt ciphertext
+
+
+
+## Assymetric Key Encryption
+Public and Private Key are used
+
+- Keys must be a longer length than symmetric key encryption
+
+### RSA
+Depends on computational difficulty of factoring two large prime numbers
+
+### El Gamal
+- Facilitates exchange of secret keys in a similar fashion to Diffie Hellman
+- Released to public
+- Doubles the length of any message it encrypts
+
+### Eliptic Curve
+y^2 = x^3 + ax + b
+Two points sit on the curve (P,Q) and Q=xP, supposedly x is very hard to find
+
+## Hash Function
+Take a long message and generate a unique output derived from the message
+Messages must be identical for hashes to match
+
+**Requirements**: 
+- Input can be any length
+- Output must be a fixed length
+- Relatively easy to computer
+- One way function
+- Collision free
+
+### Secure Hash Algorithm (SHA)
+- SHA1: 512bit block, not secure
+- SHA256: 512bit block size, 256bit message digest
+- SHA224: 512bit block size, 224bit message digest
+- SHA512: 1024bit block size, 512bit message digest
+- SHA384: turncated verson of SHA-512 1024bit block size to produce a 384bit digest
+
+### Message Digest 2 (MD2)
+- made for 8 bit processors
+- pads message so it is a multiple of 16 bytes
+- adds a 16byte checksum
+- uses message and checksum to generate a 128 bit digest
+
+### Message Digest 4 (MD4)
+- supported 32bit processors
+- pads message to length of 512 bits - 64bits
+- 3 rounds of computation
+- outputs a 128bit message digest
+- issues were found with collisions
+
+### Message Digest 5 (MD5
+- 512 bit bloks of the message
+- 4 distinct rounds to get a 128 bit digest
+- subject to collisions
+
+## Digital Signatures
+1. Nonrepudiation
+2. Non tampering
+
+### Hashed Message Authentication Code (HMAC)
+- does not provide nonrepudiation
+
+### Digital Signature Standard (DSS)
+- all digital signatures must must SHA-3
