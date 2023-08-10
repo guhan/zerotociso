@@ -20,7 +20,7 @@ ROT(3)
 Most common letters in English are ETANORISH
 
 ## Cryptographic Math
-- Boolean: Either 0 (off) or 1 (on)
+- **Boolean:** Either 0 (off) or 1 (on)
   - AND all must be true
   - OR only one must be true
   - NOT
@@ -33,9 +33,9 @@ Allows one party (the prover) to prove to another party (the verifier) that a ce
 
 Zero-knowledge proofs have several important properties:
 
-- Completeness: If the statement is true, an honest prover can convince the verifier of its truth.
-- Soundness: An untrusted prover cannot convince the verifier of a false statement.
-- Zero-knowledge: The verifier learns nothing about the underlying information being proved except for the fact that the statement is true.
+- **Completeness:** If the statement is true, an honest prover can convince the verifier of its truth.
+- **Soundness:** An untrusted prover cannot convince the verifier of a false statement.
+- **Zero-knowledge:** The verifier learns nothing about the underlying information being proved except for the fact that the statement is true.
 
 
 ## Split Knowledge
