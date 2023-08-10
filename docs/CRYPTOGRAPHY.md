@@ -69,8 +69,6 @@ Use a different substitution alphabet for each letter of the plaintext
 ### Running Key (Book Cipher)
 Encryption key is as long as message and is often chosen from a common book
   
-## What is the difference between a stream and block cipher? 
-
 ### Stream Cipher
 - Stream ciphers encrypt data bit by bit or byte by byte.
 - They generate a stream of pseudorandom bits or bytes, often called the keystream.
@@ -85,3 +83,97 @@ Encryption key is as long as message and is often chosen from a common book
 - Popular block cipher algorithms include AES (Advanced Encryption Standard) and DES (Data Encryption Standard).
 - Block ciphers are generally considered more secure and are commonly used in cryptographic protocols, disk encryption, and secure communication channels.
 - They are slower in real-time applications and require additional modes of operation (such as ECB, CBC, CTR) to handle data that is larger than the block size or to provide security features like encryption chaining and initialization vectors.
+
+## Algorithms
+
+### Symmetric Key
+Same secret key is shared
+
+Problems: 
+- Key distribution is a problem
+- does not allow for nonrepudiation
+- algorihgm is not scalable to large groups (each pair of people needs one)
+- key must be regenerated often
+
+Best practices:
+- Offline distibution
+- **Never store the encryption key on the same system that the data resides**
+
+### Assymetric Key Algorithms
+Public and Private Key
+
+
+### Data Encryption Standard (DES)
+Published by US Government in 1977 and is no longer considered secure
+
+- 56 bit key
+- 64 bit block cipher (56 bit key + 8 bits for a parity check
+
+#### Electronic Code Book Mode
+Simply encrypts the block using the chosen secret key
+- Possible to build a code book as same message generates same ciphertext
+#### Cipher Block Chaining Mode
+unencrypted text is XORed with the block of ciphertext immediate preceding it before encrypted with the cipher
+- Errors propagate
+#### Cipher Feedback Mode
+Streaming version of Cipher Block Chaining mode, uses memory buffers of the same block size
+
+#### Output Feedback Mode
+Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
+- No chaining, transmission errors do not propagate
+#### Counter Mode
+Stream cipher, uses a simple counter instead of a seed value
+
+### Triple DES
+Run DES multiple times
+
+Has a few different variants and all are as secure: 
+
+- Encrypt 3 times
+- Encrypt Decrypt and Encrypt
+- Encrypt with only 2 keys
+- Encrypt with only 2 keys and use a decryption in the middle
+
+### Internation Data Encryption Algorithm (IDEA)
+Starts with a 128 bit key, split into 52 16bit sub keys
+
+### Blowfish
+Operates on 64bit blocks of text, uses variable length keys from 32bits to 448 bits
+
+### Skipjack
+Approved for FIPS 185
+Operates on 64 bit blocks of text, and uses and 80 bit key
+
+### Rivest 5 (RC5)
+block sizes 32,64, or 128
+key sizes 0 to 2040
+
+### Advanced Encryption Standard (AES)
+block size is 128
+- 128 bit keys with 10 rounds of encryption
+- 192 bit key with 12 rounds of encryption
+- 256 bit key with 14 rounds of encryption
+
+### Twofish
+block size is 128
+key size is 256 bits 
+- Prewhitening: XORing the plaintext with a separate subkey before first round
+- Postwhitening: similar operation after 16th round
+
+## Diffie Hellman
+When parties have no way to exchange a secret key and no PKI
+1. Richard and Sue agree on two large numbers, p (prime) and g (int) 1 < g < p
+2. Richard choses a random int r and does
+   R= g^r mod p
+3. Sue chooses a random large int s
+   S = g^s mod p
+4. Richards sends R to Sue and Sue sends S to Richard
+5. Richard them performs
+   K = S^r mod p
+6. Sue performs
+   K= R^s mod p
+
+
+## Key Escrow
+- Fair Cryptosystems: secret keys are divided and given to an independent third party
+- Escrowed Encryption Standard: Gives the government a way to decrypt ciphertext
