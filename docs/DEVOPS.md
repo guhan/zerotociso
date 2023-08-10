@@ -24,15 +24,15 @@ The SPACE framework was introduced by Nicole Forsgren, Jez Humble, and Gene Kim 
 
 Here's what each letter in the SPACE acronym stands for:
 
-- **S - **
+- **S**
 Sharing: Encouraging collaboration, communication, and knowledge sharing among teams. This involves breaking down silos and fostering a culture of cooperation.
-- **P - **
+- **P**
 Process and Practice: Establishing efficient and well-defined processes and practices for software development, testing, deployment, and operations. This includes implementing continuous integration, continuous delivery, and other DevOps practices.
-- **A - **
+- **A**
 Automation: Automating manual and repetitive tasks to reduce errors, increase efficiency, and accelerate the software delivery pipeline.
-- **C - **
+- **C**
 Cultural: Cultivating a culture of trust, respect, and innovation. This involves aligning teams, promoting a growth mindset, and embracing change.
-- **E - **
+- **E**
 Evidence: Using data-driven decision-making and performance metrics to measure and optimize the DevOps process. Collecting and analyzing relevant data helps identify areas for improvement.
 
 
