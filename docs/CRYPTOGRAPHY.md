@@ -154,7 +154,7 @@ Published by US Government in 1977 and is no longer considered secure
 
 - **Output Feedback Mode (OFM)**
   Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
-  No chaining, transmission errors do not propagate
+  No chaining, _transmission errors do not propagate_
 
 - **Counter Mode**
   Stream cipher, uses a simple counter instead of a seed value
