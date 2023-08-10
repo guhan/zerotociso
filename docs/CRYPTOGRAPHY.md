@@ -119,7 +119,18 @@ Same secret key is used to encrypt and decrypt the data
 - Offline distibution
 - **Never store the encryption key on the same system that the data resides**
 
-
+|Algo|Block Size|Key Size|
+|----|----------|--------|
+|AES| 128|128,192,256|
+|Rijndael|Variable|128,192,256|
+|Blowfish|64|32-448|
+|DES|64|56|
+|IDEA|64|128|
+|Rivest Cipher 2|64|128|
+|Rivest Cipher 5|32,64,128|0-2040|
+|Skipjack|64|80|
+|3DES|64|112 or 168|
+|Twofish|128|1-256|
 
 
 ### Data Encryption Standard (DES)
@@ -182,20 +193,6 @@ key size is 256 bits
 - **Prewhitening**: XORing the plaintext with a separate subkey before first round
 - **Postwhitening**: similar operation after 16th round
 
-
-## Symmetric Algo Table
-|Algo|Block Size|Key Size|
-|----|----------|--------|
-|AES| 128|128,192,256|
-|Rijndael|Variable|128,192,256|
-|Blowfish|64|32-448|
-|DES|64|56|
-|IDEA|64|128|
-|Rivest Cipher 2|64|128|
-|Rivest Cipher 5|32,64,128|0-2040|
-|Skipjack|64|80|
-|3DES|64|112 or 168|
-|Twofish|128|1-256|
 
 
 ## Assymetric Key Encryption
