@@ -31,7 +31,9 @@ Reference material for those interested in cybersecurity
 [Data Security](docs/DATASECURITY.md) \
 [Personnel](docs/PERSONNEL.md) \
 [Web](docs/WEBSECURITY.md) \
-[Cryptography](docs/CRYPTOGRAPHY.md) \
+[Cryptography](docs/CRYPTOGRAPHY.md) 
+- [Hardware](docs/CRYPTOHARDWARE.md)
+- [Email](docs/CRYPTOEMAIL.md)
 [SAML](docs/SAML.md) \
 [Threat Modeling](docs/THREATMODELING.md)
 
