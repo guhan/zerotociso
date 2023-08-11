@@ -75,7 +75,10 @@ deals directly with applications and their interaction with the network
 - B: SYN-ACK, initial sequence number 
 - A: ACK, increments B’s ISN
 
-
+## What are the different modes of communication?
+- **Simplex**: goes only one way
+- **Half Duplex**: goes both ways but only one way at a time
+- **Full Duplex**: goes both ways at the same time
 
 ## What is Multicast? 
 One packet is sent and the network equipment replicates it to the multiple subscribers
@@ -111,6 +114,10 @@ CDNs use multicast in the following ways:
 
 
 **Compatibility and Interoperability**: IPsec is supported by a wide range of network devices, including routers, firewalls, and VPN gateways. It ensures compatibility and interoperability between different vendors' equipment, enabling secure communication across heterogeneous networks.
+
+## What is Internet Security Association and Key Management Protocol (ISAKMP)?
+Provies background security support for IPSEC by negotiating, establishing, modifying and deleting Security Associations (SAs)
+
 
 ## What is RADIUS?
 Here's how RADIUS works:
