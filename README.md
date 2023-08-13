@@ -68,6 +68,7 @@ Reference material for those interested in cybersecurity
 
 
 ## Process and Management
+[Getting Started as a CISO](docs/CISOSTART.md) \
 [Culture](docs/CULTURE.md) \
 [Recruiting](docs/RECRUITING.md) \
 [Planning](docs/PLANNING.md) \
