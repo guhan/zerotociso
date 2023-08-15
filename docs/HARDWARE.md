@@ -1,7 +1,8 @@
 # Computer Hardware
 Any tangible part of the computer you can reach out and touch
 
-
+## Terms 
+- **Need to know**: consider not just privilege level but also relevance of the data/object to the role the subject plays. 
 
 ## Processors
 
@@ -20,14 +21,19 @@ Any tangible part of the computer you can reach out and touch
   - thread: self contained sequence of instructions that can be executed in parallel with other threads
   in a process
   - switching between threads incurs far less overhead
+  - **Registers**: stroage in the cpu
+  - 
  
 ### Processing Types
 - **Single State**: only one security level at a time
 - **Multi State**: multiple states at one time
 
 ### Processing modes
-- privileged, kernel, supervisor: full privileges
-- problem state, user: limited privileges
+- privileged, kernel, system, supervisor:
+  - full privileges
+- problem state, user:
+  - limited privileges
+  - CPU only allows a subset of full instruction set
 
 ### Protection Rings
 Organize code and components in an operating system. 
@@ -35,12 +41,59 @@ Organize code and components in an operating system.
 ![Protection Rings](/images/protectionrings.png)
 
 ### Process States
-
+The lifecycle of a process is illustrated below. 
+- Supervisory state: when a process needs to perform a actoin that requires priviliges
 ![Process States](/images/Process-State-1.png)
 
+### Security Modes
+US Government has approved security modes for systems with classified information. 
+- Dedicated:
+  - Each user must have security clearance for all info
+  - Each user must have access approval all info
+  - Each user must have a valid need
+- System High Mode:
+  - Each user must have a valid security clearance
+  - Each user must have access approval _for all info_ 
+  - Must have need to know but _not for all information_
+- Compartmented:
+  - Each user must have security clearance for all info
+  - Each user must have access approval _for just what they need_
+  - Must have a need to know for all information they have access to
+- **Compartmented mode workstations (CMWs)**: users with necessary clearances can process multiple compartments of data at the same time
+  - Sensitivity label: what level an object must be protected
+  - Information label: prevent data overclassification and add metadata
+- Multilevel:
+  - Some users do not have valid security for all info
+  - each user must have access approval for all information they will access on the system
+  - each user must ahve a valid need to know 
 
+## Memory
 
+### Read Only Memory (ROM)
+Factory burned in data and cannot be changed
+- **Programmable Read Only Memory (PROM)**: user can burn in chip data once
+- **Eraseable Programmable Read Only Memory (EPROM)**: can be erased with UV light withing a small window of time
+- **Electronically Eraseable Programmable Read Only Memory (EEPROM)**: electronically eraseable, entire chip must be erased
+- **Flash Memory**: can be electornically erased and rewritten, can be erased in blocks
 
+### Random Access Memory (RAM)
+Readable and writeable
+- Dynamic RAM (DRAM): uses capacitors that hold charges (0 or 1) and need to be refreshed periodically and is cheaper
+- Static RAM: uses flip flops, switches which don't need to be refreshed
+- Real:
+- Cache:
+  - On the processor
+  - L1, L2, L3, L4
 
+### Memory Addressing
+- Register addressing: in CPU
+- Immediate addressing: a holding spot for current data and then instuctions for next register
+- Direct addressing: CPU is given actual address of memory location to access, address must be on same memory page
+- Indirect addressing: the holding spot is a another memory location maybe on a different page
+- Base + Offset addressing: base value is stored in one the CPU registers and an offset is given for the operand
+
+### Secondary memory
+magnetic, optical, or flash based media
+- Virtual Memory: a pagefile that exists on a hard disk
 
 
