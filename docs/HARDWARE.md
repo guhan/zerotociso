@@ -26,4 +26,4 @@ Any tangible part of the computer you can reach out and touch
 - **Multi State**: multiple states at one time
 
 ### Protection Rings
-- 
+![Protection Rings](/images/protectionrings.png)
