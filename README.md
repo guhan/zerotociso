@@ -3,6 +3,7 @@ Reference material for those interested in cybersecurity
 
 
 ## Technical
+[Hardware and Operating Systems](docs/HARDWARE.md) \
 [Architecture](docs/ARCHITECTURE.md) \
 [Languages](docs/LANGUAGES.md) 
 - [OPA/Rego](docs/OPA.md)
