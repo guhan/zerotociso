@@ -25,5 +25,22 @@ Any tangible part of the computer you can reach out and touch
 - **Single State**: only one security level at a time
 - **Multi State**: multiple states at one time
 
+### Processing modes
+- privileged, kernel, supervisor: full privileges
+- problem state, user: limited privileges
+
 ### Protection Rings
+Organize code and components in an operating system. 
+
 ![Protection Rings](/images/protectionrings.png)
+
+### Process States
+
+![Process States](/images/processstates.png)
+
+
+
+
+
+
+
