@@ -137,4 +137,4 @@ integrity model
 - defining a set of system states, initial states, integrity is maintained and interference is prevented
 
 ### Graham-Denning Model
-secure creation and deleteion of both subjects and objects
+secure creation and deletion of both subjects and objects
