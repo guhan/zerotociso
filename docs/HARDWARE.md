@@ -84,6 +84,7 @@ Readable and writeable
 - Cache:
   - On the processor
   - L1, L2, L3, L4
+- Volatile: once the power is shutoff the memory loses its data
 
 ### Memory Addressing
 - Register addressing: in CPU
@@ -95,5 +96,14 @@ Readable and writeable
 ### Secondary memory
 magnetic, optical, or flash based media
 - Virtual Memory: a pagefile that exists on a hard disk
+
+## Basis Input/Output System (BIOS)
+- OS independent primitives to start a computer and load the OS
+- **phlashing**: installing a malicious version of BIOS
+
+## Unified Extentisible Firmware Interface (UEFI)
+- More advanced interface between hardware and software
+- Supports legacy BIOS
+
 
 
