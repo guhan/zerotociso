@@ -41,7 +41,7 @@ security policy
   - Security kernel: the parts of the TCB that implement the reference monitor functions
 
 ### State Machine Model
-System is always secure no matter what ste it is in
+System is always secure no matter what state it is in
 - Always boots into a secure state
 
 #### Formal State Machine (aka State Machine or finite-state machine) 
