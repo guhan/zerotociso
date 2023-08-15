@@ -36,7 +36,7 @@ Organize code and components in an operating system.
 
 ### Process States
 
-![Process States](/images/Process-States-1.png)
+![Process States](/images/Process-State-1.png)
 
 
 
