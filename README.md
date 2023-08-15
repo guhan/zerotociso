@@ -29,6 +29,7 @@ Reference material for those interested in cybersecurity
 [Security Policies](docs/SECURITYPOLICIES.md) \
 [Data Classification](docs/DATACLASSIFICATION.md) \
 [Data Security](docs/DATASECURITY.md) \
+[Design and Models](docs/DESIGNANDMODELS.md) \
 [Personnel](docs/PERSONNEL.md) \
 [Web](docs/WEBSECURITY.md) \
 [Cryptography](docs/CRYPTOGRAPHY.md) 
