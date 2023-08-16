@@ -29,9 +29,9 @@ Any tangible part of the computer you can reach out and touch
 - **Multi State**: multiple states at one time
 
 ### Processing modes
-- privileged, kernel, system, supervisor:
+- **privileged, kernel, system, supervisor**:
   - full privileges
-- problem state, user:
+- **problem state, user**:
   - limited privileges
   - CPU only allows a subset of full instruction set
 
