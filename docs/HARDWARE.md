@@ -10,7 +10,7 @@ Any tangible part of the computer you can reach out and touch
 - Computer's nerve center
 - Performs a limited set of computational and logical operations
 - Assembly language is used write programs that run on a CPU
-- **Multitasking**: Can handle two or more tasks simultaneously
+- **Multitasking**: Can handle two or more tasks (programs) simultaneously
 - **Multicore**: A core is essentially another "processing chip", nowadays each chip has multiple cores
 - **Multiprocessing**: A situation where you have more than one CPU
   - Symmetric Multiprocessing (SMP): all chips are treated equally
