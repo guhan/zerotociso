@@ -112,3 +112,58 @@ Passive, field powered or a transponder which is designed to be worn by the auth
 ### Emanation Security
 Many electrical devices emanate electrical signals or radiation that can be intercepted by unauthorized individuals. 
 - TEMPEST countermeasures (Faraday cages, white noise, and control zones) were developed to protect against these attacks
+
+## Media Storage Facilities 
+- Inventory Management: Keep an inventory of all media items stored in the facility to quickly identify any missing items.
+- Use hash based integrity system
+
+
+## Restrooms
+Keep these in public areas so that privileged access is not required
+
+## Power
+- **Uinteruptible Power Supply (UPS)**: self charging battery
+- **Surge Protector**: has a fuse that blows if power levels change dramatically
+
+## Noise 
+electromagnetic interference or EMI
+- **Common Mode Noise**: difference in power between the hot and ground
+- **Traverse Mode Noise**: difference in power between hot and neutral wire
+
+Radio Frequency Interference(RFI)
+
+Protect by using proper grounding, shielding all cables, and limiting exposure to EMI and RFI sources
+## Heating, Ventilation and Air Conditioning (HVAC)
+Temperature should be between 60 and 75 degrees 
+Humidity from 40-60 percent
+
+## Water
+Water and electricity don't mix, any leaks will cause damage
+
+## Fire
+- Fire Triangle: Fire, Heat, Oxygen are the three corners
+
+| Class | Type | Suppression Material |
+| ----- | ---- |----------------------|
+|A|Common Combustibles|Water, Soda acid|
+|B|Liquids|C02, halon*, soda acid |
+|C|Electrical|C02, halon*|
+|D|Metal|Dry Powder|
+
+### Fire Detection Systems
+- Fixed Temperature Detection
+- Rate of Rise detection
+- Flame actuated
+- Smoke Actuated
+
+### Water Suppression Systems
+- Wet Pipe: alwasy full of water
+- Dry Pipe: has compessed air and pipe fills with air
+- Deluge System: larger pipes and more water (sprinkler)
+- Preeaction System: Combination of dry and wet pipe system
+
+### Gas Discharge System
+More effective than water dischage, but are dangerous for humans. 
+
+Halon: starves fire of oxygen by disrupting the chemical reaction between oxygen and combustible materials. 
+
