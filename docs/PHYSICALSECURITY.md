@@ -6,6 +6,24 @@
 - **Technology convergence**: tendency of various technologies to evolve and _merge_ over time
 
 
+## Physical Security Plan
+- Secure Site selection
+- Perimeter Security Controls
+  - Fences
+  - Gates
+  - Turnstiles
+  - Mantraps
+- Lighting
+- Security Guards and Dogs
+- Internal Controls
+  - Locks
+  - Badges
+  - Motion Detectors
+  - Intrusion Alarms
+  - Secondary Verification (CCTV)
+  - Environment and Life safety
+
+
 ## Site Selection
 - Cost
 - Size
@@ -167,3 +185,5 @@ More effective than water dischage, but are dangerous for humans.
 
 Halon: starves fire of oxygen by disrupting the chemical reaction between oxygen and combustible materials. 
 
+## Static Electricity
+- Generally occurs in low humidity
