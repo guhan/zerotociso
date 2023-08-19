@@ -1,4 +1,9 @@
-# ISO 27000
+# Internation Organziation for Standardization (ISO)
+
+## ISO 7498
+Defines the OSI reference model
+
+## ISO 27000 Series
 Using a common framework, such as ISO 27002, an organization can establish crosswalks to demonstrate compliance with multiple regulations, including HIPAA, Sarbanes-Oxley, PCI DSS and Graham-Leach-Bliley.
 
 The ISO 27000 Series has 60 standards covering a broad spectrum of information security issues, for example:
