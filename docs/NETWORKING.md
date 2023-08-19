@@ -7,11 +7,12 @@
 - Link state routing protocol: maintain a topography map of all connected network and use the map to determine the shortest path to the destination
 - TCP Wrapper: an application that serves as a basic firewall by restricting access to ports and resources based on user IDs or system IDs.
 - Socket: combination of IP address and port number
+- Converged protocols: merging of speciality and proprietary protocols with standard protocols
 
 ## Explain the OSI Model?
 The (Open Systems Interconnection) OSI model has 7 layers, each layer is a communication layer and has specific protocols
 
-Acronym: P D N T S P A
+Acronym: Phils Driver Never Trends Seasonally Probably Appearance
 
 ### Layer 1 - Physical 
 Transmission of _raw bitstream data over the physical medium_, such as copper wires, fiber optic cables, or wireless signals.This includes specifications for the types of cables, connectors, pinouts, and signaling methods used to transmit the data. Bits. 
