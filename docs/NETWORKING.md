@@ -1,5 +1,10 @@
 # Networking
 
+
+## Key Concepts
+- Encapsulation/De
+
+
 ## Explain the OSI Model?
 The (Open Systems Interconnection) OSI model has 7 layers, each layer is a communication layer and has specific protocols
 
