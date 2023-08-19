@@ -13,45 +13,47 @@ Transmission of raw bitstream data over the physical medium, such as copper wire
 ### Layer 2 - Data Link
 Provides error-free transmission of data frames between directly connected network nodes. It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections. This layer also handles flow control, error detection, and media access control (MAC) addressing.
 
-- ARP:  ARP is responsible for resolving or mapping an IP address to a physical (MAC) address on a local network
-- Ethernet: Ethernet is a widely used data link protocol in local area networks (LANs). It defines the physical and logical aspects of communication over Ethernet cables, including frame structure, addressing (MAC addresses), and media access control (MAC) methods such as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) or Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA).
-- Point-to-Point Protocol (PPP): PPP is a data link protocol used for establishing and maintaining a direct connection between two nodes, typically over serial links. It supports various network layer protocols, such as IP, and provides features like authentication, error detection, and link quality monitoring.
-- High-Level Data Link Control (HDLC): HDLC is a synchronous data link protocol used in point-to-point and multipoint communication links. It provides error detection, error correction, and flow control mechanisms.
-- Asynchronous Transfer Mode (ATM): ATM is a data link protocol that operates over both local and wide area networks. It uses fixed-size cells for data transmission and supports various traffic types, including voice, video, and data.
-- Frame Relay: Frame Relay is a packet-switching data link protocol used for connecting devices in wide area networks. It provides a simple and cost-effective way to transmit data over a shared network infrastructure.
-- Wireless LAN protocols: Various data link protocols are used in wireless LANs, such as IEEE 802.11 standards (e.g., 802.11a/b/g/n/ac) for Wi-Fi networks. These protocols define frame formats, MAC addressing, and media access control methods specific to wireless communication.
-Synchronous Data Link Control (SDLC): SDLC is a synchronous data link protocol developed by IBM. It is used for communication between IBM mainframe computers and other devices.
+- **Address Resolution Protocol (ARP)**:  ARP is responsible for resolving or _mapping an IP address to a physical (MAC) address_ on a local network
+- **Ethernet**: Ethernet is a widely used data link protocol in local area networks (LANs). It defines the physical and logical aspects of communication over Ethernet cables, including frame structure, addressing (MAC addresses), and media access control (MAC) methods such as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) or Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA).
+- **Point-to-Point Protocol (PPP)**: PPP is a data link protocol used for establishing and maintaining a direct connection between two nodes, typically over serial links. It supports various network layer protocols, such as IP, and provides features like authentication, error detection, and link quality monitoring.
+- **High-Level Data Link Control (HDLC)**: HDLC is a synchronous data link protocol used in point-to-point and multipoint communication links. It provides error detection, error correction, and flow control mechanisms.
+- **Asynchronous Transfer Mode (ATM)**: ATM is a data link protocol that operates over both local and wide area networks. It uses fixed-size cells for data transmission and supports various traffic types, including voice, video, and data.
+- **Frame Relay**: Frame Relay is a packet-switching data link protocol used for connecting devices in wide area networks. It provides a simple and cost-effective way to transmit data over a shared network infrastructure.
+- **Wireless LAN protocols**: Various data link protocols are used in wireless LANs, such as IEEE 802.11 standards (e.g., 802.11a/b/g/n/ac) for Wi-Fi networks. These protocols define frame formats, MAC addressing, and media access control methods specific to wireless communication.
+- **Synchronous Data Link Control (SDLC)**: SDLC is a synchronous data link protocol developed by IBM. It is used for communication between IBM mainframe computers and other devices.
 
 
 ### Layer 3 - Network 
 Logical addressing and routing of data packets across different networks. It defines protocols that determine the best path for data to travel
 
-- Internet Protocol (IP): IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
+- **Internet Protocol (IP)**: IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
 - IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6) are the two prevalent versions of IP.
-- Internet Control Message Protocol (ICMP): ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
-- Internet Group Management Protocol (IGMP): IGMP is used for managing multicast group memberships on IP networks. It enables devices to join or leave multicast groups and facilitates the delivery of multicast traffic.
-- Border Gateway Protocol (BGP): BGP is a protocol used for routing between autonomous systems (AS) in the Internet. It enables routers in different ASes to exchange routing information and make routing decisions based on policies and network conditions.
-- Routing Information Protocol (RIP): RIP is a dynamic routing protocol used within smaller networks. It enables routers to exchange information about network reachability and automatically update routing tables based on the best available paths.
-- Open Shortest Path First (OSPF): OSPF is a link-state routing protocol commonly used in large enterprise networks and the Internet. It calculates the shortest path for data packets through the network based on link costs and creates a link-state database for routing decisions.
-- Interior Gateway Routing Protocol (IGRP) / Enhanced Interior Gateway Routing Protocol (EIGRP): IGRP and EIGRP are Cisco proprietary routing protocols used within autonomous systems. They facilitate efficient routing of IP packets within Cisco networks.
-- Internet Protocol Security (IPsec): IPsec is a protocol suite used for securing IP communications. It provides authentication, encryption, and integrity verification for IP packets, ensuring secure communication between network nodes.
+- **Internet Control Message Protocol (ICMP)**: ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
+- **Internet Group Management Protocol (IGMP)**: IGMP is used for managing multicast group memberships on IP networks. It enables devices to join or leave multicast groups and facilitates the delivery of multicast traffic.
+- **Border Gateway Protocol (BGP)**: BGP is a protocol used for routing between autonomous systems (AS) in the Internet. It enables routers in different ASes to exchange routing information and make routing decisions based on policies and network conditions.
+- **Routing Information Protocol (RIP)**: RIP is a dynamic routing protocol used within smaller networks. It enables routers to exchange information about network reachability and automatically update routing tables based on the best available paths.
+- **Open Shortest Path First (OSPF)**: OSPF is a link-state routing protocol commonly used in large enterprise networks and the Internet. It calculates the shortest path for data packets through the network based on link costs and creates a link-state database for routing decisions.
+- **Interior Gateway Routing Protocol (IGRP) / Enhanced Interior Gateway Routing Protocol (EIGRP)**: IGRP and EIGRP are Cisco proprietary routing protocols used within autonomous systems. They facilitate efficient routing of IP packets within Cisco networks.
+- **Internet Protocol Security (IPsec)**: IPsec is a protocol suite used for securing IP communications. It provides authentication, encryption, and integrity verification for IP packets, ensuring secure communication between network nodes.
 
 ### Layer 4 - Transport 
 Ensures reliable data delivery between applications on different hosts.
 
-- TCP: offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets
+- **TCP**: offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets
 
-- User Datagram Protocol (UDP): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery. 
-- Stream Control Transmission Protocol (SCTP): SCTP is a transport protocol designed for more robust and reliable transmission than UDP while offering similar features to TCP. It provides message-oriented, connection-oriented communication and supports multi-homing, which allows a device to have multiple network connections simultaneously.
-- Datagram Congestion Control Protocol (DCCP): DCCP is a transport protocol that provides congestion control and flow control while allowing different service types and message-oriented communication. It supports both unreliable and reliable transmission modes.
+- **User Datagram Protocol (UDP)**: UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery. 
+- **Stream Control Transmission Protocol (SCTP)**: SCTP is a transport protocol designed for more robust and reliable transmission than UDP while offering similar features to TCP. It provides message-oriented, connection-oriented communication and supports multi-homing, which allows a device to have multiple network connections simultaneously.
+- **Datagram Congestion Control Protocol (DCCP)**: DCCP is a transport protocol that provides congestion control and flow control while allowing different service types and message-oriented communication. It supports both unreliable and reliable transmission modes.
 
 
 ### Layer 5 - Session
-establishes, manages, and terminates communication sessions between applications. It sets up and synchronizes communication between two devices
-- Remote Procedure Call (RPC): RPC is a protocol that allows a program running on one host to invoke a procedure or function on another host. It includes session-related functions such as session establishment, authentication, and session termination.
-Session Initiation Protocol (SIP): SIP is a protocol used for establishing, modifying, and terminating multimedia sessions such as VoIP (Voice over IP) calls and video conferences. SIP provides session control functions, allowing endpoints to establish and manage communication sessions.
-- NetBIOS Session Service: NetBIOS (Network Basic Input/Output System) is a protocol suite used for communication between computers in a local area network. NetBIOS Session Service provides session management capabilities, allowing applications to establish and maintain sessions for data exchange.
-- AppleTalk Session Protocol: AppleTalk is a suite of protocols used in Apple networks. The AppleTalk Session Protocol handles session management tasks, including session establishment, synchronization, and termination.
+Establishes, manages, and terminates communication sessions between applications. It sets up and synchronizes communication between two devices
+
+
+- **Remote Procedure Call (RPC)**: RPC is a protocol that allows a program running on one host to invoke a procedure or function on another host. It includes session-related functions such as session establishment, authentication, and session termination.
+- **Session Initiation Protocol (SIP)**: SIP is a protocol used for establishing, modifying, and terminating multimedia sessions such as VoIP (Voice over IP) calls and video conferences. SIP provides session control functions, allowing endpoints to establish and manage communication sessions.
+- **NetBIOS Session Service**: NetBIOS (Network Basic Input/Output System) is a protocol suite used for communication between computers in a local area network. NetBIOS Session Service provides session management capabilities, allowing applications to establish and maintain sessions for data exchange.
+- **AppleTalk Session Protocol**: AppleTalk is a suite of protocols used in Apple networks. The AppleTalk Session Protocol handles session management tasks, including session establishment, synchronization, and termination.
 
 ### Layer 6 - Presentation
 Responsible for data representation, encryption, and compression.
