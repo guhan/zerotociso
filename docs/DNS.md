@@ -1,5 +1,37 @@
 ## DNS
 
+
+## Resource Records
+These are the different types of Resource Records (RRs):
+
+- A Record (Address Record):
+Maps a domain name to an IPv4 address.
+- AAAA Record (IPv6 Address Record):
+Maps a domain name to an IPv6 address.
+- CNAME Record (Canonical Name Record):
+Creates an alias for a domain name, redirecting it to another domain's A record. Used for subdomains or when multiple domain names point to the same IP address.
+- MX Record (Mail Exchange Record):
+Specifies the mail servers responsible for receiving email messages on behalf of a domain.
+- TXT Record (Text Record):
+Allows you to add arbitrary text to the DNS record, often used for verification, sender policy framework (SPF) configuration, and other purposes.
+- PTR Record (Pointer Record):
+Used in reverse DNS lookup to map IP addresses to domain names. It's used for reverse DNS resolution.
+- SRV Record (Service Record):
+Specifies information about available services, such as VoIP, instant messaging, or other services associated with a domain.
+- NS Record (Name Server Record):
+Specifies the authoritative name servers for a domain.
+- SOA Record (Start of Authority Record):
+Contains administrative information about the zone, including the primary authoritative name server, the email address of the responsible party, and various timing parameters.
+- CAA Record (Certification Authority Authorization):
+Specifies which certificate authorities are authorized to issue SSL certificates for a domain.
+- NAPTR Record (Naming Authority Pointer):
+Used for advanced DNS functions, such as providing information for SIP (Session Initiation Protocol) services.
+- DNSKEY Record (DNS Key Record):
+Used in DNSSEC (Domain Name System Security Extensions) to store public keys used for signing DNS records.
+- DS Record (Delegation Signer):
+Also used in DNSSEC, the DS record is used to identify the DNSKEY record of a delegated zone.
+
+
 ## What is DNS Cache Poisoning?
 DNS cache poisoning occurs when an attacker manipulates the DNS resolution process to redirect users to malicious websites or intercept their communications.
 
