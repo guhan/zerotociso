@@ -1,6 +1,51 @@
 # GDPR
 GDPR is a framework of security requirements that global organizations must implement to protect the security and privacy of EU citizens' personal information. GDPR requirements include controls for restricting unauthorized access to stored data and access control measures, such as least privilege, role-based access and multifactor authentication.
 
+## Definitions
+
+- Data Subject is any person formally residing in the EU who has their data collected, held, or processed by a controller or processor.
+- Data Controller refers to the entity responsible for determining the purpose and lawful basis for processing personal data.
+- Data Processor, who collaborates with the Data Controller, refers to the individual responsible for processing personal data on behalf of the controller.
+- Processing involves any automated or manual operation or set of operations performed on personal data or sets of personal data, including the collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, and so on.
+- Personal data refers to any information related to a natural person (‘data subject’) that can directly or indirectly identify that person as it relates to their private, professional, or public life, including a name, email address, photos, or even bank statements.
+
+## Consent
+Obtaining the consent of the data subject refers to any “freely given, specific, informed and unambiguous indication” that the data subject agrees to the processing of personal data related to them. Data subjects can provide consent with either a statement or explicit affirmative action.
+
+## Design of the program
+
+GDPR requires implementation of appropriate technical and organizational measures to implement the data protection principles effectively and safeguard data subject rights. This is called ‘data protection by design and by default’.
+
+## Does it apply to you? 
+- Material scope: you are processing data manually or in an automated fashion
+- Territorial scope
+  - controller or processor is in EU
+  - the controller or the processor offers goods or services to data subjects in the EU or monitors data subjects’ behavior taking place in the EU
+
+
+## Data Subject Rights
+
+- Right to be informed (GDPR Articles 12 to 14)
+Data subjects have the right to be informed about the collection and use of their personal data.
+- Right to access (GDPR Article 15)
+Data subjects have the right to view and request copies of their personal data.
+- Right to rectification (GDPR Article 16)
+Data subjects have the right to request inaccurate or outdated personal information be updated or corrected.
+- Right to be forgotten / Right to erasure (GDPR Article 17)
+Data subjects have the right to request their personal data be deleted. Note that this is not an absolute right and may be subject to exemptions based on certain laws.
+- Right for data portability (GDPR Article 20)
+Data subjects have the right to ask for their data to be transferred to another controller or provided to them. The data must be provided in a machine-readable electronic format. 
+- Right to restrict Processing (Article 18)
+Data subjects have the right to request the restriction or suppression of their personal data. 
+- Right to withdraw consent (GDPR Article 7)
+Data subjects have the right to withdraw previously given consent to process their personal data. 
+- Right to object (GDPR Article 21)
+Data subjects have the right to object to the processing of their personal data.
+- Right to object to automated processing (GDPR Article 22)
+Data subjects have the right to object to decisions being made with their data solely based on automated decision making or profiling.
+
+
+
 
 ## Step 1: Create an Actionable Plan Using the 7 Principles of the GDPR
 The GDPR sets out seven key principles which should be at the core of your approach for personal data processing:
