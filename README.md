@@ -18,6 +18,7 @@ Reference material for those interested in cybersecurity
 [Networking](docs/NETWORKING.md) 
 - [OSI Model](docs/OSIMODEL.md)
 - [Wireless](docs/WIRELESS.md)
+- [Firewalls](docs/FIREWALLS.md)
   
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
