@@ -2,6 +2,8 @@
 
 
 ## Key Concepts
+- Intranet: private network designed to host some services
+- Extranet: both a private network and also serves up some services for public/Internet consumption
 - Encapsulation: addition of a header, and possibly footer to the data received by each layer from the layer above it
 - Distance vector routing protocol: maintain a list of destination networks along with metrics of direction and distance (hops)
 - Link state routing protocol: maintain a topography map of all connected network and use the map to determine the shortest path to the destination
