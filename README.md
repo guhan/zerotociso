@@ -13,7 +13,7 @@ Reference material for those interested in cybersecurity
   
 [Documentation](docs/DOCUMENTATION.md) \
 [Code Repositories](docs/CODEREPOSITORIES.md) \
-[Linux](docs/LINUX.md) \
+[Linux](docs/LINUX.md) 
 
 [Networking](docs/NETWORKING.md) 
 - [OSI Model](docs/OSIMODEL.md)
