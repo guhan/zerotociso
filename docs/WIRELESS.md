@@ -25,11 +25,37 @@
 
 ## Wireless Encryption Protocols
 - Wired Equivalent Privacy (WEP): predefined shared key, insecure
-- WiFi Protected Access (WPA): T
+- WiFi Protected Access (WPA):
+  - WPA-PSK (Pre-Shared Key): Also known as WPA-Personal, this version uses a shared passphrase (pre-shared key) to authenticate and encrypt communication between devices on the network.
+  - WPA-Enterprise: This version uses a more robust authentication mechanism, often involving a RADIUS (Remote Authentication Dial-In User Service) server, to authenticate users before granting them access to the network.
 - Temporal Key Integrity Protocol (TKIP): TKIP is a specific encryption protocol that was introduced as part of WPA to improve security over the older WEP encryption. TKIP dynamically generates encryption keys for each data packet, making it much harder to crack compared to the static keys used in WEP.
+- Lightweight Extensible Authentication Protocol (LEAP): Cisco proprietary alternative to TKIP for WPA
+- WPA2:
+  - Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP): uses 128 bit AES key
+  - Extensible Authentication Protocol (EAP): authentication framework that lets you add additional authentication technologies
+  - Protected Extensible Authentication Protocol (PEAP): encapsulates EAP in a TLS tunnel
+- WiFi Protected Setup (WPS): security standard for wireless networks
+  - insecure to brute force attacks
+  - enabled by default on most wireless access points
 
 ## Securing Wireless
+- Change Administrative password
 - Disable broadcasting of the SSID
 - MAC filter: only let known MAC addresses join
+- Turn off WPS
+- Use static IP addresses or DHCP with reservations
+- Enable highest authentication and encryption WPA2/3
+- Monitor logs from WAPs
+- Require all transmissions between wireless clients and WAPs to be encrypted
+
+
+## Wireless Attacks
+- War Driving: looking for open wireless networks
+- War Chalking: physically mark an area with a wireless network
+- Replay: retransmit captured communications to get some access to the network
+- Exploit IV: if the IV is too short or predictable the encryption can be cracked
+- Rogue Access Point: add a rogue WAP and capture communication
+- Evil Twin: type of man in the middle attack where rogue WAP intercepts connection requests to the
+  real base station
  
 
