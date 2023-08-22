@@ -21,6 +21,7 @@ Reference material for those interested in cybersecurity
 - [Cables](docs/CABLES.md)
 - [Wireless](docs/WIRELESS.md)
 - [Firewalls](docs/FIREWALLS.md)
+- [LAN Technologies](docs/LAN.md)
   
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
