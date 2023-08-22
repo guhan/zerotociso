@@ -2,7 +2,8 @@
 
 ## Key Concepts
 - Private Branch Exchange (PBX)
-- Public Switched Telephone Network (POTS)
+- Plain Old Telephone Service (POTS)
+- Public Switched Telephone Network (PSTN)
 - Vishing: VoIP phishing
 - Spam over Internet Telephone (SPIT)
 - Phreaking: hacking a POTS system
