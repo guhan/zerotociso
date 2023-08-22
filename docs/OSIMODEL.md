@@ -85,6 +85,8 @@ Ensures reliable data delivery between applications on different hosts.
 ### Layer 5 - Session
 Establishes, manages, and terminates communication sessions between applications. It sets up and synchronizes communication between two devices. Data Stream
 
+There are three modes: Simplex, Half Duplex, and Full Duplex
+
 - **Network File System (NFS)**
 - **Structured Query Language (SQL)**
 
