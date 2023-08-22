@@ -1,4 +1,5 @@
 # Wireless Networking
+Employs radio waves to transmit signals over a distance. The waves have a frequency between 3Hz and 300Ghz
 
 ## Key Concepts
 - **Wireless Access Point (WAP)**
@@ -58,4 +59,9 @@
 - Evil Twin: type of man in the middle attack where rogue WAP intercepts connection requests to the
   real base station
  
-
+## How doees wireless manage simultaneous use of limited radio frequencies? 
+- Spread Spectrum: communication occurs over multiple frequencies at the same time
+- Frequency Hopping Spread Spectrum (FHSS): transmits data in series, one frequency at a time is used to minimize
+  interference
+- Direct Sequence Spread Spectrum (DSSS): all frequencies used in paralled
+- Orthagonal Frequency-Division Multiplexing (OFDM): allows for a more tightly compacted transmissions, the signals are perpendicular and do not interfere with each other. Uses less frequencies and has highest throughput. 
