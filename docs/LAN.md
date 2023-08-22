@@ -1,31 +1,39 @@
 # LAN Technologies
 Local Area Network (LAN) technologies are used to connect devices within a limited geographical area, such as a home, office, or campus. There are several LAN technologies that vary in terms of data transfer rates, transmission media, and architectural features. Here are some common LAN technologies:
 
-- Ethernet:
+- **Ethernet**:
 Ethernet is one of the most widely used LAN technologies. It uses various transmission speeds, such as 10 Mbps (10BASE-T), 100 Mbps (Fast Ethernet), 1 Gbps (Gigabit Ethernet), 10 Gbps, 25 Gbps, 40 Gbps, and 100 Gbps. Ethernet uses twisted-pair cables (e.g., Cat 5e, Cat 6, Cat 6a) or fiber optics for data transmission.
-- Wi-Fi (Wireless LAN):
+
+- **Wi-Fi (Wireless LAN)**:
 Wi-Fi technology enables wireless communication between devices using radio frequencies. It's commonly used for connecting laptops, smartphones, tablets, and IoT devices. Wi-Fi operates in various standards, such as 802.11a/b/g/n/ac/ax, offering different data rates and coverage ranges.
-- Token Ring:
+
+- **Token Ring**:
 Token Ring is an older LAN technology that uses a token-passing protocol. Devices are connected in a
 ring topology, and data is transmitted using tokens. The device with the token can transmit. It was less common than Ethernet and
 is mostly considered a legacy technology.
-- Fiber Distributed Data Interface (FDDI):
+
+- **Fiber Distributed Data Interface (FDDI)**:
 FDDI is a high-speed LAN technology primarily used in corporate environments. It uses fiber optic cables
 and a dual ring topology to provide redundancy and fault tolerance.
-- Powerline Communication (PLC):
+
+- **Powerline Communication (PLC)**:
 PLC technology allows data transmission over electrical power lines. It can provide networking capabilities
 by using existing power infrastructure.
-- Infrared Data Association (IrDA):
+
+- **Infrared Data Association (IrDA)**:
 IrDA is a short-range wireless communication technology that uses infrared light to transmit data
 between devices. It was commonly used for wireless communication between devices like laptops and printers.
-- Bluetooth:
+
+- **Bluetooth**:
 Bluetooth is a short-range wireless technology commonly used for connecting devices like smartphones,
 keyboards, mice, and speakers. While it's not typically used for traditional LANs, it enables personal
 area networks (PANs) within short distances.
-- HomePlug:
+
+- **HomePlug**:
 HomePlug is a technology that uses the electrical wiring in a building to create a LAN. It's often used
 for connecting devices in a home or small office environment.
-- LocalTalk:
+
+- **LocalTalk**:
 LocalTalk was Apple's proprietary LAN technology used in older Macintosh computers. It used a serial cable to connect devices.
 These are some of the LAN technologies that have been used over the years
 
