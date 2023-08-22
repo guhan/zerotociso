@@ -12,6 +12,7 @@ The process of verifying the identify of a user
 
 - **Extensible Authentication Protocol (EAP)**:
   - framework instead of actual protocol
+- **Protected Extensible Authentication Protocol (PEAP)**: encapsulates EAP in a TLS tunnel
 - **OpenID**
 - **OAuth**
 - **Shibboleth**
