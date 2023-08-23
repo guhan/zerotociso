@@ -14,10 +14,16 @@ Site-to-site VPNs connect different physical locations (such as branch offices) 
 network. This allows secure communication between these locations over the internet.
 
 ## VPN Protocols
-- Point to Point Tunneling Protocol (PPTP):
+- **Point to Point Tunneling Protocol (PPTP)**:
   - developed from PPP and encapsulates those packets
   - Layer 2
   - same AuthN as PPP
-- Layer 2 Forwarding Protocol
-- Layer 2 Tunneling Protocol
-- IP Security (IPSEC)
+  - intial tunnel negotiation is _not encrypted_
+- **Layer 2 Forwarding Protocol (L2F)**:
+  - Mutual authentication tunneling mechanism
+  - does not offer encryption
+  - Layer 2
+- **Layer 2 Tunneling Protocol (L2TP)**:
+  - lacks built in encryptoin scheme
+  - combination of both PPTP and L2F
+- [IP Security (IPSEC)](IPSEC.md)
