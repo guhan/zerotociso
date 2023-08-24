@@ -53,6 +53,27 @@ The recursive resolver receives the record from the authoritative name server an
 - **Host Response**:
 The host receives the IP address from the recursive resolver. It can then use this IP address to establish a connection to the desired server or resource associated with the domain name.
 
+## How does a zone transfer work?
+A DNS zone transfer is a process that allows DNS servers to exchange information about a specific DNS zone. DNS zone transfers are used to synchronize the DNS databases between primary (master) and secondary (slave) DNS servers, ensuring that both servers have consistent and up-to-date records for a domain. Zone transfers are critical for redundancy and fault tolerance in DNS infrastructure.
+
+Here's how a DNS zone transfer works:
+
+- **Zone Configuration**:
+A DNS zone is a portion of the DNS namespace managed by a specific DNS server. Each zone contains DNS records that map domain names to IP addresses or other resource records. A zone has at least one primary (master) DNS server and one or more secondary (slave) DNS servers.
+- **Zone Transfer Request**:
+The secondary DNS server periodically checks with the primary DNS server to see if any updates or changes have occurred in the DNS zone. This is done by sending a zone transfer request.
+- **Zone Transfer Decision**:
+The primary DNS server receives the zone transfer request from the secondary server. It checks whether a zone transfer is necessary based on whether any changes have occurred in the zone's records.
+- **Zone Transfer Process**:
+If the primary DNS server determines that a zone transfer is needed, it initiates the transfer process. The primary server sends the entire set of DNS records for the zone to the secondary server.
+- **Transfer Methods**:
+Zone transfers can occur using two primary methods: full zone transfer (AXFR) and incremental zone transfer (IXFR).
+  - Full Zone Transfer (AXFR): In a full zone transfer, the primary server sends all the DNS records for the zone to the secondary server. This method is used when the secondary server doesn't have any records or when incremental updates aren't supported.
+  - Incremental Zone Transfer (IXFR): In an incremental zone transfer, only the changes or updates to the DNS records since the last transfer are sent. This method is more efficient as it reduces the amount of data transferred.
+- **Zone Transfer Completion**:
+Once the secondary DNS server receives the DNS records from the primary server, it updates its own DNS database with the new or modified records. This ensures that both servers have consistent and up-to-date information.
+- **Caching and TTL**:
+DNS records have a Time-to-Live (TTL) value that determines how long they can be cached by DNS servers. During a zone transfer, the TTL value is respected, and cached records that have not expired are not updated.
 
 ## What are the DNS based attacks?
 DNS (Domain Name System) attacks are malicious activities that target the DNS infrastructure to disrupt services, compromise security, or redirect traffic for unauthorized purposes. These attacks can have significant consequences, as DNS is a fundamental part of how the internet functions. Here are some common types of DNS attacks:
