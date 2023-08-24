@@ -33,5 +33,5 @@ Key features and benefits of SAML include:
 - **Single Sign-On (SSO)**: Users only need to authenticate once and can access multiple services seamlessly.
 - **Security**: SAML uses digital signatures and encryption to ensure the integrity and confidentiality of the authentication and authorization process.
 - **Interoperability**: SAML is a widely accepted standard for SSO and works across different platforms and technologies.
-- **Centralized Identity Management**: Identity providers (IdPs) centralize user authentication, simplifying user management and access control.
+- **Centralized Identity Management**: Identity providers (IdPs) centralize user authentication (_federation_), simplifying user management and access control.
 - **Decentralized Architecture**: Different service providers (SPs) can trust a common identity provider, reducing the need for each SP to manage its own authentication.
