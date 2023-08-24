@@ -53,6 +53,34 @@ The recursive resolver receives the record from the authoritative name server an
 - **Host Response**:
 The host receives the IP address from the recursive resolver. It can then use this IP address to establish a connection to the desired server or resource associated with the domain name.
 
+
+## What are the DNS based attacks?
+DNS (Domain Name System) attacks are malicious activities that target the DNS infrastructure to disrupt services, compromise security, or redirect traffic for unauthorized purposes. These attacks can have significant consequences, as DNS is a fundamental part of how the internet functions. Here are some common types of DNS attacks:
+
+- **DNS Spoofing (DNS Cache Poisoning)**:
+DNS spoofing involves corrupting the DNS cache of a DNS resolver with false or malicious DNS information. This can lead to users being redirected to fake websites (phishing), malware distribution, or man-in-the-middle attacks.
+- **DNS Amplification Attack (DOS)**:
+In a DNS amplification attack, attackers send DNS queries with a spoofed source IP address to open DNS resolvers. The resolvers respond with larger DNS responses, overwhelming the target with a flood of traffic, causing a Distributed Denial of Service (DDoS) attack.
+- **DNS Hijacking**:
+DNS hijacking involves changing the DNS settings on a victim's device, router, or DNS server to redirect traffic to malicious servers. This can lead to traffic interception, data theft, and unauthorized access.
+- **Domain Hijacking**:
+Domain hijacking occurs when attackers gain unauthorized access to a domain owner's account and change the DNS records of the domain. This can lead to website defacement, phishing, or redirecting traffic to malicious sites.
+- **Man-in-the-Middle (MITM) Attack**:
+In a DNS MITM attack, attackers intercept and modify DNS queries or responses to reroute traffic through their own servers. This allows them to eavesdrop on communication or launch further attacks.
+- **Fast Flux DNS**:
+Fast flux DNS involves rapidly changing the IP addresses associated with a domain to make it difficult to track malicious activities. It's commonly used in botnets to hide command and control servers.
+- **Pharming**:
+Pharming involves redirecting users to malicious websites even if they enter the correct URL in their browser. This can be achieved by modifying the DNS settings on the user's device or through DNS cache poisoning.
+- **NXDOMAIN Attack (Domain Name System Response Rate Limiting - RRL)**:
+Attackers send a high volume of DNS queries for non-existent domains to exploit the DNS server's resources. This can lead to resource exhaustion and service degradation.
+- **Zone Transfer Attacks**:
+Zone transfer attacks target misconfigured DNS servers that allow unauthorized zone transfers. Attackers can gain information about the DNS infrastructure, including domain names, IP addresses, and other sensitive data.
+- **Random Subdomain Attacks**:
+Attackers create a large number of random subdomains in a domain they control. These subdomains may have malicious content or phishing sites. This tactic can evade traditional blacklists.
+- **Tunneling Attacks**:
+Tunneling attacks involve encapsulating malicious traffic within DNS requests or responses to bypass network security measures.
+
+
 ## What is DNS Cache Poisoning?
 DNS cache poisoning occurs when an attacker manipulates the DNS resolution process to redirect users to malicious websites or intercept their communications.
 
