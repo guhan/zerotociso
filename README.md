@@ -39,7 +39,7 @@ Reference material for those interested in cybersecurity
 [Data Classification](docs/DATACLASSIFICATION.md) \
 [Data Security](docs/DATASECURITY.md) \
 [Design and Models](docs/DESIGNANDMODELS.md) \
-[Evaluating Security Controls](docs/SECURITYCONTROLS.md) \
+[Access Controls](docs/ACCESSCONTROLS.md) \
 [Physical Security](docs/PHYSICALSECURITY.md) \
 [Personnel](docs/PERSONNEL.md) \
 [Social Engineering](docs/SOCIALENGINEERING.md) \
