@@ -31,6 +31,27 @@ Used in DNSSEC (Domain Name System Security Extensions) to store public keys use
 - DS Record (Delegation Signer):
 Also used in DNSSEC, the DS record is used to identify the DNSKEY record of a delegated zone.
 
+## How does a host resolve a DNS query?
+When a host (client device or computer) wants to query a DNS (Domain Name System) record to resolve a domain name into an IP address, it goes through a series of steps to complete the process. Here's a simplified overview of the steps a host takes to query a DNS record:
+
+- **Local Cache Check**:
+The host first checks its local DNS cache to see if it has recently resolved the same domain name. If the requested record is found in the cache and is still valid (not expired), the host can use the cached IP address without making an external query.
+- **Querying the Recursive Resolver**:
+If the record is not found in the local cache or has expired, the host contacts its configured DNS recursive resolver (typically provided by the ISP or a third-party DNS service). The host sends a DNS query request to the resolver, providing the domain name it wants to resolve.
+  - **Iterative Querying**:
+The recursive resolver receives the query and begins the process of resolving the domain name. It might have the record cached from previous queries, in which case it can return the IP address directly to the host. If not, the resolver initiates an iterative query process.
+- **Root Name Server Query**:
+If the recursive resolver doesn't have the requested record, it queries one of the root name servers. The root name servers provide information about the top-level domain (TLD) servers responsible for specific TLDs (.com, .org, .net, etc.).
+  - **TLD Name Server Query**:
+The root name server provides a referral to the TLD name server responsible for the domain's TLD (e.g., .com). The recursive resolver then queries the TLD name server.
+  - **Authoritative Name Server Query**:
+The TLD name server provides a referral to the authoritative name server responsible for the specific domain name being queried (e.g., ns1.example.com). The recursive resolver queries the authoritative name server.
+  - **Record Response**:
+The authoritative name server responds to the recursive resolver with the requested DNS record, such as an IP address associated with the domain name.
+- **Recursive Resolver Response**:
+The recursive resolver receives the record from the authoritative name server and caches it for future use. It then sends the response back to the original host that made the query.
+- **Host Response**:
+The host receives the IP address from the recursive resolver. It can then use this IP address to establish a connection to the desired server or resource associated with the domain name.
 
 ## What is DNS Cache Poisoning?
 DNS cache poisoning occurs when an attacker manipulates the DNS resolution process to redirect users to malicious websites or intercept their communications.
