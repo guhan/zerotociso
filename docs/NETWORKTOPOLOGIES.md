@@ -1,5 +1,7 @@
 # Network Topologies
 
+![Network Toplogies](img/network_topology.jpg)
+
 ## Ring
 In a ring topology, devices are connected in a closed loop. Each device is connected to exactly two other 
 devices, creating a circular pathway for data. Failure of one device can disrupt the entire network.
