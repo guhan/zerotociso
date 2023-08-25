@@ -92,6 +92,7 @@ Reference material for those interested in cybersecurity
 [Planning](docs/PLANNING.md) \
 [Change Management](docs/CHANGEMANAGEMENT.md) \
 [Agile](docs/AGILE.md) \
+[Code Reviews](docs/CODEREVIEW.md) \
 [DevOps](docs/DEVOPS.md) \
 [SRE](docs/SRE.md) \
 [Incident Response](docs/INCIDENTRESPONSE.md) \
