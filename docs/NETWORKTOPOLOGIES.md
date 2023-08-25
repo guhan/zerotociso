@@ -1,6 +1,6 @@
 # Network Topologies
 
-![Network Toplogies](/images/network_topology.jpg)
+![Network Toplogies](/images/network-topology-types-1024x536.png)
 
 ## Ring
 In a ring topology, devices are connected in a closed loop. Each device is connected to exactly two other 
