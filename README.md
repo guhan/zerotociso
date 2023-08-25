@@ -52,7 +52,7 @@ Reference material for those interested in cybersecurity
 - [Email](docs/CRYPTOEMAIL.md)
 
 [SAML](docs/SAML.md) \
-[SCAP] (docs/SCAP.md) \
+[SCAP](docs/SCAP.md) \
 [Testing](docs/TESTING.md) \
 [Threat Modeling](docs/THREATMODELING.md)
 
