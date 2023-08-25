@@ -30,6 +30,7 @@ Reference material for those interested in cybersecurity
 [Infrastructure as Code](docs/IAC.md) \
 [AWS](docs/AWS.md) \
 [OAuth](docs/OAUTH.md) \
+[Email](docs/EMAIL.md) \
 [High Performance Computing](docs/HPC.md) \
 [Voice](docs/VOICE.md)
 
