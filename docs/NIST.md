@@ -31,8 +31,21 @@ The key areas are:
 - Categories and Subcategories: Under each core function, the NIST CSF provides categories and subcategories that define specific outcomes and activities related to cybersecurity risk management. These categories and subcategories help organizations understand the areas they need to focus on to achieve their cybersecurity objectives.
 - Informative References: The NIST CSF includes a list of informative references to other relevant standards, guidelines, and best practices that can complement and support the implementation of the framework.
 
+
+## NIST 800-61
+The NIST Special Publication 800-61 outlines best practices and procedures for **handling various types of security incidents**, such as data breaches, malware infections, denial of service attacks, unauthorized access, and more. It emphasizes the importance of having a well-defined incident response plan and a coordinated approach to managing security incidents.
+
+The key topics covered in NIST 800-61 include:
+
+- **Incident Response Overview**: An introduction to incident response, its importance, and the various phases of incident handling.
+- **Incident Handling Preparation**: This section focuses on the necessary steps for preparing an organization to effectively respond to incidents. This includes creating an incident response policy, forming an incident response team, and establishing communication protocols.
+- **Incident Detection and Analysis**: Guidance on how to detect and analyze security incidents, including the identification of indicators of compromise (IOCs) and the collection of relevant data for investigation.
+- **Incident Containment, Eradication, and Recovery**: This section details the steps to take once an incident is identified, including containing the incident to prevent further damage, eradicating the root cause, and recovering affected systems to normal operation.
+- **Post-Incident Activity**: Advice on analyzing the incident response process, documenting lessons learned, and using the information to improve future incident handling.
+- **Legal and Regulatory Considerations**: Information about legal and regulatory aspects of incident handling, such as reporting requirements and evidence preservation.
+
 ## NIST 800-63b
-The National Institute of Standards and Technology (NIST) Special Publication 800-63B Digital Identity Guidelines provide best practices related to authentication and password lifecycle management. In this publication, NIST outlines several best practices to bolster their password security. 
+The National Institute of Standards and Technology (NIST) Special Publication 800-63B Digital Identity Guidelines provide best practices related to **authentication and password lifecycle management**. In this publication, NIST outlines several best practices to bolster their password security. 
 
 Let’s take a look at the following NIST recommendations related to end-users changing their passwords:
 - Check passwords against breached password lists
