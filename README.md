@@ -102,7 +102,8 @@ Reference material for those interested in cybersecurity
 [Risk Management](docs/RISKMGMT.md) \
 [Security Engineering](docs/SECURITYENGINEERING.md) \
 [BCP/DR](docs/BCPDR.md) \
-[Investigations](docs/INVESTIGATIONS.md)
+[Investigations](docs/INVESTIGATIONS.md) \
+[Ethics](docs/ETHICS.md)
 
 ## Business
 [Basic Finance](docs/BASICFINANCE.md) \
