@@ -4,6 +4,13 @@ impact if the risks were to occur.
 
 _Seat of the pants_ attitude is one of the most common arguments against committing resources to BCP. 
 
+## Key Concepts
+- **fail secure**: system that when fails will block all access
+- **fail open**: system that when it fails will grant access
+- **Max Tolerable Outage (MTO)**: Maximum tolerable outage of the business
+
+
+
 ## Project Scope and Planning
 - Structed analysis of org from crisis perspective
 - create a BCP team with leadership approval
