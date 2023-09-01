@@ -8,6 +8,21 @@ _Seat of the pants_ attitude is one of the most common arguments against committ
 - **fail secure**: system that when fails will block all access
 - **fail open**: system that when it fails will grant access
 - **Max Tolerable Outage (MTO)**: Maximum tolerable outage of the business
+- **Cold Site**: facility to use without being in full working order
+- **Hot Site**: fully functional with infrastructure and all data
+- **Warm Site**: fully funtional but without data
+- **Service Bureau**: Bit outdated, facilty that leases compute time
+- **Mutual Assistance Agreement (MAA)**: Firms agree to help each other during a disaster
+- **Full Backup**: All items backed up, archive bit set back to 0 after
+- **Incremental Backup**: Only changed files backed up, archive bit set to 0 after
+- **Differential Backup**: All changed files backed up and archive bit not changed
+- **Software Escow Arrangement**: Third party dev firm periodically stores copy of code with escrow agent,
+  if they go under the ownership transfers to the escrow agent and customer
+- **Read Through Test**: read and update BCP
+- **Structured Walk Through (aka Table Top)**: Role play scenarios around the BCP
+- **Simulation Test**: Same as Structured, but response measures are tested
+- **Parallel Test**: Full test on a parallel/staging environment
+- **Full Interuption Test**: Full test on production system
 
 
 
