@@ -44,7 +44,17 @@ The structured and systematic approach to planning, implementing, and **managing
 - Hand off any anomalies to on-call teams
 
 
+## Change vs Configuration Managment
+Change Management: 
+- Request Control: Users request changes, cost/benefit analyis, prioritization
+- Change Control: recreate issue, test solution, documentation
+- Release Control:approve changes, push changes, final acceptance testing
 
+Configuration Mangement: 
+- Configuration Identification: document the configuration
+- Configuration Control: changes are made in accordance with policies
+- Configuration Status Accounting: track all authorized changes taking place
+- Configuration Audit: Ensure actual production matches accounting records
 
 
 ## Common Approaches and Models in Change Management:
