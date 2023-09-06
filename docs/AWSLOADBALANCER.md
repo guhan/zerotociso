@@ -19,6 +19,72 @@ Key features and benefits of AWS Load Balancers include:
 - **Security Groups**: Load balancers can be associated with security groups to control traffic access and improve security.
 
 
+## What is a Load Balancer target group?
+In the context of an AWS Load Balancer, a "target group" is a logical grouping of target instances or resources that the load balancer directs incoming traffic to. 
+
+```
+# Define the AWS provider and region
+provider "aws" {
+  region = "us-east-1"  # Replace with your desired region
+}
+
+# Create a security group for the instances
+resource "aws_security_group" "instance_sg" {
+  name        = "instance-sg"
+  description = "Security group for instances"
+  
+  # Define your security group rules here, such as allowing inbound traffic on specific ports
+  # For example:
+  # ingress {
+  #   from_port   = 80
+  #   to_port     = 80
+  #   protocol    = "tcp"
+  #   cidr_blocks = ["0.0.0.0/0"]
+  # }
+}
+
+# Create an AWS ALB
+resource "aws_lb" "example_alb" {
+  name               = "example-alb"
+  internal           = false
+  load_balancer_type = "application"
+  subnets            = ["subnet-1a2b3c4d", "subnet-5e6f7g8h"]  # Replace with your subnet IDs
+}
+
+# Create an AWS target group
+resource "aws_lb_target_group" "example_target_group" {
+  name        = "example-target-group"
+  port        = 80  # The port the instances are listening on
+  protocol    = "HTTP"
+  target_type = "instance"  # Specifies that we are using EC2 instances as targets
+
+  vpc_id = "vpc-12345678"  # Replace with your VPC ID
+
+  # Specify health check settings
+  health_check {
+    interval            = 30
+    path                = "/"
+    port                = "traffic-port"  # The health check uses the same port as the target
+    protocol            = "HTTP"
+    timeout             = 5
+    healthy_threshold   = 2
+    unhealthy_threshold = 2
+  }
+}
+
+# Register instances with the target group
+resource "aws_lb_target_group_attachment" "example_target_attachment_1" {
+  target_group_arn = aws_lb_target_group.example_target_group.arn
+  target_id        = "i-abcdefgh12345678"  # Replace with the ID of your first instance
+}
+
+resource "aws_lb_target_group_attachment" "example_target_attachment_2" {
+  target_group_arn = aws_lb_target_group.example_target_group.arn
+  target_id        = "i-ijklmnop90123456"  # Replace with the ID of your second instance
+}
+```
+
+
 ### Setup an ALB
 ```
 resource "aws_alb" "application_load_balancer" {
