@@ -1,7 +1,7 @@
 # Sigma
 
 Sigma is an open-source project and a generic signature format for describing detection rules in a consistent and platform-independent way. 
-It is used for creating and sharing detection rules for various security information and event management (SIEM) systems, intrusion detection 
+It is **used for creating and sharing detection rules for various security information and event management (SIEM) systems**, intrusion detection 
 systems (IDS), and other security tools.
 
 The primary goal of Sigma is to provide a common language for expressing detection logic across different security platforms. This _makes 
