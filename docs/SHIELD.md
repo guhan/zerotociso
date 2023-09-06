@@ -1,6 +1,9 @@
 # AWS Shield
 AWS Shield is a managed **Distributed Denial of Service (DDoS) protection service** offered by Amazon Web Services (AWS). It is designed to protect AWS resources, applications, and services from various types of DDoS attacks that can disrupt the availability and performance of web applications and services.
 
+- Global threat dashboard that whows all AWS related attacks
+- DDOS Response Team (DRT) can access your rules
+
 ## What are the benefits of using AWS Shield? 
 
 - **Layer 3 and 4 Protection**: AWS Shield Standard provides protection against common and most frequently observed network and transport layer DDoS attacks, including SYN/ACK floods and UDP reflection attacks, at no additional cost for all AWS customers.
