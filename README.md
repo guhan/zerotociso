@@ -30,12 +30,13 @@ Reference material for those interested in cybersecurity
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
 - [Languages](docs/LANGUAGES.md) 
-  
   - [OVAL](docs/OVAL.md)
   - [Sigma](docs/SIGMA.md)
   - [YARA](docs/YARA.md)
 - [Documentation](docs/DOCUMENTATION.md)
 - [Code Repositories](docs/CODEREPOSITORIES.md)
+- [Testing](docs/TESTING.md) 
+  - [Static Analysis](docs/SAST.md)
 - [Databases](docs/DATABASES.md)
 - [High Performance Computing](docs/HPC.md)
 
@@ -63,20 +64,16 @@ Reference material for those interested in cybersecurity
 [Design and Models](docs/DESIGNANDMODELS.md) \
 [Access Controls](docs/ACCESSCONTROLS.md) \
 [Physical Security](docs/PHYSICALSECURITY.md) \
-[Personnel](docs/PERSONNEL.md) \
+[Personnel Security](docs/PERSONNEL.md) \
 [Social Engineering](docs/SOCIALENGINEERING.md) \
- \
 [Network Attacks](docs/NETWORKATTACKS.md) \
 [Web](docs/WEBSECURITY.md) \
 [Bluetooth](docs/BLUETOOTH.md) \
 [Cryptography](docs/CRYPTOGRAPHY.md) 
 - [Hardware](docs/CRYPTOHARDWARE.md)
 - [Email](docs/CRYPTOEMAIL.md)
-
-\
 [SCAP](docs/SCAP.md) \
-[Testing](docs/TESTING.md) 
-- [Static Analysis](docs/SAST.md)
+
   
 [Threat Modeling](docs/THREATMODELING.md)
 
