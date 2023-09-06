@@ -33,7 +33,7 @@ Reference material for those interested in cybersecurity
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
 - [Languages](docs/LANGUAGES.md) 
-  - [OVAL](docs/OVAL.md)
+
   - [Sigma](docs/SIGMA.md)
   - [YARA](docs/YARA.md)
 - [Documentation](docs/DOCUMENTATION.md)
@@ -60,47 +60,47 @@ Reference material for those interested in cybersecurity
 
 
 ## Security
-[General](docs/GENERALSECURITY.md) \
-[Security Policies](docs/SECURITYPOLICIES.md) \
-[Data Classification](docs/DATACLASSIFICATION.md) \
-[Data Security](docs/DATASECURITY.md) \
-[Design and Models](docs/DESIGNANDMODELS.md) \
-[Access Controls](docs/ACCESSCONTROLS.md) \
-[Physical Security](docs/PHYSICALSECURITY.md) \
-[Personnel Security](docs/PERSONNEL.md) \
-[Social Engineering](docs/SOCIALENGINEERING.md) \
-[Network Attacks](docs/NETWORKATTACKS.md) \
-[Web](docs/WEBSECURITY.md) \
-[Bluetooth](docs/BLUETOOTH.md) \
-[Cryptography](docs/CRYPTOGRAPHY.md) 
-- [Hardware](docs/CRYPTOHARDWARE.md)
-- [Email](docs/CRYPTOEMAIL.md)
-[SCAP](docs/SCAP.md) \
-
-  
-[Threat Modeling](docs/THREATMODELING.md)
+- [General](docs/GENERALSECURITY.md) 
+- [Security Policies](docs/SECURITYPOLICIES.md) 
+- [Data Classification](docs/DATACLASSIFICATION.md) 
+- [Data Security](docs/DATASECURITY.md) 
+- [Design and Models](docs/DESIGNANDMODELS.md) 
+- [Access Controls](docs/ACCESSCONTROLS.md) 
+- [Physical Security](docs/PHYSICALSECURITY.md) 
+- [Personnel Security](docs/PERSONNEL.md) 
+- [Social Engineering](docs/SOCIALENGINEERING.md) 
+- [Network Attacks](docs/NETWORKATTACKS.md) 
+- [Web](docs/WEBSECURITY.md) 
+- [Bluetooth](docs/BLUETOOTH.md) 
+- [Cryptography](docs/CRYPTOGRAPHY.md) 
+  - [Hardware](docs/CRYPTOHARDWARE.md)
+  - [Email](docs/CRYPTOEMAIL.md)
+- Vulnerabilities
+  - [SCAP](docs/SCAP.md)
+  - [OVAL](docs/OVAL.md)
+- [Threat Modeling](docs/THREATMODELING.md)
 
 
 
 ## Compliance
-[Cybersecurity Laws](docs/LAWS.md) \
-[BSA](docs/BSA.md) \
-[CIS](docs/CIS.md) \
-[CMMC](docs/CMMC.md) \
-[COBIT](docs/COBIT.md) \
-[CSA](docs/CSA.md) \
-[FOIA](docs/FOIA.md) \
-[FIPS 140-2](docs/FIPS.md) \
-[GDPR](docs/GDPR.md) \
-[HIPAA](docs/HIPAA.md) \
-[ISO 27xxx](docs/ISO.md) \
-[ITAR](docs/ITAR.md) \
-[NERC](docs/NERC.md) \
-[NIST](docs/NIST.md) \
-[PCI-DSS](docs/PCIDSS.md) \
-[SOC2](docs/SOC2.md) \
-[Supply Chain](docs/SUPPLYCHAIN.md) \
-[X.509](docs/X509.md) 
+- [Cybersecurity Laws](docs/LAWS.md) 
+- [BSA](docs/BSA.md) 
+- [CIS](docs/CIS.md) 
+- [CMMC](docs/CMMC.md) 
+- [COBIT](docs/COBIT.md) 
+- [CSA](docs/CSA.md) 
+- [FOIA](docs/FOIA.md) 
+- [FIPS 140-2](docs/FIPS.md) 
+- [GDPR](docs/GDPR.md) 
+- [HIPAA](docs/HIPAA.md) 
+- [ISO](docs/ISO.md) 
+- [ITAR](docs/ITAR.md) 
+- [NERC](docs/NERC.md) 
+- [NIST](docs/NIST.md) 
+- [PCI-DSS](docs/PCIDSS.md) 
+- [SOC2](docs/SOC2.md) 
+- [Supply Chain](docs/SUPPLYCHAIN.md) 
+- [X.509](docs/X509.md) 
 
 
 
