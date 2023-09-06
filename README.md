@@ -55,12 +55,21 @@ Reference material for those interested in cybersecurity
 - [Docker](docs/DOCKER.md)
 - [Kubernetes](docs/K8S.md) 
 - [Infrastructure as Code](docs/IAC.md) 
-- [AWS](docs/AWS.md) 
+- [AWS](docs/AWS.md)
+  - [IAM](docs/IAM.md)
+  - [Route53](docs/ROUTE53.md)
+  - [WAF](docs/WAF.md)
+  - [Load Balancer](docs/AWSLOADBALANCER.md)
+  - [Auto Scaling Group](docs/AUTOSCALINGGROUP.md)
+  - [EC2](docs/EC2.md)
+  - [S3](docs/S3.md)
+  - [GuardDuty](docs/GUARDDUTY.md)
 - [Authentication](docs/AUTHENTICATION.md)
   - [SAML](docs/SAML.md)
   - [OAuth](docs/OAUTH.md)
 - Authorization
   - [OPA/Rego](docs/OPA.md)
+- CDN
 
 
 
