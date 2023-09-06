@@ -13,6 +13,7 @@ Reference material for those interested in cybersecurity
 - [Basics](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
 - [OSI Model](docs/OSIMODEL.md)
+  - [IP](docs/IP.md)
   - [ICMP](docs/ICMP.md)
   - [TCP](docs/TCP.md)
   - [UDP](docs/UDP.md)
