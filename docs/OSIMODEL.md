@@ -48,7 +48,7 @@ Logical addressing and routing of data packets across different networks. It def
 - **Internet Protocol (IP)**: IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
 - IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6) are the two prevalent versions of IP.
 
-- **Internet Control Message Protocol (ICMP)**: ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
+- [**Internet Control Message Protocol (ICMP)**](docs/ICMP.md): ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
 
 - **Internet Group Management Protocol (IGMP)**: IGMP is used for managing multicast group memberships on IP networks. It enables devices to join or leave multicast groups and facilitates the delivery of multicast traffic.
 
@@ -67,11 +67,11 @@ Logical addressing and routing of data packets across different networks. It def
 ### Layer 4 - Transport 
 Ensures reliable data delivery between applications on different hosts.
 
-- **TCP**: offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
+- [**TCP**](docs/TCP.md): offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
   - Segment.
   - Full Duplex
 
-- **User Datagram Protocol (UDP)**: UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
+- [**User Datagram Protocol (UDP)**](docs/UDP.md): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
   - Datagram.
   - Simplex
 
