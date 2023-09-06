@@ -7,6 +7,7 @@ Reference material for those interested in cybersecurity
 - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Operating Systems](docs/OS.md)
+  - [Linux](docs/LINUX.md) 
 
 
 
@@ -23,7 +24,7 @@ Reference material for those interested in cybersecurity
   
 [Documentation](docs/DOCUMENTATION.md) \
 [Code Repositories](docs/CODEREPOSITORIES.md) \
-[Linux](docs/LINUX.md) 
+
 
 [Networking](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
