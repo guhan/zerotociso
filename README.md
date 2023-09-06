@@ -70,7 +70,7 @@ Reference material for those interested in cybersecurity
   - [OAuth](docs/OAUTH.md)
 - Authorization
   - [OPA/Rego](docs/OPA.md)
-- CDN
+- [CDN](docs/CDN.md)
 
 
 
