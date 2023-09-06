@@ -48,23 +48,6 @@ The cost optimization pillar focuses on avoiding unnecessary costs. Key topics i
 The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
 
 
-
-
-
-
-
-## CloudFront
-CDN for web content
-
-- Origin: location of the content i.e. S3/web host
-- Cache Behaviour
-
-Cache key
-- host encoding
-- query string
-
-SSL termination to origin (need to setup cert)
-
 ## What is AWS Directory Service?	
 AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also known as AWS Managed Microsoft AD, this service provides a fully managed Microsoft Active Directory in the AWS cloud. It is compatible with Microsoft Active Directory, allowing you to migrate or extend your on-premises Active Directory to the AWS cloud. It supports common Active Directory features, such as Group Policies, trusts, and domain join.
 
