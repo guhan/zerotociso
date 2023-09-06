@@ -10,7 +10,7 @@ Kubernetes is a container orchestration platform that is cloud agnostic (works i
 - **Secret and configuration management** Kubernetes lets you store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 
 ## Components of k8s
-![k8s][/images/k8s.png]
+![k8s](/images/k8s.png)
 
 
 
