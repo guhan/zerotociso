@@ -7,7 +7,7 @@
 ## Notation
 XXyyyyZZ
 - XX is the speed in Mbps
-- ZZ is the max distance in 100 meter increments
+- ZZ is the max distance in _100 meter_ increments
 
 ```
 10Base2
