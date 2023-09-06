@@ -26,7 +26,7 @@ Compliance and Governance: Understand and adhere to relevant compliance standard
 ## How to setup an AWS account? 
 
 - Use organizations to segment various accounts. 
-- SCP stands for Service Control Policies. SCPs are a feature of AWS Organizations that allow you to define fine-grained permissions and access controls for AWS accounts within your organization.
+- **SCP stands for Service Control Policies**. SCPs are a feature of AWS Organizations that allow you to define fine-grained permissions and access controls for AWS accounts within your organization.
 You can define fine-grained permissions by allowing or denying access to specific AWS services, APIs, actions, or resources.
   - Enforcement: SCPs are enforced at the AWS Organizations level and are independent of any individual account's IAM (Identity and Access Management) policies. This means that even if an IAM policy allows certain actions, an SCP can override and deny those actions at the organizational level.
 
