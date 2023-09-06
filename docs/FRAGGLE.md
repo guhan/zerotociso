@@ -1,10 +1,4 @@
-# Network Attacks
-
-
-
-
-
-## What is the difference between a smurf and fraggle attack?
+# Fraggle Attack
 A "Fraggle Attack" is a type of Distributed Denial of Service (DDoS) attack that is similar to the better-known Smurf Attack. Both Fraggle and Smurf attacks exploit a vulnerability in the Internet Control Message Protocol (ICMP) and the User Datagram Protocol (UDP) to flood a victim's network and overwhelm its resources, causing disruption.
 
 Here's how a Fraggle Attack works:
