@@ -12,6 +12,7 @@ Reference material for those interested in cybersecurity
 ## Networking
 - [Basics](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
+- [Cables](docs/CABLES.md)
 - [OSI Model](docs/OSIMODEL.md)
   - [IP](docs/IP.md)
   - [ICMP](docs/ICMP.md)
@@ -20,12 +21,11 @@ Reference material for those interested in cybersecurity
   - [DNS](docs/DNS.md)
   - [IPSEC](docs/IPSEC.md)
   - [RADIUS](docs/RADIUS.md)
-- [Cables](docs/CABLES.md)
-- [Wireless](docs/WIRELESS.md)
-- [Firewalls](docs/FIREWALLS.md)
 - [LAN Technologies](docs/LAN.md)
+- [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
 - [Voice](docs/VOICE.md)
+- [Wireless](docs/WIRELESS.md)
 
 ## Programming
 
