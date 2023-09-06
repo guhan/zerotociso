@@ -67,11 +67,6 @@ Cloud based threat detection service
 Firewall Manager enables you to centrally manage AWS WAF (Web Application Firewall) rules across multiple AWS accounts and resources. It allows you to create and apply security rules to protect your web applications from common web-based attacks.
 
 
-## What is AWS Shield?
-AWS Shield: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service. It provides automatic protection against volumetric, state-exhaustion, and application layer DDoS attacks to help keep your applications and data available.
-
-- Global threat dashboard that whows all AWS related attacks
-- DDOS Response Team (DRT) can access your rules
 
 
 ## What is AWS Inspector?
