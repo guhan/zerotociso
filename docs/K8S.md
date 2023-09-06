@@ -45,6 +45,34 @@ At a minimum you need a master node (instance) and two worker nodes (instances).
 - **Pods**: one or more containers
 
 
+## k8s Addons
+- **Cluster DNS**: Cluster DNS is a DNS server, in addition to the other DNS server(s) in your environment, which serves DNS records for Kubernetes services
+- **Dashboard**: Dashboard is a general purpose, web-based UI for Kubernetes clusters.
+- **Container Resource Monitoring**:
+  - **metrics-server**:  discovers all nodes on the cluster and queries each node's kubelet for CPU and memory usage.
+- **cluster-level logging**: a mechanism responsible for saving container logs to a central log store with search/browsing interface
+- **Network plugins**:  are software components that implement the container network interface (CNI) specification. They are responsible for allocating IP addresses to pods and enabling them to communicate with each other within the cluster.
+
+## Nodes
+kubelet will either automatilly register the node or someone can manually add one
+```
+{
+  "kind": "Node",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "10.240.79.157",
+    "labels": {
+      "name": "my-first-k8s-node"
+    }
+  }
+}
+```
+- name of a Node object must be a valid DNS subdomain name.
+- To mark a Node unschedulable, run:
+  ```kubectl cordon $NODENAME```
+- 
+
+
 ## How to secure k8s?
 
 ### Strong Authentication and Authorization:
