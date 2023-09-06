@@ -23,15 +23,6 @@ One packet is sent and the network equipment replicates it to the multiple subsc
 ## What is Unicast?
 One packet is sent to one recipient
 
-## How does a CDN use multicast?
-CDNs use multicast in the following ways:
-- **Content Ingestion**: CDNs often employ multicast for efficient content ingestion from the origin server to the edge nodes. Multicast allows the content to be replicated and distributed across the CDN infrastructure without the need for individual unicast streams from the origin server to each edge node.
-
-
-- **Internal Communication**: Multicast is used for internal communication and synchronization between different CDN nodes. It helps in efficiently disseminating control and synchronization messages, enabling the CDN infrastructure to operate in a coordinated and synchronized manner.
-
-
-- **Origin-Edge Communication**: CDNs may use multicast for communication between the origin server and the edge nodes. This allows for efficient distribution of updates or changes in content from the origin server to the edge nodes, minimizing the load on the origin server and optimizing the content replication process.
 
 
 
