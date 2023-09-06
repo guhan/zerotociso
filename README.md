@@ -16,6 +16,7 @@ Reference material for those interested in cybersecurity
 - [OSI Model](docs/OSIMODEL.md)
   - [IP](docs/IP.md)
   - [ICMP](docs/ICMP.md)
+    - [Smurf](docs/SMURF.md)
   - [TCP](docs/TCP.md)
     - [SYN Flood](docs/SYNFLOOD.md)
     - [SYN Cookies](docs/SYNCOOKIES.md)
