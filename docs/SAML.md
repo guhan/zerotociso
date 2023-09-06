@@ -37,3 +37,40 @@ Key features and benefits of SAML include:
 - **Interoperability**: SAML is a widely accepted standard for SSO and works across different platforms and technologies.
 - **Centralized Identity Management**: Identity providers (IdPs) centralize user authentication (_federation_), simplifying user management and access control.
 - **Decentralized Architecture**: Different service providers (SPs) can trust a common identity provider, reducing the need for each SP to manage its own authentication.
+
+
+## What does a SAML token look like?
+A Security Assertion Markup Language (SAML) token is an XML-based security token used in authentication and authorization processes, particularly in Single Sign-On (SSO) systems. A SAML token typically contains various pieces of information, including authentication assertions and attributes about the user or entity.
+
+Here is a simplified example of what a SAML token might look like:
+```
+<saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+  <saml:AttributeStatement>
+    <saml:Attribute Name="FirstName" Format="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+      <saml:AttributeValue>John</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="LastName" Format="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+      <saml:AttributeValue>Doe</saml:AttributeValue>
+    </saml:Attribute>
+    <!-- Other attributes -->
+  </saml:AttributeStatement>
+  <saml:AuthnStatement>
+    <saml:AuthnContext>
+      <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml:AuthnContextClassRef>
+    </saml:AuthnContext>
+    <saml:AuthnInstant>2023-09-05T14:30:00Z</saml:AuthnInstant>
+    <!-- Authentication-related information -->
+  </saml:AuthnStatement>
+  <!-- Other SAML assertions -->
+</saml:Assertion>
+```
+
+In this example:
+
+- <saml:Assertion> is the root element of the SAML token.
+- <saml:AttributeStatement> contains attributes about the user or entity. In this case, it includes the user's first name and last name.
+- <saml:AuthnStatement> contains information about the authentication process:
+  - authentication method used (<saml:AuthnContextClassRef>)
+  - timestamp of authentication (<saml:AuthnInstant>).
+
+
