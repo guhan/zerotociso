@@ -1,5 +1,5 @@
 # Internet Control Messaging Protocol (ICMP)
-ICMP is used for sending error messages, operational information, and diagnostic messages about network conditions.
+ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
 
 ## ICMP Packet
 ![ICMP Packet](/images/ICMP.png)
