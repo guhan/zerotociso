@@ -20,13 +20,18 @@ At a minimum you need a master node (instance) and two worker nodes (instances).
   - kube-apiserver is designed to scale horizontally—that is, it scales by deploying more instances.
     
 - **kube-controller-manager**: runs the following control processes
-  - **Node controller**: Responsible for noticing and responding when nodes go down.
+  - **Node controller**: 
+    - Responsible for noticing and responding when nodes go down.
+    - checks the state of each node every 5 seconds
+    - assigning a CIDR block to the node when it is registered 
   - **Job controller**: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+    - Job is a Kubernetes resource that runs a Pod, or perhaps several Pods, to carry out a task and then stop.
   - **EndpointSlice controller**: Populates EndpointSlice objects (to provide a link between Services and Pods).
   - **ServiceAccount controller**: Create default ServiceAccounts for new namespaces.
 
 - **kube-scheduler**:
   - Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on.
+  - checks that the sum of the requests of containers on the node is no greater than the node's capacity
     
 - **etcd**:
   - Consistent and highly-available key value store
@@ -70,7 +75,22 @@ kubelet will either automatilly register the node or someone can manually add on
 - name of a Node object must be a valid DNS subdomain name.
 - To mark a Node unschedulable, run:
   ```kubectl cordon $NODENAME```
-- 
+- You can use kubectl to view a Node's status and other details:
+  ```kubectl describe node <insert-node-name-here>```
+- Heartbeats, sent by Kubernetes nodes, help your cluster determine the availability of each node
+- Nodes should be provisioned with the public root certificate for the cluster such that they can connect securely to the API server along with valid client credentials.
+
+
+## Pods
+
+
+- Pods that wish to connect to the API server can do so securely by leveraging a service account so that Kubernetes will automatically inject the public root certificate and a valid bearer token into the pod when it is instantiated
+
+
+## Leases
+- Leases can be thought of as distributed locks (aka lockfile)
+- Leases have a time-to-live (TTL) associated with them, after which they expire.
+- When a Lease expires or is released, another pod or component can acquire it
 
 
 ## How to secure k8s?
