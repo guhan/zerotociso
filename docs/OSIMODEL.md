@@ -123,4 +123,4 @@ Deals directly with applications and their interaction with the network. Data st
 - FTP
 - SMTP
 - SSH
-- DNS 
+- [**DNS**](docs/DNS.md) 
