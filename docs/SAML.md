@@ -19,6 +19,8 @@ SAML allows users to access multiple services or applications using a single set
 log in separately to each service, SAML enables them to authenticate once with an identity provider and then access multiple service 
 providers without reentering their credentials.
 
+![SAML Flow Diagram](/images/saml.png)
+
 Here's how SAML works:
 
 - **User Access Request**: When a user tries to access a service or application provided by a service provider (SP), the SP redirects 
