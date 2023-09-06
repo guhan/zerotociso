@@ -3,6 +3,8 @@ Offers reliable, connection-oriented communication, ensuring that data is delive
   - Packets are called _Segment_
   - Full Duplex
 
+## TCP Packet
+![TCP Packet](/images/TCP.png)
 
 ## What is a three-way handshake?
 - A: SYN, initial sequence number
