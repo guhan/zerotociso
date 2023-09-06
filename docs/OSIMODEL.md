@@ -67,11 +67,11 @@ Logical addressing and routing of data packets across different networks. It def
 ### Layer 4 - Transport 
 Ensures reliable data delivery between applications on different hosts.
 
-- [**TCP**](docs/TCP.md): offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
+- [**TCP**](TCP.md): offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
   - Segment.
   - Full Duplex
 
-- [**User Datagram Protocol (UDP)**](docs/UDP.md): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
+- [**User Datagram Protocol (UDP)**](UDP.md): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
   - Datagram.
   - Simplex
 
@@ -123,4 +123,4 @@ Deals directly with applications and their interaction with the network. Data st
 - FTP
 - SMTP
 - SSH
-- [**DNS**](docs/DNS.md) 
+- [**DNS**](DNS.md) 
