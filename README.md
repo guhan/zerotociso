@@ -28,31 +28,29 @@ Reference material for those interested in cybersecurity
 - [Wireless](docs/WIRELESS.md)
 
 ## Programming
+- [Architecture](docs/ARCHITECTURE.md) 
+- [Languages](docs/LANGUAGES.md) 
+  - [OPA/Rego](docs/OPA.md)
+  - [OVAL](docs/OVAL.md)
+  - [Sigma](docs/SIGMA.md)
+  - [YARA](docs/YARA.md)
+- [Documentation](docs/DOCUMENTATION.md)
+- [Code Repositories](docs/CODEREPOSITORIES.md)
+- [Databases](docs/DATABASES.md)
+- [High Performance Computing](docs/HPC.md)
 
 
-[Architecture](docs/ARCHITECTURE.md) \
-[Languages](docs/LANGUAGES.md) 
-- [OPA/Rego](docs/OPA.md)
-- [OVAL](docs/OVAL.md)
-- [Sigma](docs/SIGMA.md)
-- [YARA](docs/YARA.md)
-  
-[Documentation](docs/DOCUMENTATION.md) \
-[Code Repositories](docs/CODEREPOSITORIES.md) \
 
+## Cloud 
+- [Containers](docs/CONTAINERS.md) 
+- [Docker](docs/DOCKER.md)
+- [Kubernetes](docs/K8S.md) 
+- [Infrastructure as Code](docs/IAC.md) 
+- [AWS](docs/AWS.md) 
+- Authentication:
+  - [SAML](docs/SAML.md)
+  - [OAuth](docs/OAUTH.md)
 
-
-  
-
-[Containers](docs/CONTAINERS.md) \
-[Docker](docs/DOCKER.md)\
-[Kubernetes](docs/K8S.md) \
-[Infrastructure as Code](docs/IAC.md) \
-[AWS](docs/AWS.md) \
-[OAuth](docs/OAUTH.md) \
-
-[Databases](docs/DATABASES.md) \
-[High Performance Computing](docs/HPC.md) \
 
 
 ## Security
@@ -73,7 +71,7 @@ Reference material for those interested in cybersecurity
 - [Hardware](docs/CRYPTOHARDWARE.md)
 - [Email](docs/CRYPTOEMAIL.md)
 
-[SAML](docs/SAML.md) \
+\
 [SCAP](docs/SCAP.md) \
 [Testing](docs/TESTING.md) 
 - [Static Analysis](docs/SAST.md)
