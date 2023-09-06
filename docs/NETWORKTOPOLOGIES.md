@@ -11,7 +11,7 @@ In a bus topology, all devices are connected to a single central cable (the "bus
 intended for them and ignore data intended for others. A break in the cable can disrupt the entire network.
 
 ## Star
-In a star topology, all devices are connected to a central hub or switch. Communication between devices goes 
+In a star (aka Hub and Spoke) topology, all devices are connected to a central hub or switch. Communication between devices goes 
 through the hub. If one device fails, it doesn't affect the rest of the network, but the hub itself 
 becomes a single point of failure.
 
