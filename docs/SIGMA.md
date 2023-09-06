@@ -10,18 +10,18 @@ variety of security tools_ without having to write platform-specific rules for e
 
 ### Key features of Sigma include:
 
-- Cross-Platform Compatibility: Sigma rules can be translated or converted into the native formats of different SIEMs and security tools,
+- **Cross-Platform Compatibility**: Sigma rules can be translated or converted into the native formats of different SIEMs and security tools,
   allowing the same detection logic to be used across multiple platforms.
-- Simple and Readable Syntax: Sigma rules use a simple and human-readable YAML syntax that is easy to write and understand.
+- **Simple and Readable Syntax**: Sigma rules use a simple and human-readable YAML syntax that is easy to write and understand.
   This helps security analysts quickly create and share detection logic.
-- Wide Range of Detection Scenarios: Sigma supports a wide range of detection scenarios, including network traffic analysis,
+- **Wide Range of Detection Scenarios**: Sigma supports a wide range of detection scenarios, including network traffic analysis,
   host-based detection, application-level detection, and more.
-- Community and Sharing: Sigma has an active user community that shares and contributes to a repository of pre-built detection
+- **Community and Sharing**: Sigma has an active user community that shares and contributes to a repository of pre-built detection
   rules, making it easier to adopt and use effective detection logic.
-- Support for Multiple Data Sources: Sigma rules can be written to match patterns and conditions in various data sources, such
+- **Support for Multiple Data Sources**: Sigma rules can be written to match patterns and conditions in various data sources, such
   as log files, network traffic, and more.
-- Extensibility: Sigma rules can be extended with custom attributes and mappings to support specific SIEMs or tools.
-- Integration with SIEMs and Security Tools: SIEMs and security tools that support Sigma can ingest and apply Sigma detection rules
+- **Extensibility**: Sigma rules can be extended with custom attributes and mappings to support specific SIEMs or tools.
+- **Integration with SIEMs and Security Tools**: SIEMs and security tools that support Sigma can ingest and apply Sigma detection rules
   to enhance threat detection capabilities.
 
 ### Example
