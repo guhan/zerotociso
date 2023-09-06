@@ -2,9 +2,16 @@
 Reference material for those interested in cybersecurity
 
 
+## Computer
+- [Parts of a computer](docs/COMPUTERPARTS.md)
+- [RAID](docs/RAID.md)
+- [Operating Systems](docs/OS.md)
+
+
+
 ## Technical
 [Hardware and Operating Systems](docs/HARDWARE.md) 
-- [RAID](docs/RAID.md)
+
 
 [Architecture](docs/ARCHITECTURE.md) \
 [Languages](docs/LANGUAGES.md) 
