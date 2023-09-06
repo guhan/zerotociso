@@ -1,3 +1,11 @@
+# Internet Protocol
+IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
+
+Two prevalent versions of the protocol: 
+- IPv4 (Internet Protocol version 4)
+- IPv6 (Internet Protocol version 6) 
+
+
 ## What are the IP header protocol field values?
 The Protocol field in the IP header is an 8-bit field that indicates the protocol of the data carried in the IP packet's payload. This field specifies which higher-level protocol is being used to interpret the data in the packet's payload. Here are some common Protocol field values along with their corresponding protocols:
 
