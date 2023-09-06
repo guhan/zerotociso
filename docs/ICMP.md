@@ -2,7 +2,7 @@
 ICMP is used for sending error messages, operational information, and diagnostic messages about network conditions.
 
 ## ICMP Packet
-![ICMP Packet](images/ICMP.png)
+![ICMP Packet](/images/ICMP.png)
 
 
 ## What are the ICMP Field types? 
