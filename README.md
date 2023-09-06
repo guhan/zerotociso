@@ -68,7 +68,6 @@ Reference material for those interested in cybersecurity
 - [Physical Security](docs/PHYSICALSECURITY.md) 
 - [Personnel Security](docs/PERSONNEL.md) 
 - [Social Engineering](docs/SOCIALENGINEERING.md) 
-- [Network Attacks](docs/NETWORKATTACKS.md) 
 - [Web](docs/WEBSECURITY.md) 
 - [Cryptography](docs/CRYPTOGRAPHY.md) 
   - [Hardware](docs/CRYPTOHARDWARE.md)
