@@ -125,7 +125,7 @@ Reference material for those interested in cybersecurity
 - [Ethics](docs/ETHICS.md)
 
 ## Business
-[Basic Finance](docs/BASICFINANCE.md) \
-[Federal Reserve](docs/FED.md)
+- [Basic Finance](docs/BASICFINANCE.md) 
+- [Federal Reserve](docs/FED.md)
 
 
