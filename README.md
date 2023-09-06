@@ -47,7 +47,7 @@ Reference material for those interested in cybersecurity
 - [Kubernetes](docs/K8S.md) 
 - [Infrastructure as Code](docs/IAC.md) 
 - [AWS](docs/AWS.md) 
-- Authentication:
+- [Authentication](docs/AUTHENTICATION.md)
   - [SAML](docs/SAML.md)
   - [OAuth](docs/OAUTH.md)
 
@@ -63,7 +63,7 @@ Reference material for those interested in cybersecurity
 [Physical Security](docs/PHYSICALSECURITY.md) \
 [Personnel](docs/PERSONNEL.md) \
 [Social Engineering](docs/SOCIALENGINEERING.md) \
-[Authentication](docs/AUTHENTICATION.md) \
+ \
 [Network Attacks](docs/NETWORKATTACKS.md) \
 [Web](docs/WEBSECURITY.md) \
 [Bluetooth](docs/BLUETOOTH.md) \
