@@ -9,10 +9,17 @@ Reference material for those interested in cybersecurity
 - [Operating Systems](docs/OS.md)
   - [Linux](docs/LINUX.md) 
 
+## Networking
+- [Basics](docs/NETWORKING.md) 
+- [Topologies](docs/NETWORKTOPOLOGIES.md)
+- [OSI Model](docs/OSIMODEL.md)
+- [Cables](docs/CABLES.md)
+- [Wireless](docs/WIRELESS.md)
+- [Firewalls](docs/FIREWALLS.md)
+- [LAN Technologies](docs/LAN.md)
 
 
-## Technical
-[Hardware and Operating Systems](docs/HARDWARE.md) 
+## Programming
 
 
 [Architecture](docs/ARCHITECTURE.md) \
@@ -26,13 +33,7 @@ Reference material for those interested in cybersecurity
 [Code Repositories](docs/CODEREPOSITORIES.md) \
 
 
-[Networking](docs/NETWORKING.md) 
-- [Topologies](docs/NETWORKTOPOLOGIES.md)
-- [OSI Model](docs/OSIMODEL.md)
-- [Cables](docs/CABLES.md)
-- [Wireless](docs/WIRELESS.md)
-- [Firewalls](docs/FIREWALLS.md)
-- [LAN Technologies](docs/LAN.md)
+
   
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
