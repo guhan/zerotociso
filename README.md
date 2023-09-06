@@ -13,6 +13,10 @@ Reference material for those interested in cybersecurity
 - [Basics](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
 - [OSI Model](docs/OSIMODEL.md)
+  - [ICMP](docs/ICMP.md)
+  - [TCP](docs/TCP.md)
+  - [UDP](docs/UDP.md)
+  - [DNS](docs/DNS.md) 
 - [Cables](docs/CABLES.md)
 - [Wireless](docs/WIRELESS.md)
 - [Firewalls](docs/FIREWALLS.md)
@@ -35,7 +39,7 @@ Reference material for those interested in cybersecurity
 
 
   
-[DNS](docs/DNS.md) \
+
 [Containers](docs/CONTAINERS.md) \
 [Docker](docs/DOCKER.md)\
 [Kubernetes](docs/K8S.md) \
