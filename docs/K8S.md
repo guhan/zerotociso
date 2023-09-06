@@ -12,7 +12,37 @@ Kubernetes is a container orchestration platform that is cloud agnostic (works i
 ## Components of k8s
 ![k8s](/images/k8s.png)
 
+At a minimum you need a master node (instance) and two worker nodes (instances). 
 
+### Master Node
+- **kube-api-server**:
+  - The API server is the front end for the Kubernetes control plane.
+  - kube-apiserver is designed to scale horizontally—that is, it scales by deploying more instances.
+    
+- **kube-controller-manager**: runs the following control processes
+  - **Node controller**: Responsible for noticing and responding when nodes go down.
+  - **Job controller**: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+  - **EndpointSlice controller**: Populates EndpointSlice objects (to provide a link between Services and Pods).
+  - **ServiceAccount controller**: Create default ServiceAccounts for new namespaces.
+
+- **kube-scheduler**:
+  - Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on.
+    
+- **etcd**:
+  - Consistent and highly-available key value store
+  - Used as Kubernetes' backing store for all cluster data.
+
+### Worker Nodes
+- **Container runtime**:
+  - responsible for managing the execution and lifecycle of containers within the Kubernetes environment.
+  - supports container runtimes such as containerd, CRI-O
+- **kubelet**:
+  - An agent that runs on each node in the cluster.
+  - It makes sure that containers are running in a Pod.
+- **kube-proxy**
+  - a network proxy that runs on each node in your cluster
+  - maintains network rules that allow network communication to your Pods from network sessions inside or outside of your cluster
+- **Pods**: one or more containers
 
 
 ## How to secure k8s?
