@@ -23,3 +23,6 @@ IAM policies can be attached at different levels:
 - **Resource-Based Policies**: Attached directly to AWS resources like S3 buckets, Lambda functions, or SQS queues.
 - **Organizational Policies**: Attached to an AWS Organizations entity and applied to all accounts within the organization.
 - **Permission Boundaries**: Used to set the maximum permissions that an IAM entity can have.
+
+## How can you check the security of an IAM policy?
+Use **IAM Access Analyzer** to identify unintended resource sharing and ensure that your IAM policies have the intended permissions.
