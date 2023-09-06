@@ -33,9 +33,8 @@ Reference material for those interested in cybersecurity
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
 - [Languages](docs/LANGUAGES.md) 
-
   - [Sigma](docs/SIGMA.md)
-  - [YARA](docs/YARA.md)
+
 - [Documentation](docs/DOCUMENTATION.md)
 - [Code Repositories](docs/CODEREPOSITORIES.md)
 - [Testing](docs/TESTING.md) 
@@ -75,6 +74,8 @@ Reference material for those interested in cybersecurity
 - [Cryptography](docs/CRYPTOGRAPHY.md) 
   - [Hardware](docs/CRYPTOHARDWARE.md)
   - [Email](docs/CRYPTOEMAIL.md)
+- Malware
+  - [YARA](docs/YARA.md)
 - Vulnerabilities
   - [SCAP](docs/SCAP.md)
   - [OVAL](docs/OVAL.md)
