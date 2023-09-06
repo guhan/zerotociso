@@ -45,8 +45,7 @@ Responsible for formatting the packet from the Network layer into the proper for
 ### Layer 3 - Network 
 Logical addressing and routing of data packets across different networks. It defines protocols that determine the best path for data to travel. Packet. 
 
-- **Internet Protocol (IP)**: IP is the fundamental network layer protocol of the Internet. It provides logical addressing (IP addresses) for devices and defines how data packets are routed and delivered between networks. 
-- IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6) are the two prevalent versions of IP.
+- [**Internet Protocol (IP)**](IP.md)
 
 - [**Internet Control Message Protocol (ICMP)**](docs/ICMP.md): ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
 
