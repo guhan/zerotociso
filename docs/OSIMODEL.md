@@ -47,7 +47,7 @@ Logical addressing and routing of data packets across different networks. It def
 
 - [**Internet Protocol (IP)**](IP.md)
 
-- [**Internet Control Message Protocol (ICMP)**](docs/ICMP.md): ICMP is used for diagnostic and error reporting purposes in IP networks. It handles messages like "ping" to test network connectivity, error notifications, and routing information exchanges between network devices.
+- [**Internet Control Message Protocol (ICMP)**](docs/ICMP.md)
 
 - **Internet Group Management Protocol (IGMP)**: IGMP is used for managing multicast group memberships on IP networks. It enables devices to join or leave multicast groups and facilitates the delivery of multicast traffic.
 
