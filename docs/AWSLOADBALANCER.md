@@ -83,6 +83,13 @@ resource "aws_lb_target_group_attachment" "example_target_attachment_2" {
   target_id        = "i-ijklmnop90123456"  # Replace with the ID of your second instance
 }
 ```
+In this Terraform configuration:
+
+- The aws_security_group resource defines a security group for your instances. You should customize the security group rules as needed.
+- The aws_lb resource creates an Application Load Balancer.
+- The aws_lb_target_group resource creates a target group for the ALB, specifying the port and protocol for communication with the instances.
+- Two aws_lb_target_group_attachment resources are used to attach your EC2 instances to the target group. You should replace the target_id values with the actual instance IDs of your two instances.
+
 
 ## Terraform
 
