@@ -40,7 +40,7 @@ At a minimum you need a master node (instance) and two worker nodes (instances).
 ### Worker Nodes
 - **Container runtime**:
   - responsible for managing the execution and lifecycle of containers within the Kubernetes environment.
-  - supports container runtimes such as containerd, CRI-O
+  - supports container runtimes such as Docker, containerd, CRI-O
 - **kubelet**:
   - An agent that runs on each node in the cluster.
   - It makes sure that containers are running in a Pod.
