@@ -29,12 +29,11 @@ Reference material for those interested in cybersecurity
 - [Email](docs/EMAIL.md)
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
+- [Bluetooth](docs/BLUETOOTH.md) 
 
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
 - [Languages](docs/LANGUAGES.md) 
-  - [Sigma](docs/SIGMA.md)
-
 - [Documentation](docs/DOCUMENTATION.md)
 - [Code Repositories](docs/CODEREPOSITORIES.md)
 - [Testing](docs/TESTING.md) 
@@ -70,12 +69,13 @@ Reference material for those interested in cybersecurity
 - [Social Engineering](docs/SOCIALENGINEERING.md) 
 - [Network Attacks](docs/NETWORKATTACKS.md) 
 - [Web](docs/WEBSECURITY.md) 
-- [Bluetooth](docs/BLUETOOTH.md) 
 - [Cryptography](docs/CRYPTOGRAPHY.md) 
   - [Hardware](docs/CRYPTOHARDWARE.md)
   - [Email](docs/CRYPTOEMAIL.md)
 - Malware
   - [YARA](docs/YARA.md)
+- Security Incident and Event Manager (SIEM)
+  - [Sigma](docs/SIGMA.md)
 - Vulnerabilities
   - [SCAP](docs/SCAP.md)
   - [OVAL](docs/OVAL.md)
