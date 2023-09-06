@@ -10,7 +10,7 @@ Two prevalent versions of the protocol:
 The Protocol field in the IP header is an 8-bit field that indicates the protocol of the data carried in the IP packet's payload. This field specifies which higher-level protocol is being used to interpret the data in the packet's payload. Here are some common Protocol field values along with their corresponding protocols:
 
 - ICMP (Internet Control Message Protocol) - Protocol Number: 1
-ICMP is used for sending error messages, operational information, and diagnostic messages about network conditions.
+
 - IGMP (Internet Group Management Protocol) - Protocol Number: 2
 IGMP is used by IP hosts to report their multicast group memberships to routers.
 - TCP (Transmission Control Protocol) - Protocol Number: 6
