@@ -12,8 +12,8 @@ SAML consists of four main components:
 
 ## How does SAML work?
 SAML, which stands for Security Assertion Markup Language, is an XML-based framework for enabling secure authentication and authorization 
-between different parties, such as a user, an identity provider (IdP), and a service provider (SP). It's commonly used for implementing 
-Single Sign-On (SSO) solutions in web applications and services.
+between different parties, such as a user, an identity provider (IdP), and a service provider (SP). It's **commonly used for implementing 
+Single Sign-On (SSO)** solutions in web applications and services.
 
 SAML allows users to access multiple services or applications using a single set of login credentials. Instead of requiring users to 
 log in separately to each service, SAML enables them to authenticate once with an identity provider and then access multiple service 
