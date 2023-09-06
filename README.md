@@ -58,6 +58,7 @@ Reference material for those interested in cybersecurity
 - [AWS](docs/AWS.md)
   - [IAM](docs/IAM.md)
   - [Route53](docs/ROUTE53.md)
+  - [Cloud Front](docs/CLOUDFRONT.md)
   - [WAF](docs/WAF.md)
   - [Load Balancer](docs/AWSLOADBALANCER.md)
   - [Auto Scaling Group](docs/AUTOSCALINGGROUP.md)
