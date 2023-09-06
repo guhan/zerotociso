@@ -1,4 +1,8 @@
 # Transmission Control Protocol (TCP)
+Offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
+  - Packets are called _Segment_
+  - Full Duplex
+
 
 ## What is a three-way handshake?
 - A: SYN, initial sequence number
