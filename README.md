@@ -87,8 +87,6 @@ Reference material for those interested in cybersecurity
   - [OVAL](docs/OVAL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
 
-
-
 ## Compliance
 - [Cybersecurity Laws](docs/LAWS.md) 
 - [BSA](docs/BSA.md) 
@@ -109,29 +107,22 @@ Reference material for those interested in cybersecurity
 - [Supply Chain](docs/SUPPLYCHAIN.md) 
 - [X.509](docs/X509.md) 
 
-
-
-
-
-
-
-
 ## Process and Management
-[Getting Started as a CISO](docs/CISOSTART.md) \
-[Culture](docs/CULTURE.md) \
-[Recruiting](docs/RECRUITING.md) \
-[Planning](docs/PLANNING.md) \
-[Change Management](docs/CHANGEMANAGEMENT.md) \
-[Agile](docs/AGILE.md) \
-[Code Reviews](docs/CODEREVIEW.md) \
-[DevOps](docs/DEVOPS.md) \
-[SRE](docs/SRE.md) \
-[Incident Response](docs/INCIDENTRESPONSE.md) \
-[Risk Management](docs/RISKMGMT.md) \
-[Security Engineering](docs/SECURITYENGINEERING.md) \
-[BCP/DR](docs/BCPDR.md) \
-[Investigations](docs/INVESTIGATIONS.md) \
-[Ethics](docs/ETHICS.md)
+- [Getting Started as a CISO](docs/CISOSTART.md) 
+- [Culture](docs/CULTURE.md) 
+- [Recruiting](docs/RECRUITING.md) 
+- [Planning](docs/PLANNING.md) 
+- [Change Management](docs/CHANGEMANAGEMENT.md) 
+- [Agile](docs/AGILE.md) 
+- [Code Reviews](docs/CODEREVIEW.md) 
+- [DevOps](docs/DEVOPS.md) 
+- [SRE](docs/SRE.md) 
+- [Incident Response](docs/INCIDENTRESPONSE.md) 
+- [Risk Management](docs/RISKMGMT.md) 
+- [Security Engineering](docs/SECURITYENGINEERING.md) 
+- [BCP/DR](docs/BCPDR.md) 
+- [Investigations](docs/INVESTIGATIONS.md) 
+- [Ethics](docs/ETHICS.md)
 
 ## Business
 [Basic Finance](docs/BASICFINANCE.md) \
