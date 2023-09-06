@@ -7,6 +7,8 @@ Here's how a TCP SYN flood attack typically works:
 - **Attack Initiation**: In a TCP SYN flood attack, an attacker sends a large number of TCP SYN packets to the target server without completing the three-way handshake. These SYN packets appear as legitimate connection attempts but are not followed by the ACK packets required to complete the handshake.
 - **Resource Exhaustion**: The target server, upon receiving these SYN packets, allocates resources (such as memory and CPU processing) to track these half-open connections. However, because the attacker never sends the final ACK packets to complete the connections, the server's resources become exhausted as it maintains a growing number of pending, incomplete connections.
 - **Denial of Service**: As the server's resources become overwhelmed with half-open connections, it eventually reaches a point where it cannot handle any more connection requests from legitimate clients. This results in a denial of service, as legitimate users are unable to establish connections or access services provided by the server.
+
+
 TCP SYN flood attacks are challenging to defend against because they can appear similar to legitimate connection requests. However, there are several countermeasures that can be employed to mitigate the impact of such attacks, including:
 
 - **Rate Limiting**: Implementing rate-limiting measures to restrict the number of incoming connection requests from a single source IP address within a specified time frame.
