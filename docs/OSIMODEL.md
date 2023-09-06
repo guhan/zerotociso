@@ -66,11 +66,9 @@ Logical addressing and routing of data packets across different networks. It def
 ### Layer 4 - Transport 
 Ensures reliable data delivery between applications on different hosts.
 
-- [**TCP**](TCP.md)
+- [**Tranmission Control Protocol (TCP)**](TCP.md)
 
-- [**User Datagram Protocol (UDP)**](UDP.md): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
-  - Datagram.
-  - Simplex
+- [**User Datagram Protocol (UDP)**](UDP.md)
 
 - **Stream Control Transmission Protocol (SCTP)**: SCTP is a transport protocol designed for more robust and reliable transmission than UDP while offering similar features to TCP. It provides message-oriented, connection-oriented communication and supports multi-homing, which allows a device to have multiple network connections simultaneously.
 
