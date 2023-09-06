@@ -19,8 +19,8 @@ XXyyyyZZ
 - the two layers act as independent conductors
 - requires use of segment terminators
 - Two types:
-  - Thinnet: 10Base2 185 meters and 10Mbps
-  - Thicknet: 10Base5 500 meters and 10Mbps
+  - **Thinnet**: 10Base2 185 meters and 10Mbps
+  - **Thicknet**: 10Base5 500 meters and 10Mbps
 - Problems:
   - bending caused breakage of copper core
   - can't deply beyond 185 meters
@@ -29,9 +29,9 @@ XXyyyyZZ
  
 ## Twisted pair
 - Very thin and flexible
-- four  paris of wires that are twisted around each other and sheathed in PVC
-- Shielded Twisted Pair (STP) - foil around the wires that protects against EMI
-- Unshielded Twisted Pair (UTP) - no foil
+- four  pairs of wires that are twisted around each other and sheathed in PVC
+- **Shielded Twisted Pair (STP)**:foil around the wires that protects against EMI
+- **Unshielded Twisted Pair (UTP)**:no foil
 
 ### Types of UTP
 | UTP Category | Throughput | Notes |
