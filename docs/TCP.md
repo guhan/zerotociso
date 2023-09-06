@@ -1,4 +1,4 @@
-# TCP
+# Transmission Control Protocol (TCP)
 
 ## What is a three-way handshake?
 - A: SYN, initial sequence number
