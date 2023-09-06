@@ -164,7 +164,7 @@ resource "aws_route_table_association" "public" {
 }
 ```
 
-###Create container registry
+### Create container registry
 ```
 # ecr.tf | Elastic Container Repository
 
