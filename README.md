@@ -5,6 +5,7 @@ Reference material for those interested in cybersecurity
 ## Computer
 - [Parts of a computer](docs/COMPUTERPARTS.md)
 - [RAID](docs/RAID.md)
+- [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Operating Systems](docs/OS.md)
 
 
