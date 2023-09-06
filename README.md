@@ -28,7 +28,7 @@ Reference material for those interested in cybersecurity
 [DNS](docs/DNS.md) \
 [Containers](docs/CONTAINERS.md) \
 [Docker](docs/DOCKER.md)\
-[Kubernetes](K8S.md) \
+[Kubernetes](docs/K8S.md) \
 [Infrastructure as Code](docs/IAC.md) \
 [AWS](docs/AWS.md) \
 [OAuth](docs/OAUTH.md) \
