@@ -67,9 +67,7 @@ Logical addressing and routing of data packets across different networks. It def
 ### Layer 4 - Transport 
 Ensures reliable data delivery between applications on different hosts.
 
-- [**TCP**](TCP.md): offers reliable, connection-oriented communication, ensuring that data is delivered accurately and in the correct order. TCP manages flow control, error detection, and retransmission of lost or corrupted packets.
-  - Segment.
-  - Full Duplex
+- [**TCP**](TCP.md)
 
 - [**User Datagram Protocol (UDP)**](UDP.md): UDP is a connectionless transport protocol that offers unreliable, best-effort communication. It is faster and less reliable compared to TCP since it does not guarantee delivery or provide mechanisms for error recovery.
   - Datagram.
