@@ -23,12 +23,16 @@ providers without reentering their credentials.
 
 Here's how SAML works:
 
-- **User Access Request**: When a user tries to access a service or application provided by a service provider (SP), the SP redirects 
-the user to the identity provider (IdP).
-- **Authentication at IdP**: The identity provider (IdP) authenticates the user. This can involve username and password, multi-factor authentication (MFA), or other authentication methods.
+- **User Access Request**:
+  - **A** When a user tries to access a service or application provided by a service provider (SP)
+  - **B** the SP redirects the user to the identity provider (IdP).
+- **Authentication at IdP**:
+  - **C** The identity provider (IdP) authenticates the user. This can involve username and password, multi-factor authentication (MFA), or other authentication methods.
 - **SAML Assertion**: After successful authentication, the IdP generates a SAML assertion, which is an XML document containing information about the user and their authentication status. The assertion is digitally signed by the IdP to ensure its integrity.
-- **Response to SP**: The IdP sends the SAML assertion back to the user's browser, which then forwards it to the service provider (SP).
-- **Access Granted**: The service provider (SP) receives the SAML assertion, verifies the digital signature of the IdP, and extracts the user's information and authentication status. If everything checks out, the user is granted access to the service or application without needing to log in again.
+- **Response to SP**:
+  - **D** The IdP sends the SAML assertion back to the user's browser, which then forwards it to the service provider (SP).
+- **Access Granted**:
+  - **E** The service provider (SP) receives the SAML assertion, verifies the digital signature of the IdP, and extracts the user's information and authentication status. If everything checks out, the user is granted access to the service or application without needing to log in again.
 
 Key features and benefits of SAML include:
 
