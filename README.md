@@ -30,7 +30,7 @@ Reference material for those interested in cybersecurity
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
 - [Languages](docs/LANGUAGES.md) 
-  - [OPA/Rego](docs/OPA.md)
+  
   - [OVAL](docs/OVAL.md)
   - [Sigma](docs/SIGMA.md)
   - [YARA](docs/YARA.md)
@@ -50,6 +50,8 @@ Reference material for those interested in cybersecurity
 - [Authentication](docs/AUTHENTICATION.md)
   - [SAML](docs/SAML.md)
   - [OAuth](docs/OAUTH.md)
+- Authorization
+  - [OPA/Rego](docs/OPA.md)
 
 
 
