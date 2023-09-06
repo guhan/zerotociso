@@ -82,15 +82,35 @@ kubelet will either automatilly register the node or someone can manually add on
 
 
 ## Pods
-
-
+- a group of one or more containers
 - Pods that wish to connect to the API server can do so securely by leveraging a service account so that Kubernetes will automatically inject the public root certificate and a valid bearer token into the pod when it is instantiated
+  
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+```
 
 
 ## Leases
 - Leases can be thought of as distributed locks (aka lockfile)
 - Leases have a time-to-live (TTL) associated with them, after which they expire.
 - When a Lease expires or is released, another pod or component can acquire it
+
+## Workloads
+- **Deployment**: Deployment is a good fit for managing a stateless application workload on your cluster, where any Pod in the Deployment is interchangeable and can be replaced if needed.
+- **ReplicaSet**:
+- **StatefulSet**: lets you run one or more related Pods that do track state somehow. For example, if your workload records data persistently, you can run a StatefulSet that matches each Pod with a PersistentVolume. Your code, running in the Pods for that StatefulSet, can replicate data to other Pods in the same StatefulSet to improve overall resilience.
+- **DaemonSet**: defines Pods that provide facilities that are local to nodes. Every time you add a node to your cluster that matches the specification in a DaemonSet, the control plane schedules a Pod for that DaemonSet onto the new node. Each pod in a DaemonSet performs a job similar to a system daemon on a classic Unix / POSIX server. A DaemonSet might be fundamental to the operation of your cluster, such as a plugin to run cluster networking, it might help you to manage the node, or it could provide optional behavior that enhances the container platform you are running.
+- **Job**: define a task that runs to completion
+- **CronJob**: run the same Job multiple times according a schedule.
 
 
 ## How to secure k8s?
