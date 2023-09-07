@@ -57,6 +57,7 @@ Reference material for those interested in cybersecurity
 - Web
   - [HTTP](docs/HTTP.md)
   - [SSL/TLS](docs/SSLTLS.md)
+  - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
 - API
   - [REST](docs/REST.md)
 - [AWS](docs/AWS.md)
