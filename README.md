@@ -62,6 +62,7 @@ Reference material for those interested in cybersecurity
   - [Cross Site Request Forgery (CSRF)](docs/CSRF.md)
   - [Cross Site Scripting (XSS)](docs/XSS.md)
   - [Content Security Policy (CSP)](docs/CSP.md)
+  - [XML External Entity (XXE)](docs/XXE.md)
 - API
   - [REST](docs/REST.md)
 - [AWS](docs/AWS.md)
