@@ -17,7 +17,7 @@ SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transpo
 
 - **Mutual Authentication** (Optional): SSL/TLS can also support mutual authentication, where both the client and server authenticate each other. In this scenario, the client presents its own digital certificate to the server, allowing the server to verify the client's identity.
 
-## What is the difference between ssl and tls?
+## What is the difference between SSL and TLS?
 
 - TLS is the recommended protocol for securing internet communication. TLS provides stronger encryption algorithms, improved key exchange mechanisms, and enhanced security features compared to SSL. 
 
