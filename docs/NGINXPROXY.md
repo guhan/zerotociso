@@ -31,7 +31,7 @@ sudo apt-get install nginx
   In the /etc/nginx/conf.d/ directory, create a new configuration file (e.g., microservices.conf) to define the reverse proxy settings for your microservices.
   ```
   sudo nano /etc/nginx/conf.d/microservices.conf
-```
+  ```
 - **Configure NGINX as a Reverse Proxy**:
 In your microservices.conf file, you'll define the reverse proxy configuration for each microservice.
 
