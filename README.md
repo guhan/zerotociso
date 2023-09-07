@@ -56,6 +56,7 @@ Reference material for those interested in cybersecurity
 - [Infrastructure as Code](docs/IAC.md)
 - Web
   - [HTTP](docs/HTTP.md)
+  - [Document Object Model (DOM)](docs/DOM.md)
   - [SSL/TLS](docs/SSLTLS.md)
   - [HTTP Strict Transport Security (HSTS)](docs/HSTS.md)
   - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
