@@ -58,6 +58,7 @@ Reference material for those interested in cybersecurity
   - [HTTP](docs/HTTP.md)
   - [SSL/TLS](docs/SSLTLS.md)
   - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
+  - [Server Side Request Forgery](docs/SSRF.md)
 - API
   - [REST](docs/REST.md)
 - [AWS](docs/AWS.md)
