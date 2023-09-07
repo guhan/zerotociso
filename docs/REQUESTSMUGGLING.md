@@ -3,11 +3,11 @@ HTTP request smuggling is a web security vulnerability that occurs when an attac
 
 Here's a simplified overview of how HTTP request smuggling works:
 
-Front-End and Back-End Servers: In many web architectures, a front-end server (e.g., a load balancer or proxy) receives incoming HTTP requests from clients and forwards them to one or more back-end servers (e.g., application servers).
-Differences in Parsing: Front-end and back-end servers may have differences in how they parse and interpret certain HTTP request headers, content length, or encoding. These differences can be exploited by an attacker.
-Malicious Requests: The attacker sends carefully crafted, ambiguous HTTP requests to the front-end server. These requests are designed to be interpreted differently by the front-end and back-end servers.
-Discrepancy Exploitation: The attacker's goal is to exploit the discrepancy in interpretation. For example, they may trick the front-end server into forwarding a request with an incomplete content length to the back-end server, but the back-end server processes it as if it were complete.
-Attack Outcomes: Depending on the specific vulnerability and its exploitation, various outcomes are possible, such as bypassing security controls, causing cache poisoning, stealing user data, or performing actions on behalf of the victim.
+- **Front-End and Back-End Servers**: In many web architectures, a front-end server (e.g., a load balancer or proxy) receives incoming HTTP requests from clients and forwards them to one or more back-end servers (e.g., application servers).
+- **Differences in Parsing**: Front-end and back-end servers may have differences in how they parse and interpret certain HTTP request headers, content length, or encoding. These differences can be exploited by an attacker.
+- **Malicious Requests**: The attacker sends carefully crafted, ambiguous HTTP requests to the front-end server. These requests are designed to be interpreted differently by the front-end and back-end servers.
+- **Discrepancy Exploitation**: The attacker's goal is to exploit the discrepancy in interpretation. For example, they may trick the front-end server into forwarding a request with an incomplete content length to the back-end server, but the back-end server processes it as if it were complete.
+- **Attack Outcomes**: Depending on the specific vulnerability and its exploitation, various outcomes are possible, such as bypassing security controls, causing cache poisoning, stealing user data, or performing actions on behalf of the victim.
 
 
 ## How to prevent request smuggling?
