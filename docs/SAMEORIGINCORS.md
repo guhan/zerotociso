@@ -17,8 +17,8 @@ According to the Same Origin Policy:
 ## Cross-Origin Resource Sharing (CORS)
 CORS is a mechanism that allows servers to specify which origins are permitted to access their resources. It includes HTTP headers that the server sends in its response to inform the browser about cross-origin permissions.
 
-  - Access-Control-Allow-Origin: https://example.com, https://anotherdomain.com
-  - Access-Control-Allow-Methods: Specifies the HTTP methods (e.g., GET, POST, PUT, DELETE) that are allowed for cross-origin requests.
-  - Access-Control-Allow-Headers: Specifies the additional HTTP headers (e.g., Authorization, Content-Type) that are allowed for cross-origin requests.
-  - Access-Control-Allow-Credentials: Indicates whether the server allows credentials (such as cookies or HTTP authentication) to be included in cross-origin requests. This header is set to true or false.
-  - Access-Control-Max-Age: Specifies the maximum duration (in seconds) for which the preflight response (OPTIONS request) can be cached.
+  - **Access-Control-Allow-Origin**: https://example.com, https://anotherdomain.com
+  - **Access-Control-Allow-Methods**: Specifies the HTTP methods (e.g., GET, POST, PUT, DELETE) that are allowed for cross-origin requests.
+  - **Access-Control-Allow-Headers**: Specifies the additional HTTP headers (e.g., Authorization, Content-Type) that are allowed for cross-origin requests.
+  - **Access-Control-Allow-Credentials**: Indicates whether the server allows credentials (such as cookies or HTTP authentication) to be included in cross-origin requests. This header is set to true or false.
+  - **Access-Control-Max-Age**: Specifies the maximum duration (in seconds) for which the preflight response (OPTIONS request) can be cached.
