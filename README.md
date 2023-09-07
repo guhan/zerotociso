@@ -91,7 +91,8 @@ Reference material for those interested in cybersecurity
   - [OPA/Rego](docs/OPA.md)
 - [CDN](docs/CDN.md)
 - [Kubernetes](docs/K8S.md)
-  - [Securing Kubernetes](docs/SECUREK8S.md) 
+  - [Securing Kubernetes](docs/SECUREK8S.md)
+- [CI/CD](docs/CICD.md)
 
 
 
