@@ -300,7 +300,7 @@ Messages must be identical for hashes to match
 - Examine the certificate contents
 
 **Revocation**
-- Cert wsa compromised, errorneously issued, details changed
+- Cert was compromised, errorneously issued, details changed
 
 
 
