@@ -5,8 +5,8 @@
 An origin is a combination of the protocol, domain, and port number of a web page's URL
 
 The Same origin policy (SOP) aims to prevent malicious scripts from accessing or manipulating data from different origins, thereby protecting user privacy and security.
-According to the Same Origin Policy:
 
+According to the Same Origin Policy:
 - Origin Restriction: Web content, such as JavaScript, HTML, and XMLHTTPRequests, can only interact with resources (e.g., scripts, cookies, or data) from the same origin. The origin includes the same protocol (e.g., HTTP or HTTPS), domain (e.g., example.com), and port number (e.g., 80 for HTTP, 443 for HTTPS).
 
 **important to note that the SOP is enforced by web browsers and can be bypassed through various vulnerabilities or misconfigurations**
