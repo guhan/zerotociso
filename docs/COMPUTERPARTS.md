@@ -1,8 +1,5 @@
 # Computer Parts
-Any tangible part of the computer you can reach out and touch
-
-## Terms 
-- **Need to know**: consider not just privilege level but also relevance of the data/object to the role the subject plays. 
+Any tangible part of the computer you can reach out and touch 
 
 ## Processors
 
