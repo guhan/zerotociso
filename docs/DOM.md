@@ -55,10 +55,10 @@ Let's say you have the following HTML file
 In this example:
 
 - The entire web page is represented by the document object at the root of the tree.
-- The ```<html>, <head>, and <body>``` elements are represented as nodes in the tree, with child nodes representing their content and nested elements.
-- The ```<header>, <nav>, <main>, and <footer>``` elements are represented as nodes in the tree, forming the structure of the page.
+- The ```<html>```, ```<head>```, and ```<body>``` elements are represented as nodes in the tree, with child nodes representing their content and nested elements.
+- The ```<header>```, ```<nav>```, ```<main>```, and ```<footer>``` elements are represented as nodes in the tree, forming the structure of the page.
 - Text content within elements, such as the page title and paragraph text, is also represented as nodes in the tree.
-- Elements with attributes, such as the <a> (anchor) tags with href attributes, include those attributes as part of their representation.
+- Elements with attributes, such as the ```<a>``` (anchor) tags with href attributes, include those attributes as part of their representation.
 
 ## How do you access an element in the DOM?
 To access a ```<header>``` element in the Document Object Model (DOM) using JavaScript, you can use various methods, but one common approach is to use the document.querySelector() or document.getElementById() method. Here's how you can do it:
