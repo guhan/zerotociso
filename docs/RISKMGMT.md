@@ -79,12 +79,12 @@ TAME also (Transfer Accept Mitigate Exclude)
 
 ### Key components of the NIST 800-37 Risk Management Framework include:
 
-- Categorization: Identifying and categorizing information systems and their data based on the impact levels if their confidentiality, integrity, or availability is compromised.
-- Select: Selecting appropriate security controls based on the categorization and specific security requirements of the organization.
-- Implement: Implementing the selected security controls in the information system.
-- Assess: Assessing the effectiveness of the implemented security controls through various evaluation methods, such as testing, inspections, and reviews.
-- Authorize: Reviewing the risk assessment results and making an authorization decision to operate the system based on the identified risks.
-- Monitor: Ongoing monitoring of the security controls to ensure they continue to be effective and meet the organization's security needs.
+- **Categorization**: Identifying and categorizing information systems and their data based on the impact levels if their confidentiality, integrity, or availability is compromised.
+- **Select**: Selecting appropriate security controls based on the categorization and specific security requirements of the organization.
+- **Implement**: Implementing the selected security controls in the information system.
+- **Assess**: Assessing the effectiveness of the implemented security controls through various evaluation methods, such as testing, inspections, and reviews.
+- **Authorize**: Reviewing the risk assessment results and making an authorization decision to operate the system based on the identified risks.
+- **Monitor**: Ongoing monitoring of the security controls to ensure they continue to be effective and meet the organization's security needs.
 
 ## Factor Analysis of Information Risk (FAIR) Cyber Risk Framework
 The FAIR Institute is a nonprofit organization whose mission is to establish and promote risk management best practices so that risk professionals can collaborate better with their business partners.
