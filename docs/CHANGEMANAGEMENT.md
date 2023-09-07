@@ -58,8 +58,8 @@ Configuration Mangement:
 
 
 ## Common Approaches and Models in Change Management:
-- Kotter's 8-Step Change Model: Developed by John Kotter, this model provides a step-by-step approach to managing change, including creating a sense of urgency, building a guiding coalition, and anchoring change in the organization's culture.
-- Lewin's Change Management Model: This model by Kurt Lewin involves three stages: unfreezing (preparing for change), changing (implementing the change), and refreezing (stabilizing the change).
-- ADKAR Model: The ADKAR model focuses on individual change and highlights the five elements necessary for successful adoption: awareness, desire, knowledge, ability, and reinforcement.
-- Prosci's ADKAR Model: The Prosci ADKAR model is an extension of the ADKAR model, incorporating organizational change management practices and tools.
-- Six Sigma DMAIC: The DMAIC (Define, Measure, Analyze, Improve, Control) methodology is often used for process improvement projects, which can involve significant change within an organization.
+- **Kotter's 8-Step Change Model**: Developed by John Kotter, this model provides a step-by-step approach to managing change, including creating a sense of urgency, building a guiding coalition, and anchoring change in the organization's culture.
+- **Lewin's Change Management Model**: This model by Kurt Lewin involves three stages: unfreezing (preparing for change), changing (implementing the change), and refreezing (stabilizing the change).
+- **ADKAR Model**: The ADKAR model focuses on individual change and highlights the five elements necessary for successful adoption: awareness, desire, knowledge, ability, and reinforcement.
+- **Prosci's ADKAR Model**: The Prosci ADKAR model is an extension of the ADKAR model, incorporating organizational change management practices and tools.
+- **Six Sigma DMAIC**: The DMAIC (Define, Measure, Analyze, Improve, Control) methodology is often used for process improvement projects, which can involve significant change within an organization.
