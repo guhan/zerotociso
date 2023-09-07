@@ -4,6 +4,7 @@
 CSP allows web developers to specify a set of rules and restrictions regarding the types of content that can be loaded and executed on a web page
 
 - Policy Definition: A Content Security Policy is defined by a set of directives that instruct the browser on what content is allowed to be loaded or executed on a web page. The directives can be specified in the HTTP response headers or within a meta tag in the HTML of the web page.
+
 Here's an example of a Content Security Policy (CSP) declaration that demonstrates some common directives:
 ```
 Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted-domain.com; style-src 'self' https://trusted-domain.com; img-src 'self' data:; font-src'self'; object-src 'none'; frame-src 'self'; upgrade-insecure-requests;
