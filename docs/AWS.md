@@ -60,9 +60,6 @@ AWS Directory Service for Microsoft Active Directory (Enterprise Edition): Also 
 
 - AWS Directory Service for OpenLDAP: This service allows you to run your own OpenLDAP (Lightweight Directory Access Protocol) directory in the AWS cloud. It provides compatibility with applications that use LDAP for authentication and authorization.
 
-## What is Amazon GuardDuty?
-Cloud based threat detection service
-
 ## What is AWS Firewall Manager?
 Firewall Manager enables you to centrally manage AWS WAF (Web Application Firewall) rules across multiple AWS accounts and resources. It allows you to create and apply security rules to protect your web applications from common web-based attacks.
 
