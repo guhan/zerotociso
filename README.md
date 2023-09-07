@@ -61,6 +61,7 @@ Reference material for those interested in cybersecurity
   - [Server Side Request Forgery (SSRF)](docs/SSRF.md)
   - [Cross Site Request Forgery (CSRF)](docs/CSRF.md)
   - [Cross Site Scripting (XSS)](docs/XSS.md)
+  - [Content Security Policy (CSP)](docs/CSP.md)
 - API
   - [REST](docs/REST.md)
 - [AWS](docs/AWS.md)
