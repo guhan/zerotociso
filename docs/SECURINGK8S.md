@@ -1,4 +1,9 @@
+# Securing k8s
+
+
 ## How to secure k8s?
+
+![Securing k8s](/images/k8s-security.png)
 
 ### Strong Authentication and Authorization:
 - Implement strong authentication mechanisms, such as using certificates or external identity providers, to ensure only authorized users can access the cluster.
