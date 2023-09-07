@@ -47,12 +47,64 @@ SSL (Secure Sockets Layer) encryption, also commonly referred to as TLS (Transpo
 
 ## How does the SSL/TLS handshake work?
 
-1. **Client Hello**: The client initiates the handshake by sending a Client Hello message to the server. This message contains information such as the SSL/TLS version supported by the client, a random value (Client Random), and a list of supported cipher suites and compression methods.
-2. **Server Hello**: Upon receiving the Client Hello, the server responds with a Server Hello message. This message includes the SSL/TLS version selected by the server, a random value (Server Random), the chosen cipher suite, and the server's digital certificate (if required).
-3. **Certificate Exchange**: If the server's certificate is required for authentication, it sends its digital certificate to the client. The certificate contains the server's public key, identity information, and is signed by a trusted Certificate Authority (CA).
-4. **Client Key Exchange**: The client generates a pre-master secret and encrypts it with the server's public key from the received certificate. The encrypted pre-master secret is sent to the server, ensuring that only the server can decrypt it with its private key.
-5. **Server Key Exchange** (optional): In some cases, the server may send additional information or parameters required for the key exchange, such as Diffie-Hellman parameters or a server key exchange message.
-6. **Certificate Verification**: The client verifies the authenticity and validity of the server's certificate. It checks the digital signature, expiration date, and checks if the certificate has been revoked or issued by a trusted CA. If the verification fails, the client may display a warning or terminate the connection.
-7. **Pre-Master Secret Derivation**: Both the client and server independently compute the pre-master secret using the exchanged keys. This pre-master secret is used to generate the session keys required for encryption and decryption.
-8. **Session Key Generation**: Using the pre-master secret, the client and server independently generate the session keys used for symmetric encryption and decryption during the secure communication.
-9. **Handshake Completion**: Finally, both the client and server send a Finished message, which includes a hash of all the exchanged messages during the handshake. This allows both parties to verify the integrity of the handshake and ensure that the communication parameters match.
+- **Client Hello**: The client initiates the handshake by sending a Client Hello message to the server. This message contains information such as the SSL/TLS version supported by the client, a random value (Client Random), and a list of supported cipher suites and compression methods.
+```
+TLS 1.2 Client Hello
+  Random: 
+    [32 bytes of random data]
+  Session ID Length: 0 bytes
+  Cipher Suites Length: 10 bytes
+  Cipher Suites (5 suites):
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+    TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+    TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+    TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+  Compression Methods Length: 1 byte
+  Compression Methods (1 method):
+    NULL (0x00)
+  Extensions Length: [variable]
+  Extensions (18 bytes):
+    Extension: server_name (len=5)
+      Type: server_name (0x00)
+      Length: 3 bytes
+      Server Name Indication extension
+        Server Name list length: 1 byte
+        Server Name Type: host_name (0x00)
+        Server Name length: [variable]
+        Server Name (len=8)
+```
+- **Server Hello**: Upon receiving the Client Hello, the server responds with a Server Hello message. This message includes the SSL/TLS version selected by the server, a random value (Server Random), the chosen cipher suite, and the server's digital certificate (if required).
+
+```
+TLS 1.2 Server Hello
+  Version: TLS 1.2 (0x0303)
+  Random: 
+    [32 bytes of random data]
+  Session ID Length: 32 bytes
+  Session ID: 
+    [32 bytes of session ID data]
+  Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+  Compression Method: NULL (0x00)
+  Extensions Length: [variable]
+  Extensions (5 bytes):
+    Extension: server_name (len=3)
+      Type: server_name (0x00)
+      Length: 1 byte
+      Server Name Indication extension
+        Server Name Type: host_name (0x00)
+        Server Name length: 6 bytes
+        Server Name (len=6)
+    Extension: renegotiation_info (len=1)
+      Type: renegotiation_info (0xff01)
+      Length: 1 byte
+      Renegotiation Info extension
+        Renegotiation info extension length: 0 bytes
+```
+-  **Certificate Exchange**: If the server's certificate is required for authentication, it sends its digital certificate to the client. The certificate contains the server's public key, identity information, and is signed by a trusted Certificate Authority (CA).
+-  **Client Key Exchange**: The client generates a pre-master secret and encrypts it with the server's public key from the received certificate. The encrypted pre-master secret is sent to the server, ensuring that only the server can decrypt it with its private key.
+-  **Server Key Exchange** (optional): In some cases, the server may send additional information or parameters required for the key exchange, such as Diffie-Hellman parameters or a server key exchange message.
+-  **Certificate Verification**: The client verifies the authenticity and validity of the server's certificate. It checks the digital signature, expiration date, and checks if the certificate has been revoked or issued by a trusted CA. If the verification fails, the client may display a warning or terminate the connection.
+-  **Pre-Master Secret Derivation**: Both the client and server independently compute the pre-master secret using the exchanged keys. This pre-master secret is used to generate the session keys required for encryption and decryption.
+-  **Session Key Generation**: Using the pre-master secret, the client and server independently generate the session keys used for symmetric encryption and decryption during the secure communication.
+- . **Handshake Completion**: Finally, both the client and server send a Finished message, which includes a hash of all the exchanged messages during the handshake. This allows both parties to verify the integrity of the handshake and ensure that the communication parameters match.
