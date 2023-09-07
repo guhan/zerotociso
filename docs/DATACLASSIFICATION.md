@@ -21,7 +21,7 @@ Inefficient to treat all data the same way
 - Personal or Personally Identifiable Information (PII): Data that contains personal information about individuals, such as names, addresses, or social security numbers.
 - Restricted or Highly Confidential: The most sensitive and critical data that requires the highest level of protection and access controls.
 
-## Goverment Levels
+## Government Levels
 High to low
 - Top Secret (classified)
 - Secret (classifed)
