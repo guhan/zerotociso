@@ -4,7 +4,7 @@ DOM stands for Document Object Model. It is a programming interface for web docu
 Key points about the Document Object Model (DOM):
 
 - **Tree Structure**: The DOM organizes a web page's elements and content as a hierarchical tree structure. The top node of this tree is called the "document node," which represents the entire web page.
-- **Nodes**: Each element, attribute, and piece of text in an HTML or XML document is represented as a node in the DOM tree. Nodes can be elements (e.g., ```<div>, <p>```), attributes (e.g., ```src, href```), or text content.
+- **Nodes**: Each element, attribute, and piece of text in an HTML or XML document is represented as a node in the DOM tree. Nodes can be elements (e.g., ```<div>```, ```<p>```), attributes (e.g., ```src```,``` href```), or text content.
 - **Properties and Methods**: Nodes in the DOM tree have associated properties and methods that allow developers to interact with and manipulate the content and structure of the document. For example, you can change the text of an HTML element, add or remove elements, or change CSS styles using JavaScript through the DOM.
 - **Dynamic Updates**: One of the primary purposes of the DOM is to enable dynamic updates to web pages. JavaScript can be used to modify the DOM in response to user interactions, events, or data from a server. This dynamic updating is what makes modern web applications interactive.
 - **Cross-Platform**: The DOM is a platform-independent and language-independent interface, which means that it can be used with different programming languages and on various platforms. It is commonly used with JavaScript in web development.
