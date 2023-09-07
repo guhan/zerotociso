@@ -48,3 +48,78 @@ Configure the ALB listener rules to route incoming traffic to the Target Group.
 Test the configuration to ensure that traffic is being properly routed to the instances in the ASG via the ALB. Monitor the health of instances using the Target Group health checks.
 - **Scale the ASG**:
 Allow Auto Scaling to automatically manage the number of instances in the ASG based on your scaling policies and the application's traffic patterns. Instances that are launched or terminated by Auto Scaling will automatically be registered or deregistered with the Target Group.
+
+## Terraform
+```
+# Define the AWS provider and region
+provider "aws" {
+  region = "us-east-1"  # Replace with your desired region
+}
+
+# Create a security group for the ALB
+resource "aws_security_group" "alb_sg" {
+  name        = "alb-sg"
+  description = "Security group for ALB"
+  
+  # Define your security group rules here, such as allowing inbound traffic on specific ports (e.g., 80 and 443 for HTTP/HTTPS).
+}
+
+# Create an Application Load Balancer (ALB)
+resource "aws_lb" "example_alb" {
+  name               = "example-alb"
+  internal           = false
+  load_balancer_type = "application"
+  subnets            = ["subnet-1a2b3c4d", "subnet-5e6f7g8h"]  # Replace with your subnet IDs
+  security_groups    = [aws_security_group.alb_sg.id]
+}
+
+# Create a Target Group for the ALB
+resource "aws_lb_target_group" "example_target_group" {
+  name        = "example-target-group"
+  port        = 80  # The port that the ALB should use to communicate with instances
+  protocol    = "HTTP"
+  target_type = "instance"  # Specifies that we are using EC2 instances as targets
+
+  vpc_id = "vpc-12345678"  # Replace with your VPC ID
+
+  # Specify health check settings
+  health_check {
+    interval            = 30
+    path                = "/"
+    port                = "traffic-port"  # The health check uses the same port as the target
+    protocol            = "HTTP"
+    timeout             = 5
+    healthy_threshold   = 2
+    unhealthy_threshold = 2
+  }
+}
+
+# Add instances from the Auto Scaling Group (ASG) to the Target Group
+resource "aws_autoscaling_attachment" "example_asg_attachment" {
+  autoscaling_group_name = "example-asg"  # Replace with the name of your ASG
+  alb_target_group_arn  = aws_lb_target_group.example_target_group.arn
+}
+
+# Define your Auto Scaling Group (ASG) configuration here
+resource "aws_autoscaling_group" "example_asg" {
+  name                 = "example-asg"
+  launch_template {
+    id      = "lt-0123456789abcdef0"  # Replace with your launch template ID
+    version = "$Latest"
+  }
+  # Other ASG configuration options, such as instance type, desired capacity, min/max capacity, etc.
+}
+
+# Define your Launch Template configuration here
+resource "aws_launch_template" "example_lt" {
+  name_prefix   = "example-lt-"
+  version       = "$Latest"
+  # Other Launch Template configuration options, such as instance type, security groups, etc.
+}
+```
+In this Terraform configuration:
+
+- We create an ALB and specify its settings, including security groups and subnets.
+- We create a Target Group and specify the health check settings for instances.
+- We add instances from the Auto Scaling Group (ASG) to the Target Group using the aws_autoscaling_attachment resource.
+- We define the Auto Scaling Group (ASG) configuration and specify the Launch Template to use. You should customize this section with your ASG and Launch Template settings.
