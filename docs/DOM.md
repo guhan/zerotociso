@@ -4,7 +4,7 @@ DOM stands for Document Object Model. It is a programming interface for web docu
 Key points about the Document Object Model (DOM):
 
 - **Tree Structure**: The DOM organizes a web page's elements and content as a hierarchical tree structure. The top node of this tree is called the "document node," which represents the entire web page.
-- **Nodes**: Each element, attribute, and piece of text in an HTML or XML document is represented as a node in the DOM tree. Nodes can be elements (e.g., <div>, <p>), attributes (e.g., src, href), or text content.
+- **Nodes**: Each element, attribute, and piece of text in an HTML or XML document is represented as a node in the DOM tree. Nodes can be elements (e.g., ```<div>, <p>```), attributes (e.g., ```src, href```), or text content.
 - **Properties and Methods**: Nodes in the DOM tree have associated properties and methods that allow developers to interact with and manipulate the content and structure of the document. For example, you can change the text of an HTML element, add or remove elements, or change CSS styles using JavaScript through the DOM.
 - **Dynamic Updates**: One of the primary purposes of the DOM is to enable dynamic updates to web pages. JavaScript can be used to modify the DOM in response to user interactions, events, or data from a server. This dynamic updating is what makes modern web applications interactive.
 - **Cross-Platform**: The DOM is a platform-independent and language-independent interface, which means that it can be used with different programming languages and on various platforms. It is commonly used with JavaScript in web development.
@@ -55,13 +55,13 @@ Let's say you have the following HTML file
 In this example:
 
 - The entire web page is represented by the document object at the root of the tree.
-- The <html>, <head>, and <body> elements are represented as nodes in the tree, with child nodes representing their content and nested elements.
-- The <header>, <nav>, <main>, and <footer> elements are represented as nodes in the tree, forming the structure of the page.
+- The ```<html>, <head>, and <body>``` elements are represented as nodes in the tree, with child nodes representing their content and nested elements.
+- The ```<header>, <nav>, <main>, and <footer>``` elements are represented as nodes in the tree, forming the structure of the page.
 - Text content within elements, such as the page title and paragraph text, is also represented as nodes in the tree.
 - Elements with attributes, such as the <a> (anchor) tags with href attributes, include those attributes as part of their representation.
 
 ## How do you access an element in the DOM?
-To access a <header> element in the Document Object Model (DOM) using JavaScript, you can use various methods, but one common approach is to use the document.querySelector() or document.getElementById() method. Here's how you can do it:
+To access a ```<header>``` element in the Document Object Model (DOM) using JavaScript, you can use various methods, but one common approach is to use the document.querySelector() or document.getElementById() method. Here's how you can do it:
 
 - Using document.querySelector()
   Suppose you want to access a specific <header> element based on its CSS selector, which might include a class or an ID attribute. Here's how you can do it:
@@ -87,9 +87,9 @@ To access a <header> element in the Document Object Model (DOM) using JavaScript
 </body>
 </html>
   ```
-  In this example, we use document.querySelector('#myHeader') to select the <header> element with the id attribute set to "myHeader." You can replace "#myHeader" with any valid CSS selector to target elements based on class, tag name, or other attributes.
+  In this example, we use ```document.querySelector('#myHeader')``` to select the ```<header>``` element with the id attribute set to "myHeader." You can replace ```"#myHeader"``` with any valid CSS selector to target elements based on class, tag name, or other attributes.
   - Using document.getElementById()
-    If you have assigned an id to the <header> element, you can use the document.getElementById() method to directly access it:
+    If you have assigned an id to the ```<header>``` element, you can use the ```document.getElementById()``` method to directly access it:
     ```
     <!DOCTYPE html>
 <html>
@@ -112,4 +112,4 @@ To access a <header> element in the Document Object Model (DOM) using JavaScript
 </body>
 </html>
   ```
-  In this case, document.getElementById('myHeader') directly selects the <header> element with the specified ID.
+  In this case, ```document.getElementById('myHeader')``` directly selects the ```<header>``` element with the specified ID.
