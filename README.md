@@ -69,6 +69,7 @@ Reference material for those interested in cybersecurity
   - [NGINX Proxy](docs/NGINXPROXY.md)
 - API
   - [REST](docs/REST.md)
+  - [Open API](docs/OPENAPI.md)
 - [AWS](docs/AWS.md)
   - [IAM](docs/IAM.md)
   - [Lambda](docs/LAMBDA.md)
