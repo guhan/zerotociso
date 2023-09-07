@@ -1,0 +1,6 @@
+# Deserialization
+
+## What are the kinds of deserialization attacks?
+- **Blind deserialization**: these attacks occur behind a restricted system or network protected by a firewall and benefiting from robust security management policies. The attacker exploits the Java payload or manipulates a transformer chain to enable remote code execution (RCE).
+- **Asynchronous deserialization**: these attacks involve storing serialized gadgets in a database. When target web applications initiate deserialization, a chain of gadgets programmed to manipulate the deserialization process is executed in a JMS broker client library. JMS libraries can be vulnerable, including Oracle OpenMQ, IBM WebSphereMQ, Apache QPID JMS, Pivotal RabbitMQ and Oracle Weblogic.
+- **Deferred-execution deserialization**: these attacks involve the execution of a gadget chain (or chains) into vulnerable applications after the deserialization process. A gadget chain is a sequence of return-oriented programming (ROP) gadgets ending in return-from-procedure (RET) instructions. This allows an attacker to bypass any non-executable protections like kernel-code cohesion and read-only memory protections. ROP gadgets don’t require injecting binary code, so an attacker only needs to link an executable address to the required data arguments to enable code execution. 
