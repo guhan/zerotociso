@@ -64,6 +64,7 @@ Reference material for those interested in cybersecurity
   - [Cross Site Scripting (XSS)](docs/XSS.md)
   - [Content Security Policy (CSP)](docs/CSP.md)
   - [XML External Entity (XXE)](docs/XXE.md)
+  - [HTTP Request Smuggling](docs/REQUESTSMUGGLING.md)
   - [NGINX Proxy](docs/NGINXPROXY.md)
 - API
   - [REST](docs/REST.md)
