@@ -48,7 +48,7 @@
   - Configure notifications to alert your team of successful deployments or any issues during the CI/CD process.
   - Continuously monitor and optimize your EKS cluster for performance, scalability, and cost-efficiency.
 
- - **Rollback and Recovery**:
+- **Rollback and Recovery**:
   - Implement rollback procedures in case a deployment goes wrong.
   - MTTR: Make sure you can quickly revert to a previous stable state if necessary
 
