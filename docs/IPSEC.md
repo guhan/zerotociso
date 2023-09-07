@@ -11,7 +11,9 @@
 **Key Management**: IPsec requires the management of cryptographic keys used for encryption, integrity, and authentication. Key management protocols and mechanisms, such as Internet Key Exchange (IKE), are employed to securely negotiate and exchange keys between IPsec peers.
 
 
-**Tunnel Mode and Transport Mode**: IPsec can be used in two modes: tunnel mode and transport mode. In tunnel mode, the entire IP packet is encapsulated within a new IP packet, adding an additional layer of security. In transport mode, only the payload of the original IP packet is encrypted and authenticated, while the IP header remains intact.
+**Tunnel Mode and Transport Mode**: IPsec can be used in two modes: tunnel mode and transport mode. 
+- In tunnel mode, the entire IP packet is encapsulated within a new IP packet, adding an additional layer of security.
+- In transport mode, only the payload of the original IP packet is encrypted and authenticated, while the IP header remains intact.
 
 
 **Compatibility and Interoperability**: IPsec is supported by a wide range of network devices, including routers, firewalls, and VPN gateways. It ensures compatibility and interoperability between different vendors' equipment, enabling secure communication across heterogeneous networks.
