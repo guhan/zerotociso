@@ -57,6 +57,8 @@ Reference material for those interested in cybersecurity
 - Web
   - [HTTP](docs/HTTP.md)
   - [SSL/TLS](docs/SSLTLS.md)
+- API
+  - [REST](docs/REST.md)
 - [AWS](docs/AWS.md)
   - [IAM](docs/IAM.md)
   - [Lambda](docs/LAMBDA.md)
