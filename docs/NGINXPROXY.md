@@ -19,11 +19,11 @@ An NGINX proxy, often referred to as an NGINX reverse proxy, is a server configu
 Using NGINX as a reverse proxy for microservices involves configuring NGINX to route incoming requests to different microservices based on specific criteria, such as URL paths or headers. This setup allows you to create a unified entry point for your microservices and implement various routing, load balancing, and security features. Here's a step-by-step guide on how to set up NGINX as a reverse proxy for microservices:
 
 - **Install NGINX**:
-If you haven't already, install NGINX on the server where you want to set up the reverse proxy. The installation steps may vary depending on your operating system. For example, on Ubuntu, you can use:
-```
-sudo apt-get update
-sudo apt-get install nginx
-```
+  If you haven't already, install NGINX on the server where you want to set up the reverse proxy. The installation steps may vary depending on your operating system. For example, on Ubuntu, you can use:
+  ```
+  sudo apt-get update
+  sudo apt-get install nginx
+  ```
 
 - **Configuration Files**:
   - NGINX configuration is typically divided into multiple files. The primary configuration file is usually located at /etc/nginx/nginx.conf, and additional configuration files are often stored in the /etc/nginx/conf.d/ directory. You can edit these files using a text editor like nano or vim.
@@ -35,8 +35,8 @@ sudo apt-get install nginx
 - **Configure NGINX as a Reverse Proxy**:
 In your microservices.conf file, you'll define the reverse proxy configuration for each microservice.
 
-Here's an example configuration for two microservices:
-```
+  Here's an example configuration for two microservices:
+  ```
 server {
     listen 80;
     server_name your-domain.com;
@@ -51,7 +51,7 @@ server {
 
     # Additional configuration options as needed...
 }
-```
+  ```
   - listen specifies the port on which NGINX will listen for incoming requests (typically port 80 for HTTP).
   - server_name defines the domain name or IP address associated with your NGINX reverse proxy.
   - location blocks are used to define the routing rules. In this example, requests to /service1/ are forwarded to the service1-backend, and requests to /service2/ are forwarded to the service2-backend.
