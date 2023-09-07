@@ -21,8 +21,8 @@ Any tangible part of the computer you can reach out and touch
   - thread: self contained sequence of instructions that can be executed in parallel with other threads
   in a process
   - switching between threads incurs far less overhead
-  - **Registers**: stroage in the cpu
-  - 
+- **Registers**: storage in the cpu
+  
  
 ## Memory
 
