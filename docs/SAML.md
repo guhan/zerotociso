@@ -10,6 +10,15 @@ SAML consists of four main components:
 3. **Bindings**: Mappings of request-response message exchanges to standard messaging or communication protocols
 4. **Profiles**: Definitions that show how SAML can be used within a particular application as a way to promote interoperability
 
+## What are the benefits of SAML?
+
+- **Single Sign-On (SSO)**: Users only need to authenticate once and can access multiple services seamlessly.
+- **Security**: SAML uses digital signatures and encryption to ensure the integrity and confidentiality of the authentication and authorization process.
+- **Interoperability**: SAML is a widely accepted standard for SSO and works across different platforms and technologies.
+- **Centralized Identity Management**: Identity providers (IdPs) centralize user authentication (_federation_), simplifying user management and access control.
+- **Decentralized Architecture**: Different service providers (SPs) can trust a common identity provider, reducing the need for each SP to manage its own authentication.
+
+
 ## How does SAML work?
 SAML, which stands for Security Assertion Markup Language, is an XML-based framework for enabling secure authentication and authorization 
 between different parties, such as a user, an identity provider (IdP), and a service provider (SP). It's **commonly used for implementing 
@@ -37,13 +46,6 @@ Here's how SAML works:
 - **Access Granted**:
   - **E** The service provider (SP) receives the SAML assertion, verifies the digital signature of the IdP, and extracts the user's information and authentication status. If everything checks out, the user is granted access to the service or application without needing to log in again.
 
-## What are the benefits of SAML?
-
-- **Single Sign-On (SSO)**: Users only need to authenticate once and can access multiple services seamlessly.
-- **Security**: SAML uses digital signatures and encryption to ensure the integrity and confidentiality of the authentication and authorization process.
-- **Interoperability**: SAML is a widely accepted standard for SSO and works across different platforms and technologies.
-- **Centralized Identity Management**: Identity providers (IdPs) centralize user authentication (_federation_), simplifying user management and access control.
-- **Decentralized Architecture**: Different service providers (SPs) can trust a common identity provider, reducing the need for each SP to manage its own authentication.
 
 
 ## What does a SAML token look like?
