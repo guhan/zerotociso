@@ -59,16 +59,16 @@ In your microservices.conf file, you'll define the reverse proxy configuration f
   - You can add more location blocks and routing rules for other microservices as needed.
 
 - **Test the Configuration**:
-Before applying the NGINX configuration, run the following command to check for syntax errors:
-```
-sudo nginx -t
-```
-If the syntax is valid, you'll see a message indicating that the configuration is successful.
+  Before applying the NGINX configuration, run the following command to check for syntax errors:
+  ```
+  sudo nginx -t
+  ```
+  If the syntax is valid, you'll see a message indicating that the configuration is successful.
 - **Reload NGINX**:
-Apply the new NGINX configuration by reloading NGINX:
-```
-sudo systemctl reload nginx
-```
+  Apply the new NGINX configuration by reloading NGINX:
+  ```
+  sudo systemctl reload nginx
+  ```
 - **DNS Configuration**:
 Ensure that your domain's DNS records point to the server running NGINX. You may need to configure DNS settings with your domain registrar.
 - **Security Considerations**:
