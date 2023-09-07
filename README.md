@@ -65,6 +65,7 @@ Reference material for those interested in cybersecurity
   - [Load Balancer](docs/AWSLOADBALANCER.md)
   - [Auto Scaling Group](docs/AUTOSCALINGGROUP.md)
   - [EC2](docs/EC2.md)
+    - [EBS](docs/EBS.md)
   - [S3](docs/S3.md)
   - [GuardDuty](docs/GUARDDUTY.md)
 - [Authentication](docs/AUTHENTICATION.md)
