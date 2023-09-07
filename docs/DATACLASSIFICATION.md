@@ -8,10 +8,10 @@ Inefficient to treat all data the same way
 - **Need to know**: consider not just privilege level but also relevance of the data/object to the role the subject plays.
 
 ### The primary objectives of data classification are:
-- Data Protection: By classifying data, organizations can identify their most sensitive and critical information. This enables them to apply appropriate security measures, access controls, and encryption to protect valuable and sensitive data from unauthorized access and breaches.
-- Compliance and Regulatory Requirements: Many industries and regions have specific regulations and standards regarding data protection and privacy. Data classification helps organizations comply with these requirements by ensuring that data is handled according to its sensitivity level.
-- Risk Management: Data classification allows organizations to assess and manage the risks associated with different types of data. By knowing the value and criticality of data assets, organizations can prioritize their security efforts effectively.
-- Data Handling and Disposal: Data classification helps in determining the appropriate data handling procedures and retention policies (data lifecycle). It ensures that data is stored, transmitted, and disposed of securely based on its classification.
+- **Data Protection**: By classifying data, organizations can identify their most sensitive and critical information. This enables them to apply appropriate security measures, access controls, and encryption to protect valuable and sensitive data from unauthorized access and breaches.
+- **Compliance and Regulatory Requirements**: Many industries and regions have specific regulations and standards regarding data protection and privacy. Data classification helps organizations comply with these requirements by ensuring that data is handled according to its sensitivity level.
+- **Risk Management**: Data classification allows organizations to assess and manage the risks associated with different types of data. By knowing the value and criticality of data assets, organizations can prioritize their security efforts effectively.
+- **Data Handling and Disposal**: Data classification helps in determining the appropriate data handling procedures and retention policies (data lifecycle). It ensures that data is stored, transmitted, and disposed of securely based on its classification.
 
 ### Common data classification levels include:
 
