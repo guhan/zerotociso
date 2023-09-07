@@ -16,7 +16,9 @@ An NGINX proxy, often referred to as an NGINX reverse proxy, is a server configu
 
 
 ## How do you use NGINX as a reverse proxy for microservices? 
-Using NGINX as a reverse proxy for microservices involves configuring NGINX to route incoming requests to different microservices based on specific criteria, such as URL paths or headers. This setup allows you to create a unified entry point for your microservices and implement various routing, load balancing, and security features. Here's a step-by-step guide on how to set up NGINX as a reverse proxy for microservices:
+Using NGINX as a reverse proxy for microservices involves configuring NGINX to route incoming requests to different microservices based on specific criteria, such as URL paths or headers. This setup allows you to create a unified entry point for your microservices and implement various routing, load balancing, and security features. 
+
+Here's a step-by-step guide on how to set up NGINX as a reverse proxy for microservices:
 
 - **Install NGINX**:
   If you haven't already, install NGINX on the server where you want to set up the reverse proxy. The installation steps may vary depending on your operating system. For example, on Ubuntu, you can use:
