@@ -19,16 +19,16 @@ Allows attackers to inject malicious scripts (referred to as "payloads") into we
 
 ## Real life examples of XSS
 - British Airways
-In 2018, British Airways was attacked by Magecart, a high-profile hacker group famous for credit card skimming attacks. The group exploited an XSS vulnerability in a JavaScript library called Feedify, which was used on the British Airway website. 
+  - In 2018, British Airways was attacked by Magecart, a high-profile hacker group famous for credit card skimming attacks. The group exploited an XSS vulnerability in a JavaScript library called Feedify, which was used on the British Airway website. 
 
-Attackers modified the script to send customer data to a malicious server, which used a domain name similar to British Airways. The fake server had an SSL certificate, so users believed they were purchasing from a secure server. They succeeded in performing credit card skimming on 380,000 booking transactions before the breach was discovered.
+  - Attackers modified the script to send customer data to a malicious server, which used a domain name similar to British Airways. The fake server had an SSL certificate, so users believed they were purchasing from a secure server. They succeeded in performing credit card skimming on 380,000 booking transactions before the breach was discovered.
 
 - Fortnite
-In 2019, the popular multiplayer game experienced an XSS vulnerability that over 200 million users. A retired, unsecured page went unnoticed by Fortnite developers. The page had an XSS vulnerability that allowed attackers to gain unauthorized access to the data of all Fornite users.
+  - In 2019, the popular multiplayer game experienced an XSS vulnerability that over 200 million users. A retired, unsecured page went unnoticed by Fortnite developers. The page had an XSS vulnerability that allowed attackers to gain unauthorized access to the data of all Fornite users.
 
-Attackers could have used XSS, in combination with an insecure single sign on (SSO) vulnerability, to redirect users to a fake login page. This would allow them to steal virtual currency within the game, and record player conversations, as reconnaissance for future attacks. Check Point discovered the attack and notified Fortnite, but it is unknown if the vulnerability was exploited by attackers in the interim.
+  - Attackers could have used XSS, in combination with an insecure single sign on (SSO) vulnerability, to redirect users to a fake login page. This would allow them to steal virtual currency within the game, and record player conversations, as reconnaissance for future attacks. Check Point discovered the attack and notified Fortnite, but it is unknown if the vulnerability was exploited by attackers in the interim.
 
 - eBay
-In late 2015 and early 2016, eBay had a severe XSS vulnerability. The website used a “url” parameter that redirected users to different pages on the platform, but the value of the parameter was not validated. This allowed attackers to inject malicious code into a page. 
+  - In late 2015 and early 2016, eBay had a severe XSS vulnerability. The website used a “url” parameter that redirected users to different pages on the platform, but the value of the parameter was not validated. This allowed attackers to inject malicious code into a page. 
 
-The vulnerability enabled attackers to gain full access to eBay seller accounts, sell products at a discount, and steal payment details. It was actively used by attackers to manipulate eBay listings of high value products such as vehicles. eBay eventually remediated the vulnerability, but follow-on attacks continued until 2017.
+  - The vulnerability enabled attackers to gain full access to eBay seller accounts, sell products at a discount, and steal payment details. It was actively used by attackers to manipulate eBay listings of high value products such as vehicles. eBay eventually remediated the vulnerability, but follow-on attacks continued until 2017.
