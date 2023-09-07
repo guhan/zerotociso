@@ -63,7 +63,7 @@ In this example:
 ## How do you access an element in the DOM?
 To access a ```<header>``` element in the Document Object Model (DOM) using JavaScript, you can use various methods, but one common approach is to use the document.querySelector() or document.getElementById() method. Here's how you can do it:
 
-- Using document.querySelector()
+- Using ```document.querySelector()```
   Suppose you want to access a specific <header> element based on its CSS selector, which might include a class or an ID attribute. Here's how you can do it:
 
 ```
@@ -89,7 +89,7 @@ To access a ```<header>``` element in the Document Object Model (DOM) using Java
 </html>
 ```
   In this example, we use ```document.querySelector('#myHeader')``` to select the ```<header>``` element with the id attribute set to "myHeader." You can replace ```"#myHeader"``` with any valid CSS selector to target elements based on class, tag name, or other attributes.
-  - Using document.getElementById()
+  - Using ```document.getElementById()```
     If you have assigned an id to the ```<header>``` element, you can use the ```document.getElementById()``` method to directly access it:
 
 ```
