@@ -46,5 +46,5 @@ Configure the ALB listener rules to route incoming traffic to the Target Group.
   - Add one or more rules that specify the conditions under which traffic should be routed to the Target Group.
 - **Testing and Validation**:
 Test the configuration to ensure that traffic is being properly routed to the instances in the ASG via the ALB. Monitor the health of instances using the Target Group health checks.
-- **Scale the ASG:
+- **Scale the ASG**:
 Allow Auto Scaling to automatically manage the number of instances in the ASG based on your scaling policies and the application's traffic patterns. Instances that are launched or terminated by Auto Scaling will automatically be registered or deregistered with the Target Group.
