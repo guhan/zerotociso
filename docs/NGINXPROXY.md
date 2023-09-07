@@ -37,7 +37,7 @@ In your microservices.conf file, you'll define the reverse proxy configuration f
 
   Here's an example configuration for two microservices:
   ```
-server {
+  server {
     listen 80;
     server_name your-domain.com;
 
@@ -50,7 +50,7 @@ server {
     }
 
     # Additional configuration options as needed...
-}
+  }
   ```
   - listen specifies the port on which NGINX will listen for incoming requests (typically port 80 for HTTP).
   - server_name defines the domain name or IP address associated with your NGINX reverse proxy.
