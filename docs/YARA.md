@@ -8,16 +8,16 @@ create more complex conditions for classification.
 
 ### Key features of YARA include:
 
-- Rule-Based Approach: YARA uses a rule-based approach to detection. Each rule consists of a condition and 
+- **Rule-Based Approach**: YARA uses a rule-based approach to detection. Each rule consists of a condition and 
   associated metadata. When a file or data is scanned, YARA checks it against the defined rules to see if any conditions are met.
-- Flexibility: YARA rules are highly flexible and can be as simple or complex as needed. Rules can match on a wide range 
+- **Flexibility**: YARA rules are highly flexible and can be as simple or complex as needed. Rules can match on a wide range 
   of attributes, including strings, regular expressions, file sizes, file types, and more.
-- String Matching: YARA is particularly powerful for string matching, making it effective for detecting specific strings or 
+- **String Matching**: YARA is particularly powerful for string matching, making it effective for detecting specific strings or 
   patterns within files, which is often used in malware analysis.
-- Community and Shared Rules: YARA has an active user community that shares and collaborates on rulesets. This allows analysts to 
+- **Community and Shared Rules**: YARA has an active user community that shares and collaborates on rulesets. This allows analysts to 
   benefit from a collective effort to identify and classify various types of files.
-- Command-Line Interface and APIs: YARA can be used through a command-line interface (CLI) or integrated into scripts and programs using its APIs.
-- Memory Scanning: YARA can also be used for scanning memory to identify patterns or signatures associated with certain types of malware.
+- **Command-Line Interface and APIs**: YARA can be used through a command-line interface (CLI) or integrated into scripts and programs using its APIs.
+- **Memory Scanning**: YARA can also be used for scanning memory to identify patterns or signatures associated with certain types of malware.
 
 
 ### Example
