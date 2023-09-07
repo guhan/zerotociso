@@ -15,7 +15,7 @@ Key points about the Document Object Model (DOM):
 Let's say you have the following HTML file
 
 ```
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Example DOM</title>
@@ -65,8 +65,9 @@ To access a ```<header>``` element in the Document Object Model (DOM) using Java
 
 - Using document.querySelector()
   Suppose you want to access a specific <header> element based on its CSS selector, which might include a class or an ID attribute. Here's how you can do it:
-  ```
-  <!DOCTYPE html>
+
+```
+<!DOCTYPE html>
 <html>
 <head>
     <title>Access Header Element</title>
@@ -86,12 +87,13 @@ To access a ```<header>``` element in the Document Object Model (DOM) using Java
     </script>
 </body>
 </html>
-  ```
+```
   In this example, we use ```document.querySelector('#myHeader')``` to select the ```<header>``` element with the id attribute set to "myHeader." You can replace ```"#myHeader"``` with any valid CSS selector to target elements based on class, tag name, or other attributes.
   - Using document.getElementById()
     If you have assigned an id to the ```<header>``` element, you can use the ```document.getElementById()``` method to directly access it:
-    ```
-    <!DOCTYPE html>
+
+```
+<!DOCTYPE html>
 <html>
 <head>
     <title>Access Header Element</title>
@@ -111,5 +113,5 @@ To access a ```<header>``` element in the Document Object Model (DOM) using Java
     </script>
 </body>
 </html>
-  ```
+```
   In this case, ```document.getElementById('myHeader')``` directly selects the ```<header>``` element with the specified ID.
