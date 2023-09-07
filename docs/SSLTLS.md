@@ -102,9 +102,15 @@ TLS 1.2 Server Hello
         Renegotiation info extension length: 0 bytes
 ```
 -  **Certificate Exchange**: If the server's certificate is required for authentication, it sends its digital certificate to the client. The certificate contains the server's public key, identity information, and is signed by a trusted Certificate Authority (CA).
+
 -  **Client Key Exchange**: The client generates a pre-master secret and encrypts it with the server's public key from the received certificate. The encrypted pre-master secret is sent to the server, ensuring that only the server can decrypt it with its private key.
+  
 -  **Server Key Exchange** (optional): In some cases, the server may send additional information or parameters required for the key exchange, such as Diffie-Hellman parameters or a server key exchange message.
+  
 -  **Certificate Verification**: The client verifies the authenticity and validity of the server's certificate. It checks the digital signature, expiration date, and checks if the certificate has been revoked or issued by a trusted CA. If the verification fails, the client may display a warning or terminate the connection.
+  
 -  **Pre-Master Secret Derivation**: Both the client and server independently compute the pre-master secret using the exchanged keys. This _pre-master secret is used to generate the session keys_ required for encryption and decryption.
+  
 -  **Session Key Generation**: Using the pre-master secret, the client and server independently generate the session keys used for symmetric encryption and decryption during the secure communication.
-- . **Handshake Completion**: Finally, both the client and server send a Finished message, which includes a hash of all the exchanged messages during the handshake. This allows both parties to verify the integrity of the handshake and ensure that the communication parameters match.
+  
+- **Handshake Completion**: Finally, both the client and server send a Finished message, which includes a hash of all the exchanged messages during the handshake. This allows both parties to verify the integrity of the handshake and ensure that the communication parameters match.
