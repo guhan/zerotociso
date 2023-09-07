@@ -20,7 +20,7 @@ To connect an Application Load Balancer (ALB) to an Auto Scaling group (ASG) in 
 
 - **Create an Application Load Balancer (ALB)**:
 If you don't already have an ALB, create one using the AWS Management Console, AWS Command Line Interface (CLI), or AWS CloudFormation. Ensure that the ALB is configured with the appropriate listener rules, security groups, and subnets as needed.
-- **Create a Target Grou **:
+- **Create a Target Group**:
 A Target Group is used to group instances that should receive traffic from the ALB. Each ASG typically corresponds to one or more Target Groups.
   - Navigate to the AWS Management Console.
   - Go to the EC2 Dashboard.
