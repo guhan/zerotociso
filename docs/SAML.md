@@ -37,7 +37,7 @@ Here's how SAML works:
 - **Access Granted**:
   - **E** The service provider (SP) receives the SAML assertion, verifies the digital signature of the IdP, and extracts the user's information and authentication status. If everything checks out, the user is granted access to the service or application without needing to log in again.
 
-Key features and benefits of SAML include:
+## What are the benefits of SAML?
 
 - **Single Sign-On (SSO)**: Users only need to authenticate once and can access multiple services seamlessly.
 - **Security**: SAML uses digital signatures and encryption to ensure the integrity and confidentiality of the authentication and authorization process.
