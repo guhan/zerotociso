@@ -1,8 +1,11 @@
 # Data Classificaiton
-Primary means by which data is protected based on its need for secrecy, sensitivy, or confidentiality. 
+The primary means by which data is protected based on its need for secrecy, sensitivy, or confidentiality. 
 
 **Why?** 
-Inefficitent to treat all data the same way
+Inefficient to treat all data the same way
+
+## Terms 
+- **Need to know**: consider not just privilege level but also relevance of the data/object to the role the subject plays.
 
 ### The primary objectives of data classification are:
 - Data Protection: By classifying data, organizations can identify their most sensitive and critical information. This enables them to apply appropriate security measures, access controls, and encryption to protect valuable and sensitive data from unauthorized access and breaches.
