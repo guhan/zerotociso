@@ -24,11 +24,14 @@ providers without reentering their credentials.
 Here's how SAML works:
 
 - **User Access Request**:
-  - **A** When a user tries to access a service or application provided by a service provider (SP)
+  - **A** When a user tries to access an application/service provided by a service provider (SP)
+    - The application/service generates a SAML request
+      ![SAML Request](/images/SAML-request.png)
   - **B** the SP redirects the user to the identity provider (IdP).
 - **Authentication at IdP**:
   - **C** The identity provider (IdP) authenticates the user. This can involve username and password, multi-factor authentication (MFA), or other authentication methods.
 - **SAML Assertion**: After successful authentication, the IdP generates a SAML assertion, which is an XML document containing information about the user and their authentication status. The assertion is digitally signed by the IdP to ensure its integrity.
+  ![SAML Response](/images/SAML-response.png)
 - **Response to SP**:
   - **D** The IdP sends the SAML assertion back to the user's browser, which then forwards it to the service provider (SP).
 - **Access Granted**:
