@@ -79,7 +79,8 @@ Key provisions of the Computer Security Act of 1987 include:
 
 ## Commmunications Assistance for Law Enforcement Act (CALEA)
 1994
-- amended ECA and let law enforcement have wiretaps
+- amended ECA
+- All communicationations carriers make wiretaps available for law enforcement officials who have an appropriate court order. 
 
 ## European Union Privacy Law
 1995
