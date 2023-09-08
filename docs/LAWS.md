@@ -101,7 +101,7 @@ Key provisions of the Computer Security Act of 1987 include:
 Generally, the creator of the work has the copyright. Unless the work is _for hire_ when it made by an employee/contractor for an employer
 
 - prohibits circumventing copyright protection
-- limits liability of ISPs
+- ISPs are not responsible for the transitory (transmission) activities of their customers. 
 - search engines, caches are also exempt from liablity 
 
 ## Children's Online Private Protection Act (COPPA)
