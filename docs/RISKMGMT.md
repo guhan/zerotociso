@@ -21,7 +21,7 @@ _The primary goal of risk management is to reduce risk to an acceptable level._
 
 ## Quantitative Risk Analysis
 1. Assign Asset Value (AV)
-2. Calculate Exposure Factor (EF) - percentage of loss thatn and org would experience if a specific asset was lost/breached
+2. Calculate Exposure Factor (EF) - percentage of loss that and org would experience if a specific asset was lost/breached
 3. Calculate Single Loss Expectancy (SLE) - Cost associated with a single realized risk against a specific asset, expressed in dollars
    ```
    SLE = Asset Value (AV) * Exposure Factor (EF)
