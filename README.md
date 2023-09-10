@@ -137,7 +137,7 @@ Reference material for those interested in cybersecurity
 - [HIPAA](docs/HIPAA.md) 
 - [ISO](docs/ISO.md) 
 - [ITAR](docs/ITAR.md)
-- [ITSM](docs/ITSM.md)
+- [ITSM/ITIL](docs/ITSMITIL.md)
 - [NERC](docs/NERC.md) 
 - [NIST](docs/NIST.md) 
 - [PCI-DSS](docs/PCIDSS.md) 
