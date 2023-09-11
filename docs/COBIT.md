@@ -24,8 +24,7 @@ Ultimately, COBIT’s focus on governance creates a security framework that stre
 ## COBIT Roles
  In the context of data management roles in COBIT, here are some key roles and responsibilities:
 
-- **Data Owner**:
-  Role: The Data Owner is responsible for the overall management and governance of specific data sets or information assets within the organization.
+- **Data Owner**: The Data Owner is responsible for the overall management and governance of specific data sets or information assets within the organization.
 
   Responsibilities:
     - Define and document data ownership and accountability for data assets.
@@ -34,8 +33,9 @@ Ultimately, COBIT’s focus on governance creates a security framework that stre
     - Define and enforce data retention and disposal policies in compliance with legal and regulatory requirements.
     - Collaborate with data custodians and other stakeholders to manage data effectively.
 
-- **Data Custodian**:
-  Role: The Data Custodian is responsible for the day-to-day management and protection of data assets as defined by the Data Owner.
+- **Data Custodian**: The Data Custodian is responsible for the day-to-day management and protection of data assets as defined by the Data Owner.
+
+
   Responsibilities:
     - Implement and enforce data access controls, encryption, and other security measures to protect data.
     - Ensure that data is stored, backed up, and archived according to established policies and procedures.
@@ -43,8 +43,7 @@ Ultimately, COBIT’s focus on governance creates a security framework that stre
     - Collaborate with the Data Owner and other stakeholders to maintain data quality and integrity.
     - Assist in data recovery and restoration efforts in case of data loss or breaches.
 
-- **Data Steward**:
-  Role: The Data Steward is responsible for ensuring the quality, accuracy, and integrity of data within specific data domains or subject areas.
+- **Data Steward**: The Data Steward is responsible for ensuring the quality, accuracy, and integrity of data within specific data domains or subject areas.
 
   Responsibilities:
     - Define and enforce data standards, policies, and best practices for data quality and integrity.
@@ -53,8 +52,9 @@ Ultimately, COBIT’s focus on governance creates a security framework that stre
     - Define and maintain data dictionaries, metadata, and data lineage documentation.
     - Support data governance initiatives and data management projects.
 
-- **Data Governance Board**:
-  Role: The Data Governance Board is a cross-functional team responsible for setting data governance policies, strategies, and priorities.
+- **Data Governance Board**: The Data Governance Board is a cross-functional team responsible for setting data governance policies, strategies, and priorities.
+
+
   Responsibilities:
     - Define and communicate data governance policies, standards, and guidelines.
     - Establish data governance roles and responsibilities across the organization.
