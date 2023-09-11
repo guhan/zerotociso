@@ -1,6 +1,8 @@
 # Kubernetes (k8s)
 Kubernetes is a container orchestration platform that is cloud agnostic (works in AWS, GCP, Azure). 
 
+![K8s Overview](/images/k8s-overview.png)
+
 ## Benefits of using k8s
 - **Service discovery and load balancing**: Kubernetes can expose a container using the DNS name or using their own IP address. If traffic to a container is high, Kubernetes is able to load balance and distribute the network traffic so that the deployment is stable.
 - **Storage orchestration**: Kubernetes allows you to automatically mount a storage system of your choice, such as local storages, public cloud providers, and more.
