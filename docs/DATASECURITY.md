@@ -35,18 +35,19 @@
 - **Data in Use**: data in memory or temporary storage buffers (cache) as application is processing it
 
 ## Handling Data
-- Marking data: adding a label that clearly identifies the classification level
+- **Marking data**: adding a label that clearly identifies the classification level
   - Header/Footer on documents
   - Physical Label
-- Storing data: encrypt or lock it
-- Destroying Data:
+- **Storing data**: encrypt or lock it
+- **Destroying Data**:
   - Avoid _Data Remanence_ ie data left on media after it was supposedly erased, with a degausser which generates a large magnetic field
   - For SSD's use destruction
-  - Erasing Data: Only removes the link to the data on the disk
-  - Clearing Data: overwriting the data, ie with zeros
-  - Purging Data: repeat the clearing process multiple times
-  - Degaussing: use a strong magnetic field, wont work on CDs,DVDs, or SSDs
-  - Destruction: vaporize it
+  - **Sanitization**: ensure data cannot be recovered by any means
+  - **Erasing Data**: Only removes the link to the data on the disk
+  - **Clearing Data**: overwriting the data, ie with zeros
+  - **Purging Data**: repeat the clearing process multiple times
+  - **Degaussing**: use a strong magnetic field, wont work on CDs,DVDs, or SSDs
+  - **Destruction**: vaporize it
 - Asset Retention: Ensure that data is retained for as long as it is needed
 
 ## Data Protection
@@ -61,7 +62,7 @@
 Refer to NIST SP 800-18
 - Data owner: person who is ultimately responsible for the data
 - Asset owner: System owner who owns a system or process
-- Business owner: or mission owner is a program manager
+- Business owner: organization or mission owner is a program manager
 - Data processor: natural or legal person which processes data on behalf of the data controller
 
 ## Roles
