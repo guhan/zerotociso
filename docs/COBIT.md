@@ -24,6 +24,23 @@ Ultimately, COBIT’s focus on governance creates a security framework that stre
 ## COBIT Roles
  In the context of data management roles in COBIT, here are some key roles and responsibilities:
 
+- **Business Owner**: key responsibilities and functions of the Business Owner role in COBIT:
+
+  - Alignment with Business Goals:The Business Owner is responsible for ensuring that IT activities, projects, and investments are closely aligned with the overall business goals, objectives, and strategies.
+
+  - Requirements and Prioritization:Collaborates with IT and other stakeholders to define and prioritize business requirements for IT services, projects, and initiatives. They help determine what IT should deliver to meet business needs.
+  - Decision-Making: Makes decisions on behalf of the business regarding IT investments, priorities, and resource allocation. They weigh the potential benefits and risks of IT initiatives and provide input into IT governance decisions.
+  - Service Level Agreements (SLAs): Defines and negotiates SLAs (Service Level Agreements) with IT to ensure that IT services meet business expectations in terms of performance, availability, and quality.
+  - Risk Management: Assesses and communicates business risks associated with IT activities and projects. They work with IT and other stakeholders to manage and mitigate these risks effectively.
+  - Value Delivery: Ensures that IT investments and initiatives deliver measurable value to the business. They monitor the realization of expected benefits and return on investment (ROI).
+  - Change Management: Participates in the change management process, providing input and support for changes that impact the business. They assess the potential impact on business processes and operations.
+  - Communication and Stakeholder Engagement:Engages with other business stakeholders, including senior executives, to communicate IT-related matters, discuss challenges, and seek their input and support.
+  - Governance Oversight:Collaborates with IT governance bodies, such as the IT steering committee or board, to ensure that IT governance practices align with business objectives and priorities.
+  - Performance Monitoring: Monitors the performance of IT services and projects from a business perspective, ensuring that they meet agreed-upon criteria and deliver expected value.
+  - Compliance and Legal Requirements:Ensures that IT activities and data management practices comply with legal and regulatory requirements that affect the business.
+  - Business Continuity and Disaster Recovery:
+Works with IT to define business continuity and disaster recovery requirements, ensuring that critical business functions can be maintained in the event of disruptions.
+
 - **Data Owner**: The Data Owner is responsible for the overall management and governance of specific data sets or information assets within the organization.
 
   Responsibilities:
