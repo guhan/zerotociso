@@ -23,9 +23,9 @@ Inefficient to treat all data the same way
 
 ## Government Levels
 High to low
-- Top Secret (classified)
-- Secret (classifed)
-- Confidential (classified)
+- Top Secret (classified) - exceptionally grabe damage to national security
+- Secret (classifed) - could cause serious damage to national security
+- Confidential (classified) - can be expected to cause damage to national security
 - Sensitive but unclassified
 - Unclassified
 
