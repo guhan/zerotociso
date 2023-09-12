@@ -3,7 +3,7 @@
 ## RFC 1087
 The following are unacceptable and unethical: 
 - gain unauthorized access
-- disrupt intented use o fthe internet
+- disrupt intented use of the internet
 - waste resources (people, capacity, power)
 - destroy the integrity of computer based information
 - compromise the privacy of users
