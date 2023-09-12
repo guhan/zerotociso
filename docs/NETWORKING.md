@@ -28,16 +28,6 @@ One packet is sent and the network equipment replicates it to the multiple subsc
 ## What is Unicast?
 One packet is sent to one recipient
 
-
-
-
-
-## What is Internet Security Association and Key Management Protocol (ISAKMP)?
-Provies background security support for IPSEC by negotiating, establishing, modifying and deleting Security Associations (SAs)
-
-
-
-
 ## Ports
 - 2^16 or 65536 total
 - 0 to 1023: service, well known, or privileged ports
