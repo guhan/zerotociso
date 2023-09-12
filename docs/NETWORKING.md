@@ -10,6 +10,11 @@
 - **TCP Wrapper**: an application that serves as a basic firewall by restricting access to ports and resources based on user IDs or system IDs.
 - **Socket**: combination of IP address and port number
 - **Converged protocols**: merging of speciality and proprietary protocols with standard protocols
+- PAN: Personal Area Network
+- LAN: Local Area Network
+- WAN: Wide Area Network
+- MAN: Metropolitan Area Network
+- GAN: Global Area Network
 
 
 ## What are the different modes of communication?
