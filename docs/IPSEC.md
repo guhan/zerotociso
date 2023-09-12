@@ -34,3 +34,6 @@ IKE operates in two phases:
 
 - **IKE Phase 1**: In this phase, IKE establishes a secure channel between the two devices, typically by authenticating each other using either pre-shared keys or digital certificates. IKE Phase 1 also negotiates encryption and authentication methods and creates a secure shared secret called the "shared key" or "Diffie-Hellman key." This key is used in Phase 2 to establish the actual IPsec Security Associations.
 - **IKE Phase 2**: Phase 2 establishes the IPsec Security Associations (SAs) for data transmission. It negotiates the security parameters for the data packets, such as encryption algorithms, integrity algorithms, and other parameters required for secure communication.
+
+## What is Internet Security Association and Key Management Protocol (ISAKMP)?
+Provies background security support for IPSEC by negotiating, establishing, modifying and deleting Security Associations (SAs)
