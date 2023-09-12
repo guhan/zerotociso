@@ -12,7 +12,14 @@ Transmission of _raw bitstream data over the physical medium_, such as copper wi
 - Network devices: Network Interface Cards, hubs, repeaters, concentrators, amplifiers
 
 ### Layer 2 - Data Link
-Responsible for formatting the packet from the Network layer into the proper format for transmission. Provides error-free transmission of data frames between directly connected network nodes. It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections. This layer also handles flow control, error detection, and media access control (MAC) addressing. Frame. 
+- Responsible for formatting the packet from the Network layer into the proper format for transmission.
+- Provides error-free transmission of data frames between directly connected network nodes.
+- It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections. - This layer also handles flow control, error detection, and media access control (MAC) addressing.
+- Packet is called a Frame. 
+
+#### Split into two layers
+- Media Access Control (MAC) which touches Layer 1
+- Logical Link Control (LLC) which touches Layer 3
 
 - **Address Resolution Protocol (ARP)**:  ARP is responsible for resolving or _mapping an IP address to a physical (MAC) address_ on a local network
 
@@ -43,7 +50,9 @@ Responsible for formatting the packet from the Network layer into the proper for
 - MAC Addresses: 00-13-02 (Vendor aka Organizationally Unique Identifier) 1F-58-F3 (unique number assigned to that interface)
 
 ### Layer 3 - Network 
-Logical addressing and routing of data packets across different networks. It defines protocols that determine the best path for data to travel. Packet. 
+- Logical addressing and routing of data packets across different networks.
+- It defines protocols that determine the best path for data to travel.
+- Packet 
 
 - [**Internet Protocol (IP)**](IP.md)
 
@@ -64,7 +73,7 @@ Logical addressing and routing of data packets across different networks. It def
 - **Network Address Translation (NAT)**
 
 ### Layer 4 - Transport 
-Ensures reliable data delivery between applications on different hosts.
+- Ensures reliable data delivery between applications on different hosts.
 
 - [**Tranmission Control Protocol (TCP)**](TCP.md)
 
@@ -78,7 +87,9 @@ Ensures reliable data delivery between applications on different hosts.
 - **Transport Layer Security (TLS)**
 
 ### Layer 5 - Session
-Establishes, manages, and terminates communication sessions between applications. It sets up and synchronizes communication between two devices. Data Stream
+- Establishes, manages, and terminates communication sessions between applications.
+- It sets up and synchronizes communication between two devices.
+- Packet is called Data Stream
 
 There are three modes: Simplex, Half Duplex, and Full Duplex
 
@@ -94,7 +105,8 @@ There are three modes: Simplex, Half Duplex, and Full Duplex
 - **AppleTalk Session Protocol**: AppleTalk is a suite of protocols used in Apple networks. The AppleTalk Session Protocol handles session management tasks, including session establishment, synchronization, and termination.
 
 ### Layer 6 - Presentation
-Responsible for data representation, encryption, and compression. Data Stream.
+- Responsible for data representation, encryption, and compression.
+- Data Stream.
 
 - **Encryption and Decryption**: The Presentation Layer may involve encryption and decryption processes to secure the data during transmission. Encryption protocols like SSL/TLS (Secure Sockets Layer/Transport Layer Security) and cryptographic algorithms such as AES (Advanced Encryption Standard) operate at this layer to protect the confidentiality and integrity of the data.
 
@@ -112,7 +124,8 @@ Responsible for data representation, encryption, and compression. Data Stream.
 
 
 ### Layer 7 - Application 
-Deals directly with applications and their interaction with the network. Data stream. 
+- Deals directly with applications and their interaction with the network.
+- Data stream
 ​​
 - HTTP
 - FTP
