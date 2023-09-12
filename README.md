@@ -161,9 +161,13 @@ Reference material for those interested in cybersecurity
 
 
 ## People Management
+- [Ethics](docs/ETHICS.md)
 - [Culture](docs/CULTURE.md) 
 - [Recruiting](docs/RECRUITING.md)
-- [Ethics](docs/ETHICS.md)
+- [Onboarding](docs/ONBOARDING.md)
+- [Accountability](docs/ACCOUNTABILITY.md)
+- [Team Cohesion](docs/COHESION.md)
+
 
   
 ## Business
