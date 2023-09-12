@@ -145,10 +145,8 @@ Reference material for those interested in cybersecurity
 - [Supply Chain](docs/SUPPLYCHAIN.md) 
 - [X.509](docs/X509.md) 
 
-## Process and Management
+## Process Management
 - [Getting Started as a CISO](docs/CISOSTART.md) 
-- [Culture](docs/CULTURE.md) 
-- [Recruiting](docs/RECRUITING.md) 
 - [Planning](docs/PLANNING.md) 
 - [Change Management](docs/CHANGEMANAGEMENT.md) 
 - [Agile](docs/AGILE.md) 
@@ -160,8 +158,14 @@ Reference material for those interested in cybersecurity
 - [Security Engineering](docs/SECURITYENGINEERING.md) 
 - [BCP/DR](docs/BCPDR.md) 
 - [Investigations](docs/INVESTIGATIONS.md) 
+
+
+## People Management
+- [Culture](docs/CULTURE.md) 
+- [Recruiting](docs/RECRUITING.md)
 - [Ethics](docs/ETHICS.md)
 
+  
 ## Business
 - [Basic Finance](docs/BASICFINANCE.md) 
 - [Federal Reserve](docs/FED.md)
