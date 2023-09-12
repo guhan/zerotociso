@@ -20,3 +20,12 @@ As part of the quality assurance process, new and existing features are scanned 
 **Security Council**\
 A group of security champions across the organization who meet to improve the security posture. The members influence their respective 
 teams and drive change across the organization. 
+
+## Shift Left
+
+## Vulnerability Management
+- Prioritization
+  - Severity
+  - Impact/Reachability
+- Remediation
+- Verification
