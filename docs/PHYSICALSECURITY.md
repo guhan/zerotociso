@@ -149,8 +149,8 @@ electromagnetic interference or EMI
 - **Traverse Mode Noise**: difference in power between hot and neutral wire
 
 Radio Frequency Interference(RFI)
+- Protect by using proper grounding, shielding all cables, and limiting exposure to EMI and RFI sources
 
-Protect by using proper grounding, shielding all cables, and limiting exposure to EMI and RFI sources
 ## Heating, Ventilation and Air Conditioning (HVAC)
 Temperature should be between 60 and 75 degrees 
 Humidity from 40-60 percent
@@ -159,7 +159,7 @@ Humidity from 40-60 percent
 Water and electricity don't mix, any leaks will cause damage
 
 ## Fire
-- Fire Triangle: Fire, Heat, Oxygen are the three corners
+- Fire Triangle: Flamable Material, Heat, Oxygen are the three corners
 
 | Class | Type | Suppression Material |
 | ----- | ---- |----------------------|
@@ -177,8 +177,9 @@ Water and electricity don't mix, any leaks will cause damage
 ### Water Suppression Systems
 - Wet Pipe: alwasy full of water
 - Dry Pipe: has compessed air and pipe fills with air
-- Deluge System: larger pipes and more water (sprinkler)
-- Preeaction System: Combination of dry and wet pipe system
+- Deluge System: larger pipes and more water (sprinkler), deluge valve keeps pipes dry
+- Preeaction System: Fills with water and then when fire hits sprinker activates.
+
 
 ### Gas Discharge System
 More effective than water dischage, but are dangerous for humans. 
