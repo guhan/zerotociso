@@ -60,9 +60,15 @@ Reference material for those interested in cybersecurity
 - [High Performance Computing](docs/HPC.md)
 
 ## Authentication
- - [RADIUS](docs/RADIUS.md)
+- [Basics](docs/AUTHENTICATION.md)
+- [RADIUS](docs/RADIUS.md)
 - [802.1x](docs/8021X.md)
 - [Passwords](docs/PASSWORDS.md)
+- [SAML](docs/SAML.md)
+- [OAuth](docs/OAUTH.md)
+
+## Authorization
+  - [OPA/Rego](docs/OPA.md)
 
 
 ## Cloud 
@@ -98,11 +104,6 @@ Reference material for those interested in cybersecurity
     - [EBS](docs/EBS.md)
   - [S3](docs/S3.md)
   - [GuardDuty](docs/GUARDDUTY.md)
-- [Authentication](docs/AUTHENTICATION.md)
-  - [SAML](docs/SAML.md)
-  - [OAuth](docs/OAUTH.md)
-- Authorization
-  - [OPA/Rego](docs/OPA.md)
 - [CDN](docs/CDN.md)
 - [Kubernetes](docs/K8S.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
