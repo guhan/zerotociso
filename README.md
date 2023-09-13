@@ -42,7 +42,7 @@ Reference material for those interested in cybersecurity
 - [Email](docs/EMAIL.md)
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
-- [Bluetooth](docs/BLUETOOTH.md) 
+- [Bluetooth (802.15)](docs/BLUETOOTH.md) 
 
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
