@@ -65,7 +65,7 @@ Reference material for those interested in cybersecurity
 - [802.1x](docs/8021X.md)
 - [Passwords](docs/PASSWORDS.md)
 - [Single Sign On (SSO)](docs/SSO.md)
-- [SAML](docs/SAML.md)
+  - [SAML](docs/SAML.md)
 - [OAuth](docs/OAUTH.md)
 
 ## Authorization
