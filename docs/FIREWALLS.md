@@ -14,6 +14,6 @@ Essential tools for managing and controlling network traffic. Filter traffic bas
 
 
 ## Tiers
-![Tiers](/images/FIREWALLTIERS.md)
+![Tiers](/images/FIREWALLTIERS.png)
 
 
