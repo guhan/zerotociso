@@ -14,7 +14,7 @@ Reference material for those interested in cybersecurity
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
 - [Cables](docs/CABLES.md)
 - [OSI Model](docs/OSIMODEL.md)
-- [Point to Point Protocol(PPP)](docs/PPP.md)
+- [Point to Point Protocol (PPP)](docs/PPP.md)
 - [Frame Relay](docs/FRAMERELAY.md)
 - [X.25](docs/X25.md)
 - [IP](docs/IP.md)
