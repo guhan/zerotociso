@@ -31,15 +31,15 @@ Transmission of _raw bitstream data over the physical medium_, such as copper wi
 - Fiber Distributed Data Interface (FDDI)
 - Copper DDI (CDDI)
   
-- **Point-to-Point Protocol (PPP)**: PPP is a data link protocol used for establishing and maintaining a direct connection between two nodes, typically over serial links. It supports various network layer protocols, such as IP, and provides features like authentication, error detection, and link quality monitoring.
+- [**Point-to-Point Protocol (PPP)**](PPP.md)
 
 - **High-Level Data Link Control (HDLC)**: HDLC is a synchronous data link protocol used in point-to-point and multipoint communication links. It provides error detection, error correction, and flow control mechanisms.
 
 - **Asynchronous Transfer Mode (ATM)**: ATM is a data link protocol that operates over both local and wide area networks. It uses fixed-size cells for data transmission and supports various traffic types, including voice, video, and data.
 
-- **Frame Relay**: Frame Relay is a packet-switching data link protocol used for connecting devices in wide area networks. It provides a simple and cost-effective way to transmit data over a shared network infrastructure.
+- [**Frame Relay**](FRAMERELAY.md)
 
-- **Wireless LAN protocols**: Various data link protocols are used in wireless LANs, such as IEEE 802.11 standards (e.g., 802.11a/b/g/n/ac) for Wi-Fi networks. These protocols define frame formats, MAC addressing, and media access control methods specific to wireless communication.
+- [**Wireless LAN protocols**](WIRELESS.md)
 
 - **Synchronous Data Link Control (SDLC)**: SDLC is a synchronous data link protocol developed by IBM. It is used for communication between IBM mainframe computers and other devices.
 
