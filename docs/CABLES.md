@@ -5,7 +5,7 @@
 - **Broadband**: mutliple signals simultaneously
 
 ## Notation
-XXyyyyZZ
+XXBaseZZ
 - XX is the speed in Mbps
 - ZZ is the max distance in _100 meter_ increments
 
