@@ -39,3 +39,6 @@ One packet is sent to one recipient
 - 0 to 1023: service, well known, or privileged ports
 - 1024 to 49151: registered software ports. [IANA](https://wwwiana.org) lets you register the port with them.
 - 49152 to 65535: random or dynamic ports
+
+## Throughput
+![Network Throughput](/images/networkthroughput.png) 
