@@ -31,7 +31,6 @@ Reference material for those interested in cybersecurity
 - [UDP](docs/UDP.md)
   - [Fraggle Attack](docs/FRAGGLE.md)
 - [IPSEC](docs/IPSEC.md)
-
 - [DNS](docs/DNS.md)
 - [RADIUS](docs/RADIUS.md)
 - [LAN Technologies](docs/LAN.md)
