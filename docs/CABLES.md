@@ -1,8 +1,8 @@
 # Cables
 
 ## Key Concepts
-- baseband: only transmit a single signal at one time
-- broadband: mutliple signals simultaneously
+- **Baseband**: only transmit a single signal at one time
+- **Broadband**: mutliple signals simultaneously
 
 ## Notation
 XXyyyyZZ
