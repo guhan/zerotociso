@@ -70,6 +70,7 @@ Reference material for those interested in cybersecurity
 
 ## Authorization
   - [Basics](docs/AUTHBASICS.md)
+  - [Mandatory Access Control (MAC)](docs/MAC.md)
   - [OPA/Rego](docs/OPA.md)
 
 
