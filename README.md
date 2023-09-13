@@ -2,12 +2,14 @@
 Reference material for those interested in cybersecurity
 
 
-## Computer
+## Hardware
 - [Parts of a computer](docs/COMPUTERPARTS.md)
 - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Operating Systems](docs/OS.md)
-  - [Linux](docs/LINUX.md) 
+  - [Linux](docs/LINUX.md)
+- Switches
+  - [VLAN Hopping](docs/VLANHOPPING.md)
 
 ## Networking
 - [Basics](docs/NETWORKING.md) 
