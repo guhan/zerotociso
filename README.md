@@ -66,6 +66,7 @@ Reference material for those interested in cybersecurity
 - [Passwords](docs/PASSWORDS.md)
 - [Single Sign On (SSO)](docs/SSO.md)
   - [SAML](docs/SAML.md)
+  - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
 - [OAuth](docs/OAUTH.md)
 
 ## Authorization
