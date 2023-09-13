@@ -10,6 +10,7 @@ Here's how a Fraggle Attack works:
 
 Fraggle Attacks are quite similar to Smurf Attacks, which exploit the same vulnerability but use ICMP packets (Ping requests) instead of UDP packets. In both cases, the attacker takes advantage of the broadcast nature of the network and the amplification of responses to create a significant amount of traffic targeting the victim.
 
+## How to protect against Fraggle attacks?
 To protect against Fraggle and Smurf attacks, network administrators can implement various measures, including:
 
 - **Filtering**: Configure network devices to prevent external traffic from using the network's broadcast address.
