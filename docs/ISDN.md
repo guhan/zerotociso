@@ -1,4 +1,4 @@
-# ISDN
+# Integrated Services Digital Network (ISDN)
 ISDN stands for Integrated Services Digital Network, which is a set of communication standards that were widely used in the late 20th century and early 21st century to transmit voice, data, and other digital services over telephone lines. ISDN was designed to provide a more efficient and reliable way of transmitting digital information compared to traditional analog telephone lines.
 
 ## Digital Communication
