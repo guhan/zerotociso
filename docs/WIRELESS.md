@@ -28,17 +28,20 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 ![802.11](/images/80211.png)
 
 ## Wireless Encryption Protocols
-- Wired Equivalent Privacy (WEP): predefined shared key, insecure
-- WiFi Protected Access (WPA):
+- **Wired Equivalent Privacy (WEP)**
+  - predefined shared key
+  - insecure due to improper Initialization Vector
+- **WiFi Protected Access (WPA)**:
   - WPA-PSK (Pre-Shared Key): Also known as WPA-Personal, this version uses a shared passphrase (pre-shared key) to authenticate and encrypt communication between devices on the network.
   - WPA-Enterprise: This version uses a more robust authentication mechanism, often involving a RADIUS (Remote Authentication Dial-In User Service) server, to authenticate users before granting them access to the network.
-- Temporal Key Integrity Protocol (TKIP): TKIP is a specific encryption protocol that was introduced as part of WPA to improve security over the older WEP encryption. TKIP dynamically generates encryption keys for each data packet, making it much harder to crack compared to the static keys used in WEP.
-- Lightweight Extensible Authentication Protocol (LEAP): Cisco proprietary alternative to TKIP for WPA
-- WPA2:
-  - Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP): uses 128 bit AES key
-  - Extensible Authentication Protocol (EAP): authentication framework that lets you add additional authentication technologies
-  - Protected Extensible Authentication Protocol (PEAP): encapsulates EAP in a TLS tunnel
-- WiFi Protected Setup (WPS): security standard for wireless networks
+- **Temporal Key Integrity Protocol (TKIP)**: TKIP is a specific encryption protocol that was introduced as part of WPA to improve security over the older WEP encryption. TKIP dynamically generates encryption keys for each data packet, making it much harder to crack compared to the static keys used in WEP.
+- **Lightweight Extensible Authentication Protocol (LEAP)**: Cisco proprietary alternative to TKIP for WPA
+  - Found to be vulnerable
+- **WPA2**:
+  - **Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP)**: uses 128 bit AES key
+  - **Extensible Authentication Protocol (EAP)**: authentication framework that lets you add additional authentication technologies
+  - **Protected Extensible Authentication Protocol (PEAP)**: encapsulates EAP in a TLS tunnel
+- **WiFi Protected Setup (WPS)**: security standard for wireless networks
   - insecure to brute force attacks
   - enabled by default on most wireless access points
 
