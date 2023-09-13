@@ -24,3 +24,19 @@ Despite its advantages, Frame Relay had some limitations. It did not guarantee e
 
 ## Legacy Technology
 Today, Frame Relay is considered a legacy technology, and many telecommunications companies have phased it out in favor of more modern alternatives. However, some legacy networks may still use Frame Relay.
+
+
+## What is a Permanent Virtual Circuit (PVC)? 
+In Frame Relay (a packet-switched WAN technology), PVC stands for "Permanent Virtual Circuit." A PVC is a logical connection or path established within the Frame Relay network that allows data to be transmitted between two endpoints. Unlike Switched Virtual Circuits (SVCs), which are dynamically established and torn down as needed, PVCs are permanent and typically configured in advance.
+
+Here are some key characteristics of PVCs in Frame Relay:
+
+- **Permanent**: As the name suggests, PVCs are permanent connections that are established and configured in advance, typically by the network administrator. They are always available for data transmission and do not need to be set up and torn down on-demand.
+- **Preconfigured**: PVCs require manual configuration on both ends of the connection. The administrator specifies the parameters of the PVC, such as the DLCI (Data Link Connection Identifier), which is a unique identifier for the virtual circuit.
+- **DLCI**: Each PVC is identified by a DLCI, which is used to route data to the correct destination. The DLCI is local to the Frame Relay network and may not have any correlation with IP addresses or other higher-layer addresses.
+- **Fixed Bandwidth**: PVCs typically have a fixed committed information rate (CIR) associated with them, which represents the guaranteed bandwidth available for data transmission over the circuit. This bandwidth is reserved for the PVC's use.
+- **Always-On**: Since PVCs are permanent, they are always active and ready to transmit data. This makes them suitable for continuous data transfer between two locations.
+- **Reliability**: PVCs provide a level of reliability because they are preconfigured and have dedicated bandwidth. However, Frame Relay itself does not guarantee end-to-end reliability, so error detection and correction mechanisms at higher layers (e.g., TCP/IP) are often used.
+- **Cost Efficiency**: PVCs are often cost-effective for organizations with consistent and predictable data traffic between remote locations since they eliminate the overhead of setting up and tearing down connections each time data needs to be sent.
+
+
