@@ -14,7 +14,7 @@ is mostly considered a legacy technology.
 
 - **Fiber Distributed Data Interface (FDDI)**:
 FDDI is a high-speed LAN technology primarily used in corporate environments. It uses fiber optic cables
-and a dual ring topology to provide redundancy and fault tolerance.
+and a _dual ring topology_ to provide redundancy and fault tolerance.
 
 - **Powerline Communication (PLC)**:
 PLC technology allows data transmission over electrical power lines. It can provide networking capabilities
