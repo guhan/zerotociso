@@ -68,6 +68,7 @@ Reference material for those interested in cybersecurity
 - [OAuth](docs/OAUTH.md)
 
 ## Authorization
+  - [Basics](docs/AUTHBASICS.md)
   - [OPA/Rego](docs/OPA.md)
 
 
