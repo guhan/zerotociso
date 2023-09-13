@@ -1,7 +1,7 @@
 # Cables
 
 ## Key Concepts
-- baseband: only transmit a single singal at one time
+- baseband: only transmit a single signal at one time
 - broadband: mutliple signals simultaneously
 
 ## Notation
@@ -13,6 +13,11 @@ XXyyyyZZ
 10Base2
 ```
 10 Mbps for 200 meters max distance
+
+```
+1000BaseT
+```
+1 Gbps for 100 meters max distance
 
 ## Coaxial Cable
 - center core of copper surrounded by insulation and then surrounded by conductive braided shielding
