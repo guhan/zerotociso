@@ -71,6 +71,10 @@ Reference material for those interested in cybersecurity
 ## Authorization
   - [Basics](docs/AUTHBASICS.md)
   - [Mandatory Access Control (MAC)](docs/MAC.md)
+  - Discretionary Access Control (DAC)
+  - Role Based Access Control (RBAC)
+  - Task Based Access Control (TBAC)
+  - Attribute Based Access Control (ABAC)
   - [OPA/Rego](docs/OPA.md)
 
 
