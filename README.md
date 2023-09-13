@@ -33,7 +33,9 @@ Reference material for those interested in cybersecurity
   - [Fraggle Attack](docs/FRAGGLE.md)
 - [IPSEC](docs/IPSEC.md)
 - [DNS](docs/DNS.md)
-- [RADIUS](docs/RADIUS.md)
+- Authentication
+  - [RADIUS](docs/RADIUS.md)
+  - [802.1x](docs/8021X.md)
 - [LAN Technologies](docs/LAN.md)
 - [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
