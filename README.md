@@ -40,9 +40,6 @@ Reference material for those interested in cybersecurity
   - [Fraggle Attack](docs/FRAGGLE.md)
 - [IPSEC](docs/IPSEC.md)
 - [Domain Name Service (DNS)](docs/DNS.md)
-- Authentication
-  - [RADIUS](docs/RADIUS.md)
-  - [802.1x](docs/8021X.md)
 - [LAN Technologies](docs/LAN.md)
 - [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
@@ -62,6 +59,10 @@ Reference material for those interested in cybersecurity
 - [Databases](docs/DATABASES.md)
 - [High Performance Computing](docs/HPC.md)
 
+## Authentication
+ - [RADIUS](docs/RADIUS.md)
+- [802.1x](docs/8021X.md)
+- [Passwords](docs/PASSWORDS.md)
 
 
 ## Cloud 
@@ -121,7 +122,6 @@ Reference material for those interested in cybersecurity
 - [Data Security](docs/DATASECURITY.md) 
 - [Design and Models](docs/DESIGNANDMODELS.md)
 - [Access Controls](docs/ACCESSCONTROLS.md)
-- [Passwords](docs/PASSWORDS.md)
 - [Physical Security](docs/PHYSICALSECURITY.md) 
 - [Personnel Security](docs/PERSONNEL.md) 
 - [Social Engineering](docs/SOCIALENGINEERING.md) 
