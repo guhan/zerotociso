@@ -23,6 +23,9 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
   - Yagi
   - Cantenna
   - Panel
+ 
+## 802.11* Standards
+![802.11](/images/80211.png)
 
 ## Wireless Encryption Protocols
 - Wired Equivalent Privacy (WEP): predefined shared key, insecure
@@ -59,7 +62,7 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 - Evil Twin: type of man in the middle attack where rogue WAP intercepts connection requests to the
   real base station
  
-## How doees wireless manage simultaneous use of limited radio frequencies? 
+## How does wireless manage simultaneous use of limited radio frequencies? 
 - Spread Spectrum: communication occurs over multiple frequencies at the same time
 - Frequency Hopping Spread Spectrum (FHSS): transmits data in series, one frequency at a time is used to minimize
   interference
