@@ -23,6 +23,7 @@ The process of verifying the identify of a user
     - Dynamic Signature
     - Voiceprint
     - Facial scan
+    - **A reference template**: stored sample of a biometric factor
   - **Type 4: Somewhere you are**
     - GPS coordinates
     - Landline
