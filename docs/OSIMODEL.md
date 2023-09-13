@@ -20,7 +20,9 @@ Transmission of _raw bitstream data over the physical medium_, such as copper wi
 #### Split into two layers
 - Media Access Control (MAC) which touches Layer 1
   - MAC Addresses are unique 48 bit hardware address of an Ethernet NIC
-  - EUI-64 MAC addresses are 64 bit 
+  - EUI-64 MAC addresses are 64 bit
+  - MAC Addresses: 00-13-02 (Vendor aka Organizationally Unique Identifier) 1F-58-F3 (unique number assigned to that interface)
+    
 - Logical Link Control (LLC) which touches Layer 3
 
 - **Address Resolution Protocol (ARP)**:  ARP is responsible for resolving or _mapping an IP address to a physical (MAC) address_ on a local network
@@ -49,7 +51,7 @@ Transmission of _raw bitstream data over the physical medium_, such as copper wi
 - [**Integrated Services Digital Network (ISDN)**](ISDN.md)
 - Serial Line Internet Protocol (SLIP)
 
-- MAC Addresses: 00-13-02 (Vendor aka Organizationally Unique Identifier) 1F-58-F3 (unique number assigned to that interface)
+
 
 ### Layer 3 - Network 
 - Logical addressing and routing of data packets across different networks.
