@@ -41,6 +41,7 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
   - **Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP)**: uses 128 bit AES key
   - **Extensible Authentication Protocol (EAP)**: authentication framework that lets you add additional authentication technologies
   - **Protected Extensible Authentication Protocol (PEAP)**: encapsulates EAP in a TLS tunnel
+  - **WPA2 Enterprise**: uses [RADIUS](RADIUS.md) authentication which protects against password attacks
 - **WiFi Protected Setup (WPS)**: security standard for wireless networks
   - insecure to brute force attacks
   - enabled by default on most wireless access points
