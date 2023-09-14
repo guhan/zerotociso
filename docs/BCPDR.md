@@ -8,6 +8,7 @@ _Seat of the pants_ attitude is one of the most common arguments against committ
 - **fail secure**: system that when fails will block all access
 - **fail open**: system that when it fails will grant access
 - **Max Tolerable Outage (MTO)**: Maximum tolerable outage of the business
+- **Max Tolerable Downtime (MTD)**: Max tolerable downtime of a system
 - **Cold Site**: facility to use without being in full working order
 - **Hot Site**: fully functional with infrastructure and all data
 - **Warm Site**: fully funtional but without data
