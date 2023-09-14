@@ -1,5 +1,16 @@
 # Incident Response
 
+## Steps
+- Preparation
+- Detection
+- Response
+- Mitigation
+- Reporting
+- Recovery
+- Remediation
+- Lessons Learned (Postmortem)
+
+
 ## Procedure
 ### Preplanning 
 Before an incident get the following in place:
