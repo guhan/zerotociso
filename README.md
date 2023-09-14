@@ -54,7 +54,6 @@ Reference material for those interested in cybersecurity
 - [Code Repositories](docs/CODEREPOSITORIES.md)
 - [Serialization](docs/SERIALIZATION.md)
   - [Deserialization Attacks](docs/DESERIALIZATION.md)
-
 - [Databases](docs/DATABASES.md)
 - [High Performance Computing](docs/HPC.md)
 
