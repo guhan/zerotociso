@@ -58,7 +58,8 @@ Reference material for those interested in cybersecurity
 - [High Performance Computing](docs/HPC.md)
 
 ## Quality Assurance
-- [Testing Basics](docs/TESTING.md) 
+- [Testing Basics](docs/TESTING.md)
+- [Fuzzing](docs/FUZZING.md)
 - [Static Analysis](docs/SAST.md)
 - [Mutation Testing](docs/MUTATIONTESTING.md)
 
