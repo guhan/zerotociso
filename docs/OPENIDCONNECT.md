@@ -1,6 +1,10 @@
 # OpenID Connect (OIDC)
 OpenID Connect (OIDC) is an identity layer built on top of the OAuth 2.0 authorization framework. It is an open standard and protocol designed to facilitate secure authentication and authorization for web and mobile applications. OIDC provides a standardized way for users to log in to applications using their existing accounts with identity providers, such as social media platforms or identity management systems.
 
+
+## Flow Diagram
+![OIDC](/images/OIDC.png)
+
 ## Identity Provider (IdP)
 An identity provider is a service that authenticates users and provides information about their identity. Common IdPs include Google, Facebook, Microsoft Azure AD, and dedicated identity management systems.
 
@@ -25,8 +29,6 @@ OIDC enables single sign-on, allowing users to log in once to an IdP and then ac
 ## User Info Endpoint
 OIDC defines a user info endpoint where applications can retrieve additional user profile information beyond what's included in the ID token.
 
-## Flow Diagram
-![OIDC](/images/OIDC.png)
 ## Discovery
 OIDC provides a discovery mechanism that allows applications to dynamically discover the OIDC endpoints and configuration of an IdP, making it easier to integrate with various identity providers.
 
