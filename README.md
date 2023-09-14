@@ -68,6 +68,7 @@ Reference material for those interested in cybersecurity
   - [SAML](docs/SAML.md)
   - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
 - [OAuth](docs/OAUTH.md)
+- [Biometrics](docs/BIOMETRIC.md)
 
 ## Authorization
   - [Basics](docs/AUTHBASICS.md)
