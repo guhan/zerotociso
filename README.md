@@ -59,7 +59,7 @@ Reference material for those interested in cybersecurity
 
 ## Quality Assurance
 - [Testing Basics](docs/TESTING.md)
-- [Fuzzing](docs/FUZZING.md)
+- [Fuzzing](docs/FUZZ.md)
 - [Static Analysis](docs/SAST.md)
 - [Mutation Testing](docs/MUTATIONTESTING.md)
 
