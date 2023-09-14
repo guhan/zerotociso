@@ -171,7 +171,7 @@ Reference material for those interested in cybersecurity
 - [HIPAA](docs/HIPAA.md) 
 - [ISO](docs/ISO.md) 
 - [ITAR](docs/ITAR.md)
-- [Information Technology Service Management (ITSM)/ITIL](docs/ITSM.md)
+- [Information Technology Service Management (ITSM)/ Information Technology Infrastructure Library (ITIL)](docs/ITSM.md)
 - [NERC](docs/NERC.md) 
 - [NIST](docs/NIST.md) 
 - [PCI-DSS](docs/PCIDSS.md) 
