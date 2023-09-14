@@ -34,22 +34,6 @@ One packet is sent and the network equipment replicates it to the multiple subsc
 ## What is Unicast?
 One packet is sent to one recipient
 
-## Ports
-**Location**
-- 2^16 or 65536 total
-- 0 to 1023: service, well known, or privileged ports
-  - 22 SSH
-  - 23 Telnet
-  - 25 SMTP
-  - 80 HTTP
-  - 444 HTTPS
-- 1024 to 49151: registered software ports. [IANA](https://wwwiana.org) lets you register the port with them.
-- 49152 to 65535: random or dynamic ports
-
-**Status**
-- Open: accessible and something responds
-- Closed: accessible but nothing responds
-- Filtered: not accessible
 
 
 ## Throughput
