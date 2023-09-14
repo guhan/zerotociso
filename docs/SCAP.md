@@ -31,7 +31,7 @@ vulnerabilities. CVSS provides a numeric score that represents the severity of a
 based on factors such as exploitability, impact, and access complexity.
 
 ## XCCDF (Extensible Configuration Checklist Description Format):
-XCCDF is a standardized format for expressing security configuration rules and checklists. It allows 
+XCCDF is a standardized format for **expressing security configuration rules and checklists**. It allows 
 organizations to define security baselines and assessment criteria for systems.
 
 ## OVAL (Open Vulnerability and Assessment Language):
