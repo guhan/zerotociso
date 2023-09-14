@@ -12,6 +12,7 @@ _Security can be expensive, but is most often less costly than the absence of se
 - Data Loss Prevention (DLP): strategies and technologies used to prevent the unauthorized transfer or leakage of sensitive data
 - Due Care: reasonable care is taken to protect the interests of the organization
 - Due Diligence: practicing the activities that maintain due care
+- **Dwell Time**: duration that a cyber threat or malicious actor remains undetected within a computer network or system after gaining unauthorized access
 - Endpoint detection and response (EDR): These technologies aim to secure network-connected endpoint systems (PCs, laptops, IoT, servers, etc.) against cyberthreats that have circumvented traditional security measures (basic antivirus).
 - Encryption: Intentionally hiding the meaning of something from intended recipients
 - Extended detection and response (XDR): XDR comprises detection and response capabilities for endpoints, cloud services (single platform), and networks.
