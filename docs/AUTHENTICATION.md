@@ -1,6 +1,10 @@
 # Authentication (AuthN)
 The process of verifying the identify of a user
 
+
+## Key Terms
+- **Identity proofing**: Identity proofing, also known as identity verification or identity authentication, is the process of confirming and validating the identity of an individual, typically before granting them access to certain resources, services, or systems.
+  
 ## Types
 - **Type 1: Something you know**
   - Static Passwords
