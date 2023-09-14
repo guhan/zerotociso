@@ -24,3 +24,9 @@
 - Manual Tests
   - Smoke Tests
   - Regression Tests
+ 
+## Common coverage criteria of testing suite
+- Function
+- Statement
+- Branch
+- Condition
