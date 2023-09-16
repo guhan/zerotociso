@@ -186,7 +186,8 @@ Reference material for those interested in cybersecurity
 ## Process Management
 - [Getting Started as a CISO](docs/CISOSTART.md) 
 - [Planning](docs/PLANNING.md) 
-- [Change Management](docs/CHANGEMANAGEMENT.md) 
+- [Change Management](docs/CHANGEMANAGEMENT.md)
+- [Capability Maturity Model (CMM)](docs/CMM.md)
 - [Agile](docs/AGILE.md) 
 - [Code Reviews](docs/CODEREVIEW.md) 
 - [DevOps](docs/DEVOPS.md) 
