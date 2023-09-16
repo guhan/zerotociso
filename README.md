@@ -151,6 +151,7 @@ Reference material for those interested in cybersecurity
   - [Email](docs/CRYPTOEMAIL.md)
 - Malware
   - [YARA](docs/YARA.md)
+  - [Stealth Virus](docs/STEALTHVIRUS.md)
 - Penetration Testing
   - [Vulnerability Scanners](docs/VULNSCANNERS.md)
 - Security Incident and Event Manager (SIEM)
