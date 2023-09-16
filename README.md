@@ -176,6 +176,7 @@ Reference material for those interested in cybersecurity
 - [Information Technology Service Management (ITSM)/ Information Technology Infrastructure Library (ITIL)](docs/ITSM.md)
 - [NERC](docs/NERC.md) 
 - [NIST](docs/NIST.md)
+  - [NIST 800-14: Generally Accepted Principles and Practices for Securing Information Technology Systems](docs/NIST80014.md)
   - [NIST 800-34: Contingency Planning Guide](docs/NIST80034.md)
 - [PCI-DSS](docs/PCIDSS.md) 
 - [SOC2](docs/SOC2.md) 
