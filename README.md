@@ -74,6 +74,11 @@ Reference material for those interested in cybersecurity
 
 ## Authentication
 - [Basics](docs/AUTHENTICATION.md)
+- [PAP](docs/PAP.md)
+- [CHAP](docs/CHAP.md)
+- [EAP](docs/EAP.md)
+- [LEAP](docs/LEAP.md)
+- [PEAP](docs/PEAP.md)
 - [RADIUS](docs/RADIUS.md)
 - [802.1x](docs/8021X.md)
 - [Passwords](docs/PASSWORDS.md)
