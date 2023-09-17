@@ -32,13 +32,4 @@ The process of verifying the identify of a user
     - GPS coordinates
     - Landline
       
-## Protocols
 
-- **Password Authentication Protocol (PAP)**:
-  - transmits usernames and passwords in cleartext
-
-
-- **Protected Extensible Authentication Protocol (PEAP)**: encapsulates EAP in a TLS tunnel
-- **OpenID**
-- **OAuth**
-- **Shibboleth**
