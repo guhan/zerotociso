@@ -172,6 +172,7 @@ Reference material for those interested in cybersecurity
 - Security Incident and Event Manager (SIEM)
   - [Sigma](docs/SIGMA.md)
 - Vulnerabilities
+  - [Common Weakness Enumerations (CWE)](docs/CWE.md)
   - [SCAP](docs/SCAP.md)
   - [OVAL](docs/OVAL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
