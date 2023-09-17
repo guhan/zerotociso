@@ -1,5 +1,5 @@
 # VLAN Hopping
-VLAN hopping is a network security vulnerability and attack technique in which an attacker gains unauthorized access to traffic in different Virtual LANs (VLANs) within a switched network. VLAN hopping occurs when an attacker exploits weaknesses in the configuration or operation of network switches to move traffic between VLANs to which they do not have legitimate access. This attack can potentially expose sensitive data and compromise network security.
+VLAN hopping is a network security vulnerability and attack technique in which an **attacker gains unauthorized access to traffic in different Virtual LANs (VLANs)** within a switched network. VLAN hopping occurs when an attacker exploits weaknesses in the configuration or operation of network switches to move traffic between VLANs to which they do not have legitimate access. This attack can potentially expose sensitive data and compromise network security.
 
 There are two common methods of VLAN hopping:
 
