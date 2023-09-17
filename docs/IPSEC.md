@@ -25,7 +25,7 @@
 
 
 ## What is Internet Key Exchange (IKE)?
-Internet Key Exchange (IKE) is a protocol used in Virtual Private Network (VPN) and IPsec (Internet Protocol Security) implementations to establish secure communication channels between two devices, such as routers, firewalls, or VPN gateways. The primary purpose of IKE is to facilitate the negotiation and exchange of cryptographic keys and security parameters required for secure data transmission over an untrusted network, such as the internet.
+Internet Key Exchange (IKE) is a protocol used in Virtual Private Network (VPN) and IPsec (Internet Protocol Security) implementations to **establish secure communication channels between two devices**, such as routers, firewalls, or VPN gateways. The primary purpose of IKE is to facilitate the negotiation and exchange of cryptographic keys and security parameters required for secure data transmission over an untrusted network, such as the internet.
 
 IKE performs several essential functions in VPN and IPsec implementations:
 
