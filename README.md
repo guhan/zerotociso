@@ -113,7 +113,7 @@ Reference material for those interested in cybersecurity
 - Web
   - [HTTP](docs/HTTP.md)
   - [Document Object Model (DOM)](docs/DOM.md)
-  - [SSL/TLS](docs/SSLTLS.md)
+  - [Secure Socket Layer (SSL)/Transport Layer Security (TLS)](docs/SSLTLS.md)
   - [HTTP Strict Transport Security (HSTS)](docs/HSTS.md)
   - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
   - [Server Side Request Forgery (SSRF)](docs/SSRF.md)
