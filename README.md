@@ -176,6 +176,9 @@ Reference material for those interested in cybersecurity
   - [SCAP](docs/SCAP.md)
   - [OVAL](docs/OVAL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
+  - [MITRE ATT&CK](docs/MITREATTACK.md)
+  - [STRIDE](docs/STRIDE.md)
+  - [PASTA](docs/PASTA.md)
 
 ## Compliance
 - [Cybersecurity Laws](docs/LAWS.md) 
