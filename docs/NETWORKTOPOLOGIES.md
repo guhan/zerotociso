@@ -2,7 +2,7 @@
 
 ![Network Toplogies](/images/network-topology-types-1024x536.png)
 
-## Point-to-Point Topology:
+## Point-to-Point
 Point-to-point topology involves a direct connection between two devices, such as a dedicated link 
 between routers or a computer and a printer.
 
@@ -34,7 +34,7 @@ Mesh topologies involve every device being connected to every other device in th
 partial mesh are two variations. Full mesh offers high redundancy but can be expensive and complex to 
 implement.
 
-## Hybrid Topology
+## Hybrid
 Hybrid topologies combine two or more different topologies. For example, a star-bus hybrid might 
 have multiple star-configured networks connected via a bus.
 
