@@ -49,7 +49,7 @@ Acronym: Please Do Not Tell Samantha Prescription Advice
 
 - **Synchronous Data Link Control (SDLC)**: SDLC is a synchronous data link protocol developed by IBM. It is used for communication between IBM mainframe computers and other devices.
 
-- Layer 2 Forwarding (L2F)
+- [**Layer 2 Forwarding (L2F)**](L2F.md)
   
 - [**Layer 2 Tunneling Protocol (L2TP)**](L2TP.md)
   
