@@ -174,11 +174,12 @@ Has a few different variants and all are as secure:
 Starts with a 128 bit key, split into 52 16bit sub keys
 
 ### Blowfish
-Operates on 64bit blocks of text, uses variable length keys from 32bits to 448 bits
+- Operates on 64bit blocks of text, uses variable length keys from 32bits to 448 bits
+- used in bcrypt for password hashing
 
 ### Skipjack
-Approved for FIPS 185
-Operates on 64 bit blocks of text, and uses and 80 bit key
+- Approved for FIPS 185
+- Operates on 64 bit blocks of text, and uses and 80 bit key
 
 ### Rivest 5 (RC5)
 block sizes 32,64, or 128
@@ -230,12 +231,12 @@ Depends on computational difficulty of factoring two large prime numbers
 - Doubles the length of any message it encrypts
 
 ### Eliptic Curve
-y^2 = x^3 + ax + b
-Two points sit on the curve (P,Q) and Q=xP, supposedly x is very hard to find
+```y^2 = x^3 + ax + b```
+- Two points sit on the curve (P,Q) and Q=xP, supposedly x is very hard to find
 
 ## Hash Function
-Take a long message and generate a unique output derived from the message
-Messages must be identical for hashes to match
+- Take a long message and generate a unique output derived from the message
+- Messages must be identical for hashes to match
 
 **Requirements**: 
 - Input can be any length
@@ -280,27 +281,6 @@ Messages must be identical for hashes to match
 - all digital signatures must must SHA-3
 
 
-## Public Key Infrastructure (PKI)
-- Digital certificates provide nonrepudiation, they are essentially endorsed copies of an individuals public key. 
-- Certificate Authorities (CAs): neutral organizations that offer notarization services for digital certificates
-- Relies on a heirarchy of trust relationships
-- Registration Authorities (RAs): assist CAs with Know Your Custoemr (KYC)
-
-### Lifecycle of Certificates
-**Enrollment**
-- prove identity to CA
-- provide public key
-- CA creates an X.509 cert and copy of your public key
-- CA signs the certificate with CA's private key
-- Now you can distribute the cert
-
-**Verification**
-- You check a cert you get by using the CA's public key
-- Check that is not revoked using a Certificate Revocation List or Online Certificate Status Protocol (OCSP)
-- Examine the certificate contents
-
-**Revocation**
-- Cert was compromised, errorneously issued, details changed
 
 
 
