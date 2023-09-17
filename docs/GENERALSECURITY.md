@@ -179,10 +179,7 @@ Put in place after an incident has occured
 IDS is an intrusion detection system and IPS is an intrusion protection system, the IPS will detect and actively protect against attacks
 
 
-## What is a Common Weakness Enumerations (CWE)?
 
-Common Weakness Enumeration (CWE) is a community-developed list of common software weaknesses and vulnerabilities. 
-CWE is maintained by the MITRE Corporation and is widely used in the field of software security. 
 
 
 
