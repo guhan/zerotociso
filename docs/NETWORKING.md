@@ -19,7 +19,7 @@
 
 ## What are the different types of routing protocols?
 - **Distance vector routing protocol**: maintain a list of destination networks along with metrics of direction and distance (hops)
-- **Link state routing protocol**: maintain a topography map of all connected network and use the map to determine the shortest path to the destination
+- **Link state routing protocol**: maintain a topography map of all connected network devices and use the map to determine the shortest path to the destination
 
 
 
