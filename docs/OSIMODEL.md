@@ -80,7 +80,7 @@ Acronym: Please Do Not Tell Samantha Prescription Advice
 
 - **Interior Gateway Routing Protocol (IGRP) / Enhanced Interior Gateway Routing Protocol (EIGRP)**: IGRP and EIGRP are Cisco proprietary routing protocols used within autonomous systems. They facilitate efficient routing of IP packets within Cisco networks.
 
-- **Internet Protocol Security (IPsec)**: IPsec is a protocol suite used for securing IP communications. It provides authentication, encryption, and integrity verification for IP packets, ensuring secure communication between network nodes.
+- [**Internet Protocol Security (IPsec)**](IPSEC.md): IPsec is a protocol suite used for securing IP communications. It provides authentication, encryption, and integrity verification for IP packets, ensuring secure communication between network nodes.
 
 - **Network Address Translation (NAT)**
 
