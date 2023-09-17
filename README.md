@@ -195,6 +195,7 @@ Reference material for those interested in cybersecurity
 - [NERC](docs/NERC.md) 
 - [NIST](docs/NIST.md)
   - [NIST 800-14: Generally Accepted Principles and Practices for Securing Information Technology Systems](docs/NIST80014.md)
+  - [NIST 800-18: Guide for Developing Security Plans for Federal Information Systems](docs/NIST80018.md)
   - [NIST 800-34: Contingency Planning Guide](docs/NIST80034.md)
   - [NIST 800-137: Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations](docs/NIST800137.md)
 - [PCI-DSS](docs/PCIDSS.md) 
