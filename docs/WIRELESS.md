@@ -32,11 +32,11 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
   - predefined shared key
   - insecure due to improper Initialization Vector
 - **WiFi Protected Access (WPA)**:
-  - WPA-PSK (Pre-Shared Key): Also known as WPA-Personal, this version uses a shared passphrase (pre-shared key) to authenticate and encrypt communication between devices on the network.
-  - WPA-Enterprise: This version uses a more robust authentication mechanism, often involving a RADIUS (Remote Authentication Dial-In User Service) server, to authenticate users before granting them access to the network.
+  - **WPA-PSK (Pre-Shared Key)**: Also known as WPA-Personal, this version uses a shared passphrase (pre-shared key) to authenticate and encrypt communication between devices on the network.
+  - **WPA-Enterprise**: This version uses a more robust authentication mechanism, often involving a RADIUS (Remote Authentication Dial-In User Service) server, to authenticate users before granting them access to the network.
 - **Temporal Key Integrity Protocol (TKIP)**: TKIP is a specific encryption protocol that was introduced as part of WPA to improve security over the older WEP encryption. TKIP dynamically generates encryption keys for each data packet, making it much harder to crack compared to the static keys used in WEP.
 - **Lightweight Extensible Authentication Protocol (LEAP)**: Cisco proprietary alternative to TKIP for WPA
-  - Found to be vulnerable
+  - _Found to be vulnerable_
 - **WPA2**:
   - **Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP)**: uses 128 bit AES key
   - **Extensible Authentication Protocol (EAP)**: authentication framework that lets you add additional authentication technologies
@@ -58,17 +58,17 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 
 
 ## Wireless Attacks
-- War Driving: looking for open wireless networks
-- War Chalking: physically mark an area with a wireless network
-- Replay: retransmit captured communications to get some access to the network
-- Exploit IV: if the IV is too short or predictable the encryption can be cracked
-- Rogue Access Point: add a rogue WAP and capture communication
-- Evil Twin: type of man in the middle attack where rogue WAP intercepts connection requests to the
+- **War Driving**: looking for open wireless networks
+- **War Chalking**: physically mark an area with a wireless network
+- **Replay**: retransmit captured communications to get some access to the network
+- **Exploit Initialization Vector**: if the Initialization Vector is too short or predictable the encryption can be cracked
+- **Rogue Access Point**: add a rogue WAP and capture communication
+- **Evil Twin**: type of man in the middle attack where rogue WAP intercepts connection requests to the
   real base station
  
 ## How does wireless manage simultaneous use of limited radio frequencies? 
-- Spread Spectrum: communication occurs over multiple frequencies at the same time
-- Frequency Hopping Spread Spectrum (FHSS): transmits data in series, one frequency at a time is used to minimize
+- **Spread Spectrum**: communication occurs over multiple frequencies at the same time
+- **Frequency Hopping Spread Spectrum (FHSS)**: transmits data in series, one frequency at a time is used to minimize
   interference
 - Direct Sequence Spread Spectrum (DSSS): all frequencies used in paralled
 - Orthagonal Frequency-Division Multiplexing (OFDM): allows for a more tightly compacted transmissions, the signals are perpendicular and do not interfere with each other. Uses less frequencies and has highest throughput. 
