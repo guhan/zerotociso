@@ -1,4 +1,4 @@
-# Content Delivery Network
+# Content Delivery Network (CDN)
 A CDN, or Content Delivery Network, is a geographically distributed network of servers and data centers designed to accelerate and optimize the delivery of web content, including web pages, images, videos, and other resources, to end-users. CDNs are widely used to improve the performance, reliability, and availability of online content while reducing the load on the origin server. 
 
 ## How does a CDN work?
