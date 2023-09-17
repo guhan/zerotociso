@@ -9,13 +9,19 @@ L2TP is a tunneling protocol, which means it creates a secure communication chan
 L2TP relies on the PPP protocol for establishing and managing connections. PPP is responsible for the authentication, data encapsulation, and encryption of the data traffic within the L2TP tunnel.
 
 ## Authentication
-L2TP supports various authentication methods, including PAP (Password Authentication Protocol), CHAP (Challenge Handshake Authentication Protocol), and EAP (Extensible Authentication Protocol). These methods allow users or devices to prove their identities before establishing a VPN connection.
+L2TP supports various authentication methods, including 
+- PAP (Password Authentication Protocol)
+- CHAP (Challenge Handshake Authentication Protocol)
+- EAP (Extensible Authentication Protocol). 
+
+These methods allow users or devices to prove their identities before establishing a VPN connection.
 
 ## Encapsulation
 L2TP encapsulates data frames from higher-layer protocols, such as IP or IPX, into PPP frames. These frames are then further encapsulated in L2TP headers, creating a secure tunnel for data transmission.
 
 ## UDP Transport
-L2TP typically uses User Datagram Protocol (UDP) for transport. UDP port 1701 is commonly associated with L2TP traffic.
+- L2TP typically uses User Datagram Protocol (UDP) for transport
+- UDP port 1701 is commonly associated with L2TP traffic.
 
 ## Security
 While L2TP provides the tunneling mechanism for secure communication, it does not offer encryption or data integrity on its own. To address this limitation, L2TP is often used in combination with IPsec, which provides encryption and authentication to secure the data traveling within the tunnel.
