@@ -55,6 +55,7 @@ Reference material for those interested in cybersecurity
 - [Serialization](docs/SERIALIZATION.md)
   - [Deserialization Attacks](docs/DESERIALIZATION.md)
 - [Databases](docs/DATABASES.md)
+  - [ACID](docs/ACID.md)
 - [High Performance Computing](docs/HPC.md)
 
 ## Quality Assurance
