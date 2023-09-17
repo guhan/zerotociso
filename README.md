@@ -83,10 +83,10 @@ Reference material for those interested in cybersecurity
 - [RADIUS](docs/RADIUS.md)
 - [802.1x](docs/8021X.md)
 - [Single Sign On (SSO)](docs/SSO.md)
-  - [SAML](docs/SAML.md)
+  - [Security Assertion Markup Language (SAML)](docs/SAML.md)
   - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
-- [OAuth](docs/OAUTH.md)
-- [OpenID Connect](docs/OPENIDCONNECT.md)
+- [Open Authorization (OAUTH)](docs/OAUTH.md)
+- [OpenID Connect (OIDC)](docs/OPENIDCONNECT.md)
 - [Shibboleth](docs/SHIBBOLETH.md)
 - [Biometrics](docs/BIOMETRIC.md)
 
