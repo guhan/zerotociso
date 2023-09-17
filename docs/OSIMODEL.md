@@ -3,7 +3,7 @@
 ## Explain the OSI Model?
 The (Open Systems Interconnection) OSI model has 7 layers, each layer is a communication layer and has specific protocols
 
-Acronym: Please Do Not Tell Samantha Premed Advise
+Acronym: Please Do Not Tell Samantha Prescription Advice
 
 ### Layer 1 - Physical 
 Transmission of _raw bitstream data over the physical medium_, such as copper wires, fiber optic cables, or wireless signals.This includes specifications for the types of cables, connectors, pinouts, and signaling methods used to transmit the data. Bits. 
