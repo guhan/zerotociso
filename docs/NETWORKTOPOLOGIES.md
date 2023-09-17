@@ -20,21 +20,19 @@ In a star (aka Hub and Spoke) topology, all devices are connected to a central h
 through the hub. If one device fails, it doesn't affect the rest of the network, but the hub itself 
 becomes a single point of failure.
 
+## Tree (Hierarchical) Topology:
+Tree topologies combine multiple star topologies connected in a hierarchical manner. This offers 
+scalability but can be vulnerable to the failure of the central hub connecting the star segments.
+
 ## Mesh
 Mesh topologies involve every device being connected to every other device in the network. Full mesh and 
 partial mesh are two variations. Full mesh offers high redundancy but can be expensive and complex to 
 implement.
 
-## Tree (Hierarchical) Topology:
-Tree topologies combine multiple star topologies connected in a hierarchical manner. This offers 
-scalability but can be vulnerable to the failure of the central hub connecting the star segments.
-
 ## Hybrid Topology:
 Hybrid topologies combine two or more different topologies. For example, a star-bus hybrid might 
 have multiple star-configured networks connected via a bus.
 
-
-
 ## Daisy Chain Topology:
-In a daisy chain topology, devices are connected in sequence, one after the other. Data flows 
+In a daisy chain topology (ring without the closed loop), devices are connected in sequence, one after the other. Data flows 
 sequentially from one device to the next. A failure in any device can disrupt the entire chain.
