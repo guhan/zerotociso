@@ -58,20 +58,7 @@ Let’s take a look at the following NIST recommendations related to end-users c
 Provides guidelines and recommendations for effectively sanitizing or securely disposing of information stored on various types of media and devices.
 The document covers a wide range of media types, including hard drives, solid-state drives, magnetic tapes, optical media, USB drives, and more. It outlines different methods and techniques for sanitization, including clearing, purging, and destroying the media.
 
-## NIST SP 800-137
-NIST Special Publication 800-137, titled "Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations," is a document published by the National Institute of Standards and Technology (NIST) in the United States. It provides guidelines and recommendations for implementing an Information Security Continuous Monitoring (ISCM) program within federal agencies and organizations to enhance the security of their information systems.
 
-Continuous Monitoring Overview: The document outlines the concept of continuous monitoring and its importance in maintaining the security of information systems.
-ISCM Framework: NIST SP 800-137 describes the ISCM framework, which includes establishing a monitoring strategy, implementing security controls, conducting ongoing assessments, and reporting and responding to security incidents.
-Monitoring Objectives: It discusses the objectives of continuous monitoring, which include identifying vulnerabilities, detecting security incidents, measuring security effectiveness, and providing timely situational awareness.
-Monitoring Approaches: The publication provides guidance on various monitoring approaches, including automated and manual monitoring, and emphasizes the importance of risk-based monitoring.
-Security Controls: It highlights the role of security controls in continuous monitoring and discusses how organizations can use controls to protect their information systems.
-Ongoing Assessments: NIST SP 800-137 describes the processes involved in conducting ongoing security assessments, including vulnerability scanning, configuration management, and security assessments and authorizations.
-Reporting and Response: It discusses the reporting of monitoring results and the importance of timely response to security incidents and vulnerabilities.
-Integration with Other Security Processes: The document emphasizes the integration of continuous monitoring with other security processes, such as incident response, risk management, and security assessment and authorization (A&A) processes.
-Tools and Technologies: It provides insights into the tools and technologies that can support continuous monitoring efforts.
-Roles and Responsibilities: NIST SP 800-137 discusses the roles and responsibilities of various stakeholders involved in continuous monitoring, including system owners, security teams, and leadership.
-Compliance and Metrics: It addresses compliance with security standards and metrics that can be used to measure the effectiveness of the ISCM program.
 
 ## NIST SP 800-171
 NIST SP 800-171 has gained popularity due to requirements set by the U.S. Department of Defense regarding contractor compliance with security frameworks. 
