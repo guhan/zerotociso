@@ -15,6 +15,11 @@ intended for them and ignore data intended for others. A break in the cable can 
 In a ring topology, devices are connected in a closed loop. Each device is connected to exactly two other 
 devices, creating a circular pathway for data. Failure of one device can disrupt the entire network.
 
+## Daisy Chain Topology:
+In a daisy chain topology (ring without the closed loop), devices are connected in sequence, one after the other. Data flows 
+sequentially from one device to the next. A failure in any device can disrupt the entire chain.
+
+
 ## Star
 In a star (aka Hub and Spoke) topology, all devices are connected to a central hub or switch. Communication between devices goes 
 through the hub. If one device fails, it doesn't affect the rest of the network, but the hub itself 
@@ -33,6 +38,3 @@ implement.
 Hybrid topologies combine two or more different topologies. For example, a star-bus hybrid might 
 have multiple star-configured networks connected via a bus.
 
-## Daisy Chain Topology:
-In a daisy chain topology (ring without the closed loop), devices are connected in sequence, one after the other. Data flows 
-sequentially from one device to the next. A failure in any device can disrupt the entire chain.
