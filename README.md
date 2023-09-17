@@ -19,7 +19,6 @@ Reference material for those interested in cybersecurity
 ## Networking
 - [Basics](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
-
 - [OSI Model](docs/OSIMODEL.md)
 - [Ethernet (802.3)](docs/ETHERNET.md)
 - [Point to Point Protocol (PPP)](docs/PPP.md)
