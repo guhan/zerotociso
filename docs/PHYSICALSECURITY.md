@@ -175,10 +175,10 @@ Water and electricity don't mix, any leaks will cause damage
 - Smoke Actuated
 
 ### Water Suppression Systems
-- Wet Pipe: alwasy full of water
-- Dry Pipe: has compessed air and pipe fills with air
-- Deluge System: larger pipes and more water (sprinkler), deluge valve keeps pipes dry
-- Preeaction System: Fills with water and then when fire hits sprinker activates.
+- **Wet Pipe**: alwasy full of water
+- **Dry Pipe**: has compessed air and pipe fills with air
+- **Deluge System**: larger pipes and more water (sprinkler), deluge valve keeps pipes dry
+- **Preeaction System**: Fills with water and then when fire hits sprinker activates.
 
 
 ### Gas Discharge System
