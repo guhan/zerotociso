@@ -17,7 +17,10 @@ MAC enforces access controls hierarchically, meaning that a subject with a parti
 - No write down
 
 ## Need-to-Know Principle
-MAC systems often follow the "need-to-know" principle, which means that users or processes are only granted access to information or resources if they have a legitimate need to access them based on their job roles or duties.## Government and Military Use: MAC is commonly used in government, military, and high-security environments where strict control over information and data is essential to prevent unauthorized access and data leaks.
+MAC systems often follow the "need-to-know" principle, which means that users or processes are only granted access to information or resources if they have a legitimate need to access them based on their job roles or duties.
+
+## Government and Military Use
+MAC is commonly used in government, military, and high-security environments where strict control over information and data is essential to prevent unauthorized access and data leaks.
 
 ## Complexity and Administration
 Implementing and managing MAC systems can be complex, as it requires careful classification of resources, users, and processes, and the definition of precise access control rules. This complexity can make MAC less suitable for general-purpose computing environments.
