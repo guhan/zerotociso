@@ -1,4 +1,4 @@
-# MITRE ATT@ck Framework
+# MITRE ATT&CK Framework
 
 The MITRE ATT&CK framework (Adversarial Tactics, Techniques, and Common Knowledge) is a comprehensive knowledge base and model that categorizes and describes various adversary tactics, techniques, and procedures (TTPs) used in cyberattacks
 - **Tactic**: A high-level category that represents the adversary's overall objective or goal. Examples of tactics include initial access, execution, persistence, privilege escalation, defense evasion, and exfiltration.
