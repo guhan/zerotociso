@@ -53,7 +53,7 @@ Acronym: Please Do Not Tell Samantha Prescription Advice
   
 - [**Layer 2 Tunneling Protocol (L2TP)**](L2TP.md)
   
-- Point to Point Tunneling Protocol (PPTP)
+- [**Point to Point Tunneling Protocol (PPTP)**](PPTP.md)
   
 - [**Integrated Services Digital Network (ISDN)**](ISDN.md)
   
