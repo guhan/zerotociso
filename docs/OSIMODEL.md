@@ -6,31 +6,35 @@ The (Open Systems Interconnection) OSI model has 7 layers, each layer is a commu
 Acronym: Please Do Not Tell Samantha Prescription Advice
 
 ### Layer 1 - Physical 
-Transmission of _raw bitstream data over the physical medium_, such as copper wires, fiber optic cables, or wireless signals.This includes specifications for the types of cables, connectors, pinouts, and signaling methods used to transmit the data. Bits. 
-
-- Ethernet defines the physical and electrical characteristics of the communication medium.
+- Transmission of _raw bitstream data over the physical medium_, such as copper wires, fiber optic cables, or wireless signals.
+- Includes specifications for the types of cables, connectors, pinouts, and signaling methods used to transmit the data.
+- Data moves as Bits 
+- [Ethernet](ETHERNET.md) defines the physical and electrical characteristics of the communication medium.
 - Network devices: Network Interface Cards, hubs, repeaters, concentrators, amplifiers
 
 ### Layer 2 - Data Link
 - Responsible for formatting the packet from the Network layer into the proper format for transmission.
 - Provides error-free transmission of data frames between directly connected network nodes.
-- It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections. - This layer also handles flow control, error detection, and media access control (MAC) addressing.
+- It ensures reliable and synchronized data transfer and establishes point-to-point or multi-point connections.
+- This layer also handles flow control, error detection, and media access control (MAC) addressing.
 - Packet is called a Frame. 
 
 #### Split into two layers
-- Media Access Control (MAC) which touches Layer 1
+- **Media Access Control (MAC) which touches Layer 1**
   - MAC Addresses are unique 48 bit hardware address of an Ethernet NIC
   - EUI-64 MAC addresses are 64 bit
   - MAC Addresses: 00-13-02 (Vendor aka Organizationally Unique Identifier) 1F-58-F3 (unique number assigned to that interface)
     
-- Logical Link Control (LLC) which touches Layer 3
+- **Logical Link Control (LLC) which touches Layer 3**
 
 - **Address Resolution Protocol (ARP)**:  ARP is responsible for resolving or _mapping an IP address to a physical (MAC) address_ on a local network
 
-- **Ethernet**: Ethernet (IEEE 802.3) is a widely used data link protocol in local area networks (LANs). It defines the physical and logical aspects of communication over Ethernet cables, including frame structure, addressing (MAC addresses), and media access control (MAC) methods such as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) or Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA).
+- [**Ethernet**](ETHERNET.md): Ethernet (IEEE 802.3) is a widely used data link protocol in local area networks (LANs). It defines the physical and logical aspects of communication over Ethernet cables, including frame structure, addressing (MAC addresses), and media access control (MAC) methods such as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) or Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA).
 
 - Token Ring
+
 - Fiber Distributed Data Interface (FDDI)
+
 - Copper DDI (CDDI)
   
 - [**Point-to-Point Protocol (PPP)**](PPP.md)
@@ -46,9 +50,13 @@ Transmission of _raw bitstream data over the physical medium_, such as copper wi
 - **Synchronous Data Link Control (SDLC)**: SDLC is a synchronous data link protocol developed by IBM. It is used for communication between IBM mainframe computers and other devices.
 
 - Layer 2 Forwarding (L2F)
-- Layer 2 Tunneling Protocol (L2TP)
+  
+- [**Layer 2 Tunneling Protocol (L2TP)**](L2TP.md)
+  
 - Point to Point Tunneling Protocol (PPTP)
+  
 - [**Integrated Services Digital Network (ISDN)**](ISDN.md)
+  
 - Serial Line Internet Protocol (SLIP)
 
 
