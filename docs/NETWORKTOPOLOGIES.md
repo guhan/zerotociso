@@ -6,13 +6,14 @@
 Point-to-point topology involves a direct connection between two devices, such as a dedicated link 
 between routers or a computer and a printer.
 
-## Ring
-In a ring topology, devices are connected in a closed loop. Each device is connected to exactly two other 
-devices, creating a circular pathway for data. Failure of one device can disrupt the entire network.
 
 ## Bus
 In a bus topology, all devices are connected to a single central cable (the "bus"). Devices receive data 
 intended for them and ignore data intended for others. A break in the cable can disrupt the entire network.
+
+## Ring
+In a ring topology, devices are connected in a closed loop. Each device is connected to exactly two other 
+devices, creating a circular pathway for data. Failure of one device can disrupt the entire network.
 
 ## Star
 In a star (aka Hub and Spoke) topology, all devices are connected to a central hub or switch. Communication between devices goes 
