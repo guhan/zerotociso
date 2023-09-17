@@ -86,6 +86,7 @@ Reference material for those interested in cybersecurity
   - [Security Assertion Markup Language (SAML)](docs/SAML.md)
   - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
 - [Open Authorization (OAUTH)](docs/OAUTH.md)
+  - [SCIM](docs/SCIM.md)
 - [OpenID Connect (OIDC)](docs/OPENIDCONNECT.md)
 - [Shibboleth](docs/SHIBBOLETH.md)
 - [Biometrics](docs/BIOMETRIC.md)
