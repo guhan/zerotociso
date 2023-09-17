@@ -222,7 +222,8 @@ Reference material for those interested in cybersecurity
 - [Risk Management](docs/RISKMGMT.md) 
 - [Security Engineering](docs/SECURITYENGINEERING.md) 
 - [BCP/DR](docs/BCPDR.md) 
-- [Investigations](docs/INVESTIGATIONS.md) 
+- [Investigations](docs/INVESTIGATIONS.md)
+  - [Forensic Disk Controller](docs/FORENSICDISK.md)
 
 
 ## People Management
