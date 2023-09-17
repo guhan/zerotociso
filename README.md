@@ -15,6 +15,8 @@ Reference material for those interested in cybersecurity
 - Bridge
 - Switches
   - [VLAN Hopping](docs/VLANHOPPING.md)
+- [Forensic Disk Controller](docs/FORENSICDISK.md)
+
 
 ## Networking
 - [Basics](docs/NETWORKING.md) 
@@ -223,8 +225,7 @@ Reference material for those interested in cybersecurity
 - [Security Engineering](docs/SECURITYENGINEERING.md) 
 - [BCP/DR](docs/BCPDR.md) 
 - [Investigations](docs/INVESTIGATIONS.md)
-  - [Forensic Disk Controller](docs/FORENSICDISK.md)
-
+  
 
 ## People Management
 - [Ethics](docs/ETHICS.md)
