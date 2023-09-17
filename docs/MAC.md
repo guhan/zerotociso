@@ -1,5 +1,5 @@
 # Mandatory Access Control (MAC)
-Mandatory Access Control (MAC) is a security model and access control mechanism used in computer systems and networks to enforce strict, hierarchical access controls based on security labels and predefined rules. Unlike discretionary access control (DAC), where users have some discretion in determining access permissions, MAC enforces access decisions independently of user discretion.
+Mandatory Access Control (MAC) is a security model and access control mechanism used in computer systems and networks to enforce **strict, hierarchical access controls based on security labels and predefined rules**. Unlike discretionary access control (DAC), where users have some discretion in determining access permissions, MAC enforces access decisions independently of user discretion.
 
 - Lattice based model
 
