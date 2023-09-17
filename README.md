@@ -74,19 +74,20 @@ Reference material for those interested in cybersecurity
 
 ## Authentication
 - [Basics](docs/AUTHENTICATION.md)
-- [PAP](docs/PAP.md)
-- [CHAP](docs/CHAP.md)
-- [EAP](docs/EAP.md)
-- [LEAP](docs/LEAP.md)
+- [Passwords](docs/PASSWORDS.md)
+- [Password Authentication Protocol (PAP)](docs/PAP.md)
+- [Challenge Handshake Authentication Protocol (CHAP)](docs/CHAP.md)
+- [Extensible Authentication Protocol (EAP)](docs/EAP.md)
+- [Lightweight Extensible Authentication Protocol (LEAP)](docs/LEAP.md)
 - [PEAP](docs/PEAP.md)
 - [RADIUS](docs/RADIUS.md)
 - [802.1x](docs/8021X.md)
-- [Passwords](docs/PASSWORDS.md)
 - [Single Sign On (SSO)](docs/SSO.md)
   - [SAML](docs/SAML.md)
   - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
 - [OAuth](docs/OAUTH.md)
 - [OpenID Connect](docs/OPENIDCONNECT.md)
+- [Shibboleth](docs/SHIBBOLETH.md)
 - [Biometrics](docs/BIOMETRIC.md)
 
 ## Authorization
