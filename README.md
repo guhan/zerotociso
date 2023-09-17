@@ -179,6 +179,8 @@ Reference material for those interested in cybersecurity
   - [MITRE ATT&CK](docs/MITREATTACK.md)
   - [STRIDE](docs/STRIDE.md)
   - [PASTA](docs/PASTA.md)
+  - [TRIKE](docs/TRIKE.md)
+  - [DREAD](docs/DREAD.md)
 
 ## Compliance
 - [Cybersecurity Laws](docs/LAWS.md) 
