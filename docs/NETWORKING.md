@@ -11,11 +11,11 @@
 
 
 ## What are the different kinds of networks?
-- PAN: Personal Area Network
-- LAN: Local Area Network
-- WAN: Wide Area Network
-- MAN: Metropolitan Area Network
-- GAN: Global Area Network
+- **PAN**: Personal Area Network
+- **LAN**: Local Area Network
+- **WAN**: Wide Area Network
+- **MAN**: Metropolitan Area Network
+- **GAN**: Global Area Network
 
 ## What are the different types of routing protocols?
 - **Distance vector routing protocol**: maintain a list of destination networks along with metrics of direction and distance (hops)
