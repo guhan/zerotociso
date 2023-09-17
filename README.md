@@ -51,6 +51,7 @@ Reference material for those interested in cybersecurity
 - [Email](docs/EMAIL.md)
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
+  - [802.11i](docs/80211i.md)
 - [Bluetooth (802.15)](docs/BLUETOOTH.md) 
 
 ## Programming
