@@ -161,7 +161,8 @@ Reference material for those interested in cybersecurity
 - [Physical Security](docs/PHYSICALSECURITY.md) 
 - [Personnel Security](docs/PERSONNEL.md) 
 - [Social Engineering](docs/SOCIALENGINEERING.md) 
-- [Cryptography](docs/CRYPTOGRAPHY.md) 
+- [Cryptography](docs/CRYPTOGRAPHY.md)
+  - [Public Key Infrastructure (PKI)](docs/PKI.md)
   - [Hardware](docs/CRYPTOHARDWARE.md)
   - [Email](docs/CRYPTOEMAIL.md)
 - Malware
