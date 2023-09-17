@@ -7,9 +7,9 @@ The most well-known and widely used version of the Software CMM is the Capabilit
 ## Maturity Levels
 The framework defines five maturity levels, each representing a level of process maturity and organizational capability. These levels are:
 - Level 1: Initial - Processes are unpredictable and often chaotic.
-- Level 2: Managed - Processes are planned and executed in a more controlled manner.
+- Level 2: Repeatable - Processes are planned and executed in a more controlled manner.
 - Level 3: Defined - Processes are well-documented and standardized.
-- Level 4: Quantitatively Managed - Processes are measured and controlled using quantitative data.
+- Level 4: Managed - Processes are measured and controlled using quantitative data.
 - Level 5: Optimizing - Continuous process improvement is institutionalized.
 ## Process Areas
 CMM and CMMI define specific process areas that organizations should focus on to improve their processes. Examples of process areas include project planning, requirements management, configuration management, and risk management.
