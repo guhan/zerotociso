@@ -9,6 +9,9 @@ Reference material for those interested in cybersecurity
 - [Operating Systems](docs/OS.md)
   - [US Goverment Security Modes](docs/USSECMODES.md)
   - [Linux](docs/LINUX.md)
+- Repeater
+- Hub
+- Bridge
 - Switches
   - [VLAN Hopping](docs/VLANHOPPING.md)
 
