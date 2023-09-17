@@ -4,11 +4,12 @@ Reference material for those interested in cybersecurity
 
 ## Hardware
 - [Parts of a computer](docs/COMPUTERPARTS.md)
-- [RAID](docs/RAID.md)
+  - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Operating Systems](docs/OS.md)
   - [US Goverment Security Modes](docs/USSECMODES.md)
   - [Linux](docs/LINUX.md)
+- [Cables](docs/CABLES.md)
 - Repeater
 - Hub
 - Bridge
@@ -18,7 +19,7 @@ Reference material for those interested in cybersecurity
 ## Networking
 - [Basics](docs/NETWORKING.md) 
 - [Topologies](docs/NETWORKTOPOLOGIES.md)
-- [Cables](docs/CABLES.md)
+
 - [OSI Model](docs/OSIMODEL.md)
 - [Ethernet (802.3)](docs/ETHERNET.md)
 - [Point to Point Protocol (PPP)](docs/PPP.md)
