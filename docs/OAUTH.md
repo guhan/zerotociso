@@ -24,7 +24,7 @@ The basic flow of OAuth 2.0 involves multiple parties: the resource owner (user)
 
 ## What is SCIM?
 
-SCIM stands for System for Cross-domain Identity Management. It is an open standard protocol designed for managing user identities and resources across different systems and domains.
+SCIM stands for System for Cross-domain Identity Management. It is an open standard protocol designed for **managing user identities and resources across different systems and domains**.
 
 The primary goal of SCIM is to provide a standardized approach to user and group management
 
