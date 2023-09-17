@@ -1,4 +1,4 @@
-# Software Capability Maturity Model (CMM)
+# Software Capability Maturity Model (CMM or SW-CMM)
 The Software Capability Maturity Model (CMM) is a framework that was initially developed to assess and improve the software development and management processes of organizations. It provides a structured approach for evaluating and enhancing an organization's software development processes. The CMM framework has been widely used to improve software quality, increase efficiency, and reduce risks in software development projects.
 
 The most well-known and widely used version of the Software CMM is the Capability Maturity Model Integration (CMMI), which encompasses not only software development but also other areas of an organization's processes, such as systems engineering, project management, and product development. CMMI provides a more comprehensive and integrated approach to process improvement.
