@@ -124,7 +124,7 @@ Reference material for those interested in cybersecurity
   - [Role Based Access Control (RBAC)](docs/RBAC.md)
   - [Task Based Access Control (TBAC)](docs/TBAC.md)
   - [Attribute Based Access Control (ABAC)](docs/ABAC.md)
-  - [OPA/Rego](docs/OPA.md)
+  - [Open Policy Agent (OPA)/REGO](docs/OPA.md)
 
 ## [Authentication, Authorization, and Accounting (AAA)](docs/AAA.md)
 - [RADIUS](docs/RADIUS.md)
