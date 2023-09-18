@@ -65,8 +65,6 @@ Reference material for those interested in cybersecurity
 - [Code Repositories](docs/CODEREPOSITORIES.md)
 - [Serialization](docs/SERIALIZATION.md)
   - [Deserialization Attacks](docs/DESERIALIZATION.md)
-- [Databases](docs/DATABASES.md)
-  - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
 - [High Performance Computing](docs/HPC.md)
 
 ## Quality Assurance
@@ -164,6 +162,24 @@ Reference material for those interested in cybersecurity
 ## Application Programming Interfaces (API)
   - [REST](docs/REST.md)
   - [Open API](docs/OPENAPI.md)
+
+## [Databases](docs/DATABASES.md)
+  - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
+  - SQL
+    - JOIN
+  - Transactions
+  - Stored Procedures
+  - Relational Databases
+    - Primary Keys
+    - Foreign Keys
+  - NoSQL Databases
+  - Database Clusters
+    - Cassandra
+    - Yugabyte
+  - Database as a Service
+    - BigQuery
+    - DynamoDB
+
 
 ## [Containers](docs/CONTAINERS.md) 
 - [Docker](docs/DOCKER.md)
