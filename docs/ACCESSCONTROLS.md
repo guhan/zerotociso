@@ -69,26 +69,4 @@ made in EU
 - addresses integrity also
 - has no TCB
 
-### Common Criteria
-A global effort to merge TSSEC, ITSEC and bring it all up to date. 
-More details in ISO 15408 Evaluation Criteria for Information Technology Security
 
-Has three parts
-- Intro and General Model
-- Security Functional Requirements
-- Assurance
-
-#### Objectives
-- add buyer confidence
-- eliminate duplicate evaluationss
-- make certification more cost effective
-- adhere to high standards
-- promote evaluation
-
-#### Key Concepts
-- **protection profile**: the security desires of the customer
-- **security targets**: claims made by the vendor
-- **Evaluation Assurance Level (EAL)**: published or marketed levels
-
-
-EALs: 0 (minimal) to 7(verified security design)
