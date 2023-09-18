@@ -216,6 +216,7 @@ Reference material for those interested in cybersecurity
 - [General Data Protection Regulation (GDPR)](docs/GDPR.md) 
 - [HIPAA](docs/HIPAA.md) 
 - [International Standards Organziation (ISO)](docs/ISO.md)
+  - [ISO 7498: OSI Model](docs/ISO7498.md)
   - [ISO 15408: Common Criteria for Information Technology Security Evaluation (CC)](docs/ISO15408.md)
   - [ISO 28031: Information technology — Security techniques — Guidelines for information and communication technology readiness for business continuity](docs/ISO27031.md)
 - [ITAR](docs/ITAR.md)
