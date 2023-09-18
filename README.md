@@ -82,7 +82,6 @@ Reference material for those interested in cybersecurity
 - [Extensible Authentication Protocol (EAP)](docs/EAP.md)
 - [Lightweight Extensible Authentication Protocol (LEAP)](docs/LEAP.md)
 - [PEAP](docs/PEAP.md)
-- [RADIUS](docs/RADIUS.md)
 - [802.1x](docs/8021X.md)
 - [Single Sign On (SSO)](docs/SSO.md)
   - [Security Assertion Markup Language (SAML)](docs/SAML.md)
@@ -101,6 +100,12 @@ Reference material for those interested in cybersecurity
   - Task Based Access Control (TBAC)
   - Attribute Based Access Control (ABAC)
   - [OPA/Rego](docs/OPA.md)
+
+
+## Authentication, Authorization, and Accounting (AAA)
+- [RADIUS](docs/RADIUS.md)
+- [TACACS+](docs/TACACS.md)
+- XTACACS
 
 ## Directory Services
   - [X.500](docs/X500.md)
