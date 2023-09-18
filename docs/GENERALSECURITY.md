@@ -11,7 +11,9 @@ _Security can be expensive, but is most often less costly than the absence of se
 - **Data Hiding**: Hide data from access
 - **Data Loss Prevention (DLP)**: strategies and technologies used to prevent the unauthorized transfer or leakage of sensitive data
 - **Due Care**: reasonable care is taken to protect the interests of the organization
-- **Due Diligence**: practicing the activities that maintain due care
+- **Due Diligence**:
+  - practicing the activities that maintain due care
+  - complete responsibilities in an accurate and timely manner
 - **Dwell Time**: duration that a cyber threat or malicious actor remains undetected within a computer network or system after gaining unauthorized access
 - **Endpoint detection and response (EDR)**: These technologies aim to secure network-connected endpoint systems (PCs, laptops, IoT, servers, etc.) against cyberthreats that have circumvented traditional security measures (basic antivirus).
 - **Encryption**: Intentionally hiding the meaning of something from intended recipients
