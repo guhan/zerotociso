@@ -279,11 +279,11 @@ Reference material for those interested in cybersecurity
 - [Agile](docs/AGILE.md) 
 - [Code Reviews](docs/CODEREVIEW.md) 
 - [DevOps](docs/DEVOPS.md) 
-- [SRE](docs/SRE.md) 
+- [Site Reliability Engineering (SRE)](docs/SRE.md) 
 - [Incident Response](docs/INCIDENTRESPONSE.md) 
 - [Risk Management](docs/RISKMGMT.md) 
 - [Security Engineering](docs/SECURITYENGINEERING.md) 
-- [BCP/DR](docs/BCPDR.md) 
+- [Business Continuity Planning (BCP)/Disaster Recovery (DR)](docs/BCPDR.md) 
 - [Investigations](docs/INVESTIGATIONS.md)
   
 
