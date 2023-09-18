@@ -101,8 +101,7 @@ Reference material for those interested in cybersecurity
   - Attribute Based Access Control (ABAC)
   - [OPA/Rego](docs/OPA.md)
 
-
-## Authentication, Authorization, and Accounting (AAA)
+## [Authentication, Authorization, and Accounting (AAA)](docs/AAA.md)
 - [RADIUS](docs/RADIUS.md)
 - [TACACS+](docs/TACACS.md)
 - [XTACACS](docs/XTACACS.md)
