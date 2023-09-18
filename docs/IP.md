@@ -5,6 +5,8 @@ Two prevalent versions of the protocol:
 - IPv4 (Internet Protocol version 4)
 - IPv6 (Internet Protocol version 6) 
 
+## IPv4 Address ranges
+![IPv4 Address Ranges](/images/IPv4.png)
 
 ## What are the IP header protocol field values?
 The Protocol field in the IP header is an 8-bit field that indicates the protocol of the data carried in the IP packet's payload. This field specifies which higher-level protocol is being used to interpret the data in the packet's payload. Here are some common Protocol field values along with their corresponding protocols:
