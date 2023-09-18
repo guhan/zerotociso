@@ -11,6 +11,12 @@ The model is based on the concept of "takes" and "grants," which represent the t
 
 Employs a directed graph to dictate how hights can be passed from one subject to or from another subject
 
+## Rules
+- **Take**: Allows a subject to take rights over an object
+- **Grant**: Allows a subject to grant rights to an object
+- **Create**: Allows a subject to create new rights to itself 
+- **Remove**: Allows a subject to remove rights it has
+
 ## Initial State
 The model starts with an initial state where subjects have certain permissions or capabilities. These permissions are represented as tokens.
 
