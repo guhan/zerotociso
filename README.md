@@ -213,7 +213,8 @@ Reference material for those interested in cybersecurity
   - WAF
   - Rate Limiting
   - [RASP](docs/RASP.md)
-- Monitoring and Alerting
+- [Monitoring](docs/MONITORING.md)
+- Alerting
 
 
 
