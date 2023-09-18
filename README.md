@@ -81,7 +81,7 @@ Reference material for those interested in cybersecurity
     - [Common Criteria](docs/ISO15408.md)
   - [Access Control Matrix](docs/ACCESSCONTROLMATRIX.md)
   - [Lattice Based Access Control](docs/LATTICEACCESSCONTROL.md)
-  - [Models](docs/DESIGNANDMODELS.md)
+  - [Models](docs/ACCESSCONTROLMODELS.md)
     - [Trusted Computing Base (TCB)](docs/TCB.md)
     - [State Machine Model](docs/STATEMACHINE.md)
     - [Information Flow Model](docs/INFORMATIONFLOW.md)
