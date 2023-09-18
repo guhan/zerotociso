@@ -181,6 +181,8 @@ Reference material for those interested in cybersecurity
   - Database as a Service
     - BigQuery
     - DynamoDB
+  - Attacks
+    - [Diddling](docs/DIDDLING.md)
 
 
 ## [Containers](docs/CONTAINERS.md) 
