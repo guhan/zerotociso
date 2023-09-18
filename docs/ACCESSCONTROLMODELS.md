@@ -30,18 +30,5 @@
 
 
 
-## Access Control Models
-- **Discretionary Access Controls**:
-  - Owner provides access or deny to objects
-- **Role Based Access Controls**:
-  - permissions are granted based on user or group membership
-- **Rule Based Access Controls**:
-  - global rules that apply to all subjects
-  - example is a firewall
-- **Attribute Based Access Controls**:
-  - global rules that consider additional attributes like location 
-- **Mandatory Access Controls**:
-  - identity based
-  - define labels for each domain
-  - very prohibitive 
+
 
