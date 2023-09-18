@@ -208,7 +208,7 @@ Reference material for those interested in cybersecurity
 - [Cybersecurity Laws](docs/LAWS.md) 
 - [Bank Secrecy Act (BSA)](docs/BSA.md) 
 - [Center for Information Security (CIS)](docs/CIS.md) 
-- [CMMC](docs/CMMC.md) 
+- [Cybersecurity Maturity Model Certification (CMMC)](docs/CMMC.md) 
 - [COBIT](docs/COBIT.md) 
 - [Cloud Security Alliance (CSA)](docs/CSA.md) 
 - [Freedom of Information Act (FOIA)](docs/FOIA.md) 
