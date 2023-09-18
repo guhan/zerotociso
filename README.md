@@ -131,6 +131,8 @@ Reference material for those interested in cybersecurity
 
 
 ## [Cryptography](docs/CRYPTOGRAPHY.md)
+  - [Data Encryption Standard (DES)](docs/DES.md)
+  - [Triple DES (3DES)](docs/3DES.md)
   - [Hashing](docs/HASHING.md)
   - [Digital Signatures](docs/DIGITALSIGNATURES.md)
   - [Public Key Infrastructure (PKI)](docs/PKI.md)
