@@ -137,15 +137,6 @@ Same secret key is used to encrypt and decrypt the data
 
 
 
-### Triple DES (3DES)
-Run DES multiple times
-
-Has a few different variants and all are as secure: 
-
-- Encrypt 3 times
-- Encrypt Decrypt and Encrypt
-- Encrypt with only 2 keys
-- Encrypt with only 2 keys and use a decryption in the middle
 
 ### International Data Encryption Algorithm (IDEA)
 Starts with a 128 bit key, split into 52 16bit sub keys
