@@ -167,6 +167,8 @@ Reference material for those interested in cybersecurity
   - [Trusted Computing Base (TCB)](docs/TCB.md)
   - [State Machine Model](docs/STATEMACHINE.md)
   - [Information Flow Model](docs/INFORMATIONFLOW.md)
+  - [Non-interference Model](docs/NONINTERFERENCE.md)
+  - [Take Grant Model](docs/TAKEGRANT.md)
 - [Access Controls](docs/ACCESSCONTROLS.md)
 - [Physical Security](docs/PHYSICALSECURITY.md) 
 - [Personnel Security](docs/PERSONNEL.md) 
