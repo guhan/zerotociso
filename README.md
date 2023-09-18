@@ -129,6 +129,7 @@ Reference material for those interested in cybersecurity
   - [XML External Entity (XXE)](docs/XXE.md)
   - [HTTP Request Smuggling](docs/REQUESTSMUGGLING.md)
   - [NGINX Proxy](docs/NGINXPROXY.md)
+  - [Cross Site Tracing (XST)](docs/XST.md)
 - API
   - [REST](docs/REST.md)
   - [Open API](docs/OPENAPI.md)
