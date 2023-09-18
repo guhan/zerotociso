@@ -15,9 +15,11 @@ Addresses integrity more than confidentiality
 - Star Secuirty Property: subject may not write information to a higher sensitivity level (no write up)
 
 
-## The Simple Integrity Property (No Read Down, No Write Up):
+## The Simple Integrity Property (No Read Down)
 - A subject (user, process, or entity) with a given integrity level can read data at or below its own integrity level. This is known as the "No Read Down" rule.
-- A subject with a given integrity level can write (modify) data at or above its own integrity level. This is known as the "No Write Up" rule.
+
+## * Integrity Property (No Write Up)
+- A subject with a given integrity level cannot write (modify) above its own integrity level. This is known as the "No Write Up" rule.
 
 These principles ensure that information flows in a way that prevents lower-integrity subjects from corrupting or contaminating higher-integrity data. The Biba Model enforces a strict hierarchy of integrity levels, where data is classified according to its sensitivity or importance.
 
