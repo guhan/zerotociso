@@ -175,7 +175,7 @@ Reference material for those interested in cybersecurity
     - Foreign Keys
     - [Normalization](docs/NORMALIZATION.md)
   - NoSQL Databases
-  - Database Clusters
+  - Distributed Databases
     - Cassandra
     - Yugabyte
   - Database as a Service
