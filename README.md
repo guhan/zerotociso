@@ -231,7 +231,9 @@ Reference material for those interested in cybersecurity
 
 ## Process Management
 - [Getting Started as a CISO](docs/CISOSTART.md) 
-- [Planning](docs/PLANNING.md) 
+- [Planning](docs/PLANNING.md)
+- Project Management
+  - [Work Breakdown Structure (WBS)](docs/WBS.md)
 - [Change Management](docs/CHANGEMANAGEMENT.md)
 - [Capability Maturity Model (CMM)](docs/CMM.md)
 - [Agile](docs/AGILE.md) 
