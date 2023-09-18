@@ -6,9 +6,6 @@ Reference material for those interested in cybersecurity
 - [Parts of a computer](docs/COMPUTERPARTS.md)
   - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
-- [Operating Systems](docs/OS.md)
-  - [US Goverment Security Modes](docs/USSECMODES.md)
-  - [Linux](docs/LINUX.md)
 - [Cables](docs/CABLES.md)
 - Repeater
 - Hub
@@ -55,6 +52,11 @@ Reference material for those interested in cybersecurity
 - [Wireless](docs/WIRELESS.md)
   - [802.11i](docs/80211i.md)
 - [Bluetooth (802.15)](docs/BLUETOOTH.md) 
+
+## [Operating Systems](docs/OS.md)
+  - [US Goverment Security Modes](docs/USSECMODES.md)
+  - [Linux](docs/LINUX.md)
+
 
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
