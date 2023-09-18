@@ -25,5 +25,11 @@ Training is a required process for any new employee.
   - Expenses
 
 
-
 ## Learning and Development
+The things an employee can do to develop their skills. 
+- Conferences
+- Research
+- Papers/Blog posts
+- Classes, Training, and Certifications
+- Job shadowing
+
