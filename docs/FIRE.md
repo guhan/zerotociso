@@ -25,6 +25,6 @@
 
 
 ## Gas Discharge System
-More effective than water dischage, but are dangerous for humans. 
-
-Halon: starves fire of oxygen by disrupting the chemical reaction between oxygen and combustible materials. 
+- Dangerous for humans
+- More effective than water dischage
+- **Halon**: starves fire of oxygen by disrupting the chemical reaction between oxygen and combustible materials. 
