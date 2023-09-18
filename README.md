@@ -118,6 +118,7 @@ Reference material for those interested in cybersecurity
   - [Basics](docs/AUTHBASICS.md)
   - [Mandatory Access Control (MAC)](docs/MAC.md)
   - [Discretionary Access Control (DAC)](docs/DAC.md)
+  - [Rule Based Access Control (RAC)](docs/RAC.md)
   - [Role Based Access Control (RBAC)](docs/RBAC.md)
   - [Task Based Access Control (TBAC)](docs/TBAC.md)
   - [Attribute Based Access Control (ABAC)](docs/ABAC.md)
