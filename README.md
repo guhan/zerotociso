@@ -103,7 +103,7 @@ Reference material for those interested in cybersecurity
 - [Challenge Handshake Authentication Protocol (CHAP)](docs/CHAP.md)
 - [Extensible Authentication Protocol (EAP)](docs/EAP.md)
 - [Lightweight Extensible Authentication Protocol (LEAP)](docs/LEAP.md)
-- [PEAP](docs/PEAP.md)
+- [Protected Extensible Authentication Protocol (PEAP)](docs/PEAP.md)
 - [802.1x](docs/8021X.md)
 - [Single Sign On (SSO)](docs/SSO.md)
   - [Security Assertion Markup Language (SAML)](docs/SAML.md)
