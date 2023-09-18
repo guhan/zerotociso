@@ -142,28 +142,34 @@ Reference material for those interested in cybersecurity
   - LDAP
   - [Open LDAP](docs/OPENLDAP.md)
   - Active Directory
-  
-## Cloud 
-- [Containers](docs/CONTAINERS.md) 
-- [Docker](docs/DOCKER.md)
-- [Infrastructure as Code](docs/IAC.md)
-- Web
+
+## Web
   - [HTTP](docs/HTTP.md)
   - [Document Object Model (DOM)](docs/DOM.md)
   - [Secure Socket Layer (SSL)/Transport Layer Security (TLS)](docs/SSLTLS.md)
-  - [HTTP Strict Transport Security (HSTS)](docs/HSTS.md)
-  - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
-  - [Server Side Request Forgery (SSRF)](docs/SSRF.md)
-  - [Cross Site Request Forgery (CSRF)](docs/CSRF.md)
-  - [Cross Site Scripting (XSS)](docs/XSS.md)
-  - [Content Security Policy (CSP)](docs/CSP.md)
-  - [XML External Entity (XXE)](docs/XXE.md)
-  - [HTTP Request Smuggling](docs/REQUESTSMUGGLING.md)
   - [NGINX Proxy](docs/NGINXPROXY.md)
-  - [Cross Site Tracing (XST)](docs/XST.md)
-- API
+  - Attacks
+    - [HTTP Strict Transport Security (HSTS)](docs/HSTS.md)
+    - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
+    - [Server Side Request Forgery (SSRF)](docs/SSRF.md)
+    - [Cross Site Request Forgery (CSRF)](docs/CSRF.md)
+    - [Cross Site Scripting (XSS)](docs/XSS.md)
+    - [Content Security Policy (CSP)](docs/CSP.md)
+    - [XML External Entity (XXE)](docs/XXE.md)
+    - [HTTP Request Smuggling](docs/REQUESTSMUGGLING.md)
+    - [Cross Site Tracing (XST)](docs/XST.md)
+
+## Application Programming Interfaces (API)
   - [REST](docs/REST.md)
   - [Open API](docs/OPENAPI.md)
+
+## [Containers](docs/CONTAINERS.md) 
+- [Docker](docs/DOCKER.md)
+- [Kubernetes](docs/K8S.md)
+  - [Securing Kubernetes](docs/SECURINGK8S.md)
+
+## Cloud 
+- [Infrastructure as Code](docs/IAC.md)
 - [AWS](docs/AWS.md)
   - [IAM](docs/IAM.md)
   - [Lambda](docs/LAMBDA.md)
@@ -178,8 +184,6 @@ Reference material for those interested in cybersecurity
   - [S3](docs/S3.md)
   - [GuardDuty](docs/GUARDDUTY.md)
 - [CDN](docs/CDN.md)
-- [Kubernetes](docs/K8S.md)
-  - [Securing Kubernetes](docs/SECURINGK8S.md)
 - [CI/CD](docs/CICD.md)
 - Runtime Security
   - WAF
