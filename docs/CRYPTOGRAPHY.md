@@ -143,22 +143,24 @@ Published by US Government in 1977 and is no longer considered secure
 - 64 bit block cipher (56 bit key + 8 bits for a parity check
 
 - **Electronic Code Book Mode (ECB)**
-  Simply encrypts the block using the chosen secret key
-  Possible to build a code book as same message generates same ciphertext
+  - Simply encrypts the block using the chosen secret key
+  - Possible to build a code book as same message generates same ciphertext
 
 - **Cipher Block Chaining Mode (CBC)**
-  Unencrypted text is XORed with the block of ciphertext _immediate preceding it_ before encrypted with the cipher
-  Errors propagate
+  - Unencrypted text is XORed with the block of ciphertext _immediate preceding it_ before encrypted with the cipher
+  - Errors propagate
 
 - **Cipher Feedback Mode (CFM)**
-  Streaming version of Cipher Block Chaining (CBC) mode, uses memory buffers of the same block size
+  - Streaming version of Cipher Block Chaining (CBC) mode, uses memory buffers of the same block size
 
 - **Output Feedback Mode (OFM)**
-  Streaming, but first XORs the plaintext with a seed value. An initialization vector is used to create the seed value. 
-  No chaining, _transmission errors do not propagate_
+  - Streaming, but first XORs the plaintext with a seed value.
+  - An initialization vector is used to create the seed value. 
+  - No chaining, _transmission errors do not propagate_
 
 - **Counter Mode**
-  Stream cipher, uses a simple counter instead of a seed value
+  - Stream cipher
+  - uses a simple counter instead of a seed value
 
 ### Triple DES (3DES)
 Run DES multiple times
@@ -212,8 +214,8 @@ When parties have no way to exchange a secret key and no PKI
 
 
 ## Key Escrow
-- Fair Cryptosystems: secret keys are divided and given to an independent third party
-- Escrowed Encryption Standard: Gives the government a way to decrypt ciphertext
+- **Fair Cryptosystems**: secret keys are divided and given to an independent third party
+- **Escrowed Encryption Standard**: Gives the government a way to decrypt ciphertext
 
 
 
@@ -270,15 +272,7 @@ Depends on computational difficulty of factoring two large prime numbers
 - 4 distinct rounds to get a 128 bit digest
 - subject to collisions
 
-## Digital Signatures
-1. Nonrepudiation
-2. Non tampering
 
-### Hashed Message Authentication Code (HMAC)
-- does not provide nonrepudiation
-
-### Digital Signature Standard (DSS)
-- all digital signatures must must SHA-3
 
 
 
