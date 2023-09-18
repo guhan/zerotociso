@@ -221,7 +221,7 @@ Reference material for those interested in cybersecurity
   - [ISO 28031: Information technology — Security techniques — Guidelines for information and communication technology readiness for business continuity](docs/ISO27031.md)
 - [ITAR](docs/ITAR.md)
 - [Information Technology Service Management (ITSM)/ Information Technology Infrastructure Library (ITIL)](docs/ITSM.md)
-- [NERC](docs/NERC.md) 
+- [North American Electric Reliability Corporation - Critical Infrastructure Protection (NERC CIP)](docs/NERC.md) 
 - [NIST](docs/NIST.md)
   - [NIST 800-14: Generally Accepted Principles and Practices for Securing Information Technology Systems](docs/NIST80014.md)
   - [NIST 800-18: Guide for Developing Security Plans for Federal Information Systems](docs/NIST80018.md)
