@@ -13,8 +13,12 @@ Employs a directed graph to dictate how hights can be passed from one subject to
 
 ## Initial State
 The model starts with an initial state where subjects have certain permissions or capabilities. These permissions are represented as tokens.
+
 ## Takes and Grants
-Subjects can take tokens from objects, and they can also grant tokens to other subjects. Taking a token represents acquiring a permission, and granting a token represents delegating that permission.
+- Subjects can take tokens from objects, and they can also grant tokens to other subjects.
+- Taking a token represents acquiring a permission
+- Granting a token represents delegating that permission.
+  
 ## Transition Rules
 The model defines transition rules that dictate under what conditions a subject can take a token from an object or grant a token to another subject. These rules are based on the system's access control policies and security mechanisms.
 ## State Changes
