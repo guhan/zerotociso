@@ -129,6 +129,14 @@ Reference material for those interested in cybersecurity
 - [TACACS+](docs/TACACS.md)
 - [XTACACS](docs/XTACACS.md)
 
+
+## [Cryptography](docs/CRYPTOGRAPHY.md)
+  - [Hashing](docs/HASHING.md)
+  - [Digital Signatures](docs/DIGITALSIGNATURES.md)
+  - [Public Key Infrastructure (PKI)](docs/PKI.md)
+  - [Hardware](docs/CRYPTOHARDWARE.md)
+  - [Email](docs/CRYPTOEMAIL.md)
+    
 ## Directory Services
   - [X.500](docs/X500.md)
   - LDAP
@@ -190,10 +198,6 @@ Reference material for those interested in cybersecurity
   - [Fire](docs/FIRE.md)
 - [Personnel Security](docs/PERSONNEL.md) 
 - [Social Engineering](docs/SOCIALENGINEERING.md) 
-- [Cryptography](docs/CRYPTOGRAPHY.md)
-  - [Public Key Infrastructure (PKI)](docs/PKI.md)
-  - [Hardware](docs/CRYPTOHARDWARE.md)
-  - [Email](docs/CRYPTOEMAIL.md)
 - Malware
   - [YARA](docs/YARA.md)
   - [Stealth Virus](docs/STEALTHVIRUS.md)
