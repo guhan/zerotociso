@@ -26,7 +26,10 @@ Deterrent controls discourage potential attackers from attempting unauthorized a
   - Access Badges: Requiring individuals to visibly wear access badges to indicate authorized personnel.
 
 - **Recovery Access Control**: restore or repair after a security policy violation
-- **Directive Access Control**: attemps to force or encourage a subject to follow a policy
+- **Directive Access Control**: A
+  Attemps to force or encourage a subject to follow a policy. Examples include:
+  - Signs
+  - Policies
 - **Compensating Access Control**: alternative when a primary control can't be used
 - **Administrative Access Control**: policies or procedures in an org
 - **Logical/Technical Control**: hardware or software mechanisms use to manage access and protect resources
