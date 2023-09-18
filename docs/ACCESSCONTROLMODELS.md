@@ -1,4 +1,4 @@
-# Security Design and Models
+# Access Control Models
 
 ## Key Concepts
 - **Subject**: user or process that makes a request to the resource
