@@ -168,11 +168,12 @@ Reference material for those interested in cybersecurity
   - SQL
     - JOINs
     - VIEWs
-  - Transactions
+  - [Transactions](docs/TRANSACTIONS.md)
   - Stored Procedures
   - Relational Databases
     - Primary Keys
     - Foreign Keys
+    - [Normalization](docs/NORMALIZATION.md)
   - NoSQL Databases
   - Database Clusters
     - Cassandra
