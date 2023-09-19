@@ -248,6 +248,23 @@ Reference material for those interested in cybersecurity
   - [TRIKE](docs/TRIKE.md)
   - [DREAD](docs/DREAD.md)
 
+## Laws
+- [Privacy Act](docs/PRIVACY.md)
+- [Fair Credit Reporting Act](docs/FAIRCREDITREPORTINGACT.md)
+- [Electronic Communications Privacy Act](docs/ECPA.md)
+- [Computer Security Act (CSA)](docs/CSACT.md)
+- [Computer Fraud and Abuse Act (CFAA)](docs/CFAA.md)
+- [Commmunications Assistance for Law Enforcement Act (CALEA)](docs/CALEA.md)
+- [European Union Privacy Law](docs/EUPL.md)
+- [Economic Espionage Act](docs/EEA.md)
+- [Health Insurance Portability and Accounting Act](docs/HIPAA.md)
+- [Digital Millenium Copyright Act (DMCA)](docs/DMCA.md)
+- [Children's Online Private Protection Act (COPPA)](docs/COPPA.md)
+- [Identity Theft and Assumption Deterence Act](docs/ITADA.md)
+- [Gramm-Leach-Bliley Act (GLBA)](docs/GLB.md)
+- [EU-US Safe Harbor Framework](docs/EUSAFEHARBOR.md)
+
+
 ## Compliance
 - [Cybersecurity Laws](docs/LAWS.md) 
 - [Bank Secrecy Act (BSA)](docs/BSA.md) 
@@ -258,7 +275,7 @@ Reference material for those interested in cybersecurity
 - [Freedom of Information Act (FOIA)](docs/FOIA.md) 
 - [FIPS 140-2](docs/FIPS.md) 
 - [General Data Protection Regulation (GDPR)](docs/GDPR.md) 
-- [HIPAA](docs/HIPAA.md) 
+
 - [International Standards Organziation (ISO)](docs/ISO.md)
   - [ISO 7498: OSI Model](docs/ISO7498.md)
   - [ISO 15408: Common Criteria for Information Technology Security Evaluation (CC)](docs/ISO15408.md)
