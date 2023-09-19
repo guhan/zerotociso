@@ -1,6 +1,16 @@
 # GDPR
 GDPR is a framework of security requirements that global organizations must implement to protect the security and privacy of EU citizens' personal information. GDPR requirements include controls for restricting unauthorized access to stored data and access control measures, such as least privilege, role-based access and multifactor authentication.
 
+## Key Facts
+2016
+- Fine is 4% of revenue or 20 million Euro
+- Report breach in 72 hours
+- individuals need access to their own data
+- data portability
+- "right to be forgotten": data is deleted upon request
+- Need to have a DPO
+
+
 ## Definitions
 
 - Data Subject is any person formally residing in the EU who has their data collected, held, or processed by a controller or processor.
