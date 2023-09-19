@@ -9,7 +9,7 @@ Routers use routing protocols (such as OSPF, BGP, RIP, and others) to exchange r
 Routers can perform Network Address Translation, which allows multiple devices on a local network to share a single public IP address. NAT helps conserve IPv4 address space and provides a layer of security by masking internal IP addresses from external networks.
 ## Firewall and Security
 Many routers include basic firewall capabilities to filter incoming and outgoing traffic based on rules and policies. They can block or allow specific types of traffic to enhance network security.
-## DHCP Server
+## [DHCP Server](DHCP.md)
 Routers often include a DHCP (Dynamic Host Configuration Protocol) server, which automatically assigns IP addresses and network configuration settings to devices on the local network, simplifying network setup.
 ## Quality of Service (QoS)
 Some routers support QoS features, allowing network administrators to prioritize certain types of traffic (e.g., VoIP or video streaming) to ensure a consistent quality of service.
