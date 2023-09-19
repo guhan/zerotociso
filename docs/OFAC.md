@@ -1,6 +1,8 @@
 # Office of Foreign Assets Control (OFAC)
 OFAC (Office of Foreign Assets Control) compliance refers to the process of ensuring that individuals, organizations, and financial institutions adhere to the sanctions and economic trade restrictions imposed by the United States Department of the Treasury's Office of Foreign Assets Control (OFAC). OFAC administers and enforces economic and trade sanctions based on U.S. foreign policy and national security goals. Compliance with OFAC regulations is essential to avoid legal and financial penalties, as well as reputational damage.
 
+1950
+
 ## Screening and Due Diligence
 Individuals and entities must conduct due diligence to identify and verify the parties they are doing business with. This includes screening customers, business partners, and counterparties against OFAC's Specially Designated Nationals and Blocked Persons (SDN) List, as well as other sanctions lists.
 ## Risk Assessment
