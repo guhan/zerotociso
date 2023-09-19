@@ -3,6 +3,9 @@ Reference material for those interested in cybersecurity
 
 
 ## Hardware
+- [Central Processing Unit (CPU)](docs/CPU.md)
+- [Read Only Memory (ROM)](docs/ROM.md)
+- [Random Access Memory (RAM)](docs/RAM.md)
 - [Parts of a computer](docs/COMPUTERPARTS.md)
   - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
