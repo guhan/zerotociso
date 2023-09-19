@@ -7,13 +7,6 @@ Any tangible part of the computer you can reach out and touch
 ## Memory
 
 
-### Random Access Memory (RAM)
-Readable and writeable
-- **Dynamic RAM (DRAM)**: uses capacitors that hold charges (0 or 1) and need to be refreshed periodically and is cheaper
-- **Static RAM**: uses flip flops, switches which don't need to be refreshed
-- Real:
-- **Volatile**: once the power is shutoff the memory loses its data
-- Considered to be the _primary_ storage of a computer
 
 ### Memory Addressing
 - **Register addressing**: in CPU
