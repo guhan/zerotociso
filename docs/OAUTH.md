@@ -1,7 +1,4 @@
-# OAUTH
-
-## What is Oauth2?
-
+# OAuth 2.0
 OAuth 2.0 (Open Authorization 2.0) is an authorization framework that **allows third-party applications to access the resources of a user on a server**, without the need for the user to share their credentials directly with the third party.
 
 The basic flow of OAuth 2.0 involves multiple parties: the resource owner (user), the client application (third-party application), the authorization server, and the resource server.
