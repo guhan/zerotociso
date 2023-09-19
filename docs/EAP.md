@@ -2,6 +2,7 @@
 EAP, which stands for Extensible Authentication Protocol, is a framework for various authentication methods used in network communication. EAP allows network clients and servers to securely exchange authentication credentials and establish a network connection. It is commonly used in wireless networks, virtual private networks (VPNs), and other network security protocols.
 
 - framework instead of actual protocol
+- originally designed to run on isolated networks so did not have TLS
 
 ## Extensibility
 EAP is extensible, meaning it supports a wide range of authentication methods, also known as EAP methods. Different EAP methods can be used to suit various authentication requirements and security levels.
