@@ -17,9 +17,5 @@ Any tangible part of the computer you can reach out and touch
 - **Virtual Memory**: a pagefile that exists on a hard disk
 
 
-## Unified Extentisible Firmware Interface (UEFI)
-- More advanced interface between hardware and software
-- Supports legacy BIOS
-
 
 
