@@ -20,9 +20,11 @@ Essential tools for managing and controlling network traffic. Filter traffic bas
 - **Deep Packet Inspection**:
   - [Layer 7 OSI](OSI.md)
   - examines the payload as well as the header and works on the application level
-- **Next Gen**: has additional components like IDS, IPS, TLS proxy, web filtering, QoS Management, rate limiting,
+- **Next Gen**:
+  - has additional components like IDS, IPS, TLS proxy, web filtering, QoS Management, rate limiting,
   NAT, VPN anchoring and antivirus.
-- **Multihomed**: more than one interface
+- **Multihomed**:
+  - more than one interface
 
 
 ## Tiers
