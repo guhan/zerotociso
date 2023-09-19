@@ -8,10 +8,11 @@ Reference material for those interested in cybersecurity
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Cables](docs/CABLES.md)
 - Repeater
-- Hub
-- Bridge
+- [Hub](docs/HUB.md)
+- [Bridge](docs/BRIDGE.md)
 - Switches
   - [VLAN Hopping](docs/VLANHOPPING.md)
+- [Router](docs/ROUTER.md)
 - [Forensic Disk Controller](docs/FORENSICDISK.md)
 
 
