@@ -16,9 +16,6 @@ Any tangible part of the computer you can reach out and touch
 - **Base + Offset addressing**: base value is stored in one the CPU registers and an offset is given for the operand
 - **Virtual Memory**: a pagefile that exists on a hard disk
 
-## Basis Input/Output System (BIOS)
-- OS independent primitives to start a computer and load the OS
-- **phlashing**: installing a malicious version of BIOS
 
 ## Unified Extentisible Firmware Interface (UEFI)
 - More advanced interface between hardware and software
