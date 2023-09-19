@@ -243,6 +243,7 @@ Reference material for those interested in cybersecurity
   - [Common Weakness Enumerations (CWE)](docs/CWE.md)
   - [SCAP](docs/SCAP.md)
   - [OVAL](docs/OVAL.md)
+  - [Covert Channels](docs/COVERTCHANNEL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
   - [MITRE ATT&CK](docs/MITREATTACK.md)
   - [STRIDE](docs/STRIDE.md)
