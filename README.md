@@ -16,7 +16,7 @@ Reference material for those interested in cybersecurity
 - Repeater
 - [Hub](docs/HUB.md)
 - [Bridge](docs/BRIDGE.md)
-- Switches
+- [Switch](docs/SWITCH.md)
   - [VLAN Hopping](docs/VLANHOPPING.md)
 - [Router](docs/ROUTER.md)
 - [Forensic Disk Controller](docs/FORENSICDISK.md)
