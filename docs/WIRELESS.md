@@ -75,5 +75,5 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 - **Spread Spectrum**: communication occurs over multiple frequencies at the same time
 - **Frequency Hopping Spread Spectrum (FHSS)**: transmits data in series, one frequency at a time is used to minimize
   interference
-- Direct Sequence Spread Spectrum (DSSS): all frequencies used in paralled
-- Orthagonal Frequency-Division Multiplexing (OFDM): allows for a more tightly compacted transmissions, the signals are perpendicular and do not interfere with each other. Uses less frequencies and has highest throughput. 
+- **Direct Sequence Spread Spectrum (DSSS)**: all frequencies used in paralled
+- **Orthagonal Frequency-Division Multiplexing (OFDM)**: allows for a more tightly compacted transmissions, the signals are perpendicular and do not interfere with each other. Uses less frequencies and has highest throughput. 
