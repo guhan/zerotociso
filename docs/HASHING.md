@@ -30,6 +30,6 @@
 - issues were found with collisions
 
 ### Message Digest 5 (MD5)
-- 512 bit bloks of the message
+- 512 bit blocks of the message
 - 4 distinct rounds to get a 128 bit digest
 - subject to collisions
