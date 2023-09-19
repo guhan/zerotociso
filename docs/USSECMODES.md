@@ -2,18 +2,18 @@
 US Government has approved security modes for systems with classified information. 
 
 ## Dedicated
-  - Each user must have security clearance for all info
-  - Each user must have access approval all info
-  - Each user must have a valid need
+  - Must have security clearance for _all_ info
+  - Must have access approval for _all_ info
+  - Must have a _valid need_
 
 ## System High Mode
-  - Each user must have a valid security clearance
-  - Each user must have access approval _for all info_ 
+  - Must have a valid security clearance
+  - Must have access approval for _all_ info
   - Must have _need to know not for all_ information
 
 ## Compartmented
-- Each user must have security clearance for all info
-- Each user must have access approval _for just what they need_
+- Must have security clearance for _all_ info
+- Must have access approval _for just what they need_
 - Must have a _need to know for all_ information they have access to
 
 
@@ -24,5 +24,5 @@ US Government has approved security modes for systems with classified informatio
 
 ## Multilevel:
   - Some users do not have valid security for all info
-  - each user must have access approval for all information they will access on the system
-  - each user must have a _valid need to know_
+  - Must have access approval for _all information they will access on the system_
+  - Must have a _valid need to know_
