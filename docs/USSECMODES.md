@@ -17,7 +17,7 @@ US Government has approved security modes for systems with classified informatio
 - Must have a _need to know for all_ information they have access to
 
 
-
+> [!NOTE]
 >**Compartmented mode workstations (CMWs)**: users with necessary clearances can process multiple compartments of data at the same time
 >  - **Sensitivity label**: what level an object must be protected
 >  - **Information label**: prevent data overclassification and add metadata
