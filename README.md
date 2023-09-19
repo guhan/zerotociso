@@ -163,6 +163,7 @@ Reference material for those interested in cybersecurity
     - [XML External Entity (XXE)](docs/XXE.md)
     - [HTTP Request Smuggling](docs/REQUESTSMUGGLING.md)
     - [Cross Site Tracing (XST)](docs/XST.md)
+    - [Watering Hole Site](docs/WATERINGHOLE.md)
 
 ## Application Programming Interfaces (API)
   - [REST](docs/REST.md)
