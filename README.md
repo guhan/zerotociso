@@ -3,9 +3,11 @@ Reference material for those interested in cybersecurity
 
 
 ## Hardware
+- [Basic Input/Output System (BIOS)](docs/BIOS.md)
 - [Central Processing Unit (CPU)](docs/CPU.md)
 - [Read Only Memory (ROM)](docs/ROM.md)
 - [Random Access Memory (RAM)](docs/RAM.md)
+- [UEFI](docs/UEFI.md)
 - [Parts of a computer](docs/COMPUTERPARTS.md)
   - [RAID](docs/RAID.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
