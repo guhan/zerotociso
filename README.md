@@ -13,7 +13,7 @@ Reference material for those interested in cybersecurity
   - [Random Access Memory (RAM)](docs/RAM.md)
 - [Embedded Systems](docs/EMBEDDEDSYSTEM.md)
 - [Cables](docs/CABLES.md)
-- Repeater
+- [Repeater](docs/REPEATER.md)
 - [Hub](docs/HUB.md)
 - [Bridge](docs/BRIDGE.md)
 - [Switch](docs/SWITCH.md)
