@@ -28,7 +28,7 @@ Reference material for those interested in cybersecurity
 - [Point to Point Tunneling Protocol (PPTP)](docs/PPTP.md)
 - [Integrated Services Digital Network (ISDN)](docs/ISDN.md)
 - [Internet Protocol (IP)](docs/IP.md)
-  - DHCP
+  - [Dynamic Host Configuration Protocol (DHCP)](docs/DHCP.md)
     - [APIPA](docs/APIPA.md)
   - [Teardrop Attack](docs/TEARDROP.md)
   - [Land Attack](docs/LAND.md)
