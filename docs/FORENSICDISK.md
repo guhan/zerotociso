@@ -2,7 +2,7 @@
 A forensic disk controller is a specialized hardware device or component used in digital forensics and computer investigations. Its primary purpose is to facilitate the acquisition and analysis of digital data from storage devices, such as hard drives, solid-state drives (SSDs), and other storage media, in a forensically sound and legally admissible manner.
 
 ## Write-Blocking
-One of the most critical functions of a forensic disk controller is write-blocking. It ensures that no write operations (modifications) can be made to the source storage device during the acquisition process. This is essential to preserve the integrity of the original data and maintain its admissibility in legal proceedings.
+One of the most critical functions of a forensic disk controller is write-blocking. It ensures that **no write operations (modifications) can be made to the source storage device** during the acquisition process. This is essential to preserve the integrity of the original data and maintain its admissibility in legal proceedings.
 ## Read-Only Access
 Forensic controllers provide read-only access to the source storage device, allowing investigators to extract data without accidentally altering or damaging it.
 ## High-Speed Data Transfer
