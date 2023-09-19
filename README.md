@@ -250,6 +250,7 @@ Reference material for those interested in cybersecurity
 
 ## [Laws](docs/LAWS.md) 
 - [Office of Foreign Assets Control (OFAC)](docs/OFAC.md)
+- [Freedom of Information Act (FOIA)](docs/FOIA.md) 
 - [Bank Secrecy Act (BSA)](docs/BSA.md)
 - [Privacy Act](docs/PRIVACYACT.md)
 - [International Traffic in Arms Regulations (ITAR)](docs/ITAR.md)
@@ -286,7 +287,6 @@ Reference material for those interested in cybersecurity
 - [Cybersecurity Maturity Model Certification (CMMC)](docs/CMMC.md) 
 - [Control Objectives for Information Technology (COBIT)](docs/COBIT.md) 
 - [Cloud Security Alliance (CSA)](docs/CSA.md) 
-- [Freedom of Information Act (FOIA)](docs/FOIA.md) 
 - [FIPS 140-2](docs/FIPS.md) 
 - [International Standards Organziation (ISO)](docs/ISO.md)
   - [ISO 7498: OSI Model](docs/ISO7498.md)
