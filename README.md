@@ -144,7 +144,7 @@ Reference material for those interested in cybersecurity
     
 ## Directory Services
   - [X.500](docs/X500.md)
-  - LDAP
+  - [Lightweight Directory Access Protocol (LDAP)](docs/LDAP.md)
   - [Open LDAP](docs/OPENLDAP.md)
   - Active Directory
 
