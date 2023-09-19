@@ -287,7 +287,9 @@ Reference material for those interested in cybersecurity
 - [Cybersecurity Maturity Model Certification (CMMC)](docs/CMMC.md) 
 - [Control Objectives for Information Technology (COBIT)](docs/COBIT.md) 
 - [Cloud Security Alliance (CSA)](docs/CSA.md) 
-- [FIPS 140-2](docs/FIPS.md) 
+- [FIPS 140-2](docs/FIPS.md)
+- Google
+  - [Supply Chain Levels for Software Artifacts (SLSA)](docs/SLSA.md)
 - [International Standards Organziation (ISO)](docs/ISO.md)
   - [ISO 7498: OSI Model](docs/ISO7498.md)
   - [ISO 15408: Common Criteria for Information Technology Security Evaluation (CC)](docs/ISO15408.md)
