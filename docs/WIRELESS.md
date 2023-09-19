@@ -31,6 +31,7 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 - **Wired Equivalent Privacy (WEP)**
   - predefined shared key
   - insecure due to improper Initialization Vector
+
 - **WiFi Protected Access (WPA)**:
   - **WPA-PSK (Pre-Shared Key)**:
     - Also known as WPA-Personal
@@ -40,6 +41,7 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
 - **Temporal Key Integrity Protocol (TKIP)**:
   - TKIP is a specific encryption protocol that was introduced as part of WPA to improve security over the older WEP encryption.
   - TKIP dynamically generates encryption keys for each data packet, making it much harder to crack compared to the static keys used in WEP.
+
 - **Lightweight Extensible Authentication Protocol (LEAP)**: Cisco proprietary alternative to TKIP for WPA
   - _Found to be vulnerable_
 - **WPA2**:
@@ -47,6 +49,7 @@ Employs radio waves to transmit signals over a distance. The waves have a freque
   - **Extensible Authentication Protocol (EAP)**: authentication framework that lets you add additional authentication technologies
   - **Protected Extensible Authentication Protocol (PEAP)**: encapsulates EAP in a TLS tunnel
   - **WPA2 Enterprise**: uses [RADIUS](RADIUS.md) authentication which protects against password attacks
+
 - **WiFi Protected Setup (WPS)**: security standard for wireless networks
   - insecure to brute force attacks
   - enabled by default on most wireless access points
