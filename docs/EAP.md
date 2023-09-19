@@ -22,10 +22,10 @@ Many EAP methods use a challenge-response mechanism, where the server challenges
 
 ## Some common EAP methods
 
-- EAP-TLS (Transport Layer Security): Uses digital certificates for authentication.
-- EAP-PEAP (Protected Extensible Authentication Protocol): Provides an extra layer of security by encapsulating other EAP methods within a secure tunnel.
-- EAP-MSCHAPv2 (Microsoft Challenge Handshake Authentication Protocol version 2): Often used for username/password-based authentication.
-- EAP-TTLS (Tunneled Transport Layer Security): Similar to PEAP, it encapsulates other EAP methods within a secure tunnel.
+- **EAP-TLS** (Transport Layer Security): Uses digital certificates for authentication.
+- **EAP-PEAP** (Protected Extensible Authentication Protocol): Provides an extra layer of security by encapsulating other EAP methods within a secure tunnel.
+- **EAP-MSCHAPv2** (Microsoft Challenge Handshake Authentication Protocol version 2): Often used for username/password-based authentication.
+- **EAP-TTLS** (Tunneled Transport Layer Security): Similar to PEAP, it encapsulates other EAP methods within a secure tunnel.
 
 ## Wireless LANs
 EAP is widely used in securing wireless LANs (WLANs), where it is a fundamental component of the IEEE 802.1X authentication framework. It allows users and devices to securely connect to Wi-Fi networks while ensuring proper authentication and encryption.
