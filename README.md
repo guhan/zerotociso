@@ -118,7 +118,7 @@ Reference material for those interested in cybersecurity
 - [Single Sign On (SSO)](docs/SSO.md)
   - [Security Assertion Markup Language (SAML)](docs/SAML.md)
   - [Service Provisioning Markup Language (SPML)](docs/SPML.md)
-- [Open Authorization (OAUTH)](docs/OAUTH.md)
+- [Open Authorization 2.0 (OAuth2)](docs/OAUTH.md)
   - [SCIM](docs/SCIM.md)
 - [OpenID Connect (OIDC)](docs/OPENIDCONNECT.md)
 - [Shibboleth](docs/SHIBBOLETH.md)
