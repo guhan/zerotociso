@@ -5,18 +5,19 @@ Essential tools for managing and controlling network traffic. Filter traffic bas
 - **Static Packet Filtering**:
   - [Layer 3 OSI](OSI.md)
   - examines header and filters
-- **Application Level Gateway**:
-  - [Layer 7 OSI](OSI.md)
-  - filters traffic based on the application used to transmit or receive the data
-  - group of reverse proxies that filter traffic and forward to specific ports
+- **Stateful Inspection**:
+  - [Layer 3 and 4 OSI](OSI.md)
+  - examining state and context of network traffic
+  - tracks whether the traffic orignates from inside or outside the network
 - **Circuit Level Gateway**:
   - [Layer 5 OSI](OSI.md)
   - Establish communication between trusted partners
   - Permit and deny based on endpoint designation
   - Commonly uses SOCKS 
-- **Stateful Inspection**:
-  - [Layer 3 and 4 OSI](OSI.md)
-  - examining state and context of network traffic
+- **Application Level Gateway**:
+  - [Layer 7 OSI](OSI.md)
+  - filters traffic based on the application used to transmit or receive the data
+  - group of reverse proxies that filter traffic and forward to specific ports
 - **Deep Packet Inspection**:
   - [Layer 7 OSI](OSI.md)
   - examines the payload as well as the header and works on the application level
