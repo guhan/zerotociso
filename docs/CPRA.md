@@ -36,7 +36,15 @@ Under the California Privacy Rights Act (CPRA), "Sensitive Personal Information"
 - **Sexual Activity** Information related to an individual's sexual activities or sexual orientation.
 
 ## Data Retention Limits
-It imposes limits on how long businesses can retain personal information and requires them to specify their data retention policies.
+The California Privacy Rights Act (CPRA) does not specify specific data retention limits or timeframes for how long businesses should retain personal information. Instead, the CPRA focuses on principles related to data minimization and purpose limitation, which guide businesses in determining how long they should retain personal information.
+
+- **Data Minimization** The CPRA emphasizes the principle of data minimization, which means that businesses should only collect and retain personal information that is necessary for the purposes for which it was collected. In other words, businesses should not collect more data than they need.
+- **Purpose Limitation** Businesses should only retain personal information for the specific purposes for which it was collected or for compatible purposes that the consumer would reasonably expect. Once the personal information is no longer needed for those purposes, it should be deleted.
+- **Consumer Rights** The CPRA grants consumers the right to request the deletion of their personal information. Upon receiving a valid deletion request, businesses are generally obligated to delete the requested information, subject to certain exceptions.
+- **Sensitive Personal Information** The CPRA places additional restrictions on the retention of sensitive personal information, such as financial account numbers or health information. Businesses are required to specify the length of time they will retain sensitive personal information or the criteria used to determine retention periods in their privacy policies.
+- **Data Retention Policies** Businesses subject to the CPRA are required to establish and disclose data retention policies as part of their privacy policies. These policies should provide consumers with information about how long different categories of personal information will be retained.
+- **Data Protection Measures** Businesses should implement reasonable security measures to protect personal information, including data that is retained. Data that is no longer needed for the specified purposes should be securely disposed of to minimize the risk of unauthorized access or data breaches.
+
 ## Annual Risk Assessments
 Businesses that process a significant amount of personal information must conduct annual risk assessments of their data processing activities and privacy practices.
 
