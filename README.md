@@ -280,6 +280,7 @@ Reference material for those interested in cybersecurity
 - [Gramm-Leach-Bliley Act (GLBA)](docs/GLB.md)
 - [EU-US Safe Harbor Framework](docs/EUSAFEHARBOR.md)
 - [USA Patriot Act](docs/PATRIOTACT.md)
+- [Personal Information Protection and Electronic Documents Act (PIPEDA)](docs/PIPEDA.md)
 - [Family Educational Rights and Privacy Act (FERPA)](docs/FERPA.md)
 - [Sarbanes Oxley Act (SOX)](docs/SOX.md)
 - [Federal Information Security Management Act (FISMA)](docs/FISMA.md)
