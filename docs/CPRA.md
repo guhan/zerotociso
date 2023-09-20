@@ -1,6 +1,21 @@
 # California Privacy Rights Act (CPRA)
 The CPRA (California Privacy Rights Act) is a privacy law in the state of California, United States. It builds upon and amends the California Consumer Privacy Act (CCPA), which was one of the first comprehensive state-level privacy laws in the U.S. The CPRA was passed as a ballot initiative in November 2020 and went into effect on January 1, 2023.
 
+## Entities Impacted
+The CPRA applies to the following categories of entities and individuals:
+
+
+- **Businesses** The CPRA applies to businesses that meet certain criteria. Specifically, it applies to for-profit entities that do business in California and meet one or more of the following thresholds**
+  - **Have annual gross revenues exceeding $25 million.
+  - **Buy, sell, or share the personal information of 100,000 or more California consumers or households annually.
+  - **Derive 50% or more of their annual revenues from selling or sharing personal information.
+- **Data Controllers** Businesses that determine the purposes and means of processing personal information are considered data controllers under the CPRA. They are responsible for compliance with CPRA requirements, including providing consumers with privacy notices, responding to consumer requests, and ensuring the security of personal information.
+- **Data Processors** Businesses that process personal information on behalf of data controllers are considered data processors. They are required to enter into written agreements with data controllers, adhere to contractual obligations, and assist data controllers in fulfilling consumer requests and other CPRA requirements.
+- **Service Providers** The CPRA includes a category called "service providers" who are businesses that process personal information on behalf of a data controller but under a written contract. Service providers have limitations on how they can use the personal information they process.
+- **California Residents** The CPRA provides privacy rights and protections to California residents, allowing them to exercise certain rights related to the collection, use, and sharing of their personal information.
+- **California Privacy Protection Agency (CPPA)** The CPRA establishes the CPPA, an independent agency responsible for enforcing and implementing the CPRA. The CPPA has authority over businesses subject to the CPRA and can impose penalties for non-compliance.
+- **Businesses Outside California** The CPRA applies to businesses located outside of California that process the personal information of California residents if they meet the specified criteria. This means that even businesses located outside California but that meet the thresholds outlined in the CPRA must comply with its requirements when processing the personal information of California residents.
+
 ## Expanded Rights
 It gives consumers more control over their personal data, including the ability to correct inaccurate information, limit the use of sensitive data, and opt-out of certain types of data processing.
 
