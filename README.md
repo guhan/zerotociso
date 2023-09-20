@@ -292,6 +292,7 @@ Reference material for those interested in cybersecurity
 - [Privacy Shield](docs/PRIVACYSHIELD.md)
 - [General Data Protection Regulation (GDPR)](docs/GDPR.md)
 - [California Consumer Protection Act (CCPA)](docs/CCPA.md)
+- [Personal Information Protection Law (PIPL)](docs/PIPL.md)
 - [California Privacy Rights Act (CPRA)](docs/CPRA.md)
 
 
