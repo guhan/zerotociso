@@ -4,6 +4,7 @@ Reference material for those interested in cybersecurity
 
 ## Hardware
 - [Basic Input/Output System (BIOS)](docs/BIOS.md)
+  - [Phlashing](docs/PHLASHING.md)
 - [Unified Extentisible Firmware Interface (UEFI)](docs/UEFI.md)
 - [Central Processing Unit (CPU)](docs/CPU.md)
 - Memory
