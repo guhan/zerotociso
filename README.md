@@ -5,6 +5,7 @@ Reference material for those interested in cybersecurity
 ## Hardware
 - [Basic Input/Output System (BIOS)](docs/BIOS.md)
   - [Phlashing](docs/PHLASHING.md)
+  - [BrickerBot](https://www.cisa.gov/news-events/ics-alerts/ics-alert-17-102-01a)
 - [Unified Extentisible Firmware Interface (UEFI)](docs/UEFI.md)
 - [Central Processing Unit (CPU)](docs/CPU.md)
 - Memory
