@@ -253,6 +253,7 @@ Reference material for those interested in cybersecurity
   - [Security Content Automation Protocol (SCAP)](docs/SCAP.md)
     - [Open Platform Enumeration (OPE)](docs/OPE.md)
     - [Open Vulnerability and Assessment Language (OVAL)](docs/OVAL.md)
+  - [Exploit Protection Scoring System (EPSS)](EPSS.md)
   - [Covert Channels](docs/COVERTCHANNEL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
   - [MITRE ATT&CK](docs/MITREATTACK.md)
