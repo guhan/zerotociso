@@ -9,7 +9,7 @@ CVE is a standardized naming system used to identify and reference publicly know
 security vulnerabilities and exposures. Each CVE entry includes a unique identifier and details about the 
 vulnerability, including its impact and affected software.
 
-## CPE (Common Platform Enumeration):
+[## CPE (Common Platform Enumeration)](CPE.md):
 CPE is a standardized naming system for identifying software applications and operating systems 
 in a consistent and machine-readable format. CPE entries include vendor, product, version, and other 
 relevant information.
@@ -30,11 +30,13 @@ CVSS is a standardized system for assessing and communicating the severity of se
 vulnerabilities. CVSS provides a numeric score that represents the severity of a vulnerability 
 based on factors such as exploitability, impact, and access complexity.
 
+![CVSS](/images/CVSS.png)
+
 ## XCCDF (Extensible Configuration Checklist Description Format):
 XCCDF is a standardized format for **expressing security configuration rules and checklists**. It allows 
 organizations to define security baselines and assessment criteria for systems.
 
-## OVAL (Open Vulnerability and Assessment Language):
+[## OVAL (Open Vulnerability and Assessment Language)](OVAL.md):
 OVAL is a standardized language for describing and assessing vulnerabilities, software flaws, and 
 configuration issues. OVAL allows organizations to automate vulnerability scanning and compliance 
 assessment.
