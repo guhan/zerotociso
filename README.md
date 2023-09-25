@@ -68,7 +68,12 @@ Reference material for those interested in cybersecurity
 ## [Operating Systems](docs/OS.md)
   - [US Goverment Security Modes](docs/USSECMODES.md)
   - [Linux](docs/LINUX.md)
+    - [Runlevels](docs/RUNLEVELS.md)
     - [Inode](docs/INODE.md)
+    - [Filesystem](docs/FILESYSTEM.md)
+    - [Extended Attributes](docs/EXTENDEDATTRIBUTES.md)
+    - [Signals](docs/SIGNALS.md)
+    - [Linux ACL](docs/LINUXACL.md)
     - [Security Enhanced Linux (SELINUX)](docs/SELINUX.md)
     - [App Armor](docs/APPARMOR.md)
 
