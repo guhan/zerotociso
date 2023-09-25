@@ -2,10 +2,10 @@
 
 
 
-## Architecture Reviews**
+## Architecture Reviews
 Security engineers and architects review future features and suggest ways to improve security. 
 
-## Secure SDLC**
+## Secure SDLC
 Several compononents including: 
 - RBAC for access to CI/CD pipelines
 - Linting:  the process of analyzing and checking source code for potential errors, bugs, stylistic issues, and other programming best practices
