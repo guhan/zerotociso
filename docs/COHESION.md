@@ -9,6 +9,9 @@ Characteristics of bad team culture:
 - Poor Communication
 - Fear of speaking up/reprisal
 
+
+
+
 ## Structure
 Team structure is critial to a teams success. Is each member in the right seat? 
 
