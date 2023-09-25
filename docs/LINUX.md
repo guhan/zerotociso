@@ -10,7 +10,7 @@ The Linux kernel is highly modular, allowing for the addition and removal of ker
 ## Hardware Compatibility
 Linux has excellent hardware compatibility and supports a wide range of computer architectures, from embedded systems and smartphones to servers and supercomputers.
 ## Security
-Linux is known for its robust security features, including user and group-based access control, file permissions, and support for security-enhancing technologies like SELinux (Security-Enhanced Linux) and AppArmor.
+Linux is known for its robust security features, including user and group-based access control, file permissions, and support for security-enhancing technologies like [SELinux (Security-Enhanced Linux)](SELINUX.md) and [AppArmor](APPARMOR.md).
 ## Package Management
 Most Linux distributions use package managers to simplify the installation, removal, and updating of software packages. Common package managers include APT (Debian/Ubuntu), YUM/DNF (Fedora/CentOS), and Pacman (Arch Linux).
 ## Variety of Distributions
