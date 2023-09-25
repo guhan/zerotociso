@@ -26,11 +26,8 @@
 
 ## Platform Teams
 
-- A platform team enables a stream-aligned team to deliver work with substantial autonomy by providing internal services to reduce their cognitive load. A digital platform, as defined by Evan Bottcher, is
-
-. . . a foundation of self-service APIs, tools, services, knowledge and support which are arranged as a compelling internal product. Autonomous delivery teams can make use of the platform to deliver product features at a higher pace, with reduced coordination.
-
-https://martinfowler.com/articles/talk-about-platforms.html
+- A platform team enables a stream-aligned team to deliver work with substantial autonomy by providing internal services to reduce their cognitive load. A digital platform, as defined by Evan Bottcher, is a foundation of self-service APIs, tools, services, knowledge and support which are arranged as a compelling internal product. Autonomous delivery teams can make use of the platform to deliver product features at a higher pace, with reduced coordination. https://martinfowler.com/articles/talk-about-platforms.html
+  
 - The platform team’s knowledge is made available via self-service capabilities on the web or via a programmable API. These should be made easy for the stream-aligned teams to consume, instead of lengthy instruction manuals.
 
 - Ease of use is fundamental to successful product teams.
