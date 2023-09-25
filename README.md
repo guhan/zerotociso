@@ -251,7 +251,8 @@ Reference material for those interested in cybersecurity
 - Vulnerabilities
   - [Common Weakness Enumerations (CWE)](docs/CWE.md)
   - [SCAP](docs/SCAP.md)
-  - [Open Vulnerability and Assessment Language (OVAL)](docs/OVAL.md)
+    - [Open Platform Enumeration (OPE)](docs/OPE.md)
+    - [Open Vulnerability and Assessment Language (OVAL)](docs/OVAL.md)
   - [Covert Channels](docs/COVERTCHANNEL.md)
 - [Threat Modeling](docs/THREATMODELING.md)
   - [MITRE ATT&CK](docs/MITREATTACK.md)
