@@ -75,6 +75,7 @@ Reference material for those interested in cybersecurity
 - [Languages](docs/LANGUAGES.md) 
 - [Documentation](docs/DOCUMENTATION.md)
 - [Code Repositories](docs/CODEREPOSITORIES.md)
+- [Python](docs/PYTHON.md)
 - [Serialization](docs/SERIALIZATION.md)
   - [Deserialization Attacks](docs/DESERIALIZATION.md)
 - [High Performance Computing](docs/HPC.md)
