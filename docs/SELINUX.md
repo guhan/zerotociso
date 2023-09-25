@@ -11,6 +11,20 @@ In SELinux, every process, file, and network socket is assigned a label that spe
 SELinux defines roles (e.g., user, staff, sysadmin) and domains (e.g., httpd_t for Apache web server). Roles and domains are used to specify the security context of processes and objects. Each role and domain has associated permissions.
 ## Type Enforcement
 SELinux uses type enforcement to ensure that only processes with the appropriate security context can access specific files or perform certain operations. This helps prevent unauthorized access and reduces the risk of privilege escalation.
+
+SELinux policies are typically defined in a language called Security Policy Language (SELinux policy language) and are represented as a set of rules and configurations. These policies specify how different processes, users, and objects interact with each other and what actions are allowed or denied. Below is a simplified example of an SELinux policy rule:
+
+```
+allow httpd_t var_t:file { read getattr open };
+```
+
+- allow: This keyword is used to define an access control rule.
+- httpd_t: It represents the source security context, which is typically the context of the process or application seeking access to a resource. In this case, it's the security context for an Apache web server (httpd).
+- var_t: This represents the target security context, which is the security context of the resource being accessed. In this case, it's a file labeled with the var_t context.
+- file: This specifies the class of the object being accessed. In SELinux, objects are categorized into classes, such as file, directory, socket, etc.
+- { read getattr open }: These are the permissions or operations that are allowed. In this example, it allows the httpd process to perform read, getattr (get attributes), and open operations on files labeled with the var_t context.
+
+
 ## Policy Modules
 SELinux policies are modular and can be extended or customized using policy modules. This allows system administrators to tailor the security policies to their specific needs.
 ## Booleans
