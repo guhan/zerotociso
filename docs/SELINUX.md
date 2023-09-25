@@ -18,11 +18,11 @@ SELinux policies are typically defined in a language called Security Policy Lang
 allow httpd_t var_t:file { read getattr open };
 ```
 
-- allow: This keyword is used to define an access control rule.
-- httpd_t: It represents the source security context, which is typically the context of the process or application seeking access to a resource. In this case, it's the security context for an Apache web server (httpd).
-- var_t: This represents the target security context, which is the security context of the resource being accessed. In this case, it's a file labeled with the var_t context.
-- file: This specifies the class of the object being accessed. In SELinux, objects are categorized into classes, such as file, directory, socket, etc.
-- { read getattr open }: These are the permissions or operations that are allowed. In this example, it allows the httpd process to perform read, getattr (get attributes), and open operations on files labeled with the var_t context.
+- ```allow```: This keyword is used to define an access control rule.
+- ```httpd_t```: It represents the source security context, which is typically the context of the process or application seeking access to a resource. In this case, it's the security context for an Apache web server (httpd).
+- ```var_t```: This represents the target security context, which is the security context of the resource being accessed. In this case, it's a file labeled with the var_t context.
+- ```file```: This specifies the class of the object being accessed. In SELinux, objects are categorized into classes, such as file, directory, socket, etc.
+- ```{ read getattr open }```: These are the permissions or operations that are allowed. In this example, it allows the httpd process to perform read, getattr (get attributes), and open operations on files labeled with the var_t context.
 
 
 ## Policy Modules
