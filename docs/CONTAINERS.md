@@ -44,8 +44,29 @@ seven distinct namespaces implemented:
 
 
 
-## Cgroups 
+## [Cgroups](https://man7.org/linux/man-pages/man7/cgroups.7.html) 
 short for "control group," is a Linux kernel feature that allows the management of system resources and sets limits for groups of processes. It provides a way to group processes and manage their resource usage, such as CPU, memory, and I/O bandwidth, among others.
+
+- A cgroup is a collection of processes that are bound to a set of
+       limits or parameters defined via the cgroup filesystem.
+
+- A subsystem is a kernel component that modifies the behavior of
+       the processes in a cgroup.  Various subsystems have been
+       implemented, making it possible to do things such as limiting the
+       amount of CPU time and memory available to a cgroup, accounting
+       for the CPU time used by a cgroup, and freezing and resuming
+       execution of the processes in a cgroup.  Subsystems are sometimes
+       also known as resource controllers (or simply, controllers).
+
+- The cgroups for a controller are arranged in a hierarchy.  This
+       hierarchy is defined by creating, removing, and renaming
+       subdirectories within the cgroup filesystem.  At each level of
+       the hierarchy, attributes (e.g., limits) can be defined.  The
+       limits, control, and accounting provided by cgroups generally
+       have effect throughout the subhierarchy underneath the cgroup
+       where the attributes are defined.  Thus, for example, the limits
+       placed on a cgroup at a higher level in the hierarchy cannot be
+       exceeded by descendant cgroups.
 
 ## Open Container Initiative 
 An open format for containers and an alternative to Docker. You can read more about the format here: https://ravichaganti.com/blog/2022-10-28-understanding-container-images-oci-image-specification/
