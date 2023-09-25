@@ -1,5 +1,5 @@
 # Diddling Attack
-A diddling attack, also known as data diddling or data manipulation, is a form of cyberattack or fraudulent activity in which an attacker alters data or records to manipulate information for personal gain or to harm an organization or individual. Diddling attacks typically involve unauthorized or fraudulent changes to data in a way that benefits the attacker.
+A diddling attack, also known as data diddling or data manipulation, is a form of cyberattack or fraudulent activity in which an **attacker alters data or records to manipulate information for personal gain** or to harm an organization or individual. Diddling attacks typically involve unauthorized or fraudulent changes to data in a way that benefits the attacker.
 
 ## Data Manipulation
 In a diddling attack, the attacker intentionally modifies data, records, or transactions. This manipulation can take various forms, such as altering financial records, changing inventory levels, or modifying customer information.
