@@ -1,5 +1,6 @@
 # Team Topologies
 
+![Team Topologies](docs/TEAMTOPOLOGIES.png)
 
 ## Stream-Aligned Teams
 
