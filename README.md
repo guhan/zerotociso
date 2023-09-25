@@ -221,11 +221,11 @@ Reference material for those interested in cybersecurity
     - [EBS](docs/EBS.md)
   - [S3](docs/S3.md)
   - [GuardDuty](docs/GUARDDUTY.md)
-- [CDN](docs/CDN.md)
+- [Content Delivery Network (CDN)](docs/CDN.md)
 - [CI/CD](docs/CICD.md)
 - Runtime Security
   - WAF
-  - Rate Limiting
+  - [Rate Limiting](docs/RATELIMITING.md)
   - [RASP](docs/RASP.md)
 - [Monitoring](docs/MONITORING.md)
 - Alerting
