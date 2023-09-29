@@ -172,6 +172,7 @@ Reference material for those interested in cybersecurity
   - [Document Object Model (DOM)](docs/DOM.md)
   - [Secure Socket Layer (SSL)/Transport Layer Security (TLS)](docs/SSLTLS.md)
   - [NGINX Proxy](docs/NGINXPROXY.md)
+  - [Browser Extensions](docs/BROWSEREXTENSIONS.md)
   - Attacks
     - [HTTP Strict Transport Security (HSTS)](docs/HSTS.md)
     - [Same Origin/CORS](docs/SAMEORIGINCORS.md)
