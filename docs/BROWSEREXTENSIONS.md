@@ -5,7 +5,7 @@ Securing browser extensions requires several layers on controls to ensure malici
 Broadly the areas to focus the conrols are the following: 
 - Deployment and Configuration
 - Communication to/from extension
-- Data Processing in the extension
+- Data processing in the extension
 
 ## Deployment and Configuration
 #### Protect developer accounts
@@ -15,7 +15,7 @@ If using group publishing, keep the group confined to trusted developers. Do not
 #### Request minimal permissions
 The Chrome browser limits an extension's access to privileges that have been explicitly requested in the manifest. Extensions should minimize their permissions by only registering APIs and websites they depend on.
 Limiting an extension's privileges limits what a potential attacker can exploit.
-## Limit manifest fields
+#### Limit manifest fields
 Including unnecessary keys and permissions in the manifest creates vulnerabilities and makes an extension more visible. Limit manifest fields to those the extension relies on.
 
 
