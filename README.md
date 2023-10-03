@@ -192,7 +192,7 @@ Reference material for those interested in cybersecurity
 ## [Databases](docs/DATABASES.md)
   - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
   - SQL
-    - JOINs
+    - [JOINs](docs/SQLJOIN.md)
     - VIEWs
   - [Transactions](docs/TRANSACTIONS.md)
   - Stored Procedures
