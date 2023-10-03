@@ -193,9 +193,9 @@ Reference material for those interested in cybersecurity
   - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
   - SQL
     - [JOINs](docs/SQLJOIN.md)
-    - VIEWs
+    - [VIEWs](docs/SQLVIEW.md)
   - [Transactions](docs/TRANSACTIONS.md)
-  - Stored Procedures
+  - [Stored Procedures](docs/STOREDPROCEDURES.md)
   - Relational Databases
     - Primary Keys
     - Foreign Keys
