@@ -262,6 +262,7 @@ Reference material for those interested in cybersecurity
   - Logs
   - Traces
   - Alerting
+  - [Real User Monitoring (RUM)](docs/RUM.md)
 
 
 
