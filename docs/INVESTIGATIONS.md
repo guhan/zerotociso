@@ -57,7 +57,7 @@ Reporting may be necessary to demonstrate compliance with eDiscovery rules and c
   - **Competant** must have been obtained legally
 - **Real Evidence**: tangible stuff like objects, computers, DNA
 - **Documentary Evidence**: written items
-  - **Best evidence rule**: original document must be used
-  - [**Parol evidence rule**](PAROL.md): when argreement is written, it is assumed to contain all the terms of the
+  - [**Best evidence rule**](BESTEVIDENCE.md)
+  - [**Parol evidence rule**](PAROL.md)
     agreement and no verbal arguments
 - **Testimonial Evidence**: testimony of witnesses
