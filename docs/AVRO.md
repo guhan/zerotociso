@@ -70,3 +70,58 @@ for user in reader:
 reader.close()
 ```
 In this example, we load the Avro schema from the user.avsc file, use it to serialize a user record to an Avro data file, and then deserialize it back into a Python data structure.
+
+## How do you modify fields in an Avro schema without breaking backward compatibility?
+Modifying fields in an Avro schema without breaking backward compatibility can be achieved by following Avro's schema evolution rules. Avro is designed to support schema evolution, allowing you to make changes to schemas while ensuring that existing data can still be read with the updated schema.
+
+- **Add New Fields**:
+You can safely add new fields to an Avro schema without breaking compatibility. Existing data records can be read with the new schema, and the new fields will be set to their default values (if specified).
+Example:
+```
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    { "name": "id", "type": "int" },
+    { "name": "name", "type": "string" },
+    { "name": "email", "type": "string" },
+    { "name": "age", "type": "int", "default": 25 },
+    { "name": "newField", "type": "string", "default": "default_value" }
+  ]
+}
+```
+- **Remove Fields (with Care)**:
+If you want to remove a field from an Avro schema, you should do so with caution. While Avro itself allows for the removal of fields, it can result in data loss if the removed field contains valuable information. Consider the impact on existing data and consumers of that data.
+
+- **Rename Fields (with Care)**:
+Renaming fields should also be approached carefully. Renaming a field in the schema will require that you provide a default value for the new field name to avoid breaking compatibility.
+Example:
+```
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    { "name": "id", "type": "int" },
+    { "name": "newName", "type": "string", "default": "" }
+  ]
+}
+```
+- **Change Field Types (with Care)**:
+Changing the data type of a field should be done cautiously, as it can cause data compatibility issues. If you must change a field's data type, ensure that it's a compatible change, meaning that the new type can safely represent the data of the old type. For example, changing an int field to a long is generally safe.
+Be aware that changing from a nullable type (e.g., union of null and another type) to a non-nullable type or vice versa can be problematic for existing data.
+
+- **Use Unions for Optional Fields**:
+To make fields optional without breaking backward compatibility, consider using unions with the null type. This allows you to represent fields that may or may not be present.
+Example:
+
+```
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    { "name": "id", "type": ["null", "int"] },
+    { "name": "name", "type": ["null", "string"] }
+  ]
+}
+```
+- **Documentation**: Always document changes to your schema, especially if they are not immediately obvious. Clear documentation can help consumers of the data understand the changes and adapt their processing logic accordingly.
