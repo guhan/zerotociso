@@ -209,13 +209,16 @@ Reference material for those interested in cybersecurity
   - [NoSQL](docs/NOSQL.md)
     - [Apache Cassandra](docs/CASSANDRA.md)
     - Yugabyte
+    - [DynamoDB](docs/DYNAMODB.md)
   - Database as a Service
     - BigQuery
-    - DynamoDB
     - [Snowflake](docs/SNOWFLAKE.md)
   - Attacks
     - [Diddling](docs/DIDDLING.md)
 
+## Analytics
+- Superset
+- [Databricks](docs/DATABRICKS.md)
 
 ## [Containers](docs/CONTAINERS.md) 
 - [Container Runtime](docs/CONTAINERRUNTIME.md)
