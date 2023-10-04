@@ -51,13 +51,13 @@ Reporting may be necessary to demonstrate compliance with eDiscovery rules and c
 
 ## Evidence
 
-- **Admissable Evidence**:
+- **Admissable Evidence**: To be admissible, evidence must be: 
   - **Relevant** to determining a fact
   - **Material** or related to the case
   - **Competant** must have been obtained legally
 - **Real Evidence**: tangible stuff like objects, computers, DNA
 - **Documentary Evidence**: written items
   - **Best evidence rule**: original document must be used
-  - **Parol evidence rule**: when argreement is written, it is assumed to contain all the terms of the
+  - [**Parol evidence rule**](PAROL.md): when argreement is written, it is assumed to contain all the terms of the
     agreement and no verbal arguments
 - **Testimonial Evidence**: testimony of witnesses
