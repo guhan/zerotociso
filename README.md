@@ -166,6 +166,7 @@ Reference material for those interested in cybersecurity
   - [Lightweight Directory Access Protocol (LDAP)](docs/LDAP.md)
   - [Open LDAP](docs/OPENLDAP.md)
   - [Active Directory (AD)](docs/ACTIVEDIRECTORY.md)
+    - [Group Policy](docs/ADGPO.md)
 
 ## Web
   - [HTTP](docs/HTTP.md)
