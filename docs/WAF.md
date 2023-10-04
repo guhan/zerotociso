@@ -1,4 +1,46 @@
-# AWS Web Application Firewall (WAF)
+# Web Application Firewall (WAF)
+A Web Application Firewall (WAF) is a security appliance, software solution, or cloud service that helps protect web applications from various online threats and attacks. It acts as a barrier between a web application and the internet, monitoring and filtering incoming and outgoing web traffic to identify and mitigate potential security vulnerabilities and attacks.
+
+## Traffic Inspection
+A WAF inspects all incoming and outgoing HTTP/HTTPS traffic to a web application. It examines each request and response to identify potential threats and anomalies.
+## Attack Detection
+The WAF uses various techniques, such as signature-based detection, behavior analysis, and anomaly detection, to identify common web application attacks, including
+
+- SQL Injection
+Attempts to inject malicious SQL queries into input fields.
+- Cross-Site Scripting (XSS)
+Injection of malicious scripts into web pages viewed by other users.
+-  Cross-Site Request Forgery (CSRF)
+Forging of requests on behalf of an authenticated user.
+-  Distributed Denial of Service (DDoS)
+Attempts to overwhelm the application with traffic.
+-  OWASP Top Ten Threats
+Detection of common web application security issues listed by the Open Web Application Security Project (OWASP).
+## Blocking and Mitigation
+When a potential threat or attack is detected, the WAF takes action to block or mitigate it. This can include
+
+-  Blocking malicious requests
+The WAF can drop or reject requests that match known attack patterns.
+-  Rate limiting
+Limiting the number of requests from a single IP address to prevent DDoS attacks.
+-  Redirects
+Redirecting requests to a safe landing page or CAPTCHA challenge for further validation.
+-  Web scraping protection
+Identifying and blocking web scraping or data scraping activities.
+-  Bot detection and management
+Identifying and managing bot traffic, including bad bots.
+## Logging and Reporting
+A WAF generates detailed logs of all web traffic, including blocked requests and security events. These logs are crucial for monitoring and auditing purposes and can be used for incident response and forensic analysis.
+## Custom Rules
+WAFs often allow administrators to create custom security rules to address specific application vulnerabilities or unique attack patterns.
+## Regular Updates
+WAFs are regularly updated to stay current with evolving threats and attack techniques. Updates may include new attack signatures and security rules.
+## Integration
+Many WAFs can be integrated with other security tools and services, such as intrusion detection systems (IDS), security information and event management (SIEM) systems, and threat intelligence feeds.
+## Content Delivery
+Some cloud-based WAF solutions are integrated with content delivery networks (CDNs), improving the performance and security of web applications by distributing content closer to end-users.
+
+## AWS Web Application Firewall (WAF)
 AWS WAF, or Web Application Firewall, is a managed security service provided by Amazon Web Services (AWS) that helps protect web applications from common web-based threats and attacks. It acts as a protective barrier between your web applications and the internet, allowing you to filter and control incoming web traffic to your applications, detect and block malicious requests, and improve the security of your applications.
 
 ## What are the benefits of using AWS WAF? 
