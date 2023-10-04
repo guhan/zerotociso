@@ -218,6 +218,8 @@ Reference material for those interested in cybersecurity
 
 ## Analytics
 - Superset
+- [MapReduce](docs/MAPREDUCE.md)
+- [Apache Spark](docs/APACHESPARK.md)
 - [Databricks](docs/DATABRICKS.md)
 
 ## [Containers](docs/CONTAINERS.md) 
