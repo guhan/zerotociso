@@ -191,6 +191,9 @@ Reference material for those interested in cybersecurity
 
 ## [Databases](docs/DATABASES.md)
   - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
+  - Data Formats
+    - [Avro](docs/AVRO.md)
+    - [Parquet](docs/PARQUET.md)
   - SQL
     - [JOINs](docs/SQLJOIN.md)
     - [VIEWs](docs/SQLVIEW.md)
@@ -207,6 +210,7 @@ Reference material for those interested in cybersecurity
   - Database as a Service
     - BigQuery
     - DynamoDB
+    - [Snowflake](docs/SNOWFLAKE.md)
   - Attacks
     - [Diddling](docs/DIDDLING.md)
 
