@@ -5,6 +5,7 @@ Apache Cassandra is an open-source distributed NoSQL database management system 
 Cassandra is designed as a distributed database from the ground up. It provides automatic data distribution and replication across multiple nodes in a cluster, ensuring high availability and fault tolerance. Data is distributed using a partitioning scheme based on a partition key.
 ## No Single Point of Failure
 Cassandra is designed to operate without a single point of failure. Even if some nodes in the cluster fail, data remains accessible and available.
+- Need to be careful about how many replicas of data you have, 1 replica means only one copy. 
 ## Scalability
 Cassandra is highly scalable and can be easily expanded by adding more nodes to the cluster. This makes it suitable for handling large datasets and high-throughput workloads.
 ## Data Model
@@ -17,6 +18,7 @@ Cassandra allows you to configure the level of data consistency for read and wri
 Data replication can be configured to distribute data across multiple data centers and geographic regions, providing disaster recovery capabilities and low-latency access for users in different locations.
 ## Compaction
 Cassandra periodically compacts data files to improve read and write performance. It uses a merge-and-sweep process to optimize data storage and access.
+- Compaction occurs during reads, multiple copies of data are merged and then older data is tombstoned (marked for deletion)
 ## Time-Series Data
 Cassandra is well-suited for storing time-series data, such as logs, sensor data, and event data, due to its high write throughput and ability to efficiently handle large volumes of data over time.
 ## Community and Ecosystem
