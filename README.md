@@ -249,7 +249,7 @@ Reference material for those interested in cybersecurity
   - [Lambda](docs/LAMBDA.md)
   - [Route53](docs/ROUTE53.md)
   - [Cloud Front](docs/CLOUDFRONT.md)
-  - [WAF](docs/WAF.md)
+  - [WAF](docs/WAF.md#aws-web-application-firewall-waf)
   - [Shield](docs/SHIELD.md)
   - [Load Balancer](docs/AWSLOADBALANCER.md)
   - [Auto Scaling Group](docs/AUTOSCALINGGROUP.md)
