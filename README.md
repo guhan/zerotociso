@@ -253,8 +253,15 @@ Reference material for those interested in cybersecurity
   - [Web Application Firewall (WAF)](docs/WAF.md)
   - [Rate Limiting](docs/RATELIMITING.md)
   - [RASP](docs/RASP.md)
-- [Monitoring](docs/MONITORING.md)
-- Alerting
+
+## [Monitoring](docs/MONITORING.md)
+  - [Passive](docs/PASSIVEMONITORING.md)
+  - Synthetics
+  - Metrics
+  - Events
+  - Logs
+  - Traces
+  - Alerting
 
 
 
