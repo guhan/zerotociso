@@ -1,4 +1,4 @@
-# DataBricks
+# Databricks
 Databricks is a unified analytics platform that is designed to simplify and accelerate the development of big data and artificial intelligence (AI) solutions. It was founded by the creators of Apache Spark, a popular open-source distributed data processing framework, and is closely integrated with Spark. Databricks provides a collaborative environment for data scientists, data engineers, and analysts to work together on data-driven projects and is known for its ease of use, scalability, and support for a wide range of data-related tasks.
 
 ## Unified Workspace
