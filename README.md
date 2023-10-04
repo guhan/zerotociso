@@ -366,6 +366,8 @@ Reference material for those interested in cybersecurity
 - [Security Engineering](docs/SECURITYENGINEERING.md) 
 - [Business Continuity Planning (BCP)/Disaster Recovery (DR)](docs/BCPDR.md) 
 - [Investigations](docs/INVESTIGATIONS.md)
+  - [Best Evidence Rule](docs/BESTEVIDENCE.md)
+  - [Parol Rule](docs/PAROL.md)
   - [Hearsay Rule](docs/HEARSAY.md)
   
 
