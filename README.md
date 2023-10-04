@@ -195,6 +195,10 @@ Reference material for those interested in cybersecurity
 ## Application Programming Interfaces (API)
   - [REST](docs/REST.md)
   - [Open API](docs/OPENAPI.md)
+  - Attacks
+    - [Broken Object Level Authorization (BOLA)](docs/BOLA.md)
+    - Broken Object Property Level Authorization (BOPLA)
+    - [Broken Function Level Authorization (BFLA)](docs/BFLA.md)
 
 ## [Databases](docs/DATABASES.md)
   - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
