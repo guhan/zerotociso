@@ -199,13 +199,15 @@ Reference material for those interested in cybersecurity
     - [VIEWs](docs/SQLVIEW.md)
   - [Transactions](docs/TRANSACTIONS.md)
   - [Stored Procedures](docs/STOREDPROCEDURES.md)
-  - Relational Databases
-    - Primary Keys
-    - Foreign Keys
+  - [Relational Databases](docs/RELATIONALDATABASES.md)
+    - [Primary Keys](docs/PRIMARYKEY.md)
+    - [Foreign Keys](docs/FOREIGNKEY.md)
     - [Normalization](docs/NORMALIZATION.md)
-  - NoSQL Databases
-  - Distributed Databases
-    - Cassandra
+    - MySQL
+    - SQL Server
+    - Oracle
+  - [NoSQL](docs/NOSQL.md)
+    - [Apache Cassandra](docs/CASSANDRA.md)
     - Yugabyte
   - Database as a Service
     - BigQuery
