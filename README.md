@@ -168,6 +168,12 @@ Reference material for those interested in cybersecurity
   - [Active Directory (AD)](docs/ACTIVEDIRECTORY.md)
     - [Group Policy](docs/ADGPO.md)
 
+## Remote Access
+- [Secure Shell (SSH)](docs/SSH.md)
+- [Remote Desktop](docs/REMOTEDESKTOP.md)
+- [Virtual Network Computing (VNC)](docs/VNC.md)
+- [Apache Guacamole](docs/GUACAMOLE.md)
+  
 ## Web
   - [HTTP](docs/HTTP.md)
   - [Document Object Model (DOM)](docs/DOM.md)
@@ -255,13 +261,15 @@ Reference material for those interested in cybersecurity
   - [RASP](docs/RASP.md)
 
 ## [Monitoring](docs/MONITORING.md)
+  - [Time Syncronization](docs/TIMESYNCRONIZATION.md)
   - [Passive](docs/PASSIVEMONITORING.md)
-  - Synthetics
-  - Metrics
-  - Events
-  - Logs
-  - Traces
-  - Alerting
+  - [Synthetics](docs/SYNTHETICS.md)
+  - [Metrics](docs/METRICS.md)
+  - [Events](docs/EVENTS.md)
+  - [Logs](docs/LOGS.md)
+  - [Traces](docs/TRACES.md)
+  - [Alerting](docs/ALERTING.md)
+  - [Application Performance Monitoring (APM)](docs/APM.md)
   - [Real User Monitoring (RUM)](docs/RUM.md)
 
 
