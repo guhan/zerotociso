@@ -262,7 +262,7 @@ Reference material for those interested in cybersecurity
 - Runtime Security
   - [Web Application Firewall (WAF)](docs/WAF.md)
   - [Rate Limiting](docs/RATELIMITING.md)
-  - [RASP](docs/RASP.md)
+  - [Runtime Application Security Protection (RASP)](docs/RASP.md)
 
 ## [Monitoring](docs/MONITORING.md)
   - [Time Syncronization](docs/TIMESYNCRONIZATION.md)
