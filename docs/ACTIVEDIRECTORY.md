@@ -3,6 +3,9 @@ Active Directory (AD) is a directory service and identity management system deve
 
 ## Domain Services
 Active Directory Domain Services (AD DS) is the core component of AD. It stores information about network objects, such as users, groups, computers, and organizational units (OUs). AD DS uses a hierarchical structure known as a domain tree, where domains can be grouped into a forest. Each domain has its own security policies, user accounts, and group policies.
+
+![AD DS](/images/ADDS.png)
+
 ## Authentication and Authorization
 AD provides authentication services, verifying the identity of users and devices trying to access network resources. It also manages authorization, determining what resources each authenticated user or device can access based on permissions and security policies.
 ## Single Sign-On (SSO)
