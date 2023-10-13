@@ -244,6 +244,7 @@ Reference material for those interested in cybersecurity
 
 ## Cloud 
 - [Infrastructure as Code](docs/IAC.md)
+- [Hyper Converged Infrastructure](docs/HCI.md)
 - [AWS](docs/AWS.md)
   - [IAM](docs/IAM.md)
   - [Lambda](docs/LAMBDA.md)
