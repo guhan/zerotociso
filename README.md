@@ -240,6 +240,7 @@ Reference material for those interested in cybersecurity
 - [Kubernetes](docs/K8S.md)
   - [Nodes](docs/K8SNODES.md)
   - [Pods](docs/K8SPODS.md)
+    - [Privileged Mode](docs/K8SCONTAINERS.md)
   - [Hostnames, Labels, and Namespaces](docs/K8SNAMES.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
   - [SELINUX and Kubernetes](docs/K8SSELINUX.md)
