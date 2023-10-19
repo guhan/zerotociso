@@ -76,7 +76,7 @@ Reference material for those interested in cybersecurity
     - [Linux ACL](docs/LINUXACL.md)
     - [Security Enhanced Linux (SELINUX)](docs/SELINUX.md)
     - [App Armor](docs/APPARMOR.md)
-
+  - [Interprocess Communication (IPC)](docs/IPC.md)
 
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
@@ -233,12 +233,13 @@ Reference material for those interested in cybersecurity
 - [Apache Spark](docs/APACHESPARK.md)
 - [Databricks](docs/DATABRICKS.md)
 
-## [Containers](docs/CONTAINERS.md) 
+## [Containers and Orchestration](docs/CONTAINERS.md) 
 - [Container Runtime](docs/CONTAINERRUNTIME.md)
 - [Docker](docs/DOCKER.md)
 - [Kubernetes](docs/K8S.md)
   - [Nodes](docs/K8SNODES.md)
   - [Pods](docs/K8SPODS.md)
+  - [Hostnames, Labels, and Namespaces](docs/K8SNAMES.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
   - [SELINUX and Kubernetes](docs/K8SSELINUX.md)
 
