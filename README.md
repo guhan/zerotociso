@@ -77,6 +77,7 @@ Reference material for those interested in cybersecurity
     - [Security Enhanced Linux (SELINUX)](docs/SELINUX.md)
     - [App Armor](docs/APPARMOR.md)
   - [Interprocess Communication (IPC)](docs/IPC.md)
+    - [System V Semaphores](docs/SYSVSEMAPHORES.md)
 
 ## Programming
 - [Architecture](docs/ARCHITECTURE.md) 
