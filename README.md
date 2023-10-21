@@ -262,6 +262,10 @@ Reference material for those interested in cybersecurity
     - [Network Policies](docs/K8SNETWORKPOLICIES.md)
     - [DNS](docs/K8SDNS.md)
   - [Hostnames, Labels, and Namespaces](docs/K8SNAMES.md)
+  - [Volumes](docs/K8SVOLUMES.md)
+  - [ConfigMap](docs/K8SCONFIGMAP.md)
+  - [Persistent Volumes](docs/K8SPERSISTENTVOLUMES.md)
+  - [Volume Snapshots](docs/K8SVOLUMESNAPSHOTS.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
   - [SELINUX and Kubernetes](docs/K8SSELINUX.md)
 
