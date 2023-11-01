@@ -4,23 +4,23 @@ Spike documents are used to determine how much work will be required to solve or
 
 
 ## Template
-Spike: {Name}
+**Spike: {Name}**
 Created by: {Names and at least one email address for follow-up questions}
 
-Problem you are trying to solve: 
+**Problem you are trying to solve:** 
 Describe in detail the problem you are trying to solve. Be specific, include evidence. 
 
 
-Constraints that must be met in any possible solution: 
+**Constraints that must be met in any possible solution:**
 Think of these are requirements for the solution, they must be explicit and tangible. 
 
 
-Possible Solutions: 
+**Possible Solutions:** 
 List at least 2 possible solutions to the problem. Try to be unbiased and give all solutions your best effort. 
 
-Recommendation: 
+**Recommendation:** 
 Based on what you know so far, which solution seems the best to you. 
 
 
-Conclusion: 
+**Conclusion:** 
 This section is filled out after a team review of the spike. Be sure to answer what is the final decision and why it was made. 
