@@ -1,5 +1,7 @@
 # Apache Kafka
-Apache Kafka is a distributed streaming platform designed for building real-time data pipelines and streaming applications. It is often used to collect, store, and process large volumes of data in a scalable, fault-tolerant manner. Kafka operates on a publish-subscribe messaging model and provides durable and low-latency message delivery. Here's an overview of how Apache Kafka works
+Apache Kafka is a distributed streaming platform designed for building real-time data pipelines and streaming applications. It is often used to collect, store, and process large volumes of data in a scalable, fault-tolerant manner. Kafka operates on a publish-subscribe messaging model and provides durable and low-latency message delivery. 
+
+![Kafka](/images/KAFKA.png)
 
 
 ## Topics
