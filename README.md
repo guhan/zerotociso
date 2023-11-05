@@ -202,6 +202,12 @@ Reference material for those interested in cybersecurity
     - Broken Object Property Level Authorization (BOPLA)
     - [Broken Function Level Authorization (BFLA)](docs/BFLA.md)
 
+## Message Queues
+- [Message Queue Telemetry Transport (MQTT)](docs/MQTT.md)
+- [RabbitMQ](docs/RabbitMQ.md)
+- [Apache Kafka](docs/KAFKA.md)
+  
+
 ## [Databases](docs/DATABASES.md)
   - [Atomicity, Consistency, Isolation, and Durability (ACID)](docs/ACID.md)
   - Data Formats
