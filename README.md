@@ -323,19 +323,28 @@ Reference material for those interested in cybersecurity
   - [Vulnerability Scanners](docs/VULNSCANNERS.md)
 - [Security Incident and Event Manager (SIEM)](docs/SIEM.md)
   - [Sigma](docs/SIGMA.md)
-- Vulnerabilities
+
+## [Endpoint Security]
+- [Endpoint Detection and Response (EDR)](docs/EDR.md)
+
+
+  
+## [Threat Modeling](docs/THREATMODELING.md)
+  - [MITRE ATT&CK](docs/MITREATTACK.md)
+  - [STRIDE](docs/STRIDE.md)
+  - [PASTA](docs/PASTA.md)
+  - [TRIKE](docs/TRIKE.md)
+  - [DREAD](docs/DREAD.md)
+
+## [Vulnerability Management]
   - [Common Weakness Enumerations (CWE)](docs/CWE.md)
   - [Security Content Automation Protocol (SCAP)](docs/SCAP.md)
     - [Open Platform Enumeration (OPE)](docs/OPE.md)
     - [Open Vulnerability and Assessment Language (OVAL)](docs/OVAL.md)
   - [Exploit Protection Scoring System (EPSS)](docs/EPSS.md)
   - [Covert Channels](docs/COVERTCHANNEL.md)
-- [Threat Modeling](docs/THREATMODELING.md)
-  - [MITRE ATT&CK](docs/MITREATTACK.md)
-  - [STRIDE](docs/STRIDE.md)
-  - [PASTA](docs/PASTA.md)
-  - [TRIKE](docs/TRIKE.md)
-  - [DREAD](docs/DREAD.md)
+ 
+
 
 ## [Laws](docs/LAWS.md) 
 - [Office of Foreign Assets Control (OFAC)](docs/OFAC.md)
