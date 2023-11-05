@@ -324,7 +324,7 @@ Reference material for those interested in cybersecurity
 - [Security Incident and Event Manager (SIEM)](docs/SIEM.md)
   - [Sigma](docs/SIGMA.md)
 
-## [Endpoint Security]
+## Endpoint Security
 - [Endpoint Detection and Response (EDR)](docs/EDR.md)
 
 
