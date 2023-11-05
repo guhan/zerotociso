@@ -391,7 +391,7 @@ Reference material for those interested in cybersecurity
   - [NIST 800-14: Generally Accepted Principles and Practices for Securing Information Technology Systems](docs/NIST80014.md)
   - [NIST 800-18: Guide for Developing Security Plans for Federal Information Systems](docs/NIST80018.md)
   - [NIST 800-34: Contingency Planning Guide](docs/NIST80034.md)
-  - [NIST 800-80: Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities]
+  - [NIST 800-84: Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities](docs/NIST80084.md)
   - [NIST 800-137: Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations](docs/NIST800137.md)
   - [NIST Secure Software Development Framework (SSDF)](docs/NISTSSDF.md)
 - [PCI-DSS](docs/PCIDSS.md) 
