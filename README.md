@@ -400,6 +400,7 @@ Reference material for those interested in cybersecurity
 - [International Standards Organziation (ISO)](docs/ISO.md)
   - [ISO 7498: OSI Model](docs/ISO7498.md)
   - [ISO 15408: Common Criteria for Information Technology Security Evaluation (CC)](docs/ISO15408.md)
+  - [ISO 27071: Cloud Controls](docs/ISO27071.md)
   - [ISO 28031: Information technology — Security techniques — Guidelines for information and communication technology readiness for business continuity](docs/ISO27031.md)
 - [Information Technology Service Management (ITSM)/ Information Technology Infrastructure Library (ITIL)](docs/ITSM.md)
 - [North American Electric Reliability Corporation - Critical Infrastructure Protection (NERC CIP)](docs/NERC.md) 
