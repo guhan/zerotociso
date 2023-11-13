@@ -275,7 +275,13 @@ Reference material for those interested in cybersecurity
   - [Volume Snapshots](docs/K8SVOLUMESNAPSHOTS.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
   - [SELINUX and Kubernetes](docs/K8SSELINUX.md)
+  - Configuration
+    - [Kustomize](docs/KUSTOMIZE.md)
+    - [Helm](docs/HELM.md)
 
+## [CI/CD](docs/CICD.md)
+  - [ArgoCD](docs/ARGOCD.md)
+    
 ## Cloud 
 - [Infrastructure as Code](docs/IAC.md)
 - [Hyper Converged Infrastructure](docs/HCI.md)
@@ -293,7 +299,6 @@ Reference material for those interested in cybersecurity
   - [S3](docs/S3.md)
   - [GuardDuty](docs/GUARDDUTY.md)
 - [Content Delivery Network (CDN)](docs/CDN.md)
-- [CI/CD](docs/CICD.md)
 - Runtime Security
   - [Web Application Firewall (WAF)](docs/WAF.md)
   - [Rate Limiting](docs/RATELIMITING.md)
