@@ -280,6 +280,7 @@ Reference material for those interested in cybersecurity
     - [Helm](docs/HELM.md)
 
 ## [CI/CD](docs/CICD.md)
+  - [GitHub Actions](docs/GITHUBACTIONS.md)
   - [ArgoCD](docs/ARGOCD.md)
     
 ## Cloud 
