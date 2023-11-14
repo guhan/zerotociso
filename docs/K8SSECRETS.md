@@ -13,6 +13,7 @@ Once a Secret is created, it is immutable. To update the data stored in a Secret
 Secrets are scoped to a specific namespace within Kubernetes, and they have a unique name within that namespace.
 
 ## Example
+Creating a secret
 '''
 apiVersion: v1
 kind: Secret
@@ -23,3 +24,30 @@ data:
   username: dXNlcm5hbWU=   # base64 encoded "username"
   password: cGFzc3dvcmQ=   # base64 encoded "password"
 '''
+
+Using a secret in a pod as an environment variable
+'''
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+spec:
+  containers:
+  - name: mycontainer
+    image: myimage
+    env:
+      - name: MY_USERNAME
+        valueFrom:
+          secretKeyRef:
+            name: my-secret
+            key: username
+      - name: MY_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            name: my-secret
+            key: password
+'''
+
+
+
+
