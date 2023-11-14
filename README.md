@@ -336,7 +336,7 @@ Reference material for those interested in cybersecurity
   - [Vulnerability Scanners](docs/VULNSCANNERS.md)
 - [Security Incident and Event Manager (SIEM)](docs/SIEM.md)
   - [Sigma](docs/SIGMA.md)
-- [Security Orchestration and Response (SOAR)](docs/SOAR.md)
+- [Security Orchestration, Automation, and Response (SOAR)](docs/SOAR.md)
 
 ## Endpoint Security
 - [Endpoint Detection and Response (EDR)](docs/EDR.md)
