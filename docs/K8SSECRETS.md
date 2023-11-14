@@ -15,7 +15,7 @@ Secrets are scoped to a specific namespace within Kubernetes, and they have a un
 ## Example
 Creating a secret
 
-'''
+```
 apiVersion: v1
 kind: Secret
 metadata:
@@ -24,11 +24,11 @@ type: Opaque
 data:
   username: dXNlcm5hbWU=   # base64 encoded "username"
   password: cGFzc3dvcmQ=   # base64 encoded "password"
-'''
+```
 
 Using a secret in a pod as an environment variable
 
-'''
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -48,7 +48,7 @@ spec:
           secretKeyRef:
             name: my-secret
             key: password
-'''
+```
 
 
 
