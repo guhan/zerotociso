@@ -272,6 +272,7 @@ Reference material for those interested in cybersecurity
   - [Hostnames, Labels, and Namespaces](docs/K8SNAMES.md)
   - [Volumes](docs/K8SVOLUMES.md)
   - [ConfigMap](docs/K8SCONFIGMAP.md)
+  - [Secrets](docs/K8SSECRETS.md)
   - [Persistent Volumes](docs/K8SPERSISTENTVOLUMES.md)
   - [Volume Snapshots](docs/K8SVOLUMESNAPSHOTS.md)
   - [Securing Kubernetes](docs/SECURINGK8S.md)
