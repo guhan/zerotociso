@@ -213,6 +213,7 @@ Reference material for those interested in cybersecurity
   - Data Formats
     - [Avro](docs/AVRO.md)
     - [Parquet](docs/PARQUET.md)
+    - [Universal Data Model (UDM)](docs/UDM.md)
   - SQL
     - [JOINs](docs/SQLJOIN.md)
     - [VIEWs](docs/SQLVIEW.md)
