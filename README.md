@@ -307,6 +307,16 @@ Reference material for those interested in cybersecurity
   - [Rate Limiting](docs/RATELIMITING.md)
   - [Runtime Application Security Protection (RASP)](docs/RASP.md)
 
+## Machine Learning
+- Jupiter Notebooks
+- TensorFlow
+- pytorch
+- scikit-learn
+
+## AI
+- Large Language Model (LLM)
+- Langchain
+
 ## [Monitoring](docs/MONITORING.md)
   - [Time Syncronization](docs/TIMESYNCRONIZATION.md)
   - [Passive](docs/PASSIVEMONITORING.md)
