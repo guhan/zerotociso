@@ -462,5 +462,7 @@ Reference material for those interested in cybersecurity
 ## Business
 - [Basic Finance](docs/BASICFINANCE.md) 
 - [Federal Reserve](docs/FED.md)
+- Private Markets
+  - [Indicator of Interest (IOI)](docs/IOI.md)
 
 
