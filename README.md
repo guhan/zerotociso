@@ -63,6 +63,9 @@ Reference material for those interested in cybersecurity
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
   - [802.11i](docs/80211i.md)
+  - Deauthentication Attack
+  - Evil Twin Attack
+  - Brute Force Attack
 - [Bluetooth (802.15)](docs/BLUETOOTH.md) 
 
 ## [Operating Systems](docs/OS.md)
@@ -280,6 +283,8 @@ Reference material for those interested in cybersecurity
   - Configuration
     - [Kustomize](docs/KUSTOMIZE.md)
     - [Helm](docs/HELM.md)
+  - IAM Roles for Service Accounts (IRSA)
+  - RBAC
 
 ## [CI/CD](docs/CICD.md)
   - [GitHub Actions](docs/GITHUBACTIONS.md)
