@@ -29,12 +29,6 @@ Each PAM module returns a status upon completion (success, failure, or error). T
 Setting up Two-Factor Authentication (2FA) with PAM and SSH involves configuring the Pluggable Authentication Modules (PAM) to require additional verification steps beyond the traditional password. Here's a general guide for setting up 2FA with PAM and SSH on a Unix-like system. Note that specific steps may vary depending on your Linux distribution.
 
 
-- **Install Necessary Software**:
-Ensure that the required software packages are installed. This may include the PAM library, the libpam-google-authenticator module (for Google Authenticator), or other 2FA modules.
-```
-# For example, on Debian-based systems
-sudo apt-get install libpam-google-authenticator
-```
 - **Configure SSH**:
 Make sure your SSH server is installed and configured. The SSH daemon configuration file is often located at /etc/ssh/sshd_config.
 
