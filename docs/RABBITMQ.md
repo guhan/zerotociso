@@ -16,6 +16,11 @@ Bindings are links between exchanges and queues. They define the routing rules t
 Consumers are the processes or applications that retrieve messages from queues and process them. Consumers can be distributed across different nodes in a network and can scale to handle large volumes of messages.
 ## Message Acknowledgment
 After a consumer successfully processes a message, it sends an acknowledgment (ack) to RabbitMQ. This acknowledgment informs RabbitMQ that the message has been successfully processed and can be removed from the queue. If a message is not acknowledged, RabbitMQ can requeue it or take other actions, depending on the configuration.
+
+To disable auto acknowledgment and deletion
+```
+autoAck: false
+```
 ## Message Routing
 RabbitMQ's routing mechanisms, in combination with exchanges, determine how messages are delivered to the appropriate queues and, subsequently, to the consumers that have subscribed to those queues.
 ## Scalability and High Availability
