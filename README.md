@@ -165,7 +165,8 @@ Reference material for those interested in cybersecurity
   - [Public Key Infrastructure (PKI)](docs/PKI.md)
   - [Hardware](docs/CRYPTOHARDWARE.md)
   - [Email](docs/CRYPTOEMAIL.md)
-    
+  - [Side Channel Attacks](docs/SIDECHANNEL.md)
+      
 ## Directory Services
   - [X.500](docs/X500.md)
   - [Lightweight Directory Access Protocol (LDAP)](docs/LDAP.md)
