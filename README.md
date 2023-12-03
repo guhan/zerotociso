@@ -138,6 +138,7 @@ Reference material for those interested in cybersecurity
 - [OpenID Connect (OIDC)](docs/OPENIDCONNECT.md)
 - [Shibboleth](docs/SHIBBOLETH.md)
 - [Biometrics](docs/BIOMETRIC.md)
+- [Pluggable Authentication Modules (PAM)](docs/PAM.md)
 
 ## Authorization
   - [Basics](docs/AUTHBASICS.md)
