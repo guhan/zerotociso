@@ -177,6 +177,7 @@ Reference material for those interested in cybersecurity
 
 ## Remote Access
 - [Secure Shell (SSH)](docs/SSH.md)
+  - [PAM, 2FA, and SSH](docs/PAM2FASSH.md)
 - [Remote Desktop](docs/REMOTEDESKTOP.md)
 - [Virtual Network Computing (VNC)](docs/VNC.md)
 - [Apache Guacamole](docs/GUACAMOLE.md)
@@ -316,10 +317,10 @@ Reference material for those interested in cybersecurity
   - [Runtime Application Security Protection (RASP)](docs/RASP.md)
 
 ## Machine Learning
-- Jupiter Notebooks
-- TensorFlow
-- pytorch
-- scikit-learn
+- [Jupyter Notebooks](docs/JUPYTER.md)
+- [TensorFlow](docs/TENSORFLOW.md)
+- [pytorch](docs/PYTORCH.md)
+- [scikit-learn](docs/SCIKIT.md)
 
 ## AI
 - Large Language Model (LLM)
