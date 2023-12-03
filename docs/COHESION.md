@@ -4,10 +4,10 @@
 Good team culture exists when team members directly drive positive outcomes. 
 
 Characteristics of bad team culture: 
-- Blame Culture
-- Not my job
-- Poor Communication
-- Fear of speaking up/reprisal
+- Blame Culture: A constant focus on all the things that are wrong, and little time spent working on solutions to fix the problems. 
+- No ownership: Not having clearly assigned responsibilties and feeling like tasks are outside your area of responsibility. People don't take initiative to go the extra mile to make things better.  
+- Poor Communication: Information flows are incomplete and do not reach stakeholders. Not enough time is given to process the communication. Reception of the communication is not validated. 
+- Fear of speaking up/reprisal: An authoritarian structure that limits growth and hides problems that will be impactful. 
 
 
 
