@@ -287,7 +287,7 @@ Reference material for those interested in cybersecurity
   - Configuration
     - [Kustomize](docs/KUSTOMIZE.md)
     - [Helm](docs/HELM.md)
-  - IAM Roles for Service Accounts (IRSA)
+  - [IAM Roles for Service Accounts (IRSA)](docs/IRSA.md)
   - RBAC
 
 ## [CI/CD](docs/CICD.md)
