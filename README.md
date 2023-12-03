@@ -207,7 +207,7 @@ Reference material for those interested in cybersecurity
 
 ## Message Queues
 - [Message Queue Telemetry Transport (MQTT)](docs/MQTT.md)
-- [RabbitMQ](docs/RabbitMQ.md)
+- [RabbitMQ](docs/RABBITMQ.md)
 - [Apache Kafka](docs/KAFKA.md)
   
 
