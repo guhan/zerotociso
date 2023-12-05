@@ -61,6 +61,7 @@ Reference material for those interested in cybersecurity
 - [LAN Technologies](docs/LAN.md)
 - [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
+  - [Sender Policy Framework (SPF)](docs/SPF.md)
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
   - [802.11i](docs/80211i.md)
