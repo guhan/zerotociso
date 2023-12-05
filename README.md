@@ -163,6 +163,7 @@ Reference material for those interested in cybersecurity
   - [Hashing](docs/HASHING.md)
   - [Digital Signatures](docs/DIGITALSIGNATURES.md)
   - [Public Key Infrastructure (PKI)](docs/PKI.md)
+    - [Certificate Transparency Project](docs/CERTTRANS.md)
   - [Hardware](docs/CRYPTOHARDWARE.md)
   - [Email](docs/CRYPTOEMAIL.md)
   - [Side Channel Attacks](docs/SIDECHANNEL.md)
