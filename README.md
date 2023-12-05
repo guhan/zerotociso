@@ -62,6 +62,8 @@ Reference material for those interested in cybersecurity
 - [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
   - [Sender Policy Framework (SPF)](docs/SPF.md)
+  - [Domain Key Idendity Management (DKIM)](docs/DKIM.md)
+  - DMARC
 - [Voice](docs/VOICE.md)
 - [Wireless](docs/WIRELESS.md)
   - [802.11i](docs/80211i.md)
