@@ -57,6 +57,7 @@ Reference material for those interested in cybersecurity
   - [Fraggle Attack](docs/FRAGGLE.md)
 - [IPSEC](docs/IPSEC.md)
 - [Domain Name Service (DNS)](docs/DNS.md)
+  - [Certificate Authority Authorization (CAA)](docs/CAA.md)
 - [LAN Technologies](docs/LAN.md)
 - [Firewalls](docs/FIREWALLS.md)
 - [Email](docs/EMAIL.md)
