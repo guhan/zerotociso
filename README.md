@@ -375,7 +375,7 @@ Reference material for those interested in cybersecurity
   - [TRIKE](docs/TRIKE.md)
   - [DREAD](docs/DREAD.md)
 
-## [Vulnerability Management]
+## Vulnerability Management
   - [Common Weakness Enumerations (CWE)](docs/CWE.md)
   - [Security Content Automation Protocol (SCAP)](docs/SCAP.md)
     - [Open Platform Enumeration (OPE)](docs/OPE.md)
