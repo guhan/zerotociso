@@ -1,6 +1,8 @@
 # Basic Finance
 
-
+## SaaS
+### ACV
+Annual Contract Value. It represents the total annual value of a contract or subscription for a product or service. It is a metric commonly used in the software as a service (SaaS) industry to measure the recurring revenue from a customer over a one-year period.
 
 ## Efficiency 
 ### CAC
