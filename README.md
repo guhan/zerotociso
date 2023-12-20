@@ -479,7 +479,7 @@ Reference material for those interested in cybersecurity
 - [Onboarding](docs/ONBOARDING.md)
 - [Accountability](docs/ACCOUNTABILITY.md)
 - [Team Cohesion](docs/COHESION.md)
-  - [Stages of team behaviour: Forming, Storming, Norming,and Performing](docs/STORMINGNORMING.md)
+  - [Stages of team behaviour: Forming, Storming, Norming,and Performing](docs/FORMINGNORMING.md)
 - [Team Topologies](docs/TEAMTOPOLOGIES.md)
 
 
